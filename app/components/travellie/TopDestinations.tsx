@@ -34,8 +34,10 @@ export function TopDestinations() {
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Tooltip
-                  formatter={(value: number) => [`${value}%`, "Share"]}
-                  contentStyle={{ borderRadius: 10, fontSize: 12, border: "1px solid #e2e8f0" }}
+                  formatter={(value) => {
+                    const num = typeof value === "number" ? value : Number(value ?? 0);
+                    return [`${num}%`, "Share"];
+                  }} contentStyle={{ borderRadius: 10, fontSize: 12, border: "1px solid #e2e8f0" }}
                 />
                 <Pie
                   data={destinations}
