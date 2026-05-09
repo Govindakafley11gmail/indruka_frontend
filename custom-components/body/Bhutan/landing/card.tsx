@@ -11,6 +11,8 @@ export interface TourCardProps {
   oldPrice?: number;
   discount?: string;
   tags: string[];
+  country: string;
+  place:string;
   images: string[];
   inclusions: { icon: any; label: string; optional?: boolean }[];
 }
@@ -21,10 +23,11 @@ export interface TourProperties {
   mainContainer?: string;
 }
 
-const TOTAL_SLOTS = 8; // 2 rows × 4 cols
+const TOTAL_SLOTS = 50; // 2 rows × 4 cols
 const DEFAULT_CARD_INDEX = 7; // 3rd slot of row 2 (0-based)
 
 export default function Card({ item, title, mainContainer }: TourProperties) {
+  const country = item[0]?.country ?? "";
   const remainingCount = Math.max(0, item.length - (TOTAL_SLOTS - 1));
 
   return (
@@ -54,7 +57,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
         {/* ✅ View More Button */}
         <div className="w-full flex justify-end mt-6">
           <button
-            onClick={() => (window.location.href = "/tours")}
+            onClick={() => (window.location.href = `/tours?country=${country}`)}
             className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-full border border-blue-200 bg-white shadow-sm hover:shadow-md hover:border-blue-400 transition-all duration-300 overflow-hidden"
           >
             {/* Animated fill background */}

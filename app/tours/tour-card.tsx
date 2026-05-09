@@ -263,21 +263,24 @@ export default function TourCards() {
       </div>
 
       {/* Zone Tabs */}
-      <div className="flex flex-wrap justify-center gap-3 mb-8">
-        {zones.map((zone) => (
-          <button
-            key={zone.name}
-            onClick={() => setActiveZone(zone.name)}
-            className={`px-6 py-2.5 rounded-md text-sm font-medium border transition-all duration-200 cursor-pointer ${
-              activeZone === zone.name
-                ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
-                : "bg-white text-gray-700 border-gray-300 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
-            }`}
-          >
-            {zone.name}
-          </button>
-        ))}
-      </div>
+      <div className="w-full mb-10">
+          <div className="flex gap-2 overflow-x-auto no-scrollbar md:flex-wrap md:justify-center">
+            {zones.map((zone) => (
+              <button
+                key={zone.name}
+                onClick={() => setActiveZone(zone.name)}
+                className={`whitespace-nowrap px-5 py-2 rounded text-sm font-medium border transition-all duration-200 shrink-0
+        ${
+          activeZone === zone.name
+            ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
+            : "bg-white text-gray-700 border-gray-200 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
+        }`}
+              >
+                {zone.name}
+              </button>
+            ))}
+          </div>
+        </div>
 
       {/* ✅ FIX 2: Added w-full + max-w-7xl to all grid containers so they stretch properly */}
       {filteredTours.length === 0 ? (

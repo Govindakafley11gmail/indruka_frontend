@@ -1,9 +1,8 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { item } from "../body/data/bhutan/data";
+import { Indiaitem, item } from "../body/data/bhutan/data";
 import Card from "../body/Bhutan/landing/card";
-import ScrollReveal from "../scroll";
 import Image from "next/image";
 
 export default function TourCategories() {
@@ -34,15 +33,13 @@ export default function TourCategories() {
           {/* COUNTRY SWITCH */}
           <div className="flex justify-center">
             <TabsList className="flex gap-3 bg-transparent p-0 h-auto">
-              {/* INDIA — Saffron top bar, green sub-accent, navy text */}
-               <TabsTrigger
+              <TabsTrigger
                 value="bhutan"
                 className="group flex items-center gap-3 px-5 py-3.5 rounded-xl border border-gray-200 bg-white
         transition-all duration-200 hover:border-gray-300 hover:bg-gray-50
         data-[state=active]:border-[#E8600A] data-[state=active]:border-[1.5px]
         relative overflow-hidden shadow-none h-auto"
               >
-                {/* Orange + Red diagonal split top bar */}
                 <span
                   className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl opacity-0
         group-data-[state=active]:opacity-100 transition-opacity duration-200"
@@ -52,7 +49,12 @@ export default function TourCategories() {
                   }}
                 />
 
-                  <Image src="/bhutan.png" alt="Bhutan Flag" width={32} height={32} />
+                <Image
+                  src="/bhutan.png"
+                  alt="Bhutan Flag"
+                  width={32}
+                  height={32}
+                />
 
                 <div className="flex flex-col items-start gap-0.5">
                   <span className="text-sm font-medium text-gray-700 transition-colors">
@@ -94,7 +96,12 @@ export default function TourCategories() {
                 />
 
                 {/* <span className="text-2xl"> */}
-                  <Image src="/india.png" alt="India Flag" width={32} height={32} />
+                <Image
+                  src="/india.png"
+                  alt="India Flag"
+                  width={32}
+                  height={32}
+                />
                 {/* </span> */}
 
                 <div className="flex flex-col items-start gap-0.5">
@@ -122,34 +129,13 @@ export default function TourCategories() {
                   </span>
                 </div>
               </TabsTrigger>
-
-              {/* BHUTAN — Orange + Maroon-red */}
-             
             </TabsList>
           </div>
           <TabsContent value="bhutan" className="mt-0 pt-0">
-      
-            <ScrollReveal
-              direction="scale"
-              delay={1}
-              className="w-full flex justify-center mb-"
-            >
-              {/* <Card title="Bhutan Tours" item={item} /> */}
-              <Card title="India Tours" item={item} />
-            </ScrollReveal>
+            <Card title="India Tours" item={item} />
           </TabsContent>
-
-          {/* BHUTAN */}
           <TabsContent value="india" className="mt-0 pt-0">
-            {" "}
-            <ScrollReveal
-              direction="scale"
-              delay={1}
-              className="w-full flex justify-center"
-            >
-              {/* <Card title="Bhutan Tours" item={item} /> */}
-              <Card title="India Tours" item={item} />
-            </ScrollReveal>
+            <Card title="India Tours" item={Indiaitem} />
           </TabsContent>
         </Tabs>
       </div>

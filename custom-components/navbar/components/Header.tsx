@@ -1,54 +1,78 @@
 "use client";
 
-import { ChevronDown, Phone, HeadphonesIcon, Plane, Menu } from "lucide-react";
+import { useState } from "react";
+import { ChevronDown, Phone, HeadphonesIcon, Menu } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { YatraLogo } from "./YatraLogo";
 import { CorporatesDropdown } from "./CorporatesDropdown";
-import { BRAND_COLOR, CORPORATE_MENU_Bhutan_ITEMS, CORPORATE_MENU_ITEMS } from "../constants";
+import {
+  CORPORATE_MENU_ITEMS,
+  CORPORATE_MENU_Bhutan_ITEMS,
+} from "../constants";
+import { FilterMainDrawer } from "@/app/components/drawer/drawer-horizontal";
+import { MobileMenuContent } from "@/app/components/drawer/mobileMenuContent";
 
 export function Header() {
+  const [open, setOpen] = useState(false);
+
   return (
-    <header className="relative z-20 p-4 ">
-      <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14">
-          {/* Logo */}
-          <YatraLogo />
+    <>
+      <header className="relative z-20 p-4">
+        <div className="max-w-7xl mx-auto sm:px-6 lg:px-8">
+          <div className="flex items-center justify-between h-14">
 
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center gap-4">
-            <CorporatesDropdown title="India" items={CORPORATE_MENU_ITEMS} icon="/india.png" />
+            {/* Logo */}
+            <YatraLogo />
 
-            <CorporatesDropdown title="Bhutan" items={CORPORATE_MENU_Bhutan_ITEMS} icon="/bhutan.png" />
+            {/* Desktop Navigation */}
+            <nav className="hidden md:flex items-center gap-4">
+              <CorporatesDropdown
+                title="India"
+                items={CORPORATE_MENU_ITEMS}
+                icon="/india.png"
+              />
 
-            <Button
-              variant="outline"
-              className="flex items-center gap-1.5 rounded-full border-gray-200 text-gray-700 text-base h-9 p-4"
-            >
-              <HeadphonesIcon className="w-4 h-4" />
-              About Us
-            </Button>
+              <CorporatesDropdown
+                title="Bhutan"
+                items={CORPORATE_MENU_Bhutan_ITEMS}
+                icon="/bhutan.png"
+              />
 
-            <Button
-              variant="outline"
-              className="flex items-center gap-1.5 rounded-full border-gray-200 text-gray-700 text-base h-9 p-4"
-            >
-              <Phone className="w-4 h-4" />
-              Support
-              <ChevronDown className="w-3 h-3" />
-            </Button>
-          </nav>
+              <Button variant="outline" className="flex items-center gap-1.5">
+                <HeadphonesIcon className="w-4 h-4" />
+                About Us
+              </Button>
 
-          {/* Desktop Login */}
-          <div className="hidden md:block">
-            <Button
-              className="rounded-full px-5 text-base h-9 p-4 text-white hover:opacity-90 transition-opacity bg-blue-600"
-            >
-              Login / Signup
-            </Button>
+              <Button variant="outline" className="flex items-center gap-1.5">
+                <Phone className="w-4 h-4" />
+                Support
+                <ChevronDown className="w-3 h-3" />
+              </Button>
+            </nav>
+
+            {/* Desktop Login */}
+            <div className="hidden md:block">
+              <Button className="rounded-full bg-blue-600 text-white">
+                Login / Signup
+              </Button>
+            </div>
+
+            {/* Mobile Menu Button */}
+            <button className="md:hidden" onClick={() => setOpen(true)}>
+              <Menu />
+            </button>
+
           </div>
-        
         </div>
-      </div>
-    </header>
+      </header>
+
+      {/* Mobile Drawer */}
+      <FilterMainDrawer
+        open={open}
+        onClose={() => setOpen(false)}
+      >
+        <MobileMenuContent />
+      </FilterMainDrawer>
+    </>
   );
 }

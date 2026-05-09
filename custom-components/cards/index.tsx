@@ -23,6 +23,8 @@ type Inclusion = {
 
 type TourCardProps = {
   title: string;
+  country:string
+  place:string
   itinerary: string;
   price: number;
   oldPrice?: number;
@@ -34,6 +36,8 @@ type TourCardProps = {
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 export default function TourCard({
+  place,
+  country,
   title,
   itinerary,
   price,
@@ -149,7 +153,7 @@ export default function TourCard({
             <p className="text-xs text-gray-400">Starting price per adult</p>
           </div>
 
-          <Link href="/allcards">
+          <Link href={`/tours?id=${place}`}>
             <Button className="rounded-full bg-blue-700 hover:bg-blue-800">
               View Details
             </Button>

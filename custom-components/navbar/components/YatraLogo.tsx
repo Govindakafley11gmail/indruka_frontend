@@ -1,33 +1,34 @@
 "use client";
 
 import Image from "next/image";
+import Link from "next/link";
 
 export function YatraLogo() {
   return (
     <div className="flex items-center gap-3 cursor-pointer group">
-      {/* Logo Image */}
       <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border border-white/20">
-        <Image
-          src="/logo.jpeg"
-          alt="Yatra Logo"
-          fill
-          className="object-cover group-hover:scale-110 transition-transform duration-300"
-          priority
-        />
+        <Link href={"/"}>
+          <Image
+            src="/logo.jpg"
+            alt="Yatra Logo"
+            fill
+            className="object-cover group-hover:scale-110 transition-transform duration-300"
+            priority
+          />
+        </Link>
       </div>
 
-      {/* Brand Name */}
-      {/* Brand Name */}
-      <span className="relative inline-flex text-3xl sm:text-3xl  text-white">
-        TripEase
-        {/* underline glow */}
-        <span
-          className="absolute left-0 -bottom-1 h-[2px] w-0
-    bg-gradient-to-r from-pink-500 to-rose-500
+   
+      <Link href={"/"}>
+        <span className="relative inline-flex text-3xl sm:text-3xl  text-black font-mono">
+          Indruka
+          <span
+            className="absolute left-0 -bottom-1 h-0.5 w-0
     transition-all duration-300
     group-hover:w-full"
-        />
-      </span>
+          />
+        </span>
+      </Link>
     </div>
   );
 }

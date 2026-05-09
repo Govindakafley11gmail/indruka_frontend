@@ -4,12 +4,35 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
-
+import type {
+  ValueType,
+  NameType,
+} from "recharts/types/component/DefaultTooltipContent";
 const destinations = [
-  { name: "Tokyo, Japan", percentage: 35, participants: "2,456", color: "#3b82f6" },
-  { name: "Sydney, Australia", percentage: 28, participants: "2,456", color: "#93c5fd" },
-  { name: "Paris, France", percentage: 22, participants: "2,456", color: "#bfdbfe" },
-  { name: "Venice, Italy", percentage: 15, participants: "2,456", color: "#dbeafe" },
+  {
+    name: "Tokyo, Japan",
+    percentage: 35,
+    participants: "2,456",
+    color: "#3b82f6",
+  },
+  {
+    name: "Sydney, Australia",
+    percentage: 28,
+    participants: "2,456",
+    color: "#93c5fd",
+  },
+  {
+    name: "Paris, France",
+    percentage: 22,
+    participants: "2,456",
+    color: "#bfdbfe",
+  },
+  {
+    name: "Venice, Italy",
+    percentage: 15,
+    participants: "2,456",
+    color: "#dbeafe",
+  },
 ];
 
 export function TopDestinations() {
@@ -34,9 +57,13 @@ export function TopDestinations() {
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
                 <Tooltip
-                  formatter={(value: number) => [`${value}%`, "Share"]}
-                  contentStyle={{ borderRadius: 10, fontSize: 12, border: "1px solid #e2e8f0" }}
-                />
+  formatter={(value) => {
+    if (value === undefined || value === null) return ["0%", "Share"]
+
+    const v = Array.isArray(value) ? value[0] : value
+    return [`${Number(v)}%`, "Share"]
+  }}
+/>
                 <Pie
                   data={destinations}
                   cx="50%"
@@ -66,7 +93,9 @@ export function TopDestinations() {
                   <p className="text-xs font-medium text-gray-700 leading-tight">
                     {dest.name} ({dest.percentage}%)
                   </p>
-                  <p className="text-xs text-gray-400">{dest.participants} Participants</p>
+                  <p className="text-xs text-gray-400">
+                    {dest.participants} Participants
+                  </p>
                 </div>
               </div>
             ))}

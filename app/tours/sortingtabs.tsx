@@ -1,19 +1,33 @@
+"use client";
+
+import { useState } from "react";
+
 export default function SortingTabs() {
   const tabs = ["All", "Monastery", "Fortress", "Mountain Pass", "Valley"];
+  const [activeTab, setActiveTab] = useState("All");
 
   return (
-    <div>
-      <div className="relative z-10 w-full  flex flex-end flex-wrap justify-center gap-2 mb-8 ">
+    <div className="relative w-full">
+      {/* LEFT FADE */}
+      <div className="pointer-events-none absolute left-0 top-0 z-10 h-full w-6 " />
+
+      {/* RIGHT FADE */}
+      <div className="pointer-events-none absolute right-0 top-0 z-10 h-full w-6" />
+
+      {/* SCROLL CONTAINER */}
+      <div className="flex gap-2 overflow-x-auto px-2 py-2 scroll-smooth no-scrollbar">
         {tabs.map((tab) => (
           <button
             key={tab}
-            // onClick={() => handleTabChange(tab)}
-            className="relative px-5 py-2 rounded-full text-sm font-semibold transition-all duration-300 border-2 border-gray-300 bg-white hover:bg-blue-50 hover:border-blue-400 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            onClick={() => setActiveTab(tab)}
+            className={`whitespace-nowrap rounded-full px-4 py-2 text-sm font-medium transition-all duration-300 border
+              ${
+                activeTab === tab
+                  ? "bg-blue-600 text-white border-blue-600 shadow-sm"
+                  : "bg-white text-slate-700 border-slate-200 hover:bg-blue-50 hover:border-blue-300"
+              }`}
           >
             {tab}
-            {/* {activeTab === tab && (
-              <span className="absolute inset-0 rounded-full bg-blue-600 animate-ping opacity-20" />
-            )} */}
           </button>
         ))}
       </div>

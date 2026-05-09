@@ -64,20 +64,23 @@ export default function IndiaTourPackages({
         </div>
 
         {/* Zone Tabs */}
-        <div className="flex flex-wrap justify-center gap-3 mb-10">
-          {zones.map((zone) => (
-            <button
-              key={zone.name}
-              onClick={() => setActiveZone(zone.name)}
-              className={`px-6 py-2.5 rounded-md text-sm font-medium border transition-all duration-200 cursor-pointer ${
-                activeZone === zone.name
-                  ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
-                  : "bg-white text-gray-700 border-gray-300 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
-              }`}
-            >
-              {zone.name}
-            </button>
-          ))}
+        <div className="w-full mb-10">
+          <div className="flex gap-2 overflow-x-auto no-scrollbar md:flex-wrap md:justify-center">
+            {zones.map((zone) => (
+              <button
+                key={zone.name}
+                onClick={() => setActiveZone(zone.name)}
+                className={`whitespace-nowrap px-5 py-2 rounded text-sm font-medium border transition-all duration-200 shrink-0
+        ${
+          activeZone === zone.name
+            ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
+            : "bg-white text-gray-700 border-gray-200 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
+        }`}
+              >
+                {zone.name}
+              </button>
+            ))}
+          </div>
         </div>
 
         {/* Slider */}
@@ -124,9 +127,7 @@ function TourCard({ card }: { card: tourDataType }) {
 
       {/* Content */}
       <div className="absolute bottom-0 p-4 text-white">
-        <h3 className="text-sm font-semibold leading-tight">
-          {card.name}
-        </h3>
+        <h3 className="text-sm font-semibold leading-tight">{card.name}</h3>
         <p className="text-xs opacity-80">{card.tours} tours</p>
       </div>
     </Card>

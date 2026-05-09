@@ -90,22 +90,24 @@ export default function TourCollage() {
           </div>
         </div>
       </div>
-      {/* Tabs */}
-      <div className="flex justify-center gap-4 mb-10 flex-wrap">
-        {zones.map((zone) => (
-            <button
-              key={zone}
-              onClick={() => setActiveZone(zone)}
-              className={`px-6 py-2.5 rounded-md text-sm font-medium border transition-all duration-200 cursor-pointer ${
-                activeZone === zone
-                  ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
-                  : "bg-white text-gray-700 border-gray-300 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
-              }`}
-            >
-            {zone}
-          </button>
-        ))}
-      </div>
+       <div className="w-full mb-10">
+          <div className="flex gap-2 overflow-x-auto no-scrollbar md:flex-wrap md:justify-center">
+            {zones.map((zone) => (
+              <button
+                key={zone}
+                onClick={() => setActiveZone(zone)}
+                className={`whitespace-nowrap px-5 py-2 rounded text-sm font-medium border transition-all duration-200 shrink-0
+        ${
+          activeZone === zone
+            ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
+            : "bg-white text-gray-700 border-gray-200 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
+        }`}
+              >
+                {zone}
+              </button>
+            ))}
+          </div>
+        </div>
 
       {/* Collage */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[180px]">
