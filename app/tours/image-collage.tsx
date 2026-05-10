@@ -1,6 +1,16 @@
 
 "use client";
-
+// export const SPECIALITIES = [
+//   "Honeymoon packages",
+//   "Corporate tours",
+//   "School/college trips",
+//   "Religious yatras",
+//   "Luxury stays",
+//   "Budget backpacking trips",
+//     "Weekend Delhi-to-hills tours",
+// "Adventure"
+// "Cultural Tour"
+// ];
 import { useState } from "react";
 import Image from "next/image";
 import { Card } from "@/components/ui/card";
@@ -69,7 +79,7 @@ export default function TourCollage() {
         {/* Header */}
         <div className="text-center mb-10">
           <h1 className="text-3xl font-semibold text-gray-900 tracking-tight mb-3">
-            India Tour Packages By Zone
+            India Tour Packages By Zone Ratnay
           </h1>
           {/* Decorative underline — brush-stroke style */}
           <div className="flex justify-center">
@@ -109,7 +119,6 @@ export default function TourCollage() {
           </div>
         </div>
 
-      {/* Collage */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 auto-rows-[180px]">
         <TourCard data={toursData[0]} />
         <TourCard data={toursData[1]} className="md:row-span-2" />

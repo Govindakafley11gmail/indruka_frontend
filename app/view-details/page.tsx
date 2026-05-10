@@ -1,53 +1,17 @@
 /* eslint-disable react/no-unescaped-entities */
 "use client";
+import { useSearchParams } from "next/navigation";
 import Navbar from "@/custom-components/navbar/navbar";
 import Footer from "@/custom-components/footer/footer";
 import TourGalleryPage from "./gallery-page";
 import TourHighlights from "./tour-highlights";
 import ItineraryPage, {
   type CancellationRow,
-  type DayItem,
   type MainTab,
   type TabSection,
-  type TourDetailRow,
   type UpgradeItem,
 } from "./tour-iternary";
-import router from "next/router";
-import {
-  Building2,
-  UtensilsCrossed,
-  PlaneTakeoff,
-  Camera,
-  Bus,
-} from "lucide-react";
-const days: DayItem[] = [
-  {
-    day: 1,
-    date: "10 Jun 2026",
-    title: "Arrival in Paris",
-    details: "Arrive at CDG. Transfer to hotel. Welcome dinner.",
-  },
-  {
-    day: 2,
-    date: "11 Jun 2026",
-    title: "Eiffel Tower & Louvre",
-    details: "Morning Eiffel Tower visit, afternoon at the Louvre.",
-  },
-  {
-    day: 3,
-    date: "12 Jun 2026",
-    title: "Versailles Day Trip",
-    details: "Full-day excursion to the Palace of Versailles.",
-  },
-];
-
-const tourDetails: TourDetailRow[] = [
-  { label: "Duration", value: "8 Nights / 9 Days" },
-  { label: "Destination", value: "Paris · Amsterdam · Brussels" },
-  { label: "Group Size", value: "20 – 40 passengers" },
-  { label: "Tour Code", value: "EUR-PAB-26" },
-  { label: "Meals", value: "Daily breakfast + 3 dinners" },
-];
+import { tours } from "../tours/data";
 
 const tourInformationTabs: TabSection[] = [
   {
@@ -125,106 +89,85 @@ const mainTabs: MainTab[] = [
   { value: "cancellation", label: "Cancellation Policy" },
   { value: "upgrades", label: "Upgrades" },
 ];
-// ─── Main Page ─────────────────────────────────────────────────────────────────
-export default function TouristPageDetails() {
+interface ViewDetailsPageProps {
+  searchParams: Promise<{
+    id?: string;
+  }>;
+}
+
+export default async function TouristPageDetails({
+  searchParams,
+}: ViewDetailsPageProps) {
+  const params = await searchParams;
+
+  const id = Number(params.id);
+
+  const tour = tours.find((t) => t.id === id);
+
+  if (!tour) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <p className="text-slate-400 text-lg">Tour not found.</p>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen bg-slate-50 overflow-x-hidden w-full">
       <Navbar isActive={false} />
+
       <TourGalleryPage
-        heroImage={{
-          src: "https://images.unsplash.com/photo-1503220317375-aaad61436b1b?w=900&q=80",
-          alt: "Nepal scenic landscape",
+        heroImage={tour.heroImage ?? { src: "", alt: tour.title }}
+        testimonials={tour.testimonials ?? []}
+        thumbnails={tour.thumbnails ?? []}
+        breadcrumbs={tour.breadcrumbs ?? []}
+        badges={tour.badges ?? []}
+        title={tour.title}
+        durationDays={
+          (tour.durationDays ?? tour.durationTag)
+            ? parseInt(tour.durationTag)
+            : 0
+        }
+        countryCount={tour.countryCount ?? 1}
+        cityCount={tour.cityCount ?? tour.destinations.length}
+        region={tour.region ?? tour.place}
+        itineraryStops={tour.itineraryStops ?? []}
+        onViewItinerary={() => {
+          document
+            .getElementById("itinerary")
+            ?.scrollIntoView({ behavior: "smooth", block: "start" });
         }}
-        testimonials={[
-          {
-            id: 1,
-            text: "This was our first time with Veena world travel...",
-            author: "Vaibhavi",
-            date: "Travelled Dec 22, 2024",
-            manager: "Pravin More",
-            managerRole: "Tour Manager",
-          },
-        ]}
-        thumbnails={[
-          {
-            id: 1,
-            src: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=200&q=80",
-            alt: "Nepal mountains",
-          },
-          {
-            id: 2,
-            src: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=200&q=80",
-            alt: "Kathmandu temple",
-          },
-        ]}
-        extraPhotoCount={134}
-        breadcrumbs={[
-          { label: "Home", href: "/" },
-          { label: "World", href: "/world" },
-          { label: "Nepal", href: "/world/nepal" },
-          { label: "Best of Nepal" }, // ← no href = active crumb
-        ]}
-        badges={[
-          { label: "GROUP TOUR", variant: "outlined", color: "blue" },
-          { label: "NPCP", variant: "solid", color: "blue" },
-        ]}
-        title="Best of Nepal"
-        durationDays={8}
-        countryCount={1}
-        cityCount={3}
-        region="Nepal"
-        itineraryStops={[
-          { city: "Kathmandu", nights: 3 },
-          { city: "Chitwan", nights: 2 },
-          { city: "Pokhara", nights: 2 },
-        ]}
-        onViewItinerary={() => console.log("view itinerary clicked")}
       />
+
       <TourHighlights
-        tourFeatures={[
-          { icon: Building2, label: "Hotel" },
-          { icon: UtensilsCrossed, label: "Meals" },
-          { icon: PlaneTakeoff, label: "Flight" },
-          { icon: Camera, label: "Sightseeing" },
-          { icon: Bus, label: "Transport" },
-        ]}
-        tourHighlights={[
-          { title: "Manakamana Devi Ropeway" },
-          { title: "Folk Dance of Nepal" },
-          { title: "Elephant Safari" },
-          { title: "Chitwan National Park" },
-        ]}
-        tourManagerCompany="Indruka"
+        tourFeatures={tour.tourFeatures ?? []}
+        tourHighlights={tour.tourHighlights ?? []}
+        tourManagerCompany={tour.tourManagerCompany ?? ""}
       />
-      <ItineraryPage
-        // Nav
-        mainTabs={mainTabs}
-        // Itinerary
-        departureDate="10 Jun 2026"
-        departureCity="Mumbai"
-        onChangeDepartureDate={() => console.log("open date picker")}
-        days={days}
-        knowBeforeBook={{
-          note: "Seats are subject to availability at time of booking.",
-          airline: "On group tours we fly with group-friendly airlines.",
-          lines: [
-            "Economy class by default.",
-            "Upgrades to Business / First Class available on request.",
-          ],
-        }}
-        // Tour Details
-        tourDetails={tourDetails}
-        // Tour Information
-        tourInformationTitle="Tour Information"
-        tourInformationSubtitle="Read this to prepare for your tour in the best way!"
-        tourInformationTabs={tourInformationTabs}
-        // Need to Know
-        needToKnow={needToKnow}
-        // Cancellation Policy
-        cancellationRows={cancellationRows}
-        // Upgrades
-        upgrades={upgrades}
-      />
+      <div id="itinerary">
+        <ItineraryPage
+          mainTabs={mainTabs}
+          departureDate={`${tour.durationDays} days`}
+          departureCity={tour.place}
+          onChangeDepartureDate={() => console.log("open date picker")}
+          days={tour.days ?? []}
+          knowBeforeBook={{
+            note: "Seats are subject to availability at time of booking.",
+            airline: "On group tours we fly with group-friendly airlines.",
+            lines: [
+              "Economy class by default.",
+              "Upgrades to Business / First Class available on request.",
+            ],
+          }}
+          tourDetails={tour.tourDetails ?? []}
+          tourInformationTitle="Tour Information"
+          tourInformationSubtitle="Read this to prepare for your tour in the best way!"
+          tourInformationTabs={tourInformationTabs}
+          needToKnow={needToKnow}
+          cancellationRows={cancellationRows}
+          upgrades={upgrades}
+        />
+      </div>
       <Footer />
     </div>
   );

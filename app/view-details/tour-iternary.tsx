@@ -157,6 +157,26 @@ function ItinerarySection({
   days,
   knowBeforeBook,
 }: Pick<TourPageProps, "departureDate" | "departureCity" | "onChangeDepartureDate" | "days" | "knowBeforeBook">) {
+  const [expandedDays, setExpandedDays] = useState<Set<number>>(new Set());
+
+  const toggleDay = (day: number) => {
+    setExpandedDays((prev) => {
+      const next = new Set(prev);
+      next.has(day) ? next.delete(day) : next.add(day);
+      return next;
+    });
+  };
+
+const allExpanded = !!days?.length && expandedDays.size === days.length;
+
+  const handleViewAll = () => {
+    if (allExpanded) {
+      setExpandedDays(new Set()); // collapse all
+    } else {
+      setExpandedDays(new Set(days?.map((d) => d.day))); // expand all
+    }
+  };
+
   return (
     <div className="flex flex-col md:flex-row gap-8 items-start">
       {/* Left column */}
@@ -164,38 +184,38 @@ function ItinerarySection({
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-bold text-gray-900">
             Itinerary{" "}
-            <span className="text-sm font-normal text-gray-400">(Day Wise)</span>
+            <span className="text-base font-normal text-gray-400">(Day Wise)</span>
           </h2>
-          <button className="text-sm font-medium text-gray-800 underline underline-offset-2 hover:text-blue-900 transition-colors">
-            View all days
+          <button
+            onClick={handleViewAll}
+            className="text-base font-medium text-gray-800 underline underline-offset-2 hover:text-blue-900 transition-colors"
+          >
+            {allExpanded ? "Collapse all" : "View all days"}
           </button>
         </div>
 
         {/* Alert banner */}
         <div className="flex items-start gap-2.5 bg-amber-50 border border-amber-200 rounded-md px-4 py-3 mb-5">
           <AlertCircle className="w-4 h-4 text-amber-500 flex-shrink-0 mt-0.5" />
-          <p className="text-sm text-gray-600">
+          <p className="text-base text-gray-600">
             Viewing itinerary for{" "}
-            <strong className="text-gray-800">{departureDate}</strong> from{" "}
-            <strong className="text-gray-800">{departureCity}</strong>.{" "}
-            <button
-              onClick={onChangeDepartureDate}
-              className="inline-flex items-center gap-1 text-blue-900 font-semibold hover:underline ml-0.5"
-            >
-              <Edit2 className="w-3 h-3" />
-              Change Departure Date
-            </button>
+            <strong className="text-gray-800">{departureDate}</strong> of{" "}
+            <strong className="text-gray-800">{departureCity}</strong>.
           </p>
         </div>
 
         {/* Timeline */}
-        <TourItinerary days={days ??[]} />
+        <TourItinerary
+          days={days ?? []}
+          expandedDays={expandedDays}
+          onToggleDay={toggleDay}
+        />
 
         {/* Know before you book */}
         <div className="mt-7 pt-5 border-t border-gray-200">
           <div className="flex items-center justify-between mb-2.5">
-            <h3 className="text-sm font-bold text-gray-900">Know, before you book</h3>
-            <button className="text-sm font-medium text-gray-800 underline underline-offset-2 hover:text-blue-900 transition-colors">
+            <h3 className="text-base font-bold text-gray-900">Know, before you book</h3>
+            <button className="text-base font-medium text-gray-800 underline underline-offset-2 hover:text-blue-900 transition-colors">
               Read More
             </button>
           </div>
@@ -232,7 +252,7 @@ function ItinerarySection({
           <div className="absolute w-full h-3 bg-green-400/40 top-[42%] -rotate-2 scale-x-110" />
           <div className="absolute w-3 inset-y-0 left-[55%] bg-green-400/40 rotate-[4deg] scale-y-110" />
           <div className="absolute top-3 right-5 w-12 h-7 rounded-full bg-blue-300/60" />
-          <button className="relative z-10 flex items-center gap-1.5 bg-white rounded-md px-3 py-1.5 text-sm font-semibold text-gray-700 shadow-md hover:shadow-lg transition-shadow">
+          <button className="relative z-10 flex items-center gap-1.5 bg-white rounded-md px-3 py-1.5 text-base font-semibold text-gray-700 shadow-md hover:shadow-lg transition-shadow">
             <Map className="w-4 h-4" />
             Map View
           </button>
@@ -253,13 +273,13 @@ function TourDetailsSection({ tourDetails }: Pick<TourPageProps, "tourDetails">)
         <div className="divide-y divide-gray-100 border border-gray-200 rounded-lg overflow-hidden">
           {tourDetails.map((row) => (
             <div key={row.label} className="flex items-center px-4 py-3 bg-white even:bg-gray-50">
-              <span className="w-44 flex-shrink-0 text-sm font-medium text-gray-500">{row.label}</span>
-              <span className="text-sm text-gray-800">{row.value}</span>
+              <span className="w-44 flex-shrink-0 text-base font-medium text-gray-500">{row.label}</span>
+              <span className="text-base text-gray-800">{row.value}</span>
             </div>
           ))}
         </div>
       ) : (
-        <p className="text-sm text-gray-400">No tour details available.</p>
+        <p className="text-base text-gray-400">No tour details available.</p>
       )}
     </>
   );
@@ -272,14 +292,14 @@ function NeedToKnowSection({ needToKnow }: Pick<TourPageProps, "needToKnow">) {
       {needToKnow?.length ? (
         <ul className="space-y-2">
           {needToKnow.map((item, i) => (
-            <li key={i} className="flex items-start gap-2.5 text-sm text-gray-600">
+            <li key={i} className="flex items-start gap-2.5 text-base text-gray-600">
               <span className="mt-1.5 w-1.5 h-1.5 rounded-full bg-blue-900 flex-shrink-0" />
               {item}
             </li>
           ))}
         </ul>
       ) : (
-        <p className="text-sm text-gray-400">No information available.</p>
+        <p className="text-base text-gray-400">No information available.</p>
       )}
     </>
   );
@@ -291,7 +311,7 @@ function CancellationSection({ cancellationRows }: Pick<TourPageProps, "cancella
       <h2 className="text-xl font-bold text-gray-900 mb-4">Cancellation Policy</h2>
       {cancellationRows?.length ? (
         <div className="overflow-x-auto">
-          <table className="w-full text-sm border-collapse">
+          <table className="w-full text-base border-collapse">
             <thead>
               <tr className="bg-gray-100 text-gray-700">
                 <th className="text-left px-4 py-2.5 border border-gray-200 font-semibold">
@@ -313,7 +333,7 @@ function CancellationSection({ cancellationRows }: Pick<TourPageProps, "cancella
           </table>
         </div>
       ) : (
-        <p className="text-sm text-gray-400">No cancellation policy available.</p>
+        <p className="text-base text-gray-400">No cancellation policy available.</p>
       )}
     </>
   );
@@ -328,15 +348,15 @@ function UpgradesSection({ upgrades }: Pick<TourPageProps, "upgrades">) {
           {upgrades.map((u) => (
             <div key={u.name} className="border border-gray-200 rounded-lg p-4 bg-white hover:shadow-sm transition-shadow">
               <div className="flex items-start justify-between mb-1.5">
-                <span className="text-sm font-semibold text-gray-900">{u.name}</span>
-                <span className="text-sm font-bold text-blue-900 ml-2 flex-shrink-0">{u.price}</span>
+                <span className="text-base font-semibold text-gray-900">{u.name}</span>
+                <span className="text-base font-bold text-blue-900 ml-2 flex-shrink-0">{u.price}</span>
               </div>
               <p className="text-xs text-gray-500 leading-relaxed">{u.description}</p>
             </div>
           ))}
         </div>
       ) : (
-        <p className="text-sm text-gray-400">No upgrades available.</p>
+        <p className="text-base text-gray-400">No upgrades available.</p>
       )}
     </>
   );
@@ -378,7 +398,7 @@ function SectionContent({ tab, props }: { tab: MainTab; props: TourPageProps }) 
       return (
         <>
           <h2 className="text-xl font-bold text-gray-900 mb-4">{tab.label}</h2>
-          <p className="text-sm text-gray-400">Content coming soon.</p>
+          <p className="text-base text-gray-400">Content coming soon.</p>
         </>
       );
   }
@@ -479,7 +499,7 @@ export default function ItineraryPage(props: TourPageProps) {
                   ref={(el) => { tabButtonRefs.current[tab.value] = el; }}
                   onClick={() => scrollToSection(tab.value)}
                   className={cn(
-                    "px-4 py-3.5 text-sm font-medium whitespace-nowrap transition-colors relative z-10",
+                    "px-4 py-3.5 text-base font-medium whitespace-nowrap transition-colors relative z-10",
                     activeTab === tab.value
                       ? "text-blue-900 font-semibold"
                       : "text-gray-500 hover:text-blue-900"

@@ -17,16 +17,16 @@ interface FilterContentProps {
   setCheckedMode: any;
 }
 
-export function FilterContent({ budget, setBudget, checkedSpec, checkedDur, checkedDest, checkedMode, toggle, setCheckedSpec, setCheckedDur, setCheckedDest, setCheckedMode }: FilterContentProps) {
+export function  FilterContent({ budget, setBudget, checkedSpec, checkedDur, checkedDest, checkedMode, toggle, setCheckedSpec, setCheckedDur, setCheckedDest, setCheckedMode }: FilterContentProps) {
   return (
     <>
       <div className="p-4 px-5 border-b border-blue-50">
         <p className="text-[11px] uppercase tracking-[2px] text-slate-500 font-bold mb-3.5">💰 Budget per person</p>
-        <Slider value={budget} onValueChange={setBudget} min={5000} max={200000} step={1000} className="mb-2" />
+        <Slider value={budget} onValueChange={setBudget} min={5000} max={500000} step={1000} className="mb-2" />
         <div className="flex justify-between text-xs">
           <span className="text-slate-400">₹5,000</span>
           <span className="text-[#1A5BB8] font-bold">{fmt(budget[0])}</span>
-          <span className="text-slate-400">₹2,00,000+</span>
+          <span className="text-slate-400">₹5,00,000+</span>
         </div>
       </div>
       {/* Travel Mode, Speciality, Duration, Destinations — same pattern */}

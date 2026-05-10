@@ -2,24 +2,46 @@
 import { useState, useMemo } from "react";
 import { useSearchParams } from "next/navigation";
 import { tours } from "../data";
+interface TourParams {
+  country?: string;
+  id?: string;
+  dest?: string;
+}
 
-export function useTours() {
-  const searchParams = useSearchParams();
+export function useTours(searchParams: TourParams) {
+  function getDurationBucket(tour: {
+    durationDays?: number;
+    durationTag?: string;
+  }): string {
+    // Prefer durationDays, fallback to parsing durationTag
+    let days = tour.durationDays;
+
+    if (!days && tour.durationTag) {
+      const match = tour.durationTag.match(/\d+/);
+      days = match ? parseInt(match[0]) : 0;
+    }
+
+    if (!days) return "9+ Days";
+    if (days === 1) return "1 Day";
+    if (days <= 3) return "2–3 Days";
+    if (days <= 5) return "4–5 Days";
+    if (days <= 8) return "6–8 Days";
+    return "9+ Days";
+  }
 
   const initialCountry = useMemo(() => {
-    const raw = searchParams.get("country");
+    const raw = searchParams.country;
     if (!raw) return new Set<string>();
     return new Set<string>(raw.split(",").map((c) => c.trim()));
   }, []);
-
   const initialPlace = useMemo(() => {
-    const raw = searchParams.get("id");
+    const raw = searchParams.id;
     if (!raw) return new Set<string>();
     return new Set<string>(raw.split(",").map((d) => d.trim()));
   }, []);
 
   const initialDest = useMemo(() => {
-    const raw = searchParams.get("dest");
+    const raw = searchParams.dest;
     if (!raw) return new Set<string>();
     return new Set<string>(raw.split(",").map((d) => d.trim()));
   }, []);
@@ -31,7 +53,8 @@ export function useTours() {
   const [checkedDur, setCheckedDur] = useState(new Set<string>());
   const [checkedDest, setCheckedDest] = useState<Set<string>>(initialDest);
   const [checkedMode, setCheckedMode] = useState(new Set<string>());
-  const [checkedCountry, setCheckedCountry] = useState<Set<string>>(initialCountry);
+  const [checkedCountry, setCheckedCountry] =
+    useState<Set<string>>(initialCountry);
   const [checkedPlace, setCheckedPlace] = useState<Set<string>>(initialPlace);
 
   const toggleSet = (
@@ -64,6 +87,10 @@ export function useTours() {
         (t) => !search || t.title.toLowerCase().includes(search.toLowerCase()),
       )
       .filter((t) => checkedMode.size === 0 || checkedMode.has(t.mode))
+      .filter((t) => checkedSpec.size === 0 || checkedSpec.has(t.type))
+      .filter(
+        (t) => checkedDur.size === 0 || checkedDur.has(getDurationBucket(t)),
+      )
       .filter(
         (t) =>
           checkedCountry.size === 0 ||
@@ -104,7 +131,17 @@ export function useTours() {
         }
         return 0;
       });
-  }, [budget, search, checkedMode, checkedCountry, checkedPlace, checkedDest, checkedSpec, checkedDur, sortBy]);
+  }, [
+    budget,
+    search,
+    checkedMode,
+    checkedCountry,
+    checkedPlace,
+    checkedDest,
+    checkedSpec,
+    checkedDur,
+    sortBy,
+  ]);
   // ☝️ stable reference — new array only when these values change
 
   const activeFilterCount =

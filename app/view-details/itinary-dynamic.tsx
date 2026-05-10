@@ -9,6 +9,7 @@ type Day = {
   title: string;
   details: string;
 };
+
 function LocationPin({ active }: { active: boolean }) {
   return active ? (
     <svg
@@ -49,18 +50,15 @@ function LocationPin({ active }: { active: boolean }) {
     </svg>
   );
 }
-
-export default function TourItinerary({ days }: { days: Day[] }) {
-  const [expandedDays, setExpandedDays] = useState<Set<number>>(new Set());
-
-  const toggleDay = (day: number) => {
-    setExpandedDays((prev) => {
-      const next = new Set(prev);
-      next.has(day) ? next.delete(day) : next.add(day);
-      return next;
-    });
-  };
-
+export default function TourItinerary({
+  days,
+  expandedDays,
+  onToggleDay,
+}: {
+  days: Day[];
+  expandedDays: Set<number>;
+  onToggleDay: (day: number) => void;
+}) {
   return (
     <div>
       {days.map((item, index) => {
@@ -81,19 +79,19 @@ export default function TourItinerary({ days }: { days: Day[] }) {
 
             <div
               className={cn("flex-1 py-3.5 cursor-pointer", !isLast && "border-b border-gray-100")}
-              onClick={() => toggleDay(item.day)}
+              onClick={() => onToggleDay(item.day)}
             >
               <div className="flex items-center justify-between">
                 <div>
-                  <p className="text-xs text-gray-400 mb-1">
-                    Day {item.day} / {item.date}
+                  <p className="text-sm text-blue-800 mb-1">
+                    Day {item.day} 
                   </p>
-                  <p className={cn("text-sm", isFirst ? "font-semibold text-blue-900" : "font-medium text-gray-800")}>
+                  <p className={cn("text-base", isOpen ? "font-semibold text-blue-900" : "font-medium text-gray-800")}>
                     {item.title}
                   </p>
                 </div>
                 <button
-                  onClick={(e) => { e.stopPropagation(); toggleDay(item.day); }}
+                  onClick={(e) => { e.stopPropagation(); onToggleDay(item.day); }}
                   className={cn(
                     "w-7 h-7 rounded-full border flex items-center justify-center ml-4 shrink-0 transition-all duration-200",
                     isOpen
@@ -110,7 +108,7 @@ export default function TourItinerary({ days }: { days: Day[] }) {
                 isOpen ? "max-h-60 opacity-100 mt-3" : "max-h-0 opacity-0 mt-0",
               )}>
                 <div className="border-l-[3px] border-blue-900 bg-blue-50 rounded-r-md px-4 py-3 pr-12">
-                  <p className="text-sm text-gray-700 leading-relaxed">{item.details}</p>
+                  <p className="text-base text-gray-700 leading-relaxed">{item.details}</p>
                 </div>
               </div>
             </div>

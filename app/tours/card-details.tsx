@@ -17,6 +17,7 @@ export interface Tour {
   price: number;
   popular?: boolean;
 }
+
 interface CardDetailsPageProps {
   tours: Tour[];
 wishlist: Set<number>;          // ← was Set<string>
@@ -148,7 +149,7 @@ export default function CardDetailsPage({
                 >
                   Send Query
                 </Button>
-                <Link href='/view-details'>
+                <Link href={`/view-details?id=${tour.id}`}>
                   <Button className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
                     View Details →
                   </Button>

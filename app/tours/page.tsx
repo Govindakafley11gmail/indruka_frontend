@@ -20,12 +20,19 @@ import { Pagination } from "./components/pagenationProps";
 
 const ITEMS_PER_PAGE = 10;
 
-export default function SacredYatra() {
-  const tours = useTours();
+export default function SacredYatra({
+  params,
+}: {
+  params: {
+    country?: string;
+    id?: string;
+    dest?: string;
+  };
+}) {
+  const tours = useTours(params)
   const { wishlist, toggle: onWishlistToggle } = useWishlist();
   const drawer = useDrawer();
   const [activePage, setActivePage] = useState(1);
-
   // ✅ Reset to page 1 only when filter state values change, not on every render
   useEffect(() => {
     // eslint-disable-next-line react-hooks/set-state-in-effect
@@ -149,16 +156,7 @@ export default function SacredYatra() {
       `}</style>
 
       <TourCollage />
-      <IndiaTourPackages
-        data={tourData}
-        activeZonename="North"
-        zones={[
-          { name: "North" },
-          { name: "South" },
-          { name: "West & Central" },
-          { name: "East & North East" },
-        ]}
-      />
+    
       <TourCards />
       <Footer />
     </div>

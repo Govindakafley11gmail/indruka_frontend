@@ -93,7 +93,7 @@ export default function RequestCallBack() {
   }
 
   return (
-    <div className="w-full max-w-sm mx-auto bg-[#F5F8FF] border border-gray-200 rounded h-65 p-6 shadow-sm">
+    <div className="w-full max-w-sm mx-auto bg-[#F5F8FF] border border-gray-200 rounded-2xl h-70 p-6 shadow-sm">
       {/* Header */}
       <h2 className="text-lg font-semibold text-gray-800 mb-5">
         Want us to call you?
