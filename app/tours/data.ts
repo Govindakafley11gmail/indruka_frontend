@@ -216,7 +216,7 @@ export const tours = [
       { title: "Badrinath Temple & Tapt Kund" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2026/01/chardham-yatra-by-helicopter-2026.webp",
@@ -226,18 +226,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Planning our Chardham Yatra was stressing me out until we chose Namaste India Trip. It was a very perfect family bonding and the best experience.",
+        text: "Planning our Chardham Yatra was stressing me out until we chose Indruka Trips and Trip. It was a very perfect family bonding and the best experience.",
         author: "Rakesh Sharma",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Me along with my family hired Namaste India Trip for our Badrinath Tour. After completing the tour, we saw they kept all their commitments. Definitely I will suggest everyone to hire them.",
+        text: "Me along with my family hired Indruka Trips and Trip for our Badrinath Tour. After completing the tour, we saw they kept all their commitments. Definitely I will suggest everyone to hire them.",
         author: "Manoj Patel",
         date: "Travelled Jun 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -393,7 +393,7 @@ export const tours = [
       { title: "Badrinath Temple & Tapt Kund" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2026/01/chardham-yatra-by-helicopter-2026.webp",
@@ -403,18 +403,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Planning our Chardham Yatra was stressing me out until we chose Namaste India Trip. It was a very perfect family bonding and the best experience.",
+        text: "Planning our Chardham Yatra was stressing me out until we chose Indruka Trips and Trip. It was a very perfect family bonding and the best experience.",
         author: "Rakesh Sharma",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Me along with my family hired Namaste India Trip for our Badrinath Tour. After completing the tour, we saw they kept all their commitments. Definitely I will suggest everyone to hire them.",
+        text: "Me along with my family hired Indruka Trips and Trip for our Badrinath Tour. After completing the tour, we saw they kept all their commitments. Definitely I will suggest everyone to hire them.",
         author: "Manoj Patel",
         date: "Travelled Jun 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -566,7 +566,7 @@ export const tours = [
       { title: "Pahalgam Valley & Betaab Valley Visit" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1200&q=80",
@@ -576,10 +576,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The Amarnath Yatra arranged by Namaste India Trip was a truly divine experience. Every detail — from permits to camps — was handled perfectly. Baba Barfani's darshan was life-changing.",
+        text: "The Amarnath Yatra arranged by Indruka Trips and Trip was a truly divine experience. Every detail — from permits to camps — was handled perfectly. Baba Barfani's darshan was life-changing.",
         author: "Suresh Tiwari",
         date: "Travelled Aug 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -587,7 +587,7 @@ export const tours = [
         text: "We were a group of 8 pilgrims and the trek coordination was flawless. The guides were experienced and the accommodation at Pahalgam was very comfortable. Highly recommended!",
         author: "Anjali Mehta",
         date: "Travelled Jul 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -742,7 +742,7 @@ export const tours = [
       { title: "Kalapani — Source of the Kali River" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=80",
@@ -752,10 +752,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Namaste India Trip made our Adi Kailash Yatra smooth and spiritually enriching. The guides were incredibly knowledgeable and the logistics for this remote trek were perfectly managed.",
+        text: "Indruka Trips and Trip made our Adi Kailash Yatra smooth and spiritually enriching. The guides were incredibly knowledgeable and the logistics for this remote trek were perfectly managed.",
         author: "Vikram Nair",
         date: "Travelled Jun 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -763,7 +763,7 @@ export const tours = [
         text: "Seeing the natural OM symbol on Om Parvat was a moment I will carry for a lifetime. Every camp, every meal, every guide — all first class. Truly a premium spiritual journey.",
         author: "Priya Joshi",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -940,7 +940,7 @@ export const tours = [
       { title: "Wagah Border Flag-Lowering Ceremony" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80",
@@ -953,7 +953,7 @@ export const tours = [
         text: "An absolutely perfect introduction to India! The Golden Triangle plus Amritsar extension was flawlessly organised. From the Taj Mahal at dawn to the Golden Temple — every moment was memorable.",
         author: "Ramesh Kapoor",
         date: "Travelled Nov 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -961,7 +961,7 @@ export const tours = [
         text: "We visited with our family of six and everything was taken care of — hotels, guides, meals. The Wagah Border ceremony was the absolute highlight of our trip. Will definitely book again!",
         author: "Sunita Agarwal",
         date: "Travelled Dec 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -1123,7 +1123,7 @@ export const tours = [
       { title: "Lingaraj Temple, Bhubaneswar" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=1200&q=80",
@@ -1136,7 +1136,7 @@ export const tours = [
         text: "The Odisha triangle tour was a beautiful blend of history, spirituality, and nature. Konark at golden hour was absolutely stunning and the Jagannath Temple darshan was deeply moving.",
         author: "Deepak Mishra",
         date: "Travelled Jan 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -1144,7 +1144,7 @@ export const tours = [
         text: "A wonderfully compact yet richly packed tour. The Chilika Lake boat ride was a surprise highlight — thousands of migratory birds and the Irrawaddy dolphins! Highly organised trip.",
         author: "Kavita Rao",
         date: "Travelled Feb 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -1278,7 +1278,7 @@ export const tours = [
       { title: "Navagraha Temple of Nine Planetary Deities" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=1200&q=80",
@@ -1291,15 +1291,15 @@ export const tours = [
         text: "A beautifully arranged short pilgrimage. The Kamakhya Temple darshan was a profound spiritual experience. The Brahmaputra cruise in the evening was the perfect way to end the day.",
         author: "Ananya Das",
         date: "Travelled Mar 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Namaste India Trip managed everything impeccably — hotel, transfers, and priority darshan at Kamakhya Devi. This 3-day tour is perfect for a short but deeply spiritual getaway to Assam.",
+        text: "Indruka Trips and Trip managed everything impeccably — hotel, transfers, and priority darshan at Kamakhya Devi. This 3-day tour is perfect for a short but deeply spiritual getaway to Assam.",
         author: "Gopal Sharma",
         date: "Travelled Feb 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -1424,7 +1424,7 @@ export const tours = [
       { title: "Mahabodhi Temple, Bodhgaya (UNESCO)" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&q=80",
@@ -1434,10 +1434,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "This tour touched the soul. From the Ganga Aarti in Varanasi to the Ram Mandir in Ayodhya — every destination was sacred and the arrangements by Namaste India Trip were impeccable throughout.",
+        text: "This tour touched the soul. From the Ganga Aarti in Varanasi to the Ram Mandir in Ayodhya — every destination was sacred and the arrangements by Indruka Trips and Trip were impeccable throughout.",
         author: "Rajendra Pandey",
         date: "Travelled Apr 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -1445,7 +1445,7 @@ export const tours = [
         text: "Covering four of India's most spiritually powerful cities in one tour was a dream come true. The Mahabodhi Temple at Bodhgaya and Kamadgiri Parikrama at Chitrakoot were deeply moving.",
         author: "Meena Verma",
         date: "Travelled Jan 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -1602,7 +1602,7 @@ export const tours = [
       { title: "Palitana Jain Temples, Shatrunjaya Hill" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
@@ -1612,10 +1612,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "An extraordinary pilgrimage across Gujarat covering Dwarka, Somnath, and Palitana. Namaste India Trip handled every detail superbly — comfortable hotels, timely transfers, and knowledgeable guides.",
+        text: "An extraordinary pilgrimage across Gujarat covering Dwarka, Somnath, and Palitana. Indruka Trips and Trip handled every detail superbly — comfortable hotels, timely transfers, and knowledgeable guides.",
         author: "Haresh Shah",
         date: "Travelled Dec 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -1623,7 +1623,7 @@ export const tours = [
         text: "The Somnath Temple at the edge of the Arabian Sea at sunset was breathtaking. Climbing Shatrunjaya Hill to the Palitana Jain temples was challenging but spiritually rewarding. Wonderful tour!",
         author: "Sonal Desai",
         date: "Travelled Nov 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -1800,7 +1800,7 @@ export const tours = [
   //     { title: "Khajjiar Lake & lush green meadows" },
   //   ],
 
-  //   tourManagerCompany: "Namaste India Trip",
+  //   tourManagerCompany: "Indruka Trips and Trip",
 
   //   heroImage: {
   //     src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dalhousie-khajjiar-tour.webp",
@@ -1810,10 +1810,10 @@ export const tours = [
   //   testimonials: [
   //     {
   //       id: 1,
-  //       text: "The Dalhousie trip was beautifully organised. Khajjiar truly felt like Switzerland — lush green and peaceful. Namaste India Trip made every moment special.",
+  //       text: "The Dalhousie trip was beautifully organised. Khajjiar truly felt like Switzerland — lush green and peaceful. Indruka Trips and Trip made every moment special.",
   //       author: "Priya Mehta",
   //       date: "Travelled October 2025",
-  //       manager: "Namaste India Trip Team",
+  //       manager: "Indruka Trips and Trip Team",
   //       managerRole: "Tour Manager",
   //     },
   //     {
@@ -1821,7 +1821,7 @@ export const tours = [
   //       text: "A perfect short getaway for our family. The transfers were smooth, hotels were comfortable, and Khajjiar was breathtaking. Highly recommended!",
   //       author: "Sandeep Verma",
   //       date: "Travelled November 2025",
-  //       manager: "Namaste India Trip Team",
+  //       manager: "Indruka Trips and Trip Team",
   //       managerRole: "Tour Manager",
   //     },
   //   ],
@@ -1936,7 +1936,7 @@ export const tours = [
       { title: "St. John's Church — colonial heritage gem" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dharamshala-weekend-tour.webp",
@@ -1946,10 +1946,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "A wonderful weekend escape to Dharamshala. McLeodGanj has such a peaceful vibe and the Bhagsu Waterfall trek was amazing. Namaste India Trip handled everything perfectly.",
+        text: "A wonderful weekend escape to Dharamshala. McLeodGanj has such a peaceful vibe and the Bhagsu Waterfall trek was amazing. Indruka Trips and Trip handled everything perfectly.",
         author: "Neha Kapoor",
         date: "Travelled September 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -1957,7 +1957,7 @@ export const tours = [
         text: "Loved the Tibetan culture, the monastery, and the stunning mountain views from Naddi Village. Great value for a 4-day package!",
         author: "Amit Joshi",
         date: "Travelled October 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2082,7 +2082,7 @@ export const tours = [
       { title: "Rohtang Pass snow excursion" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
@@ -2092,10 +2092,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "From Shimla's colonial charm to Rohtang's snow, this 5-day tour packed in everything. Namaste India Trip's planning was flawless.",
+        text: "From Shimla's colonial charm to Rohtang's snow, this 5-day tour packed in everything. Indruka Trips and Trip's planning was flawless.",
         author: "Rohit Agarwal",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -2103,7 +2103,7 @@ export const tours = [
         text: "Rohtang Pass was the highlight! Seeing snow for the first time was magical. Our driver was professional and the hotels were very comfortable.",
         author: "Sunita Sharma",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2236,7 +2236,7 @@ export const tours = [
       { title: "Rohtang Pass & Manali local sightseeing" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
@@ -2246,18 +2246,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Best trip of our life! Shimla's colonial beauty and Manali's adventure were the perfect combo. Everything was well organised by Namaste India Trip.",
+        text: "Best trip of our life! Shimla's colonial beauty and Manali's adventure were the perfect combo. Everything was well organised by Indruka Trips and Trip.",
         author: "Deepak Gupta",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "The Rohtang Pass experience was unforgettable. Our family had a wonderful time and we will definitely book again with Namaste India Trip.",
+        text: "The Rohtang Pass experience was unforgettable. Our family had a wonderful time and we will definitely book again with Indruka Trips and Trip.",
         author: "Kavita Singh",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2397,7 +2397,7 @@ export const tours = [
       { title: "Hadimba Temple & Vashisht Hot Springs, Manali" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
@@ -2410,15 +2410,15 @@ export const tours = [
         text: "Seven days of pure magic! Shimla and Manali exceeded all our expectations. The Solang Valley adventure was an absolute highlight.",
         author: "Vikas Malhotra",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Namaste India Trip took care of every detail. Comfortable hotels, amazing sightseeing, and a very professional driver. Would book again!",
+        text: "Indruka Trips and Trip took care of every detail. Comfortable hotels, amazing sightseeing, and a very professional driver. Would book again!",
         author: "Anjali Rawat",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2565,7 +2565,7 @@ export const tours = [
       { title: "Bhagsu Waterfall & Tibetan Monastery" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himanchal-with-vaishno-devi-darshan.webp",
@@ -2578,15 +2578,15 @@ export const tours = [
         text: "A deeply spiritual journey. The Vaishno Devi darshan was a life-changing experience and Dharamshala's peaceful monasteries added another dimension to our trip.",
         author: "Sanjay Tiwari",
         date: "Travelled October 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "The Golden Temple at Amritsar was divine, and the Wagah Border ceremony was thrilling. Namaste India Trip organised everything seamlessly.",
+        text: "The Golden Temple at Amritsar was divine, and the Wagah Border ceremony was thrilling. Indruka Trips and Trip organised everything seamlessly.",
         author: "Meena Chauhan",
         date: "Travelled September 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2740,7 +2740,7 @@ export const tours = [
       { title: "Shimla — Queen of Hills & Mall Road" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
@@ -2753,15 +2753,15 @@ export const tours = [
         text: "The Delhi Darshan combined with Himachal was a brilliant itinerary. Saw iconic Delhi monuments and then the majestic Himalayas — perfect for our family tour.",
         author: "Rajesh Bhatia",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Excellent arrangements throughout. Rohtang Pass was simply breathtaking. Namaste India Trip's team was always responsive and helpful.",
+        text: "Excellent arrangements throughout. Rohtang Pass was simply breathtaking. Indruka Trips and Trip's team was always responsive and helpful.",
         author: "Pooja Nair",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -2922,7 +2922,7 @@ export const tours = [
       { title: "Dharamshala — Little Lhasa & Tibetan culture" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
@@ -2932,10 +2932,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Three iconic destinations — Shimla, Manali, and Dharamshala — all in one perfect trip. Namaste India Trip gave us memories we'll cherish forever.",
+        text: "Three iconic destinations — Shimla, Manali, and Dharamshala — all in one perfect trip. Indruka Trips and Trip gave us memories we'll cherish forever.",
         author: "Gaurav Khanna",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -2943,7 +2943,7 @@ export const tours = [
         text: "The diversity of this tour was incredible — snow at Rohtang, spirituality at McLeodGanj, and colonial charm at Shimla. Perfectly organised.",
         author: "Ritu Sharma",
         date: "Travelled October 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3102,7 +3102,7 @@ export const tours = [
       { title: "Khajjiar — Mini Switzerland of India" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
@@ -3115,15 +3115,15 @@ export const tours = [
         text: "10 days covering the best of Himachal — Shimla, Manali, Dalhousie, and Khajjiar. This is the most comprehensive and well-priced package we found.",
         author: "Arjun Mehta",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Khajjiar was the surprise of the trip — such a magical meadow. Combined with Rohtang's snow, it was an unforgettable 10 days with Namaste India Trip.",
+        text: "Khajjiar was the surprise of the trip — such a magical meadow. Combined with Rohtang's snow, it was an unforgettable 10 days with Indruka Trips and Trip.",
         author: "Vandana Sood",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3293,7 +3293,7 @@ export const tours = [
       { title: "Peaceful walks at McLeodGanj & Bhagsu Waterfall" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
@@ -3303,18 +3303,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Our honeymoon was absolutely dreamy! Shimla's sunsets, Manali's snow, and Dharamshala's peace — Namaste India Trip made every moment magical for us.",
+        text: "Our honeymoon was absolutely dreamy! Shimla's sunsets, Manali's snow, and Dharamshala's peace — Indruka Trips and Trip made every moment magical for us.",
         author: "Rahul & Priya Verma",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "The honeymoon suite upgrades and special room decorations were a lovely surprise. Namaste India Trip clearly goes the extra mile for couples.",
+        text: "The honeymoon suite upgrades and special room decorations were a lovely surprise. Indruka Trips and Trip clearly goes the extra mile for couples.",
         author: "Karan & Simran Sethi",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3480,7 +3480,7 @@ export const tours = [
       { title: "Khajjiar — Mini Switzerland meadows" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
@@ -3493,15 +3493,15 @@ export const tours = [
         text: "11 days that felt like a lifetime of memories. From Shimla's colonial lanes to Dalhousie's misty evenings — every destination was stunning. Brilliant package!",
         author: "Nitin Goel",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "The most comprehensive Himachal tour we could find. Namaste India Trip's team was always a call away. The hotels were great and drivers were punctual.",
+        text: "The most comprehensive Himachal tour we could find. Indruka Trips and Trip's team was always a call away. The hotels were great and drivers were punctual.",
         author: "Swati Bhatt",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3676,7 +3676,7 @@ export const tours = [
       { title: "Basilica of Bom Jesus — UNESCO World Heritage Site" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-weekend-tour-package.webp",
@@ -3686,10 +3686,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The perfect weekend escape! Namaste India Trip covered all the best beaches and sights in Goa. The hotel was beachside and the food was amazing.",
+        text: "The perfect weekend escape! Indruka Trips and Trip covered all the best beaches and sights in Goa. The hotel was beachside and the food was amazing.",
         author: "Neeraj Kapoor",
         date: "Travelled December 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -3697,7 +3697,7 @@ export const tours = [
         text: "We had a blast exploring North and South Goa. Very well-organised package with comfortable transfers and a great guide. Highly recommend!",
         author: "Sneha Joshi",
         date: "Travelled November 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3823,7 +3823,7 @@ export const tours = [
       { title: "Candlelit dinner & Mandovi River evening cruise" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-honeymoon-special-tour.webp",
@@ -3833,10 +3833,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Our honeymoon in Goa was absolutely magical! The beachside hotel, the candlelit dinner, and the Mandovi cruise — Namaste India Trip made everything special for us.",
+        text: "Our honeymoon in Goa was absolutely magical! The beachside hotel, the candlelit dinner, and the Mandovi cruise — Indruka Trips and Trip made everything special for us.",
         author: "Rahul & Divya Sharma",
         date: "Travelled January 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -3844,7 +3844,7 @@ export const tours = [
         text: "The room was beautifully decorated for our honeymoon arrival. Goa's beaches are just stunning and the South Goa churches add a lovely heritage touch. Perfect trip!",
         author: "Aryan & Simran Malhotra",
         date: "Travelled December 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -3967,7 +3967,7 @@ export const tours = [
       { title: "Dudhsagar Waterfall jeep safari excursion" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-adventure-tour-package.webp",
@@ -3977,10 +3977,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The water sports day at Baga was incredible — parasailing, banana boat, and jet ski all in one morning! Namaste India Trip planned the adventure perfectly.",
+        text: "The water sports day at Baga was incredible — parasailing, banana boat, and jet ski all in one morning! Indruka Trips and Trip planned the adventure perfectly.",
         author: "Karan Mehta",
         date: "Travelled October 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -3988,7 +3988,7 @@ export const tours = [
         text: "The Dudhsagar waterfall jeep safari was a highlight — stunning! The scuba diving experience at Grand Island was also world-class. Great adventure package!",
         author: "Prateek Singh",
         date: "Travelled November 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -4111,7 +4111,7 @@ export const tours = [
       { title: "Mandovi River Cruise with live Goan folk music" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/most-wanted-goa-package.webp",
@@ -4124,15 +4124,15 @@ export const tours = [
         text: "Premium experience at a great price. The resort was stunning, the food was delicious, and the Mandovi River cruise was the cherry on top. Truly the 'most wanted' Goa experience!",
         author: "Vivek Reddy",
         date: "Travelled January 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Worth every rupee! Namaste India Trip made sure we had the best of Goa — beaches, heritage, nightlife, and great food. Absolutely loved it.",
+        text: "Worth every rupee! Indruka Trips and Trip made sure we had the best of Goa — beaches, heritage, nightlife, and great food. Absolutely loved it.",
         author: "Ritika Bose",
         date: "Travelled December 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -4256,7 +4256,7 @@ export const tours = [
       { title: "Mandovi River Cruise & Goan spice plantation visit" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-tour-package-with-flight.webp",
@@ -4266,10 +4266,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The all-inclusive flight package was such great value. No stress about booking flights separately. Namaste India Trip handled everything from Delhi to Goa and back perfectly.",
+        text: "The all-inclusive flight package was such great value. No stress about booking flights separately. Indruka Trips and Trip handled everything from Delhi to Goa and back perfectly.",
         author: "Suresh Pillai",
         date: "Travelled February 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -4277,7 +4277,7 @@ export const tours = [
         text: "Seamless experience — flight, hotel, transfers, and sightseeing all in one package. Goa's beaches were stunning and the guide was very knowledgeable.",
         author: "Ananya Desai",
         date: "Travelled January 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -4400,7 +4400,7 @@ export const tours = [
       { title: "Mandovi River Cruise & Goan spice plantation visit" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/amazing-goa-fiesta-tour.webp",
@@ -4410,10 +4410,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "5 days packed with beaches, adventure, heritage, and nightlife — the Goa Fiesta package truly has it all! Namaste India Trip organised everything flawlessly.",
+        text: "5 days packed with beaches, adventure, heritage, and nightlife — the Goa Fiesta package truly has it all! Indruka Trips and Trip organised everything flawlessly.",
         author: "Rohan Tiwari",
         date: "Travelled December 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -4421,7 +4421,7 @@ export const tours = [
         text: "The spice plantation visit was a wonderful surprise — so much to learn and taste! Combined with the beach days and the Mandovi cruise, this was a perfect 5-day Goa holiday.",
         author: "Priya Iyer",
         date: "Travelled November 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -4548,7 +4548,7 @@ export const tours = [
       { title: "Kullu River Rafting & Valley Views" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
@@ -4558,10 +4558,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The Rohtang Pass experience was breathtaking! Namaste India Trip handled all permits and arrangements flawlessly. Highly recommended for first-time Himachal visitors.",
+        text: "The Rohtang Pass experience was breathtaking! Indruka Trips and Trip handled all permits and arrangements flawlessly. Highly recommended for first-time Himachal visitors.",
         author: "Sunita Joshi",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -4569,7 +4569,7 @@ export const tours = [
         text: "A wonderful 5-day trip covering the best of Himachal. The Solang Valley paragliding was a highlight. Very professional team and comfortable hotels.",
         author: "Rajan Kapoor",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -4713,7 +4713,7 @@ export const tours = [
       { title: "Kufri Horse Riding in Apple Orchards" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
@@ -4726,15 +4726,15 @@ export const tours = [
         text: "Best value Shimla-Manali package we could find! The Kufri horse riding and apple orchard visit was a unique experience. Everything was well organized.",
         author: "Deepak Sharma",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Namaste India Trip made our Himachal dream come true. Hotels were comfortable, food was great, and the driver was very experienced on mountain roads.",
+        text: "Indruka Trips and Trip made our Himachal dream come true. Hotels were comfortable, food was great, and the driver was very experienced on mountain roads.",
         author: "Kavita Singh",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -8580,7 +8580,7 @@ export const tours = [
       { title: "Eco Cave Gardens & Tiffin Top Visit" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-tour-package-from-delhi-nits9.jpg",
@@ -8590,18 +8590,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "A perfect 3-day getaway from Delhi! Nainital's lake and misty mountains were breathtaking. Namaste India Trip's arrangements were seamless — hotel was great, transfers on time.",
+        text: "A perfect 3-day getaway from Delhi! Nainital's lake and misty mountains were breathtaking. Indruka Trips and Trip's arrangements were seamless — hotel was great, transfers on time.",
         author: "Ananya Kapoor",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "The cable car ride to Snow View Point was the highlight! Everything was well organized by Namaste India Trip. Ideal short trip for families.",
+        text: "The cable car ride to Snow View Point was the highlight! Everything was well organized by Indruka Trips and Trip. Ideal short trip for families.",
         author: "Rajat Sinha",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -8726,7 +8726,7 @@ export const tours = [
       { title: "Bara Bazaar Shopping for Local Woolens" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/nainital-weekend-tour.webp",
@@ -8736,10 +8736,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Best budget weekend trip from Delhi! The hotel had a lovely lake view and Namaste India Trip handled everything perfectly. Will definitely book again.",
+        text: "Best budget weekend trip from Delhi! The hotel had a lovely lake view and Indruka Trips and Trip handled everything perfectly. Will definitely book again.",
         author: "Priya Rawat",
         date: "Travelled September 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -8747,7 +8747,7 @@ export const tours = [
         text: "Quick escape from the city — Nainital in 3 days was just what we needed. Well priced, smooth transfers, and beautiful hotel. Recommended!",
         author: "Akash Verma",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -8872,7 +8872,7 @@ export const tours = [
       { title: "Corbett Museum & Garjia Devi Temple" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/corbett-nainital-weekend.webp",
@@ -8882,10 +8882,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Two incredible experiences in one trip — the misty lakes of Nainital and the thrilling Corbett jeep safari! Namaste India Trip planned it perfectly.",
+        text: "Two incredible experiences in one trip — the misty lakes of Nainital and the thrilling Corbett jeep safari! Indruka Trips and Trip planned it perfectly.",
         author: "Kunal Mehta",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -8893,7 +8893,7 @@ export const tours = [
         text: "We spotted a tiger on the Corbett safari — a life memory! The Nainital portion was equally beautiful. Great value 4-day package.",
         author: "Nisha Joshi",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9029,7 +9029,7 @@ export const tours = [
       { title: "Expert Naturalist-Led Bird Walks" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-bird-watching-tour.webp",
@@ -9039,10 +9039,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "A birder's paradise! We spotted over 120 species in 5 days across Corbett and Sat Tal. The expert guide from Namaste India Trip was phenomenal.",
+        text: "A birder's paradise! We spotted over 120 species in 5 days across Corbett and Sat Tal. The expert guide from Indruka Trips and Trip was phenomenal.",
         author: "Dr. Suresh Nair",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9050,7 +9050,7 @@ export const tours = [
         text: "Sat Tal in winter is magical — hundreds of migratory birds! The itinerary was perfectly crafted for serious birders. Highly recommended.",
         author: "Geeta Krishnan",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9194,7 +9194,7 @@ export const tours = [
       { title: "Chitai Golu Devta Temple & Binsar Views" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/hills-of-kumaon-tour.webp",
@@ -9204,10 +9204,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The most authentic Uttarakhand experience! Ranikhet and Almora are hidden gems — unspoilt, peaceful, and stunning. Namaste India Trip curated a brilliant 7-day route.",
+        text: "The most authentic Uttarakhand experience! Ranikhet and Almora are hidden gems — unspoilt, peaceful, and stunning. Indruka Trips and Trip curated a brilliant 7-day route.",
         author: "Vinod Chauhan",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9215,7 +9215,7 @@ export const tours = [
         text: "Almora's Kasar Devi temple and the Himalayan panorama from Bright End Corner were unforgettable. A truly off-the-beaten-path Kumaon tour.",
         author: "Ritu Pandey",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9370,7 +9370,7 @@ export const tours = [
       { title: "Bhimtal & Sat Tal Scenic Lake Drive" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/wonders-of-kumaon-tour.webp",
@@ -9380,10 +9380,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "8 days covering Corbett, Ranikhet and Nainital — a perfect blend of wildlife, mountains and lakes. Namaste India Trip's planning was excellent from start to finish.",
+        text: "8 days covering Corbett, Ranikhet and Nainital — a perfect blend of wildlife, mountains and lakes. Indruka Trips and Trip's planning was excellent from start to finish.",
         author: "Arun Sharma",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9391,7 +9391,7 @@ export const tours = [
         text: "The Corbett safari was thrilling and Ranikhet was so peaceful. Sat Tal on the way to Nainital was a beautiful surprise. A wonderful Kumaon adventure!",
         author: "Pallavi Gupta",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9555,7 +9555,7 @@ export const tours = [
       { title: "Mussoorie — Queen of Hill Stations & Kempty Falls" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-delights-tour.webp",
@@ -9565,10 +9565,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Covering Nainital, Ranikhet, Corbett and Mussoorie in one trip was fantastic. Each destination was so different. Namaste India Trip made the logistics seamless.",
+        text: "Covering Nainital, Ranikhet, Corbett and Mussoorie in one trip was fantastic. Each destination was so different. Indruka Trips and Trip made the logistics seamless.",
         author: "Sanjay Tripathi",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9576,7 +9576,7 @@ export const tours = [
         text: "Mussoorie's Kempty Falls and Corbett's safari were the highlights of our trip! Great 8-day Uttarakhand package at an excellent price.",
         author: "Meena Rawat",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9741,7 +9741,7 @@ export const tours = [
       { title: "Jim Corbett Jeep Safari — India's Oldest National Park" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/majestic-kumaon-tour.webp",
@@ -9751,10 +9751,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Kausani's sunrise was worth the entire trip! The Himalayan panorama from Kausani is something you never forget. Namaste India Trip added this gem to our itinerary.",
+        text: "Kausani's sunrise was worth the entire trip! The Himalayan panorama from Kausani is something you never forget. Indruka Trips and Trip added this gem to our itinerary.",
         author: "Deepika Joshi",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9762,7 +9762,7 @@ export const tours = [
         text: "Majestic indeed! Every single destination on this tour felt regal — especially Ranikhet with its alpine meadows and Corbett with its wild beauty.",
         author: "Harish Bisht",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -9931,7 +9931,7 @@ export const tours = [
       { title: "Happy Valley Tea Estate & Himalayan Zoo" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
@@ -9941,10 +9941,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The toy train ride and Tiger Hill sunrise were two bucket list experiences in one trip! Darjeeling is magical and Namaste India Trip made it very affordable.",
+        text: "The toy train ride and Tiger Hill sunrise were two bucket list experiences in one trip! Darjeeling is magical and Indruka Trips and Trip made it very affordable.",
         author: "Kaveri Sen",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -9952,7 +9952,7 @@ export const tours = [
         text: "Perfect 3-day getaway! The tea estate tour was fascinating and the Kanchenjunga views from Tiger Hill at sunrise were absolutely breathtaking.",
         author: "Arnab Ghosh",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10077,7 +10077,7 @@ export const tours = [
       { title: "Happy Valley Tea Estate & Himalayan Zoo" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Gangtok-Tour-Package.jpg",
@@ -10090,15 +10090,15 @@ export const tours = [
         text: "Nathula Pass was surreal — standing at the India-China border at 14,000 ft! Gangtok and Darjeeling both had their own unique charm. A brilliant 5-day tour.",
         author: "Rohit Banerjee",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Combining Gangtok and Darjeeling in one package was the best decision. Namaste India Trip managed the Nathula Pass permits efficiently — highly recommended!",
+        text: "Combining Gangtok and Darjeeling in one package was the best decision. Indruka Trips and Trip managed the Nathula Pass permits efficiently — highly recommended!",
         author: "Divya Krishnamurthy",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10240,7 +10240,7 @@ export const tours = [
       { title: "Tsomgo Lake Excursion — High-Altitude Glacial Lake" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/09/Darjeeling-Gangtok-Honeymoon-Tour-Package.jpg",
@@ -10250,18 +10250,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The most romantic honeymoon destination! Darjeeling's misty mornings and Gangtok's vibrant evenings were perfect contrasts. Every detail was taken care of by Namaste India Trip.",
+        text: "The most romantic honeymoon destination! Darjeeling's misty mornings and Gangtok's vibrant evenings were perfect contrasts. Every detail was taken care of by Indruka Trips and Trip.",
         author: "Aman & Shreya Kapoor",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Watching sunrise over Kanchenjunga together from Tiger Hill was the most beautiful moment of our honeymoon. Namaste India Trip made it a dream come true!",
+        text: "Watching sunrise over Kanchenjunga together from Tiger Hill was the most beautiful moment of our honeymoon. Indruka Trips and Trip made it a dream come true!",
         author: "Nitin & Pooja Sharma",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10414,7 +10414,7 @@ export const tours = [
       { title: "Three Distinct Himalayan Hill Towns in One Tour" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Kalimpong-Gangtok-Tour-Package.jpg",
@@ -10424,10 +10424,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Three beautiful hill towns in 6 days — Kalimpong was the most underrated! The flower nurseries and Deolo Hill views were incredible. Great itinerary by Namaste India Trip.",
+        text: "Three beautiful hill towns in 6 days — Kalimpong was the most underrated! The flower nurseries and Deolo Hill views were incredible. Great itinerary by Indruka Trips and Trip.",
         author: "Sudha Rao",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -10435,7 +10435,7 @@ export const tours = [
         text: "Each town had its own unique personality. Kalimpong was artsy, Gangtok buzzing, and Darjeeling serene. Wonderfully balanced 6-day trip.",
         author: "Vivek Das",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10586,7 +10586,7 @@ export const tours = [
       { title: "Tiger Hill Sunrise & Darjeeling Toy Train" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
@@ -10596,10 +10596,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Gurudongmar Lake at 17,800 ft was the most awe-inspiring moment of our lives! Namaste India Trip managed all the high-altitude permits and logistics seamlessly.",
+        text: "Gurudongmar Lake at 17,800 ft was the most awe-inspiring moment of our lives! Indruka Trips and Trip managed all the high-altitude permits and logistics seamlessly.",
         author: "Manish Agarwal",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -10607,7 +10607,7 @@ export const tours = [
         text: "Yumthang Valley in bloom was like a painting — thousands of rhododendrons everywhere! This North Sikkim extension made our Darjeeling tour truly epic.",
         author: "Shalini Bose",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10774,7 +10774,7 @@ export const tours = [
       { title: "9-Day Comprehensive Eastern Himalaya Coverage" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Eastern-Himalayas-Tour-Package.jpg",
@@ -10784,10 +10784,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The most comprehensive Eastern Himalaya tour available. 9 days covering Kalimpong, Gangtok and Darjeeling — each with its own unique beauty. Namaste India Trip was exceptional.",
+        text: "The most comprehensive Eastern Himalaya tour available. 9 days covering Kalimpong, Gangtok and Darjeeling — each with its own unique beauty. Indruka Trips and Trip was exceptional.",
         author: "Priya Chakraborty",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -10795,7 +10795,7 @@ export const tours = [
         text: "From Nathula Pass to Kanchenjunga sunrise — this tour had it all! Brilliant value for 9 days covering the best of East India's hill stations.",
         author: "Sunil Mukherjee",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -10969,7 +10969,7 @@ export const tours = [
       { title: "Kathakali Dance Performance, Cochin" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
@@ -10982,15 +10982,15 @@ export const tours = [
         text: "The Alleppey houseboat night was the most unique experience! Waking up in the Kerala backwaters was magical. Munnar's tea gardens and Thekkady's wildlife were equally stunning.",
         author: "Siddharth Nair",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Kerala in 6 days — absolutely incredible! The houseboat on the backwaters was the highlight but every day had something special. Brilliant package by Namaste India Trip.",
+        text: "Kerala in 6 days — absolutely incredible! The houseboat on the backwaters was the highlight but every day had something special. Brilliant package by Indruka Trips and Trip.",
         author: "Radha Menon",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11141,7 +11141,7 @@ export const tours = [
       { title: "Calicut Beach & Kozhikode Heritage Walk" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
@@ -11154,7 +11154,7 @@ export const tours = [
         text: "Wayanad was the highlight — the Edakkal Caves with ancient rock art were fascinating! Munnar's tea gardens were spectacular. A perfect Kerala hill stations tour.",
         author: "Aditya Kumar",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -11162,7 +11162,7 @@ export const tours = [
         text: "We loved exploring both Munnar and Wayanad in one trip. Two very different green landscapes. The Wayanad wildlife safari was thrilling. Excellent trip planning!",
         author: "Sangeetha Pillai",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11318,7 +11318,7 @@ export const tours = [
       { title: "Dolphin's Nose & Silver Cascade Falls, Kodaikanal" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
@@ -11331,15 +11331,15 @@ export const tours = [
         text: "The Nilgiri Mountain Railway toy train ride through mist-covered forests was pure magic! Kodaikanal's lake and Coaker's Walk were equally breathtaking. Wonderful tour!",
         author: "Arjun Venkataraman",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Ooty and Kodaikanal are like two pearls of Tamil Nadu. Both uniquely beautiful! Namaste India Trip's itinerary balanced them perfectly. Very smooth travel experience.",
+        text: "Ooty and Kodaikanal are like two pearls of Tamil Nadu. Both uniquely beautiful! Indruka Trips and Trip's itinerary balanced them perfectly. Very smooth travel experience.",
         author: "Leena Subramaniam",
         date: "Travelled April 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11487,7 +11487,7 @@ export const tours = [
       { title: "Madurai Meenakshi Amman Temple — Divine Darshan" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
@@ -11497,10 +11497,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "This tour was the perfect Tamil Nadu summary — ancient temples, colonial hill stations, and vibrant culture all in 8 days. Namaste India Trip was outstanding throughout.",
+        text: "This tour was the perfect Tamil Nadu summary — ancient temples, colonial hill stations, and vibrant culture all in 8 days. Indruka Trips and Trip was outstanding throughout.",
         author: "Balaji Rajan",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -11508,7 +11508,7 @@ export const tours = [
         text: "Mahabalipuram's shore temple at sunrise and Meenakshi temple's evening Aarthi were the most spiritual moments of our lives. Excellent 8-day coverage of Tamil Nadu!",
         author: "Chitra Anand",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11673,7 +11673,7 @@ export const tours = [
       { title: "Neil Island Beaches — Bharatpur & Laxmanpur" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-beach-tour.webp",
@@ -11686,15 +11686,15 @@ export const tours = [
         text: "Radhanagar Beach is everything they say and more — crystal clear turquoise water, white sand, and dramatic sunsets. The Cellular Jail sound and light show was emotionally powerful.",
         author: "Gaurav Mehta",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Snorkeling at Elephant Beach was the best underwater experience of our lives! The coral reefs were pristine. Namaste India Trip arranged everything flawlessly.",
+        text: "Snorkeling at Elephant Beach was the best underwater experience of our lives! The coral reefs were pristine. Indruka Trips and Trip arranged everything flawlessly.",
         author: "Smita Rao",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11830,7 +11830,7 @@ export const tours = [
       { title: "Corbyn's Cove Beach & Water Sports, Port Blair" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-a-short-visit.webp",
@@ -11843,15 +11843,15 @@ export const tours = [
         text: "Perfect short escape to Andaman! 4 days felt complete covering Port Blair and Havelock. The Ross Island ruins were fascinating and Radhanagar was paradise.",
         author: "Tanya Kapoor",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Best 4-day holiday we've had in years! The Andaman water is like nothing we've seen before. Namaste India Trip's ferry and hotel arrangements were seamless.",
+        text: "Best 4-day holiday we've had in years! The Andaman water is like nothing we've seen before. Indruka Trips and Trip's ferry and hotel arrangements were seamless.",
         author: "Ravi Sharma",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -11983,7 +11983,7 @@ export const tours = [
       { title: "Expert PADI-Certified Dive Instructors" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scuba-diving-andaman.webp",
@@ -11996,7 +11996,7 @@ export const tours = [
         text: "My first scuba dive at Havelock and I was completely hooked! The coral gardens and tropical fish were unbelievable. Our dive instructor was patient and professional.",
         author: "Vikram Malhotra",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -12004,7 +12004,7 @@ export const tours = [
         text: "Long Island's Merk Bay is untouched and incredible — felt like we had the island to ourselves! The scuba diving at Havelock completed a perfect adventure trip.",
         author: "Nadia Sharma",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -12140,7 +12140,7 @@ export const tours = [
       { title: "Ross Island Sunset Cruise & Neil Island Escape" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/romantic-andman.webp",
@@ -12150,10 +12150,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Our Andaman honeymoon was absolutely dreamy! Private beach dinners, turquoise water, and stunning sunsets — Namaste India Trip planned every romantic detail to perfection.",
+        text: "Our Andaman honeymoon was absolutely dreamy! Private beach dinners, turquoise water, and stunning sunsets — Indruka Trips and Trip planned every romantic detail to perfection.",
         author: "Rohit & Priya Sharma",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -12161,7 +12161,7 @@ export const tours = [
         text: "Radhanagar Beach at sunset with my partner was the most beautiful moment of our lives! The Andaman waters are genuinely paradise. Best honeymoon destination in India.",
         author: "Anil & Sunita Verma",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -12320,7 +12320,7 @@ export const tours = [
       { title: "Semi-Submarine Ride at Port Blair" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/port-blair-package.webp",
@@ -12333,15 +12333,15 @@ export const tours = [
         text: "The most comprehensive Andaman tour available! Jolly Buoy Island was like swimming in an aquarium — the most vibrant coral reefs I've ever seen. 8 days was perfect.",
         author: "Ashish Tandon",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "We did everything — Cellular Jail, Ross Island, Havelock scuba, Jolly Buoy snorkeling, and the semi-submarine! Namaste India Trip managed the complex island-hopping logistics perfectly.",
+        text: "We did everything — Cellular Jail, Ross Island, Havelock scuba, Jolly Buoy snorkeling, and the semi-submarine! Indruka Trips and Trip managed the complex island-hopping logistics perfectly.",
         author: "Rekha Jain",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -12516,7 +12516,7 @@ export const tours = [
       { title: "French Quarter Walk & Promenade Beach Stroll in Pondicherry" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-10.jpg",
@@ -12526,10 +12526,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "An extraordinary temple circuit! The Meenakshi Amman night ceremony in Madurai was deeply moving. Namaste India Trip arranged VIP darshan at every temple — no queues, all devotion.",
+        text: "An extraordinary temple circuit! The Meenakshi Amman night ceremony in Madurai was deeply moving. Indruka Trips and Trip arranged VIP darshan at every temple — no queues, all devotion.",
         author: "Suresh & Lakshmi Rajan",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -12537,7 +12537,7 @@ export const tours = [
         text: "From the French streets of Pondicherry to the sacred shores of Rameswaram, every day was a new discovery. The itinerary was perfectly paced for our family with senior citizens.",
         author: "Vijay & Meena Krishnaswamy",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -12709,7 +12709,7 @@ export const tours = [
       { title: "French Bakery Hopping — Baker Street, Zuka & Bouche Sucrée" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/chennai-pondicherry-tour.jpg",
@@ -12719,10 +12719,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "Pondicherry is magical — the French cafés, the peaceful ashram, and that golden promenade at sunrise. Perfect 4-day escape from the city. Namaste India Trip got every detail right.",
+        text: "Pondicherry is magical — the French cafés, the peaceful ashram, and that golden promenade at sunrise. Perfect 4-day escape from the city. Indruka Trips and Trip got every detail right.",
         author: "Arjun & Deepa Nair",
         date: "Travelled March 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -12730,7 +12730,7 @@ export const tours = [
         text: "Auroville was a revelation — unlike anywhere in India. The colonial streets of White Town felt like stepping into French history. A truly unique short getaway!",
         author: "Ramesh & Pritha Bose",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -12864,7 +12864,7 @@ export const tours = [
       { title: "Ayurvedic Spa & Kathakali Dance Performance in Trivandrum" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
@@ -12877,7 +12877,7 @@ export const tours = [
         text: "Varkala's cliffs above the sea are unlike anything in India — dramatic, peaceful, breathtaking. The Poovar backwater cruise was the hidden gem of the trip. Loved every moment.",
         author: "Nikhil & Priya Menon",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -12885,7 +12885,7 @@ export const tours = [
         text: "Kovalam is paradise for beach lovers. The Lighthouse Beach sunset and fresh seafood made it unforgettable. NIT's planning was seamless from start to finish.",
         author: "Sanjay & Anitha Pillai",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13026,7 +13026,7 @@ export const tours = [
       { title: "Chinese Fishing Nets of Fort Kochi — Iconic Kerala Heritage" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
@@ -13039,15 +13039,15 @@ export const tours = [
         text: "The Alleppey houseboat was the highlight of our trip — sleeping on the backwaters with nothing but stars above you. Kerala is truly God's Own Country. NIT made it effortless.",
         author: "Ravi & Sunita Chandran",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "From the Chinese fishing nets of Kochi to the cliff-top sunsets of Varkala — 7 days, 5 destinations, and countless memories. Expertly planned by Namaste India Trip.",
+        text: "From the Chinese fishing nets of Kochi to the cliff-top sunsets of Varkala — 7 days, 5 destinations, and countless memories. Expertly planned by Indruka Trips and Trip.",
         author: "Anand & Kavitha Iyer",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13223,7 +13223,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Badri-kedar_t78tkd.jpg",
@@ -13236,7 +13236,7 @@ export const tours = [
         text: "The Kedarnath darshan in the early morning fog was one of the most spiritually profound moments of my life. NIT's team handled the entire trek logistics, aarti passes, and stay without a single hitch.",
         author: "Sudhir & Malati Joshi",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -13244,7 +13244,7 @@ export const tours = [
         text: "Attending Ganga Aarti at Har Ki Pauri and then doing Badri Vishal darshan at sunset — this Do Dham tour touched my soul. Well organized and very comfortable even for seniors.",
         author: "Krishnamurthy & Saroja Rao",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13424,7 +13424,7 @@ export const tours = [
       { title: "Samadhi of Adi Shankaracharya at Kedarnath & Kempty Falls" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Chardham-Yatra-Package-from-Delhi.jpg",
@@ -13434,10 +13434,10 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The best decision to choose Namaste India Trip for our Chardham Yatra. Affordable package with excellent accommodations and transport. Spiritually fulfilling and an experience to return to.",
+        text: "The best decision to choose Indruka Trips and Trip for our Chardham Yatra. Affordable package with excellent accommodations and transport. Spiritually fulfilling and an experience to return to.",
         author: "Mr Ramesh Rao and group",
         date: "Travelled March 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -13445,7 +13445,7 @@ export const tours = [
         text: "Chardham Yatra with NIT was truly excellent! Hotels were comfortable, food was great. Travelling with like-minded pilgrims made it all the more fulfilling. Guides were knowledgeable and ensured a smooth journey.",
         author: "Mr. Padmanaban and family",
         date: "Travelled March 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13651,7 +13651,7 @@ export const tours = [
       { title: "Raghunath Temple & Bahu Fort Sightseeing in Jammu" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/06/vaishno-devi.jpg",
@@ -13664,7 +13664,7 @@ export const tours = [
         text: "Mata's darshan in the holy cave was a life-changing experience. The 14 km trek felt effortless because of the spiritual energy around. NIT arranged our yatra pass, pony service, and hotel all seamlessly.",
         author: "Rakesh & Sunita Sharma",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -13672,7 +13672,7 @@ export const tours = [
         text: "We are senior citizens and NIT customized the trek support with pony and battery vehicle rides. The cave darshan at night was absolutely divine. Highly recommended for all devotees.",
         author: "Rajendra & Kamla Gupta",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13817,7 +13817,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
@@ -13830,7 +13830,7 @@ export const tours = [
         text: "The pre-dawn Amrit Vela at the Golden Temple was transcendently peaceful — the reflection in the Sarovar, the kirtan echoing across the water. Jallianwala Bagh moved us to tears. An unforgettable 4 days.",
         author: "Vikram & Harpreet Singh",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -13838,7 +13838,7 @@ export const tours = [
         text: "The Wagah Border ceremony is something every Indian must witness. The patriotic fervour, the march, the crowd — incredible! NIT arranged front-row seats and brilliant logistics.",
         author: "Srinath & Meenakshi Iyer",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -13986,7 +13986,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-6.jpg",
@@ -13999,7 +13999,7 @@ export const tours = [
         text: "The Jagannath Temple darshan was a deeply moving spiritual experience. Konark's Sun Temple left us speechless — the architecture is beyond imagination. Chilika Lake with dolphins was the perfect bonus. NIT made every detail seamless.",
         author: "Sourabh Chouhan & Family",
         date: "Travelled January 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -14007,7 +14007,7 @@ export const tours = [
         text: "Orissa is truly the soul of India — its temples, beaches, and the Chilika Lake experience were all exceptional. The itinerary was perfectly paced for our senior parents. Hotels and transport were very comfortable.",
         author: "Krishnan & Saroja Pillai",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -14161,7 +14161,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/yoga-rishikesh.jpg",
@@ -14174,7 +14174,7 @@ export const tours = [
         text: "The morning yoga sessions overlooking the Ganga were transformative. The Ganga Aarti at Haridwar and the Vashishtha Cave meditation — this trip genuinely reset my mind and soul. NIT's planning was flawless.",
         author: "Vanita Jashnani",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -14182,7 +14182,7 @@ export const tours = [
         text: "River rafting by day, Ayurvedic spa by evening, and yoga at dawn — Rishikesh is the perfect wellness destination. The Himalayan air and the Ganga's energy are incomparable. Thank you NIT for an exceptional experience.",
         author: "Rao Yagneswar & Family",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -14346,7 +14346,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
@@ -14359,7 +14359,7 @@ export const tours = [
         text: "Udaipur at sunset from a boat on Lake Pichola — one of the most beautiful sights I have ever seen. The palace hotel stay was extraordinary. NIT's Royal Rajasthan tour is truly worthy of its name.",
         author: "Manisha Dalvi & Family",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -14367,7 +14367,7 @@ export const tours = [
         text: "From the pink city of Jaipur to the blue city of Jodhpur and the lake city of Udaipur — this tour is Rajasthan at its absolute finest. The elephant ride at Amber Fort and the camel safari were unforgettable.",
         author: "Kanchan Jorwal",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -14555,7 +14555,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
@@ -14568,7 +14568,7 @@ export const tours = [
         text: "Our Rajasthan honeymoon was a dream come true — the Lake Palace boat ride at sunset, the rooftop dinners in Udaipur, and the romantic Amber Fort elephant ride. NIT planned every romantic detail to perfection.",
         author: "Arjun & Priya Mehta",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -14576,7 +14576,7 @@ export const tours = [
         text: "Pushkar's sacred lake at dusk, Jaipur's pink palaces, and Udaipur's shimmering Lake Pichola — Rajasthan is the most romantic destination in India. Our NIT honeymoon package exceeded every expectation.",
         author: "Rahul & Deepika Singhania",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -14732,7 +14732,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/11/4days-golden-triangle-tour.webp",
@@ -14742,18 +14742,18 @@ export const tours = [
     testimonials: [
       {
         id: 1,
-        text: "The car was great, our driver Manish was excellent and very patient. The Taj Mahal and the Amber Fort were highlights. When we return to India we would definitely use Namaste India Trip again.",
+        text: "The car was great, our driver Manish was excellent and very patient. The Taj Mahal and the Amber Fort were highlights. When we return to India we would definitely use Indruka Trips and Trip again.",
         author: "Alex de Aboitiz",
         date: "Travelled March 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "Excellent management — all hotels were good, food was fresh and tasty, driver was calm. No hurry during sightseeing. Thank you Namaste India Team for making our journey a memorable one.",
+        text: "Excellent management — all hotels were good, food was fresh and tasty, driver was calm. No hurry during sightseeing. Thank you Indruka Trips and Team for making our journey a memorable one.",
         author: "Manisha Dalvi",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -14925,7 +14925,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
@@ -14938,7 +14938,7 @@ export const tours = [
         text: "The full Rajasthan circuit is a journey through time — from the golden sands of Jaisalmer to the blue city of Jodhpur and the lake city of Udaipur. Every heritage hotel was exceptional. NIT's planning was meticulous.",
         author: "George Christopher",
         date: "Travelled March 2026",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -14946,7 +14946,7 @@ export const tours = [
         text: "Sleeping under the stars at Sam Sand Dunes after a camel safari was pure magic. The Dilwara Jain temples at Mount Abu are the most intricate marble carvings I have ever seen. An extraordinary 10 days.",
         author: "Rallabandi Srinivasa",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -15151,7 +15151,7 @@ export const tours = [
       { title: "Royal Lunch in Udaipur & Gala Dinner in Jodhpur" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/11/train-tour.jpg",
@@ -15164,7 +15164,7 @@ export const tours = [
         text: "The Indian Splendour luxury train is the most extraordinary way to experience Rajasthan. Waking up to a new royal destination each morning, dining in style, and watching the tiger in Ranthambore — absolutely peerless.",
         author: "Prashant Singh",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -15172,7 +15172,7 @@ export const tours = [
         text: "Every meal, every excursion, every sunrise from the train window was a luxury experience. The gala dinner in Jodhpur and the royal lunch in Udaipur were highlights we will never forget. Worth every rupee.",
         author: "Yatthra Karunaratne",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -15372,7 +15372,7 @@ export const tours = [
       { title: "Varkala Cliff Sunset & Kovalam Lighthouse Beach" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
@@ -15385,7 +15385,7 @@ export const tours = [
         text: "Munnar's misty tea gardens in the morning and floating through the Alleppey backwaters at night — Kerala is impossibly beautiful. The premium houseboat was spacious, the food was authentic Kerala cuisine. Loved every moment.",
         author: "Ravi & Sunita Chandran",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -15393,7 +15393,7 @@ export const tours = [
         text: "7 destinations in 7 days — each one completely different from the last. Periyar boat safari, Varkala cliffs, Kovalam beach — God's Own Country lives up to every word of its name. Brilliantly planned by NIT.",
         author: "Anand & Kavitha Iyer",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -15571,7 +15571,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
@@ -15584,7 +15584,7 @@ export const tours = [
         text: "Kerala is the most romantic destination in India — the misty Munnar hills, the magical Alleppey houseboat night, and the Kovalam sunset. Our NIT honeymoon package was perfectly curated down to the last candlelit dinner.",
         author: "Rohit & Priya Sharma",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -15592,7 +15592,7 @@ export const tours = [
         text: "Kumarakom was the hidden gem of the trip — waking up to birds calling on Vembanad Lake, drifting through the backwaters in our private houseboat. NIT took care of every romantic detail flawlessly.",
         author: "Anil & Sunita Verma",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -15776,7 +15776,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
@@ -15789,7 +15789,7 @@ export const tours = [
         text: "Pangong Tso at sunrise — the water changing from turquoise to sapphire to silver — is one of the most otherworldly sights on earth. NIT's Ladakh tour was meticulously planned with excellent acclimatization built in.",
         author: "Rallabandi Srinivasa",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -15797,7 +15797,7 @@ export const tours = [
         text: "Crossing Khardung La on the way to Nubra Valley and watching Bactrian camels against the Karakoram backdrop — Ladakh is unlike anywhere on earth. Every detail was handled perfectly by NIT's team.",
         author: "Krishan Bhardwaj",
         date: "Travelled September 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -15996,7 +15996,7 @@ export const tours = [
       { title: "Pangong Tso Overnight Camp — Stargazing at 4,350 m Altitude" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
@@ -16009,7 +16009,7 @@ export const tours = [
         text: "Riding through Rohtang Pass, Baralacha La, and Khardung La on a Royal Enfield — this is the adventure of a lifetime. NIT provided top-maintained bikes, a support vehicle, and brilliant route guidance throughout.",
         author: "Vikram & Sanjay Khanna",
         date: "Travelled July 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -16017,7 +16017,7 @@ export const tours = [
         text: "The Manali-Leh highway is the most spectacular road I have ever ridden. Camping at Pangong Tso under the Milky Way was indescribable. This bike tour is for anyone who wants to live fully.",
         author: "Anirudh & Prateek Sharma",
         date: "Travelled August 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -16233,7 +16233,7 @@ export const tours = [
       { title: "Shanti Stupa Sunset & Leh Palace — Romantic Ladakhi Evening" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
@@ -16246,7 +16246,7 @@ export const tours = [
         text: "Watching the sunrise together over Pangong Tso — the lake turning from deep blue to blazing gold in minutes — was the most romantic moment of our lives. Ladakh is an extraordinary honeymoon destination. NIT made it flawless.",
         author: "Rohit & Priya Kapoor",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -16254,7 +16254,7 @@ export const tours = [
         text: "We had never imagined honeymooning in Ladakh but it surpassed every beach destination we have ever visited. The Nubra Valley camel ride and the Pangong lake camp were moments we will cherish forever. Thank you NIT.",
         author: "Aakash & Sneha Bhatia",
         date: "Travelled July 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -16447,7 +16447,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
@@ -16460,7 +16460,7 @@ export const tours = [
         text: "14 days, two worlds — lush Kashmir and barren Ladakh. From Dal Lake's floating gardens to Pangong's blue silence, this grand tour is the ultimate Indian road journey. NIT handled every pass and valley flawlessly.",
         author: "Vikram & Ananya Sharma",
         date: "Travelled July 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -16468,7 +16468,7 @@ export const tours = [
         text: "Kargil and Lamayuru were unexpected highlights nobody talks about. The Leh–Manali highway finale through Rohtang was surreal. One trip, every landscape India has to offer. Thank you NIT.",
         author: "Rajesh & Pooja Mehta",
         date: "Travelled August 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -16715,7 +16715,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
@@ -16728,7 +16728,7 @@ export const tours = [
         text: "The Jaisalmer desert camp under a canopy of stars was unlike anything we have ever experienced. Rajasthan is pure magic — every fort, every palace, every sunset. NIT made sure we didn't miss a single moment.",
         author: "Arjun & Meera Singhania",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -16736,7 +16736,7 @@ export const tours = [
         text: "From the Pink City to the Blue City to the City of Lakes — 9 days was just enough to fall completely in love with Rajasthan. Amber Fort at sunrise was breathtaking. Highly recommend this itinerary.",
         author: "Sameer & Divya Lakhani",
         date: "Travelled October 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -16928,7 +16928,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
@@ -16941,15 +16941,15 @@ export const tours = [
         text: "Rajasthan is the most romantic destination in India and nobody talks about it enough. The candlelight dinner at Sam Sand Dunes and the Lake Palace boat ride in Udaipur were pure magic. NIT took care of every detail.",
         author: "Karan & Nisha Malhotra",
         date: "Travelled December 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
         id: 2,
-        text: "We chose Rajasthan over Goa for our honeymoon and it was the best decision we ever made. The colours, the forts, the desert — it is like honeymooning inside a fairytale. Thank you Namaste India Trip.",
+        text: "We chose Rajasthan over Goa for our honeymoon and it was the best decision we ever made. The colours, the forts, the desert — it is like honeymooning inside a fairytale. Thank you Indruka Trips and Trip.",
         author: "Dev & Preethi Iyer",
         date: "Travelled November 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -17127,7 +17127,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
@@ -17140,7 +17140,7 @@ export const tours = [
         text: "6 days felt like a complete Rajasthan experience — the heritage of Jaipur, the quirky charm of Bikaner, and the sheer silence of the Jaisalmer desert. The Sam Sand Dunes camp night was unforgettable. Brilliant value from NIT.",
         author: "Rohit Sharma & Friends",
         date: "Travelled January 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -17148,7 +17148,7 @@ export const tours = [
         text: "The camel safari at sunset and the campfire dinner under a sky full of stars at Sam Dunes — I still think about it. Jaipur's Amber Fort is also something everyone should see. NIT delivered everything on time.",
         author: "Priya & Ankit Verma",
         date: "Travelled February 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -17322,7 +17322,7 @@ export const tours = [
       { title: "Sonamarg — The Meadow of Gold at the Gateway to Ladakh" },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
@@ -17335,7 +17335,7 @@ export const tours = [
         text: "Dal Lake from a houseboat at dawn, with mist over the mountains and a Shikara bringing fresh lotus flowers — Kashmir is truly heaven on earth. NIT made every day smooth and memorable.",
         author: "Suresh & Kavita Nair",
         date: "Travelled June 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -17343,7 +17343,7 @@ export const tours = [
         text: "The Gulmarg Gondola was worth the entire trip alone. Snow in June! Pahalgam's Betaab Valley is stunning. This is the Kashmir tour everyone should do at least once. Excellent arrangements by NIT.",
         author: "Amit & Shruti Joshi",
         date: "Travelled July 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -17532,7 +17532,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
@@ -17545,7 +17545,7 @@ export const tours = [
         text: "Waking up on the houseboat with mountains reflected on Dal Lake, breakfast served by a floating Shikara, the smell of saffron in the air — Kashmir is the world's most romantic destination, period. NIT was perfect.",
         author: "Rohan & Simran Khanna",
         date: "Travelled May 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -17553,7 +17553,7 @@ export const tours = [
         text: "We honeymooned in Kashmir after everyone said go to Maldives. Best decision ever. The private Shikara ride at sunset and the snow at Gulmarg in June were moments from a dream. Thank you NIT.",
         author: "Nikhil & Aarti Desai",
         date: "Travelled June 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
@@ -17743,7 +17743,7 @@ export const tours = [
       },
     ],
 
-    tourManagerCompany: "Namaste India Trip",
+    tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
@@ -17756,7 +17756,7 @@ export const tours = [
         text: "14 days, two worlds — lush Kashmir and barren Ladakh. From Dal Lake's floating gardens to Pangong's blue silence, this grand tour is the ultimate Indian road journey. NIT handled every pass and valley flawlessly.",
         author: "Vikram & Ananya Sharma",
         date: "Travelled July 2025",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
       {
@@ -17764,7 +17764,7 @@ export const tours = [
         text: "Kargil and Lamayuru were unexpected highlights nobody talks about. The Leh–Manali highway finale through Rohtang was surreal. One trip, every landscape India has to offer. Thank you NIT.",
         author: "Rajesh & Pooja Mehta",
         date: "Travelled August 2024",
-        manager: "Namaste India Trip Team",
+        manager: "Indruka Trips and Trip Team",
         managerRole: "Tour Manager",
       },
     ],
