@@ -13,7 +13,6 @@ import { Button } from "@/components/ui/button";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import { PremiumCollectionData } from "../interface";
-import { toWords } from "number-to-words";
 
 interface Props {
   open: boolean;

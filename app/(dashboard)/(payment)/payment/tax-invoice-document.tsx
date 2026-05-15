@@ -4,7 +4,6 @@ import React from "react";
 import { Dialog, DialogContent, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
 import { PDFDownloadLink, Document, Page, View, Text, StyleSheet, Image } from "@react-pdf/renderer";
-import { toWords } from "number-to-words";
 import { InvoiceData } from "../interface";
 
 interface Props {
@@ -102,7 +101,7 @@ const InvoicePDF: React.FC<{ data: InvoiceData[] }> = ({ data }) => (
             <Text>Subtotal: Nu. {totalPremium.toFixed(2)}</Text>
             <Text>GST (5%): Nu. {gstAmount.toFixed(2)}</Text>
             <Text style={{ fontWeight: "bold", marginTop: 2 }}>Grand Total: Nu. {grandTotal.toFixed(2)}</Text>
-            <Text>Amount in Words: {toWords(grandTotal)} Ngultrum</Text>
+            {/* <Text>Amount in Words: {toWords(grandTotal)} Ngultrum</Text> */}
           </View>
 
           {/* Signature */}
@@ -184,7 +183,7 @@ const InvoiceUI: React.FC<{ data: InvoiceData[] }> = ({ data }) => {
         <div>Subtotal: Nu. {totalPremium.toFixed(2)}</div>
         <div>GST (5%): Nu. {gstAmount.toFixed(2)}</div>
         <div style={{ fontWeight: "bold", marginTop: 2 }}>Grand Total: Nu. {grandTotal.toFixed(2)}</div>
-        <div>Amount in Words: {toWords(grandTotal)} Ngultrum</div>
+        {/* <div>Amount in Words: {toWords(grandTotal)} Ngultrum</div> */}
       </div>
 
       <div style={{ textAlign: "right", marginTop: "1rem", fontSize: "0.85rem" }}>
