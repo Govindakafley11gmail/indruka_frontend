@@ -8,6 +8,7 @@ import type { errorResponse } from "@/app/error";
 import type { CreateResponseAttributes } from "@/app/view-details/booking-backend/interface";
 import type { EnquiryPayloadInterface } from "../interface";
 
+
 interface MutationOptions {
   onSuccess?: (data: CreateResponseAttributes) => void;
   onError?: (error: errorResponse) => void;
