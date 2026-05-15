@@ -1,179 +1,207 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
-import { cn } from "@/lib/utils";
-import {
-  LayoutDashboard,
-  Package,
-  BookOpen,
-  Calendar,
-  Users,
-  Compass,
-  Image,
-  MessageSquare,
-  Tag,
-  MessageCircle,
-  MapPin,
-  ChevronDown,
-} from "lucide-react";
+import Link from "next/link";
+import { useState, useEffect } from "react";
+import { ChevronDown, Menu } from "lucide-react";
+import clsx from "clsx";
+import { usePathname, useSearchParams } from "next/navigation";
+import { Lato } from "next/font/google";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { sidebarMenuMain, sidebarMenuParty } from "./SidebarItem";
 
-import { useState } from "react";
-import { useRouter, usePathname } from "next/navigation";
+const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
 
-type SubItem = {
-  label: string;
-  href: string;
-};
-
-type NavItem = {
-  icon: any;
-  label: string;
+interface SidebarItem {
+  title: string;
   href?: string;
-  badge?: number;
-  children?: SubItem[];
-};
+  icon: React.ElementType;
+  children?: SidebarItem[];
+}
 
-const navItems: NavItem[] = [
-  { icon: LayoutDashboard, label: "Dashboard", href: "/dashboard" },
-
-  {
-    icon: Package,
-    label: "Packages",
-    children: [
-      { label: "All Packages", href: "/packages" },
-      { label: "Add Package", href: "/packages/add" },
-    ],
-  },
-
-  {
-    icon: BookOpen,
-    label: "Bookings",
-    children: [
-      { label: "All Bookings", href: "/bookings" },
-      { label: "Pending", href: "/bookings/pending" },
-      { label: "Completed", href: "/bookings/completed" },
-    ],
-  },
-
-  { icon: Calendar, label: "Calendar", href: "/calendar" },
-  { icon: Users, label: "Travelers", href: "/travelers" },
-  { icon: Compass, label: "Guides", href: "/guides" },
-  { icon: Image, label: "Gallery", href: "/gallery" },
-
-  {
-    icon: MessageSquare,
-    label: "Messages",
-    href: "/messages",
-    badge: 7,
-  },
-
-  { icon: Tag, label: "Deals", href: "/deals" },
-  { icon: MessageCircle, label: "Feedback", href: "/feedback" },
-];
+interface SidebarMenu {
+  section: string;
+  items: SidebarItem[];
+}
 
 export function Sidebar() {
-  const router = useRouter();
   const pathname = usePathname();
+  const searchParams = useSearchParams();
 
-  const [openMenu, setOpenMenu] = useState<string | null>(null);
+  const [mounted, setMounted] = useState(false);
+  const [collapsed, setCollapsed] = useState(false);
+  const [openMenus, setOpenMenus] = useState<string[]>([]);
+  const [sidebarMenu, setSidebarMenu] =
+    useState<SidebarMenu[]>(sidebarMenuMain);
+  const [isPartySidebar, setIsPartySidebar] = useState(false);
+
+  // ✅ Get partyId once
+  const partyId = searchParams.get("partyId");
+
+  // ✅ Hook MUST be at top level
+  // const { data: partyDetailsData, isLoading } = usePartyDetailsByID(
+  //   partyId!,
+  //   {
+  //     enabled: !!partyId,
+  //   },
+  // );
+
+
+
+
+  const partyRoutes = sidebarMenuParty
+    .flatMap((s) => s.items)
+    .map((i) => i.href)
+    .filter(Boolean) as string[];
+
+  useEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setMounted(true);
+  }, []);
+
+  useEffect(() => {
+    if (!mounted) return;
+
+    const isParty = partyRoutes.some((route) =>
+      pathname.startsWith(route),
+    );
+
+    // eslint-disable-next-line react-hooks/set-state-in-effect
+    setIsPartySidebar(isParty);
+    setSidebarMenu(isParty ? sidebarMenuParty : sidebarMenuMain);
+  }, [pathname, mounted]);
+
+  const toggleMenu = (title: string) => {
+    setOpenMenus((prev) =>
+      prev.includes(title) ? prev.filter((t) => t !== title) : [title],
+    );
+  };
+
+  // ✅ PURE function (NO hooks inside)
+  const renderMenu = (items: SidebarItem[], level = 0) =>
+    items.map(({ title, href, icon: Icon, children }) => {
+      const hasChildren = !!children?.length;
+      const isOpen = openMenus.includes(title);
+      const isActive =
+        href === pathname || children?.some((c) => c.href === pathname);
+
+      let hrefWithPartyId = href;
+
+      if (isPartySidebar && href && partyId) {
+        const url = new URL(href, "http://dummy");
+        url.searchParams.set("partyId", partyId);
+        hrefWithPartyId = url.pathname + url.search;
+      }
+
+      return (
+        <div key={title} className="relative group">
+          {/* Parent */}
+          {hasChildren ? (
+            <button
+              onClick={() => !collapsed && toggleMenu(title)}
+              className={clsx(
+                "w-full flex items-center rounded-lg px-3 py-2 text-sm font-bold transition",
+                collapsed ? "justify-center" : "justify-between",
+                isActive
+                  ? "bg-blue-50 text-blue-700 dark:bg-blue-900 dark:text-blue-300"
+                  : "text-gray-700 dark:text-gray-300",
+                "hover:bg-gray-100 dark:hover:bg-gray-800",
+              )}
+            >
+              <span
+                className={clsx("flex items-center", collapsed ? "" : "gap-3")}
+              >
+                <Icon size={18} />
+                {!collapsed && title}
+              </span>
+
+              {!collapsed && (
+                <ChevronDown
+                  size={16}
+                  className={clsx(
+                    "transition-transform",
+                    isOpen && "rotate-180",
+                  )}
+                />
+              )}
+            </button>
+          ) : (
+            <Link
+              href={hrefWithPartyId!}
+              className={clsx(
+                "flex items-center rounded-lg px-3 py-2 text-sm font-bold transition",
+                collapsed ? "justify-center" : "gap-3",
+                isActive
+                  ? "bg-blue-50 text-blue-700 dark:bg-blue-900 dark:text-blue-300"
+                  : "text-gray-700 dark:text-gray-300",
+                "hover:bg-gray-100 dark:hover:bg-gray-800",
+              )}
+            >
+              <Icon size={18} />
+              {!collapsed && title}
+            </Link>
+          )}
+
+          {/* Children */}
+          {hasChildren && (
+            <div
+              className={clsx(
+                collapsed
+                  ? "absolute left-full top-0 ml-2 hidden group-hover:block bg-white dark:bg-gray-900 shadow-lg rounded-lg p-2 w-48 z-50"
+                  : "ml-6 mt-1 overflow-hidden transition-all duration-300",
+                !collapsed &&
+                (isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"),
+              )}
+            >
+              {renderMenu(children!, level + 1)}
+            </div>
+          )}
+        </div>
+      );
+    });
+
+  if (!mounted) return null;
 
   return (
-    <aside className="w-60 min-h-screen bg-white border-r border-gray-100 flex flex-col py-6 px-3 shrink-0">
-      {/* Logo */}
-      <div className="flex items-center gap-2 px-3 mb-8">
-        <div className="w-9 h-9 bg-blue-500 rounded-lg flex items-center justify-center">
-          <MapPin className="w-5 h-5 text-white fill-white" />
-        </div>
-        <span className="text-xl font-bold text-gray-900">Travellie</span>
+    <aside
+      className={clsx(
+        `${lato.className} min-h-screen bg-white dark:bg-gray-900 border-r border-gray-200 dark:border-gray-700 shadow-lg transition-all duration-300`,
+        collapsed ? "w-20" : "w-80",
+      )}
+    >
+      {/* Header */}
+      <div className="flex items-center justify-between px-4 py-4">
+        {!collapsed && (
+          <span className="text-2xl font-bold text-blue-800 dark:text-blue-400">
+Indruka tours & travels         </span>
+        )}
+        <button
+          onClick={() => setCollapsed(!collapsed)}
+          className="p-1 rounded hover:bg-gray-100 dark:hover:bg-gray-800"
+        >
+          <Menu size={20} />
+        </button>
       </div>
 
-      {/* Nav */}
-      <nav className="flex flex-col gap-1">
-        {navItems.map((item) => {
-          const Icon = item.icon;
+      {/* Party Info */}
+      {isPartySidebar  && (
+        <div className="px-4 pt-3 pb-2">
+          
+        </div>
+      )}
 
-          const isActive = pathname === item.href;
-
-          const isOpen =
-            openMenu === item.label ||
-            item.children?.some((sub) => sub.href === pathname);
-
-          return (
-            <div key={item.label}>
-              {/* Main Item */}
-              <button
-                onClick={() => {
-                  if (item.href) {
-                    router.push(item.href);
-                  }
-
-                  if (item.children) {
-                    setOpenMenu(isOpen ? null : item.label);
-                  }
-                }}
-                className={cn(
-                  "flex items-center gap-3 px-3 py-3 rounded-xl text-base font-semibold transition-all duration-200 w-full text-left",
-                  isActive
-                    ? "bg-blue-500 text-white shadow-sm shadow-blue-200"
-                    : "text-gray-500 hover:bg-gray-50 hover:text-gray-700"
-                )}
-              >
-                <Icon className="w-5 h-5 shrink-0" />
-
-                <span>{item.label}</span>
-
-                {/* Right side (badge + arrow) */}
-                <div className="ml-auto flex items-center gap-2">
-                  {item.badge && (
-                    <span
-                      className={cn(
-                        "text-xs font-semibold px-2 py-0.5 rounded-full",
-                        isActive
-                          ? "bg-white text-blue-500"
-                          : "bg-blue-500 text-white"
-                      )}
-                    >
-                      {item.badge}
-                    </span>
-                  )}
-
-                  {item.children && (
-                    <ChevronDown
-                      className={cn(
-                        "w-4 h-4 transition-transform duration-200",
-                        isOpen ? "rotate-180" : ""
-                      )}
-                    />
-                  )}
-                </div>
-              </button>
-
-              {/* Submenu */}
-              {item.children && isOpen && (
-                <div className="ml-10 mt-1 flex flex-col gap-1">
-                  {item.children.map((sub) => {
-                    const isSubActive = pathname === sub.href;
-
-                    return (
-                      <button
-                        key={sub.label}
-                        onClick={() => router.push(sub.href)}
-                        className={cn(
-                          "text-sm text-left py-1.5 px-2 rounded-md transition",
-                          isSubActive
-                            ? "text-blue-600 font-semibold bg-blue-50"
-                            : "text-gray-500 hover:text-blue-500"
-                        )}
-                      >
-                        {sub.label}
-                      </button>
-                    );
-                  })}
-                </div>
-              )}
-            </div>
-          );
-        })}
+      {/* Navigation */}
+      <nav className="px-4 py-6 space-y-6">
+        {sidebarMenu.map(({ section, items }) => (
+          <div key={section}>
+            {!collapsed && (
+              <p className="mb-3 text-xs uppercase text-gray-500 dark:text-gray-400">
+                {section}
+              </p>
+            )}
+            <div className="space-y-2">{renderMenu(items)}</div>
+          </div>
+        ))}
       </nav>
     </aside>
   );

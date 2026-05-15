@@ -6,12 +6,12 @@ import { useRouter } from "next/navigation";
 import { useGetPendingBookings } from "@/app/(dashboard)/party/tanstack-function";
 import { Skeleton } from "@/components/ui/skeleton";
 
-export function PendingBookingsWidget() {
+export function ConfirmedBookingsWidget() {
   const router = useRouter();
-  const { data, isLoading, isError } = useGetPendingBookings("PENDING");
+  const { data, isLoading, isError } = useGetPendingBookings("CONFIRMED");
 
-  const pendingBookings = data?.data ?? [];
-   console.log(data)
+  const confirmedBookings = data?.data ?? [];
+
   const handleBookingClick = (bookingId: string) => {
     router.push(`/booking?partyId=${bookingId}`);
   };
@@ -21,10 +21,10 @@ export function PendingBookingsWidget() {
       <CardHeader className="flex flex-row items-center justify-between pb-2 pt-4 px-5">
         <div className="flex items-center gap-2">
           <CardTitle className="text-sm font-semibold text-gray-800">
-            Pending Bookings
+            Confirmed Bookings
           </CardTitle>
-          <span className="w-5 h-5 bg-amber-400 text-white text-[10px] font-bold rounded-full flex items-center justify-center">
-            {pendingBookings.length}
+          <span className="w-5 h-5 bg-emerald-500 text-white text-[10px] font-bold rounded-full flex items-center justify-center">
+            {confirmedBookings.length}
           </span>
         </div>
         <button className="text-gray-400 hover:text-gray-600">
@@ -56,23 +56,23 @@ export function PendingBookingsWidget() {
           )}
 
           {/* Empty State */}
-          {!isLoading && !isError && pendingBookings.length === 0 && (
+          {!isLoading && !isError && confirmedBookings.length === 0 && (
             <p className="text-xs text-gray-400 text-center py-4">
-              No pending bookings found.
+              No confirmed bookings found.
             </p>
           )}
 
           {/* Data */}
           {!isLoading &&
             !isError &&
-            pendingBookings.map((booking) => (
+            confirmedBookings.map((booking) => (
               <button
                 key={booking.id}
                 onClick={() => handleBookingClick(booking.id)}
                 className="flex items-center gap-3 px-2 py-2.5 rounded-xl hover:bg-gray-50 transition-colors text-left w-full"
               >
                 <Avatar className="w-9 h-9 shrink-0">
-                  <AvatarFallback className="text-xs bg-blue-100 text-blue-600 font-semibold">
+                  <AvatarFallback className="text-xs bg-emerald-100 text-emerald-600 font-semibold">
                     {booking.trip_name?.slice(0, 2).toUpperCase()}
                   </AvatarFallback>
                 </Avatar>
@@ -89,8 +89,8 @@ export function PendingBookingsWidget() {
                   </p>
                 </div>
 
-                <span className="shrink-0 text-[10px] font-bold px-2.5 py-1 rounded-full bg-amber-50 text-amber-700 border border-amber-300">
-                  {booking.status}
+                <span className="shrink-0 text-[10px] font-bold px-2.5 py-1 rounded-full bg-emerald-50 text-emerald-700 border border-emerald-300">
+                  CONFIRMED
                 </span>
               </button>
             ))}
