@@ -1,5 +1,5 @@
 import { Header } from "@/app/components/travellie/Header";
-import { Sidebar } from "@/app/components/travellie/sidebar";
+import { Sidebar } from "@/app/components/travellie/Sidebar";
 
 
 export function DashboardShell({ children }: { children: React.ReactNode }) {
