@@ -25,8 +25,11 @@
     "lucide-react": "^1.8.0",
     "next": "16.2.4",
     "next-themes": "^0.4.6",
+<<<<<<< HEAD
     "nextjs-toast-notify": "^1.61.0",
     "number-to-words": "^1.2.4",
+=======
+>>>>>>> efbd99edae7045ad47024f00191236714a0a22f2
     "radix-ui": "^1.4.3",
     "react": "19.2.4",
     "react-day-picker": "^9.14.0",
