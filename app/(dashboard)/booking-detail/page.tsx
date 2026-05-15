@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { DataTable } from "@/app/components/table";
@@ -15,12 +15,11 @@ import {
 
 import { BookingParty, BookingSearchDto } from "../party/interface";
 import { useSearchPartyMutations } from "../party/tanstack-function";
-import { CustomDialog } from "@/app/components/custom-dialog-box";
 import { BookingDialogFields } from "./dataform";
 import BookingCustomDialog from "./booking-custom-dialog";
 import { VerticalModalForm } from "@/app/components/vertical-modal-form";
 
-export default function PartyInputPage() {
+function PartyInputContent() {
   const searchParams = useSearchParams();
   const urlBookingId = searchParams.get("partyId");
 
@@ -75,12 +74,6 @@ export default function PartyInputPage() {
     setSelectedRow(null);
   };
 
-  const handleDialogSubmit = (values: BookingParty) => {
-    console.log("Submitted values:", values);
-    // 👉 call your update mutation here
-    handleDialogClose();
-  };
-
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -126,12 +119,22 @@ export default function PartyInputPage() {
           )}
         </AnimatePresence>
       </div>
-      <VerticalModalForm onClose={()=>setIsDialogOpen(false)} isOpen={isDialogOpen}>
 
-        <BookingCustomDialog isOpen={isDialogOpen} onClose={() => setIsDialogOpen(false)} selectedRow={selectedRow} />
+      <VerticalModalForm onClose={() => setIsDialogOpen(false)} isOpen={isDialogOpen}>
+        <BookingCustomDialog
+          isOpen={isDialogOpen}
+          onClose={() => setIsDialogOpen(false)}
+          selectedRow={selectedRow}
+        />
       </VerticalModalForm>
-      {/* ✅ CustomDialog opens on row click */}
-
     </motion.div>
+  );
+}
+
+export default function PartyInputPage() {
+  return (
+    <Suspense fallback={<div className="p-6 text-center">Loading...</div>}>
+      <PartyInputContent />
+    </Suspense>
   );
 }

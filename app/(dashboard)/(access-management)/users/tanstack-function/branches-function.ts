@@ -1,9 +1,9 @@
-import { ACL_API_URL } from "@/app/connect-backend/api";
 import apiClient from "@/app/connect-backend/api-client";
 import { useQuery } from "@tanstack/react-query";
 import { BranchesGetResponse } from "../interface/branch-interface";
 import { DepartmentGetResponse } from "../interface/deparment-interface";
 import { errorResponse } from "@/app/connect-backend/error-interface";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 export const useGetBranches = () => {
   return useQuery<BranchesGetResponse, errorResponse>({

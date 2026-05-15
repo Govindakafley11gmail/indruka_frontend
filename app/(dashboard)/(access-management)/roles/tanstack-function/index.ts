@@ -1,7 +1,6 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import apiClient from "@/app/connect-backend/api-client";
-import { ACL_API_URL } from "@/app/connect-backend/api";
 import { CreateResponseAttributes } from "@/app/connect-backend/error-interface/successresponse";
 import { errorResponse } from "@/app/connect-backend/error-interface";
 import {
@@ -10,6 +9,7 @@ import {
   RolePermissionGetResponse,
   PermissionByRoleIdResponse,
 } from "../interface";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 // ─── Mutation Options ──────────────────────────────────────────────────────────
 export interface MutationOptions {

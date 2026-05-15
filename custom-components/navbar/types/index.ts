@@ -31,7 +31,7 @@ export interface FareType {
 
 export interface CorporateMenuItem {
   title: string;
-  subtitle: {
+  subtitle?: {
     title: string;
   }[];}
 

@@ -1,7 +1,7 @@
 "use client";
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Indiaitem, item } from "../body/data/bhutan/data";
+import { BhutanItem, Indiaitem } from "../body/data/bhutan/data";
 import Card from "../body/Bhutan/landing/card";
 import Image from "next/image";
 
@@ -132,7 +132,7 @@ export default function TourCategories() {
             </TabsList>
           </div>
           <TabsContent value="bhutan" className="mt-0 pt-0">
-            <Card title="India Tours" item={item} />
+            <Card title="India Tours" item={BhutanItem} />
           </TabsContent>
           <TabsContent value="india" className="mt-0 pt-0">
             <Card title="India Tours" item={Indiaitem} />

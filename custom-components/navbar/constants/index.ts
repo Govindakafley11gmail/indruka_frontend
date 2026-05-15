@@ -108,62 +108,35 @@ export const CORPORATE_MENU_ITEMS: CorporateMenuItem[] = [
 ];
 export const CORPORATE_MENU_Bhutan_ITEMS: CorporateMenuItem[] = [
   {
-    title: "First Time Traveller",
+    title: "Cultural",
     subtitle: [
-      { title: "Thimphu" },
       { title: "Paro" },
-      { title: "Punakha" },
-      { title: "Phobjikha Valley" },
-      { title: "Dochula Pass" },
+      { title: "Phuentsholing" },
     ],
   },
   {
-    title: "Nature Lover",
+    title: "Festivals",
     subtitle: [
-      { title: "Jigme Dorji National Park" },
-      { title: "Phobjikha Valley" },
-      { title: "Bumthang Valley" },
-      { title: "Haa Valley" },
-      { title: "Royal Manas National Park" },
+      { title: "Paro" },
     ],
   },
   {
-    title: "Culture Enthusiast",
+    title: "Trekking",
     subtitle: [
-      { title: "Punakha Dzong" },
-      { title: "Tashichho Dzong" },
-      { title: "Kyichu Lhakhang" },
-      { title: "Dochula 108 Chortens" },
-      { title: "Buddha Dordenma Statue" },
+      { title: "Paro" },
     ],
   },
   {
-    title: "Adventure Seeker",
+    title: "Luxury",
     subtitle: [
-      { title: "Druk Path Trek" },
-      { title: "Snowman Trek" },
-      { title: "Jomolhari Trek" },
-      { title: "Tiger’s Nest Hike" },
-      { title: "Bumthang Mountain Trails" },
+      { title: "Paro" },
     ],
   },
   {
-    title: "Leisure Traveller",
+    title: "Family",
     subtitle: [
-      { title: "Paro Valley Resorts" },
-      { title: "Thimphu Cafés & Streets" },
-      { title: "Hot Stone Bath Experience" },
-      { title: "Dochula Scenic Drive" },
-    ],
-  },
-  {
-    title: "Family Vacationer",
-    subtitle: [
-      { title: "Thimphu City Tour" },
-      { title: "Paro Sightseeing" },
-      { title: "Punakha Suspension Bridge" },
-      { title: "Weekend Markets" },
-      { title: "National Museum of Bhutan" },
+      { title: "Paro" },
+      { title: "Phuentsholing" },
     ],
   },
 ];

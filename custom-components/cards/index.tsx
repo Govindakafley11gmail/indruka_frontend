@@ -5,14 +5,7 @@ import { useState } from "react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import {
-  ChevronLeft,
-  ChevronRight,
-  Plane,
-  Building2,
-  Camera,
-  UtensilsCrossed,
-} from "lucide-react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
 
 type Inclusion = {
@@ -23,10 +16,12 @@ type Inclusion = {
 
 type TourCardProps = {
   title: string;
-  country:string
-  place:string
+  type?: string[];   // ← was string, now array
+
+  country: string;
+  place: string;
   itinerary: string;
-  price: number;
+  price: any;
   oldPrice?: number;
   discount?: string;
   tags: string[];
@@ -37,7 +32,6 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 export default function TourCard({
   place,
-  country,
   title,
   itinerary,
   price,
@@ -45,6 +39,9 @@ export default function TourCard({
   discount,
   tags,
   images,
+  type, // ← destructure
+
+  country,
   inclusions,
 }: TourCardProps) {
   const [currentImage, setCurrentImage] = useState(0);
@@ -52,9 +49,14 @@ export default function TourCard({
 
   const prevImage = () =>
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
-
+     console.log("type",type)
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
-
+const href =
+  country === "Bhutan"
+    ? (type ?? []).length > 0
+      ? `/tours?country=Bhutan&spec=${(type ?? []).map(encodeURIComponent).join(",")}`
+      : `/tours?country=Bhutan`
+    : `/tours?id=${place}`;   // India keeps existing behaviour
   return (
     <Card className=" overflow-hidden rounded-2xl shadow-xl border p-0">
       {/* Image */}
@@ -153,7 +155,7 @@ export default function TourCard({
             <p className="text-xs text-gray-400">Starting price per adult</p>
           </div>
 
-          <Link href={`/tours?id=${place}`}>
+          <Link href={href}>
             <Button className="rounded-full bg-blue-700 hover:bg-blue-800">
               View Details
             </Button>

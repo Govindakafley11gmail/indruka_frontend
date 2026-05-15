@@ -7,13 +7,14 @@ import DefaultTourCard from "@/custom-components/cards/defaultcard";
 export interface TourCardProps {
   title: string;
   itinerary: string;
-  price: number;
+  price: any;
   oldPrice?: number;
   discount?: string;
   tags: string[];
   country: string;
   place:string;
   images: string[];
+  type?: string[];   // ← was string, now array
   inclusions: { icon: any; label: string; optional?: boolean }[];
 }
 
@@ -21,6 +22,7 @@ export interface TourProperties {
   title: string;
   item: TourCardProps[];
   mainContainer?: string;
+
 }
 
 const TOTAL_SLOTS = 50; // 2 rows × 4 cols
@@ -47,7 +49,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
             const tourIndex = i < DEFAULT_CARD_INDEX ? i : i - 1;
 
             if (tourIndex < item.length) {
-              return <TourCard key={i} {...item[tourIndex]} />;
+              return <TourCard key={i} {...item[tourIndex]}  />;
             }
 
             return null;

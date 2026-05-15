@@ -1,41 +1,23 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { ChevronDown } from "lucide-react";
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
-import type {
-  ValueType,
-  NameType,
-} from "recharts/types/component/DefaultTooltipContent";
+import { useEffect, useState } from "react";
+
 const destinations = [
-  {
-    name: "Tokyo, Japan",
-    percentage: 35,
-    participants: "2,456",
-    color: "#3b82f6",
-  },
-  {
-    name: "Sydney, Australia",
-    percentage: 28,
-    participants: "2,456",
-    color: "#93c5fd",
-  },
-  {
-    name: "Paris, France",
-    percentage: 22,
-    participants: "2,456",
-    color: "#bfdbfe",
-  },
-  {
-    name: "Venice, Italy",
-    percentage: 15,
-    participants: "2,456",
-    color: "#dbeafe",
-  },
+  { name: "Tokyo, Japan",       percentage: 35, participants: "2,456", color: "#3b82f6" },
+  { name: "Sydney, Australia",  percentage: 28, participants: "2,456", color: "#93c5fd" },
+  { name: "Paris, France",      percentage: 22, participants: "2,456", color: "#bfdbfe" },
+  { name: "Venice, Italy",      percentage: 15, participants: "2,456", color: "#dbeafe" },
 ];
 
 export function TopDestinations() {
+  const [mounted, setMounted] = useState(false);
+  useEffect(() => setMounted(true), []);
+
   return (
     <Card className="border border-gray-100 shadow-none rounded-2xl">
       <CardHeader className="flex flex-row items-center justify-between pb-2 pt-4 px-5">
@@ -52,39 +34,40 @@ export function TopDestinations() {
       </CardHeader>
       <CardContent className="px-5 pb-4">
         <div className="flex items-center gap-4">
-          {/* Donut Chart */}
+          {/* Donut Chart — fixed pixel height, mount-guarded */}
           <div className="w-32 h-32 shrink-0">
-            <ResponsiveContainer width="100%" height="100%">
-              <PieChart>
-                <Tooltip
-  formatter={(value) => {
-    if (value === undefined || value === null) return ["0%", "Share"]
-
-    const v = Array.isArray(value) ? value[0] : value
-    return [`${Number(v)}%`, "Share"]
-  }}
-/>
-                <Pie
-                  data={destinations}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={38}
-                  outerRadius={58}
-                  paddingAngle={3}
-                  dataKey="percentage"
-                >
-                  {destinations.map((entry, index) => (
-                    <Cell key={index} fill={entry.color} stroke="none" />
-                  ))}
-                </Pie>
-              </PieChart>
-            </ResponsiveContainer>
+            {mounted && (
+              <ResponsiveContainer width={128} height={128}>
+                <PieChart>
+                  <Tooltip
+                    formatter={(value) => {
+                      if (value === undefined || value === null) return ["0%", "Share"];
+                      const v = Array.isArray(value) ? value[0] : value;
+                      return [`${Number(v)}%`, "Share"];
+                    }}
+                  />
+                  <Pie
+                    data={destinations}
+                    cx="50%"
+                    cy="50%"
+                    innerRadius={38}
+                    outerRadius={58}
+                    paddingAngle={3}
+                    dataKey="percentage"
+                  >
+                    {destinations.map((entry, index) => (
+                      <Cell key={index} fill={entry.color} stroke="none" />
+                    ))}
+                  </Pie>
+                </PieChart>
+              </ResponsiveContainer>
+            )}
           </div>
 
           {/* Legend */}
           <div className="flex flex-col gap-2.5 flex-1">
-            {destinations.map((dest) => (
-              <div key={dest.name} className="flex items-start gap-2">
+            {destinations.map((dest, i) => (
+              <div key={i} className="flex items-start gap-2">
                 <div
                   className="w-2.5 h-2.5 rounded-full shrink-0 mt-0.5"
                   style={{ backgroundColor: dest.color }}

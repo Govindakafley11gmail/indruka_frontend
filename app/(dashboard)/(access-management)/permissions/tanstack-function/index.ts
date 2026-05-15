@@ -7,9 +7,9 @@ import {
   PermissionInputFormValues,
 } from "../interface";
 import apiClient from "@/app/connect-backend/api-client";
-import { ACL_API_URL } from "@/app/connect-backend/api";
 import { errorResponse } from "@/app/connect-backend/error-interface";
 import { CreateResponseAttributes } from "@/app/connect-backend/error-interface/successresponse";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 interface MutationOptions {
   onSuccess?: (data: CreateResponseAttributes) => void;

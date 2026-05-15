@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable react-hooks/refs */
 "use client";
 
@@ -22,7 +23,7 @@ export interface DayItem {
   day: number;
   date: string;
   title: string;
-  details: string;
+  details: string[];  // ← string → string[]
 }
 
 export interface TabSection {
@@ -61,10 +62,11 @@ export interface MainTab {
 export interface TourPageProps {
   // Nav
   mainTabs?: MainTab[];
-
+country?:string
   // ITINERARY
   departureDate?: string;
   departureCity?: string;
+  
   onChangeDepartureDate?: () => void;
   days?: DayItem[];
   knowBeforeBook?: {
@@ -89,6 +91,8 @@ export interface TourPageProps {
 
   // UPGRADES
   upgrades?: UpgradeItem[];
+  price?:any
+  tourName:string
 }
 
 // ─────────────────────────────────────────────
@@ -107,30 +111,24 @@ const DEFAULT_TABS: MainTab[] = [
 // ─────────────────────────────────────────────
 // Shared atoms
 // ─────────────────────────────────────────────
+import Image from "next/image";
+import BookingPage from "./booking-page";
+import ItinaryBookingPage from "./booking-page";
 
-function WhatsAppIcon() {
-  return (
-    <svg width="22" height="22" viewBox="0 0 24 24" fill="none">
-      <circle cx="12" cy="12" r="12" fill="#25D366" />
-      <path
-        d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94
-           1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059
-           -.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371
-           -.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01
-           -.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198
-           2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719
-           2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"
-        fill="white"
-      />
-    </svg>
-  );
-}
-
-function SidebarActionBtn({ icon, label }: { icon: React.ReactNode; label: string }) {
+function SidebarActionBtn({
+  icon,
+  label,
+}: {
+  icon: React.ReactNode;
+  label: string;
+}) {
   return (
     <button className="flex flex-col items-center gap-1.5 flex-1 py-3 px-2 text-center hover:bg-blue-50 transition-colors">
-      <div className="text-blue-900">{icon}</div>
-      <span className="text-[11px] text-gray-500 leading-tight whitespace-pre-line">{label}</span>
+      <div>{icon}</div>
+
+      <span className="text-[11px] text-gray-500 leading-tight whitespace-pre-line">
+        {label}
+      </span>
     </button>
   );
 }
@@ -138,10 +136,53 @@ function SidebarActionBtn({ icon, label }: { icon: React.ReactNode; label: strin
 function ActionButtonRow() {
   return (
     <>
-      <SidebarActionBtn icon={<WhatsAppIcon />}                       label={"Send\nItinerary"} />
-      <SidebarActionBtn icon={<Printer className="w-5 h-5" />}       label={"Print\nItinerary"} />
-      <SidebarActionBtn icon={<Mail className="w-5 h-5" />}          label={"Email\nItinerary"} />
-      <SidebarActionBtn icon={<ArrowLeftRight className="w-5 h-5" />} label={"Compare\nTour"} />
+      <SidebarActionBtn
+        icon={
+          <Image
+            src="/whatsapp.png"
+            alt="WhatsApp"
+            width={22}
+            height={22}
+          />
+        }
+        label={"Send\nItinerary"}
+      />
+
+      <SidebarActionBtn
+        icon={
+          <Image
+            src="/facebook.png"
+            alt="Facebook"
+            width={22}
+            height={22}
+          />
+        }
+        label={"Share on\nFacebook"}
+      />
+
+      <SidebarActionBtn
+        icon={
+          <Image
+            src="/instagram.png"
+            alt="Instagram"
+            width={22}
+            height={22}
+          />
+        }
+        label={"Share on\nInstagram"}
+      />
+
+      <SidebarActionBtn
+        icon={
+          <Image
+            src="/gmail.png"
+            alt="Email"
+            width={22}
+            height={22}
+          />
+        }
+        label={"Email\nItinerary"}
+      />
     </>
   );
 }
@@ -154,9 +195,13 @@ function ItinerarySection({
   departureDate,
   departureCity,
   onChangeDepartureDate,
+  price,
+  tourName,
   days,
+  country,
   knowBeforeBook,
-}: Pick<TourPageProps, "departureDate" | "departureCity" | "onChangeDepartureDate" | "days" | "knowBeforeBook">) {
+}: Pick<TourPageProps, "departureDate" | "departureCity" | "onChangeDepartureDate" | "days" | "knowBeforeBook"  | "price"  | "country"           // ← add
+  | "tourName" >) {
   const [expandedDays, setExpandedDays] = useState<Set<number>>(new Set());
 
   const toggleDay = (day: number) => {
@@ -259,6 +304,9 @@ const allExpanded = !!days?.length && expandedDays.size === days.length;
         </div>
         <div className="hidden md:flex border border-gray-200 rounded-lg bg-white overflow-hidden divide-x divide-gray-200">
           <ActionButtonRow />
+        </div>
+        <div>
+          <BookingPage tourName={tourName} price={price} country={country}/>
         </div>
       </div>
     </div>
@@ -371,11 +419,15 @@ function SectionContent({ tab, props }: { tab: MainTab; props: TourPageProps }) 
     case "itinerary":
       return (
         <ItinerarySection
+        price={props.price}
+        tourName={props.tourName}
           departureDate={props.departureDate}
           departureCity={props.departureCity}
           onChangeDepartureDate={props.onChangeDepartureDate}
           days={props.days}
           knowBeforeBook={props.knowBeforeBook}
+               country={props.country}  // ✅ add this
+
         />
       );
     case "tour-details":

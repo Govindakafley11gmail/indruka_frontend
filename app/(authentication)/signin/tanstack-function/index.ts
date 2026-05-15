@@ -1,11 +1,11 @@
 import { useMutation, useQueryClient } from "@tanstack/react-query";
-import { ACL_API_URL } from "@/app/connect-backend/api";
 import apiClient from "@/app/connect-backend/api-client";
 import {
   SignInAttributes,
   SignUpResponseAttributes,
 } from "../interface/interface";
 import { errorResponse } from "@/app/connect-backend/error-interface";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 export interface MutationOptions<TData = unknown, TError = unknown> {
   onSuccess?: (data: TData) => void;

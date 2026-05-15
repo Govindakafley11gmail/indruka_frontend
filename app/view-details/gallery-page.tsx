@@ -30,8 +30,8 @@ import {
 
 export interface Testimonial {
   id: number;
-  text: string;
-  author: string;
+  text?: string;
+  author?: string;
   date: string;
   manager: string;
   managerRole: string;
@@ -70,12 +70,12 @@ export interface TourGalleryPageProps {
     src: string;
     alt: string;
   };
-  testimonials: Testimonial[];
+  testimonials?: Testimonial[];
   thumbnails: Thumbnail[];
   /** All guest/extra photos shown in the lightbox modal */
   guestPhotos?: GuestPhoto[];
   breadcrumbs: BreadcrumbCrumb[];
-  badges: TourBadge[];
+  badges?: TourBadge[];
   title: string;
   durationDays: number;
   countryCount: number;
@@ -197,11 +197,11 @@ function GuestPhotosModal({
 
 export default function TourGalleryPage({
   heroImage,
-  testimonials,
+  testimonials = [],  // ← add default here
   thumbnails,
   guestPhotos = [],
   breadcrumbs,
-  badges,
+  badges=[],
   title,
   durationDays,
   countryCount,
@@ -236,7 +236,7 @@ export default function TourGalleryPage({
   const totalExtraCount = overflowThumbs.length ;
 
   const prevTestimonial = () =>
-    setCurrentTestimonial((p) => (p === 0 ? testimonials.length - 1 : p - 1));
+    setCurrentTestimonial((p) => (p === 0 ? testimonials?.length - 1 : p - 1));
 
   const nextTestimonial = () =>
     setCurrentTestimonial((p) => (p === testimonials.length - 1 ? 0 : p + 1));
@@ -287,7 +287,7 @@ export default function TourGalleryPage({
               />
 
               {/* Testimonial overlay card */}
-              {testimonials.length > 0 && (
+              {testimonials?.length > 0 && (
                 <Card className="hidden md:block absolute top-6 right-4 left-4 sm:left-auto sm:w-72 bg-white/95 backdrop-blur-sm shadow-lg border border-gray-100">
                   <CardContent className="">
                     <div className="flex justify-between border-b-2 border-b-amber-50 items-center mb-2">

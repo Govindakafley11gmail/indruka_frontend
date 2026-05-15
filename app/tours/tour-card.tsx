@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -25,80 +26,45 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
+export interface TourFeature {
+  icon: string;
+  label: string;
+  color?: string;
+  bg?: string;
+}
 import { TourIncludesDialog } from "@/custom-components/customs-dialog";
+import Link from "next/link";
+import { bhutanTripConfig } from "./input-data";
+import { BookingModal } from "@/custom-components/custom-form";
+import { useBookingMutations } from "../view-details/booking-backend/tanstack-function";
+import { showToast } from "nextjs-toast-notify";
 
-type Tour = {
+export type Tour = {
   id: number;
   title: string;
-  image: string;
+  img?: string; // optional
+  image?: string; // optional (fallback)
   rating: number;
+    src?: string;    // ← add this
+
   reviews: number;
-  days: number;
-  cities: number;
-  dates: number;
-  price: number;
+  durationDays?: number; // ✅ use this for the number
+  cityCount?: number; // optional
+  cities?: number; // optional
+  dates?: number; // optional
+  price: any;
+  place?: string;
   tag?: string;
+  country?: string;
+  days?: { day: number; date: string; title: string; details: string[] }[]; // ✅ itinerary array
+  tourHighlights?: { title: string }[];
+  tourFeatures?: TourFeature[];
+  itineraryStops?: { city: string; nights: number }[];
 };
 
-const tours: Tour[] = [
-  {
-    id: 1,
-    title: "Best of Amritsar",
-    image: "https://images.unsplash.com/photo-1589308078059-be1415eab4c3?w=800",
-    rating: 5,
-    reviews: 64,
-    days: 4,
-    cities: 2,
-    dates: 1,
-    price: 277,
-    tag: "GROUP TOUR",
-  },
-  {
-    id: 2,
-    title: "Patan Modhera with Statue of Unity",
-    image: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800",
-    rating: 5,
-    reviews: 26,
-    days: 5,
-    cities: 3,
-    dates: 1,
-    price: 388,
-    tag: "GROUP TOUR",
-  },
-  {
-    id: 3,
-    title: "Indore Ujjain Mandu",
-    image: "https://images.unsplash.com/photo-1504198266287-1659872e6590?w=800",
-    rating: 5,
-    reviews: 79,
-    days: 5,
-    cities: 5,
-    dates: 2,
-    price: 366,
-    tag: "GROUP TOUR",
-  },
-  {
-    id: 4,
-    title: "Sarnath Varanasi",
-    image: "https://images.unsplash.com/photo-1561361513-2d000a50f0dc?w=800",
-    rating: 5,
-    reviews: 62,
-    days: 5,
-    cities: 3,
-    dates: 2,
-    price: 410,
-    tag: "GROUP TOUR",
-  },
-];
-
+type TourCardsProps = {
+  tours: Tour[];
+};
 const zones = [
   { name: "North" },
   { name: "South" },
@@ -221,28 +187,37 @@ function JourneyEndCard() {
   );
 }
 
-export default function TourCards() {
-  const [activeZone, setActiveZone] = useState("North");
-  const [priceRange] = useState([200, 450]);
-  const tourFeatures = [
-    { icon: Building2, label: "Hotel" },
-    { icon: UtensilsCrossed, label: "Meals" },
-    { icon: PlaneTakeoff, label: "Flight" },
-    { icon: Camera, label: "Sightseeing" },
-    { icon: Bus, label: "Transport" },
-  ];
-
-  const filteredTours = tours.filter(
-    (tour) => tour.price >= priceRange[0] && tour.price <= priceRange[1],
-  );
-
+export default function TourCards({ tours }: TourCardsProps) {
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [selectedTour, setSelectedTour] = useState<Tour | null>(null);
+ const { createBooking } = useBookingMutations({
+    onSuccess: (data) => {
+      showToast.success(data.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+      setIsDialogOpen(false);
+    },
+    onError: (error) => {
+      showToast.error(error?.data?.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+  });
   return (
     // ✅ FIX 1: Added min-h-screen so justify-center has space to work
     <div className="px-4 py-10 flex flex-col items-center justify-center bg-white ">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-semibold text-gray-900 tracking-tight mb-3">
-          India Tour Packages By Zone
+          Tour Packages By Zone
         </h1>
         <div className="flex justify-center">
           <svg
@@ -262,28 +237,8 @@ export default function TourCards() {
         </div>
       </div>
 
-      {/* Zone Tabs */}
-      <div className="w-full mb-10">
-          <div className="flex gap-2 overflow-x-auto no-scrollbar md:flex-wrap md:justify-center">
-            {zones.map((zone) => (
-              <button
-                key={zone.name}
-                onClick={() => setActiveZone(zone.name)}
-                className={`whitespace-nowrap px-5 py-2 rounded text-sm font-medium border transition-all duration-200 shrink-0
-        ${
-          activeZone === zone.name
-            ? "bg-[#1e3a8a] text-white border-[#1e3a8a] shadow-md"
-            : "bg-white text-gray-700 border-gray-200 hover:border-[#1e3a8a] hover:text-[#1e3a8a]"
-        }`}
-              >
-                {zone.name}
-              </button>
-            ))}
-          </div>
-        </div>
-
       {/* ✅ FIX 2: Added w-full + max-w-7xl to all grid containers so they stretch properly */}
-      {filteredTours.length === 0 ? (
+      {tours.length === 0 ? (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-7xl">
           <JourneyEndCard />
         </div>
@@ -294,7 +249,7 @@ export default function TourCards() {
           <Carousel opts={{ align: "center" }} className="w-full">
             {" "}
             <CarouselContent className="-ml-2">
-              {filteredTours.map((tour) => (
+              {tours.map((tour) => (
                 <CarouselItem
                   key={tour.id}
                   className="pl-2 basis-full sm:basis-1/2 lg:basis-1/3 xl:basis-1/4"
@@ -304,7 +259,7 @@ export default function TourCards() {
                     <div className="flex p-2 gap-2">
                       <div className="relative w-28 h-28 flex-shrink-0">
                         <img
-                          src={tour.image}
+  src={tour.src }   // ← add fallback
                           alt={tour.title}
                           className="w-full h-full object-cover rounded"
                         />
@@ -321,7 +276,7 @@ export default function TourCards() {
                             {tour.reviews} Reviews
                           </span>
                         </div>
-                        <TourIncludesDialog/>
+                        <TourIncludesDialog />
                       </div>
                     </div>
 
@@ -330,7 +285,7 @@ export default function TourCards() {
                       <div className="text-xs text-gray-600 flex items-center gap-2">
                         <span className="flex items-center gap-1">
                           <CalendarDays className="w-3 h-3 text-blue-600" />
-                          {tour.days} Days
+                          {tour.durationDays} Days
                         </span>
                         <span className="flex items-center gap-1">
                           <MapPin className="w-3 h-3 text-blue-600" />
@@ -353,15 +308,21 @@ export default function TourCards() {
                       </div>
 
                       <div className="flex gap-2 mt-3">
-                        <Button
-                          variant="outline"
-                          className="flex-1 border-blue-600 text-blue-600"
+                        <Link
+                          href={`/view-details?id=${tour.id}`}
+                          className="flex-1 flex items-center justify-center py-2 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
                         >
-                          View Details
-                        </Button>
-                        <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-                          Book
-                        </Button>
+                          View details
+                        </Link>
+                        <button
+                          onClick={() => {
+                            setSelectedTour(tour); // ← capture the specific tour
+                            setIsDialogOpen(true);
+                          }}
+                          className="flex-1 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-colors"
+                        >
+                          Book now
+                        </button>
                       </div>
                     </div>
                   </Card>
@@ -376,6 +337,25 @@ export default function TourCards() {
             <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2" />
           </Carousel>
         </div>
+      )}
+      {selectedTour && (
+        <BookingModal
+          pricePerPerson={selectedTour?.price ?? 0}
+          guestsFieldId="travelers"
+          tourName={selectedTour?.title ?? ""}
+          price={selectedTour?.price ?? 0}
+           config={bhutanTripConfig(
+        selectedTour?.price ?? 0,
+        selectedTour.title,
+        selectedTour.country,
+        createBooking,          // ← pass it here
+      )}
+          open={isDialogOpen}
+          onClose={() => {
+            setIsDialogOpen(false);
+            setSelectedTour(null);
+          }}
+        />
       )}
     </div>
   );

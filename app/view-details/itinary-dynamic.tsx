@@ -2,6 +2,7 @@
 import { cn } from "@/lib/utils";
 import { Plus } from "lucide-react";
 import { useState } from "react";
+import type { DayItem } from "./tour-iternary";
 
 type Day = {
   day: number;
@@ -55,7 +56,7 @@ export default function TourItinerary({
   expandedDays,
   onToggleDay,
 }: {
-  days: Day[];
+  days: DayItem[];
   expandedDays: Set<number>;
   onToggleDay: (day: number) => void;
 }) {

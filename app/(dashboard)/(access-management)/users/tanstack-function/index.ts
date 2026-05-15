@@ -4,11 +4,11 @@
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 
 import apiClient from "@/app/connect-backend/api-client";
-import { ACL_API_URL } from "@/app/connect-backend/api";
 import { UserGetResponse, UserInputFormValues, UserRolePermissionByIdGetResponse } from "../interface";
 import { MutationOptions } from "../../roles/tanstack-function";
 import { errorResponse } from "@/app/connect-backend/error-interface";
 import { CreateResponseAttributes } from "@/app/connect-backend/error-interface/successresponse";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 // Update User
 const updateUser = async ({

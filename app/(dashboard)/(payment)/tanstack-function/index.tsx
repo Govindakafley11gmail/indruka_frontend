@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { useMutation, useQuery, useQueryClient, UseMutationOptions } from "@tanstack/react-query";
 import apiClient from "@/app/connect-backend/api-client";
-import { POLICY_API_URL } from "@/app/connect-backend/api";
 import { PremiumCollectionDataAttributes, PremiumCollectionDataResponse } from "../interface";
+import POLICY_API_URL from "@/app/connect-backend/api/party-policy";
 
 export interface GetPremiumCollectionParams {
   search: string;

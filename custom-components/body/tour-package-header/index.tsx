@@ -1,8 +1,8 @@
 import Link from "next/link";
 import { Card, CardContent } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
-import { Badge } from "@/components/ui/badge";
 import SortingTabs from "@/app/tours/sortingtabs";
+// ❌ remove: import { SPECIALITIES } from "@/app/tours/data";
 
 const stats = [
   { value: "4.8 / 5", label: "Google Rating" },
@@ -12,12 +12,19 @@ const stats = [
   { value: "ISO Certified", label: "Operator" },
 ];
 
-export default function TourPackageCard({ rating }: { rating?: boolean }) {
+export default function TourPackageCard({
+  rating,
+  checkedSpec,
+  onSpecClick,
+  specialities = [],          // ← receive as prop, default to empty
+}: {
+  rating?: boolean;
+  checkedSpec?: Set<string>;
+  onSpecClick?: (spec: string) => void;
+  specialities?: string[];    // ← new prop
+}) {
   return (
     <div className="w-full max-w-7xl mx-auto space-y-4 p-4 font-sans">
-      {/* Info Card */}
-      {/* <Card className="">
-        <CardContent className="p-6"> */}
       <div className="text-center mb-14 max-w-2xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-extrabold text-gray-900 leading-tight mb-4">
           Explore Your{" "}
@@ -25,15 +32,23 @@ export default function TourPackageCard({ rating }: { rating?: boolean }) {
             Dream Destinations
           </span>
         </h2>
-
         <p className="text-gray-500 text-base md:text-lg leading-relaxed">
           Craft a personalized getaway tailored to your preferences and desires.
           Every journey begins with a single step.
         </p>
       </div>
-      <div className="flex ">
-        <SortingTabs />
-      </div>
+
+      {/* Only render tabs when there are specialities to show */}
+      {specialities.length > 0 && (
+        <div className="flex">
+          <SortingTabs
+            tabs={specialities}           // ← dynamic, not static
+            checkedSpec={checkedSpec}
+            onSpecClick={onSpecClick}
+          />
+        </div>
+      )}
+
       {rating && (
         <Card className="border-2 border-blue-200 bg-blue-50 rounded-2xl overflow-hidden shadow-sm">
           <CardContent className="p-0">
@@ -49,10 +64,7 @@ export default function TourPackageCard({ rating }: { rating?: boolean }) {
                     </span>
                   </div>
                   {index < stats.length - 1 && (
-                    <Separator
-                      orientation="vertical"
-                      className="h-auto bg-blue-200"
-                    />
+                    <Separator orientation="vertical" className="h-auto bg-blue-200" />
                   )}
                 </div>
               ))}
@@ -60,8 +72,6 @@ export default function TourPackageCard({ rating }: { rating?: boolean }) {
           </CardContent>
         </Card>
       )}
-
-    
     </div>
   );
 }

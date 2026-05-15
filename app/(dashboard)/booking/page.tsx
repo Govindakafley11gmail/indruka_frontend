@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 import { motion } from "framer-motion";
 import { useSearchBookingQuery } from "../party/tanstack-function";
@@ -10,7 +10,7 @@ import { BookingData } from "../party/interface";
 import { VerticalModalForm } from "@/app/components/vertical-modal-form";
 import BookingCustomDialog from "../booking-detail/booking-custom-dialog";
 
-const Booking = () => {
+function BookingContent() {
     const searchParams = useSearchParams();
     const urlBookingId = searchParams.get("partyId");
 
@@ -61,6 +61,12 @@ const Booking = () => {
             </VerticalModalForm>
         </motion.div>
     );
-};
+}
 
-export default Booking;
+export default function Booking() {
+    return (
+        <Suspense fallback={<div className="p-6 text-center">Loading...</div>}>
+            <BookingContent />
+        </Suspense>
+    );
+}

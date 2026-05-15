@@ -1,6 +1,5 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import apiClient from "@/app/connect-backend/api-client";
-import { ACL_API_URL } from "@/app/connect-backend/api";
 
 import { useQuery } from "@tanstack/react-query";
 import { BookingResponse } from "../interface";
@@ -8,6 +7,7 @@ import { errorResponse } from "@/app/connect-backend/error-interface";
 
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { BookingPartyAttributes } from "../../party/interface";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 /* ---------------------------------- */
 /* TYPES */
