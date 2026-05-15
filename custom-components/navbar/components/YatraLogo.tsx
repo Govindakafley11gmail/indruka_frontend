@@ -6,17 +6,17 @@ import Link from "next/link";
 export function YatraLogo() {
   return (
     <div className="flex items-center gap-3 cursor-pointer group">
-      <div className="relative w-12 h-12 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border border-white/20">
-        <Link href={"/"}>
-          <Image
-            src="/logo.jpg"
-            alt="Yatra Logo"
-            fill
-            className="object-cover group-hover:scale-110 transition-transform duration-300"
-            priority
-          />
-        </Link>
-      </div>
+      <Link href="/" className="flex items-center gap-3 cursor-pointer group">
+  <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border border-white/20">
+    <Image
+      src="/indrukalogo.jpeg"
+      alt="Yatra Logo"
+      fill       
+      className="object-cover group-hover:scale-110 transition-transform duration-300"
+      priority
+    />
+  </div>
+</Link>
 
    
       <Link href={"/"}>

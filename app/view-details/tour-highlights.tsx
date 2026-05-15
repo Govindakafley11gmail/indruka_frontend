@@ -1,11 +1,56 @@
 "use client";
 
-import { CircleDotDashed, UserCheck, X, type LucideIcon } from "lucide-react";
+import {
+  CircleDotDashed,
+  UserCheck,
+  X,
+  Building2,
+  UtensilsCrossed,
+  Bus,
+  Camera,
+  Plane,
+  Hotel,
+  Train,
+  Ship,
+  Bike,
+  Car,
+  Coffee,
+  Utensils,
+  Sunset,
+  Mountain,
+  Map,
+  Compass,
+  Backpack,
+  type LucideIcon,
+} from "lucide-react";
 import RequestCallBack from "./requestedcallback";
 import { useState } from "react";
 
+// ── Icon map: add any new Lucide icons here ──────────────────────────────────
+const ICON_MAP: Record<string, LucideIcon> = {
+  Building2,
+  UtensilsCrossed,
+  Bus,
+  Camera,
+  Plane,
+  Hotel,
+  Train,
+  Ship,
+  Bike,
+  Car,
+  Coffee,
+  Utensils,
+  Sunset,
+  Mountain,
+  Map,
+  Compass,
+  Backpack,
+};
+
+// ── Types ────────────────────────────────────────────────────────────────────
+
 export interface TourFeature {
-  icon: LucideIcon;
+  icon: string; // e.g. "Building2", "Camera" — must be a key in ICON_MAP
   label: string;
   color: string;
   bg: string;
@@ -21,6 +66,8 @@ export interface TourHighlightsProps {
   tourManagerCompany: string;
 }
 
+// ── Component ────────────────────────────────────────────────────────────────
+
 export default function TourHighlights({
   tourFeatures,
   tourHighlights,
@@ -30,50 +77,56 @@ export default function TourHighlights({
   const visibleHighlights = tourHighlights.slice(0, 4);
 
   return (
-    <div className="w-full bg-gray-100 py-10 px-4 h-min-full ">
+    <div className="w-full bg-gray-100 py-10 px-4 h-min-full">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row gap-6 items-start">
         {/* ── Main Card ── */}
-        <div className="flex-1 bg-white rounded-2xl shadow-md p-6 flex flex-col md:flex-row gap-8 ">
+        <div className="flex-1 bg-white rounded-2xl shadow-md p-6 flex flex-col md:flex-row gap-8">
           {/* LEFT - TOUR INCLUDES */}
           <div className="flex-1 md:border-r md:pr-8">
             <h2 className="text-lg font-semibold text-gray-800 mb-6">
               Tour Includes
             </h2>
             <div className="flex flex-wrap gap-4">
-              {tourFeatures.map(({ icon: Icon, label, color, bg }) => (
-                <div key={label} className="flex flex-col items-center group">
-                  <div
-                    className="w-10 h-10 rounded-xl border flex items-center justify-center transition-all duration-200"
-                    style={{
-                      backgroundColor: bg,
-                      borderColor: color + "40", // 25% opacity border matching icon color
-                    }}
-                    onMouseEnter={(e) => {
-                      (
-                        e.currentTarget as HTMLDivElement
-                      ).style.backgroundColor = color + "25";
-                      (e.currentTarget as HTMLDivElement).style.borderColor =
-                        color + "80";
-                    }}
-                    onMouseLeave={(e) => {
-                      (
-                        e.currentTarget as HTMLDivElement
-                      ).style.backgroundColor = bg;
-                      (e.currentTarget as HTMLDivElement).style.borderColor =
-                        color + "40";
-                    }}
-                  >
-                    <Icon className="w-5 h-5" strokeWidth={1.5} color={color} />
+              {tourFeatures.map(({ icon, label, color, bg }) => {
+                const Icon = ICON_MAP[icon] ?? CircleDotDashed;
+                return (
+                  <div key={label} className="flex flex-col items-center group">
+                    <div
+                      className="w-10 h-10 rounded-xl border flex items-center justify-center transition-all duration-200"
+                      style={{
+                        backgroundColor: bg,
+                        borderColor: color + "40",
+                      }}
+                      onMouseEnter={(e) => {
+                        (e.currentTarget as HTMLDivElement).style.backgroundColor =
+                          color + "25";
+                        (e.currentTarget as HTMLDivElement).style.borderColor =
+                          color + "80";
+                      }}
+                      onMouseLeave={(e) => {
+                        (e.currentTarget as HTMLDivElement).style.backgroundColor =
+                          bg;
+                        (e.currentTarget as HTMLDivElement).style.borderColor =
+                          color + "40";
+                      }}
+                    >
+                      <Icon
+                        className="w-5 h-5"
+                        strokeWidth={1.5}
+                        color={color}
+                      />
+                    </div>
+                    <span
+                      className="text-xs mt-2 font-medium text-center"
+                      style={{ color }}
+                    >
+                      {label}
+                    </span>
                   </div>
-                  <span
-                    className="text-xs mt-2 font-medium text-center"
-                    style={{ color }}
-                  >
-                    {label}
-                  </span>
-                </div>
-              ))}
+                );
+              })}
             </div>
+
             <div className="flex items-start gap-3 mt-2">
               <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center shrink-0 mt-0.5">
                 <UserCheck className="w-5 h-5" strokeWidth={1.5} />
@@ -89,7 +142,7 @@ export default function TourHighlights({
 
           {/* RIGHT - TOUR HIGHLIGHTS */}
           <div className="flex-1">
-            <div className="flex justify-between items-center ">
+            <div className="flex justify-between items-center">
               <h2 className="text-lg font-semibold text-gray-800">
                 Tour Highlights
               </h2>
@@ -151,7 +204,10 @@ export default function TourHighlights({
             {/* Modal Body — scrollable */}
             <div className="overflow-y-auto px-6 py-4 space-y-3">
               {tourHighlights.map((item, index) => (
-                <div key={index} className="flex items-center gap-3 group py-1">
+                <div
+                  key={index}
+                  className="flex items-center gap-3 group py-1"
+                >
                   <div className="w-8 h-8 flex items-center justify-center rounded-full group-hover:bg-blue-100 transition shrink-0">
                     <CircleDotDashed className="w-4 h-4 text-blue-600" />
                   </div>

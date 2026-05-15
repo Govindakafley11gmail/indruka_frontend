@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { Card } from "@/components/ui/card";
@@ -25,49 +26,41 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
-import {
-  Dialog,
-  DialogContent,
-  DialogDescription,
-  DialogHeader,
-  DialogTitle,
-  DialogTrigger,
-} from "@/components/ui/dialog";
-import { TourIncludesDialog } from "@/custom-components/customs-dialog";
-
-type TourFeature = {
-  icon: React.ElementType;
+export interface TourFeature {
+  icon: string;
   label: string;
-};
-
-type TourDay = {
-  day: number;
-  date: string;
-  title: string;
-  details: string[];
-};
+  color?: string;
+  bg?: string;
+}
+import { TourIncludesDialog } from "@/custom-components/customs-dialog";
+import Link from "next/link";
+import { bhutanTripConfig } from "./input-data";
+import { BookingModal } from "@/custom-components/custom-form";
+import { useBookingMutations } from "../view-details/booking-backend/tanstack-function";
+import { showToast } from "nextjs-toast-notify";
 
 export type Tour = {
   id: number;
   title: string;
-  img?: string;           // optional
-  image?: string;         // optional (fallback)
+  img?: string; // optional
+  image?: string; // optional (fallback)
   rating: number;
+    src?: string;    // ← add this
+
   reviews: number;
-  durationDays?: number;   // ✅ use this for the number
-  cityCount?: number;     // optional
-  cities?: number;        // optional
-  dates?: number;         // optional
-  price: number;
+  durationDays?: number; // ✅ use this for the number
+  cityCount?: number; // optional
+  cities?: number; // optional
+  dates?: number; // optional
+  price: any;
   place?: string;
   tag?: string;
   country?: string;
-  days?: { day: number; date: string; title: string; details: string[] }[];  // ✅ itinerary array
+  days?: { day: number; date: string; title: string; details: string[] }[]; // ✅ itinerary array
   tourHighlights?: { title: string }[];
-  tourFeatures?: { icon: React.ElementType; label: string }[];
+  tourFeatures?: TourFeature[];
   itineraryStops?: { city: string; nights: number }[];
 };
-
 
 type TourCardsProps = {
   tours: Tour[];
@@ -195,24 +188,36 @@ function JourneyEndCard() {
 }
 
 export default function TourCards({ tours }: TourCardsProps) {
-  const [priceRange] = useState([200, 450]);
-  const tourFeatures = [
-    { icon: Building2, label: "Hotel" },
-    { icon: UtensilsCrossed, label: "Meals" },
-    { icon: PlaneTakeoff, label: "Flight" },
-    { icon: Camera, label: "Sightseeing" },
-    { icon: Bus, label: "Transport" },
-  ];
-
-  
-
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+  const [selectedTour, setSelectedTour] = useState<Tour | null>(null);
+ const { createBooking } = useBookingMutations({
+    onSuccess: (data) => {
+      showToast.success(data.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+      setIsDialogOpen(false);
+    },
+    onError: (error) => {
+      showToast.error(error?.data?.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+  });
   return (
     // ✅ FIX 1: Added min-h-screen so justify-center has space to work
     <div className="px-4 py-10 flex flex-col items-center justify-center bg-white ">
       {/* Header */}
       <div className="text-center mb-10">
         <h1 className="text-3xl font-semibold text-gray-900 tracking-tight mb-3">
-         Tour Packages By Zone
+          Tour Packages By Zone
         </h1>
         <div className="flex justify-center">
           <svg
@@ -231,8 +236,6 @@ export default function TourCards({ tours }: TourCardsProps) {
           </svg>
         </div>
       </div>
-
-   
 
       {/* ✅ FIX 2: Added w-full + max-w-7xl to all grid containers so they stretch properly */}
       {tours.length === 0 ? (
@@ -256,7 +259,7 @@ export default function TourCards({ tours }: TourCardsProps) {
                     <div className="flex p-2 gap-2">
                       <div className="relative w-28 h-28 flex-shrink-0">
                         <img
-                          src={tour.image}
+  src={tour.img }   // ← add fallback
                           alt={tour.title}
                           className="w-full h-full object-cover rounded"
                         />
@@ -273,7 +276,7 @@ export default function TourCards({ tours }: TourCardsProps) {
                             {tour.reviews} Reviews
                           </span>
                         </div>
-                        <TourIncludesDialog/>
+                        <TourIncludesDialog />
                       </div>
                     </div>
 
@@ -305,15 +308,21 @@ export default function TourCards({ tours }: TourCardsProps) {
                       </div>
 
                       <div className="flex gap-2 mt-3">
-                        <Button
-                          variant="outline"
-                          className="flex-1 border-blue-600 text-blue-600"
+                        <Link
+                          href={`/view-details?id=${tour.id}`}
+                          className="flex-1 flex items-center justify-center py-2 rounded-lg border border-gray-300 text-sm font-medium text-gray-700 hover:bg-gray-50 transition-colors"
                         >
-                          View Details
-                        </Button>
-                        <Button className="flex-1 bg-blue-600 hover:bg-blue-700">
-                          Book
-                        </Button>
+                          View details
+                        </Link>
+                        <button
+                          onClick={() => {
+                            setSelectedTour(tour); // ← capture the specific tour
+                            setIsDialogOpen(true);
+                          }}
+                          className="flex-1 py-2 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-sm font-medium transition-colors"
+                        >
+                          Book now
+                        </button>
                       </div>
                     </div>
                   </Card>
@@ -328,6 +337,25 @@ export default function TourCards({ tours }: TourCardsProps) {
             <CarouselNext className="absolute right-0 top-1/2 -translate-y-1/2" />
           </Carousel>
         </div>
+      )}
+      {selectedTour && (
+        <BookingModal
+          pricePerPerson={selectedTour?.price ?? 0}
+          guestsFieldId="travelers"
+          tourName={selectedTour?.title ?? ""}
+          price={selectedTour?.price ?? 0}
+           config={bhutanTripConfig(
+        selectedTour?.price ?? 0,
+        selectedTour.title,
+        selectedTour.country,
+        createBooking,          // ← pass it here
+      )}
+          open={isDialogOpen}
+          onClose={() => {
+            setIsDialogOpen(false);
+            setSelectedTour(null);
+          }}
+        />
       )}
     </div>
   );

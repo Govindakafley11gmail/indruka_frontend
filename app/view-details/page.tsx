@@ -1,31 +1,16 @@
-/* eslint-disable @next/next/no-async-client-component */
-/* eslint-disable react/no-unescaped-entities */
-"use client";
-import { useSearchParams } from "next/navigation";
-import Navbar from "@/custom-components/navbar/navbar";
-import Footer from "@/custom-components/footer/footer";
-import TourGalleryPage from "./gallery-page";
-import TourHighlights from "./tour-highlights";
-import ItineraryPage, {
-  type CancellationRow,
-  type MainTab,
-  type TabSection,
-  type UpgradeItem,
-} from "./tour-iternary";
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { tours } from "../tours/data";
-import { type ViewDetailsPageProps, mainTabs, tourInformationTabs, needToKnow, cancellationRows, upgrades } from "./other-important-data";
+import type { ViewDetailsPageProps } from "./other-important-data";
+import TourPageClient from "./tour-page-client";
 
-
-
+// app/view-details/page.tsx
 export default async function TouristPageDetails({
   searchParams,
 }: ViewDetailsPageProps) {
   const params = await searchParams;
-
   const id = Number(params.id);
-
   const tour = tours.find((t) => t.id === id);
-
+console.log("tour",tour?.country)
   if (!tour) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -34,69 +19,8 @@ export default async function TouristPageDetails({
     );
   }
 
-  return (
-    <div className="min-h-screen bg-slate-50 overflow-x-hidden w-full">
-      <Navbar isActive={false} />
-
-      <TourGalleryPage
-        heroImage={tour.heroImage ?? { src: "", alt: tour.title }}
-        testimonials={tour?.testimonials ?? []}
-        thumbnails={tour.thumbnails ?? []}
-        breadcrumbs={tour.breadcrumbs ?? []}
-badges={
-  (tour.badges ?? [])
-    .filter((b) => b.variant === "solid" || b.variant === "outlined")
-    .map((badge) => ({
-      ...badge,
-      variant: badge.variant as "solid" | "outlined",
-    }))
-}        title={tour.title}
-        durationDays={
-          (tour.durationDays ?? tour.durationTag)
-            ? parseInt(tour.durationTag)
-            : 0
-        }
-        countryCount={tour.countryCount ?? 1}
-        cityCount={tour.cityCount ?? tour.destinations.length}
-        region={tour.region ?? tour.place}
-        itineraryStops={tour.itineraryStops ?? []}
-        onViewItinerary={() => {
-          document
-            .getElementById("itinerary")
-            ?.scrollIntoView({ behavior: "smooth", block: "start" });
-        }}
-      />
-
-      <TourHighlights
-        tourFeatures={tour.tourFeatures ?? []}
-        tourHighlights={tour.tourHighlights ?? []}
-        tourManagerCompany={tour.tourManagerCompany ?? ""}
-      />
-      <div id="itinerary">
-        <ItineraryPage
-          mainTabs={mainTabs}
-          departureDate={`${tour.durationDays} days`}
-          departureCity={tour.place}
-          onChangeDepartureDate={() => console.log("open date picker")}
-          days={tour.days ?? []}
-          knowBeforeBook={{
-            note: "Seats are subject to availability at time of booking.",
-            airline: "On group tours we fly with group-friendly airlines.",
-            lines: [
-              "Economy class by default.",
-              "Upgrades to Business / First Class available on request.",
-            ],
-          }}
-          tourDetails={tour.tourDetails ?? []}
-          tourInformationTitle="Tour Information"
-          tourInformationSubtitle="Read this to prepare for your tour in the best way!"
-          tourInformationTabs={tourInformationTabs}
-          needToKnow={needToKnow}
-          cancellationRows={cancellationRows}
-          upgrades={upgrades}
-        />
-      </div>
-      <Footer />
-    </div>
-  );
+  // Strip any function fields before passing to Client Component
+  const { onViewItinerary, ...plainTour } = tour as any;
+console.log("plain tour",plainTour)
+  return <TourPageClient tour={plainTour} />;
 }

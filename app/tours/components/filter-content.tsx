@@ -1,14 +1,14 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { Checkbox } from "@/components/ui/checkbox";
 import { Slider } from "@/components/ui/slider";
-import {  DURATIONS, DESTINATIONS, MODES, fmt,  } from "../data";
+import { DURATIONS, DESTINATIONS, MODES, fmt } from "../data";
 import { useMemo, useEffect } from "react";
 
 interface FilterContentProps {
   budget: number[];
   setBudget: (v: number[]) => void;
   checkedCountry: Set<string>; // ← add this
-  activeSpecialities: string[];   // ← receive, don't derive
+  activeSpecialities: string[]; // ← receive, don't derive
 
   checkedSpec: Set<string>;
   checkedDur: Set<string>;
@@ -33,7 +33,7 @@ export function FilterContent({
   setCheckedDur,
   setCheckedDest,
   setCheckedMode,
-    activeSpecialities,  
+  activeSpecialities,
 }: FilterContentProps) {
   return (
     <>
@@ -84,9 +84,9 @@ export function FilterContent({
           <p className="text-[11px] uppercase tracking-[2px] text-slate-500 font-bold mb-3">
             {label}
           </p>
-          {items.map((item) => (
+          {items.map((item, i) => (
             <label
-              key={item}
+              key={`${item}-${i}`} // ✅ index prevents collision even with duplicate strings
               className="flex items-center gap-2.5 py-[5px] cursor-pointer"
             >
               <Checkbox

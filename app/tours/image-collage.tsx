@@ -5,7 +5,7 @@ type Tour = {
   id: number;
   title: string;
   country: string;
-  img: string;        // ← real field from your tours data
+  img?: string;        // ← real field from your tours data
   place?: string;
 };
 

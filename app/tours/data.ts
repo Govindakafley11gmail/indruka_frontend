@@ -39,25 +39,25 @@ export const tours = [
     badge: "Bestseller",
     badgeColor: "bg-amber-500",
     mode: "Helicopter",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2026/01/chardham-yatra-by-helicopter-2026.webp",
+    src: "/chardham.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
       {
-        icon: Helicopter,
+        icon: "Helicopter",
         label: "Helicopter",
         color: "#1AADA0",
         bg: "#E8F7F3",
       },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
     ],
 
     tourHighlights: [
@@ -70,7 +70,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2026/01/chardham-yatra-by-helicopter-2026.webp",
+      src: "/chardham1.jpg",
       alt: "Char Dham Yatra By Helicopter — Uttarakhand",
     },
 
@@ -96,17 +96,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/char-dham-yatra-by-helicopter.jpg",
+            src: "/chardham2.jpg",
         alt: "Char Dham Yatra Helicopter",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kedarnath-yatra-by-helicopter.jpg",
+            src: "/chardham3.jpg",
         alt: "Kedarnath by Helicopter",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/badrinath-yatra-by-helicopter.jpg",
+            src: "/chardham4.jpg",
         alt: "Badrinath by Helicopter",
       },
     ],
@@ -219,24 +219,24 @@ export const tours = [
     badge: "Bestseller",
     badgeColor: "bg-amber-500",
     mode: "Road",
-    img: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=640&q=80",
+    src: "/badrinath1.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
       {
-        icon: Helicopter,
+        icon: "Helicopter",
         label: "Helicopter",
         color: "#1AADA0",
         bg: "#E8F7F3",
       },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
     ],
 
     tourHighlights: [
@@ -253,7 +253,8 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2026/01/chardham-yatra-by-helicopter-2026.webp",
+       src: "/badrinath2.jpg",
+
       alt: "Char Dham Yatra By Helicopter — Uttarakhand",
     },
 
@@ -279,22 +280,22 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/char-dham-yatra-by-helicopter.jpg",
+    src: "/badrinath3.jpg",
         alt: "Char Dham Yatra Helicopter",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kedarnath-yatra-by-helicopter.jpg",
+    src: "/badrinath4.jpg",
         alt: "Kedarnath by Helicopter",
       },
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/char-dham-yatra-by-helicopter.jpg",
+    src: "/badrinath5.jpg",
         alt: "Char Dham Yatra Helicopter",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kedarnath-yatra-by-helicopter.jpg",
+    src: "/badrinath6.jpg",
         alt: "Kedarnath by Helicopter",
       },
     ],
@@ -407,19 +408,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
+      src: "amarnath5.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -432,7 +433,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=1200&q=80",
+      src: "amarnath.jpg",
       alt: "Amarnath Yatra Packages — Jammu & Kashmir",
     },
 
@@ -458,17 +459,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/amarnath-tour.jpg",
-        alt: "Amarnath Holy Cave",
+      src: "amarnath2.jpg",
+    alt: "Amarnath Holy Cave",
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1569325485879-56a56e1f0de1?w=640&q=80",
+        src: "amarnath3.jpg",
         alt: "Dal Lake Srinagar",
       },
       {
         id: 3,
-        src: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=640&q=80",
+        src:  "amarnath4.jpg",
         alt: "Pahalgam Valley",
       },
     ],
@@ -590,19 +591,19 @@ export const tours = [
     badge: "Premium",
     badgeColor: "bg-sky-600",
     mode: "Road",
-    img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
+    src: "/adikalesh.jpeg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -615,7 +616,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=1200&q=80",
+      src: "/adikalesh7.jpeg",
       alt: "Adi Kailash & Om Parvat Yatra — Uttarakhand",
     },
 
@@ -641,18 +642,16 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-1.jpg",
+        src: "/adikalesh.jpg",
         alt: "Adi Kailash Peak",
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1585016495481-8c30a6b05586?w=640&q=80",
-        alt: "Om Parvat Snow OM",
+  src: "/adikalesh4.jpg",        alt: "Om Parvat Snow OM",
       },
       {
         id: 3,
-        src: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-        alt: "Kalapani Kali River",
+  src: "/adikalesh.jpg",        alt: "Kalapani Kali River",
       },
     ],
 
@@ -798,19 +797,19 @@ export const tours = [
     badge: "Bestseller",
     badgeColor: "bg-amber-500",
     mode: "Road",
-    img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
+    src: "golden2.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -823,7 +822,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=1200&q=80",
+      src: "golden1.jpg",
       alt: "Golden Triangle Tour Package — Delhi Agra Jaipur Amritsar",
     },
 
@@ -849,17 +848,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
+      src: "/golden3.jpg",
         alt: "Taj Mahal Agra",
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=640&q=80",
+      src: "/golden4.jpg",
         alt: "Amber Fort Jaipur",
       },
       {
         id: 3,
-        src: "https://images.unsplash.com/photo-1571536802807-30451e3955d8?w=640&q=80",
+      src: "/golden3.jpg",
         alt: "Golden Temple Amritsar",
       },
     ],
@@ -989,19 +988,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
+    src: "/bhuPK.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -1014,7 +1013,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=1200&q=80",
+      src: "/bhuPK1.jpg",
       alt: "Bhubaneswar Puri Konark Tour — Odisha",
     },
 
@@ -1040,17 +1039,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-6.jpg",
+        src: "/bhuPK2.jpg",
         alt: "Konark Sun Temple",
       },
       {
         id: 2,
-        src: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
+        src: "/bhuPK3.jpg",
         alt: "Jagannath Temple Puri",
       },
       {
         id: 3,
-        src: "https://images.unsplash.com/photo-1569913486515-b74bf7751574?w=640&q=80",
+        src: "/bhuPK6.jpg",
         alt: "Chilika Lake Odisha",
       },
     ],
@@ -1132,684 +1131,6 @@ export const tours = [
   },
 
   {
-    id: 7,
-    country: "India",
-    place: "Guwahati",
-    title: "Kamakhya Devi Temple Tour",
-    type: "Religious yatras",
-    duration: "2 Nights / 3 Days",
-    durationTag: "3 Days",
-    startEnd: "Guwahati → Guwahati",
-    destinations: ["Guwahati", "Kamakhya Temple"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 13500,
-    rating: 4.7,
-    reviews: 118,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=640&q=80",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Kamakhya Devi Temple Darshan (Shakti Peetha)" },
-      { title: "Brahmaputra River Evening Cruise" },
-      { title: "Umananda Temple on Peacock Island" },
-      { title: "Navagraha Temple of Nine Planetary Deities" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=1200&q=80",
-      alt: "Kamakhya Devi Temple Tour — Guwahati, Assam",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "A beautifully arranged short pilgrimage. The Kamakhya Temple darshan was a profound spiritual experience. The Brahmaputra cruise in the evening was the perfect way to end the day.",
-        author: "Ananya Das",
-        date: "Travelled Mar 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Indruka Trips and Trip managed everything impeccably — hotel, transfers, and priority darshan at Kamakhya Devi. This 3-day tour is perfect for a short but deeply spiritual getaway to Assam.",
-        author: "Gopal Sharma",
-        date: "Travelled Feb 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-7.jpg",
-        alt: "Kamakhya Devi Temple Guwahati",
-      },
-      {
-        id: 2,
-        src: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=640&q=80",
-        alt: "Brahmaputra River Guwahati",
-      },
-      {
-        id: 3,
-        src: "https://images.unsplash.com/photo-1606298246064-53af4f9c8c2b?w=640&q=80",
-        alt: "Umananda Temple Peacock Island",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Assam", href: "/india/assam" },
-      { label: "Kamakhya Devi Temple Tour" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "PILGRIMAGE TOUR", variant: "outlined" as const, color: "blue" },
-    ],
-
-    durationDays: 3,
-    countryCount: 1,
-    cityCount: 1,
-    region: "Assam, India",
-
-    itineraryStops: [{ city: "Guwahati", nights: 2 }],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Guwahati",
-        details: [
-          "Arrive at Guwahati Airport / Railway Station and transfer to hotel. Evening boat ride on the mighty Brahmaputra River — one of the great rivers of Asia — with views of Nilachal Hill. Visit the Umananda Temple situated on Peacock Island midstream in the Brahmaputra. Overnight Guwahati."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Kamakhya Devi Temple Darshan",
-        details: [
-          "Early morning darshan at the Kamakhya Devi Temple — one of the 51 Shakti Peethas of India, perched atop Nilachal Hill with panoramic city views. Visit the sacred Navagraha Temple dedicated to the nine planetary deities. Afternoon at Assam State Zoo and Botanical Garden. Overnight Guwahati."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Guwahati — Cultural Visit & Departure",
-        details: [
-          "Morning visit to Srimanta Sankardev Kalakshetra — a vast cultural institution showcasing Assamese history, art, manuscripts, and traditional performing arts. Browse local market for Assam silk and tea. Transfer to Guwahati Airport / Station for onward journey. Tour concludes with the blessings of Maa Kamakhya."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "2 Nights / 3 Days" },
-      {
-        label: "Destinations",
-        value:
-          "Guwahati · Kamakhya Temple · Navagraha Temple · Umananda Island",
-      },
-      {
-        label: "Departure & Return",
-        value: "Guwahati Airport / Railway Station",
-      },
-      { label: "Tour Code", value: "KMK-PLGM-GUW-26" },
-      { label: "Meals", value: "All meals included" },
-      { label: "Best Time", value: "October–April" },
-      { label: "Group Size", value: "Customised — 2 to 20+ guests" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 8,
-    country: "India",
-    place: "Varanasi",
-    title: "Varanasi Ayodhya Bodhgaya Chitrakoot Tour",
-    type: "Religious yatras",
-    duration: "6 Nights / 7 Days",
-    durationTag: "7 Days",
-    startEnd: "Varanasi → Chitrakoot",
-    destinations: ["Varanasi", "Bodhgaya", "Ayodhya", "Chitrakoot"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 32500,
-    rating: 4.7,
-    reviews: 176,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=640&q=80",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Ganga Aarti at Dashashwamedh Ghat, Varanasi" },
-      { title: "Kashi Vishwanath Jyotirlinga Darshan" },
-      { title: "Ram Mandir Darshan, Ayodhya" },
-      { title: "Mahabodhi Temple, Bodhgaya (UNESCO)" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=1200&q=80",
-      alt: "Varanasi Ayodhya Bodhgaya Chitrakoot Tour — Sacred India",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "This tour touched the soul. From the Ganga Aarti in Varanasi to the Ram Mandir in Ayodhya — every destination was sacred and the arrangements by Indruka Trips and Trip were impeccable throughout.",
-        author: "Rajendra Pandey",
-        date: "Travelled Apr 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Covering four of India's most spiritually powerful cities in one tour was a dream come true. The Mahabodhi Temple at Bodhgaya and Kamadgiri Parikrama at Chitrakoot were deeply moving.",
-        author: "Meena Verma",
-        date: "Travelled Jan 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=640&q=80",
-        alt: "Varanasi Ghats",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-8.jpg",
-        alt: "Mahabodhi Temple Bodhgaya",
-      },
-      {
-        id: 3,
-        src: "https://images.unsplash.com/photo-1611516491426-03025e6043c8?w=640&q=80",
-        alt: "Ram Mandir Ayodhya",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttar Pradesh", href: "/india/uttar-pradesh" },
-      { label: "Varanasi Ayodhya Bodhgaya Chitrakoot Tour" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "PILGRIMAGE TOUR", variant: "outlined" as const, color: "blue" },
-    ],
-
-    durationDays: 7,
-    countryCount: 1,
-    cityCount: 4,
-    region: "Uttar Pradesh & Bihar, India",
-
-    itineraryStops: [
-      { city: "Varanasi", nights: 2 },
-      { city: "Bodhgaya", nights: 1 },
-      { city: "Ayodhya", nights: 1 },
-      { city: "Chitrakoot", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Varanasi",
-        details: [
-          "Arrive at Varanasi Airport / Cantt Railway Station and transfer to hotel. Evening visit to Dashashwamedh Ghat for the spectacular Ganga Aarti — a mesmerising fire ritual performed by priests to the chanting of Vedic hymns. Overnight Varanasi."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Varanasi — Kashi Vishwanath & Sarnath",
-        details: [
-          "Pre-dawn boat ride on the Ganges past the ancient ghats as the city awakens. Darshan at Kashi Vishwanath Jyotirlinga (one of the 12 sacred Jyotirlingas) and Sankat Mochan Hanuman Temple. Afternoon excursion to Sarnath — where the Buddha delivered his first sermon — and visit the Dhamek Stupa. Overnight Varanasi."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Varanasi → Bodhgaya",
-        details: [
-          "Drive to Bodhgaya (250 km / approx. 5 hrs) — the most sacred site in Buddhism. Visit the Mahabodhi Temple Complex (UNESCO World Heritage Site) and the Bodhi Tree under which Gautama Buddha attained enlightenment. Attend evening meditation prayers at the temple. Overnight Bodhgaya."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Bodhgaya → Ayodhya",
-        details: [
-          "Morning visit to Dungeshwari Cave Temples (Mahakala Caves) and the monasteries of Japan, China, and Thailand. Drive to Ayodhya (350 km / approx. 7 hrs) — the birthplace of Lord Ram. Check-in and evening aarti at Saryu River Ghat. Overnight Ayodhya."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Ayodhya — Ram Mandir Darshan",
-        details: [
-          "Darshan at the newly built Ram Mandir (Ram Janmabhoomi) — a landmark of Hindu faith and heritage. Visit Hanuman Garhi, Kanak Bhavan Temple, and Nageshwarnath Temple. Evening boat ride on the Saryu River and Aarti ceremony on the ghats. Overnight Ayodhya."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Ayodhya → Chitrakoot",
-        details: [
-          "Drive to Chitrakoot (180 km / approx. 4 hrs) — the sacred forest where Lord Ram, Sita, and Lakshmana spent 11 of their 14 years of exile. Visit Kamadgiri Parikrama (holy hill circumambulation), Sphatik Shila, and the serene Ramghat on the Mandakini River. Overnight Chitrakoot."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Chitrakoot Sightseeing — Departure",
-        details: [
-          "Morning visit to Gupt Godavari Caves, Janaki Kund, and Bharat Milap Temple — marking the sacred reunion of Ram and Bharat. Transfer to Allahabad / Prayagraj Airport or Chitrakoot Railway Station for onward journey. Tour concludes with divine blessings of Shri Ram."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "6 Nights / 7 Days" },
-      {
-        label: "Destinations",
-        value: "Varanasi · Bodhgaya · Ayodhya · Chitrakoot",
-      },
-      {
-        label: "Departure & Return",
-        value: "Varanasi Airport / Railway Station",
-      },
-      { label: "Tour Code", value: "VABC-PLGM-VNS-26" },
-      { label: "Meals", value: "All meals included (vegetarian)" },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Customised — 2 to 20+ pilgrims" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 9,
-    country: "India",
-    place: "Ahmedabad",
-    title: "Pancha Dwaraka Tour from Ahmedabad",
-    type: "Religious yatras",
-    duration: "9 Nights / 10 Days",
-    durationTag: "10 Days",
-    startEnd: "Ahmedabad → Somnath",
-    destinations: ["Ahmedabad", "Dwarka", "Porbandar", "Somnath"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 42900,
-    rating: 4.6,
-    reviews: 93,
-    badge: "Heritage",
-    badgeColor: "bg-orange-500",
-    mode: "Road",
-    img: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=640&q=80",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Dwarkadhish Temple Darshan (Char Dham)" },
-      { title: "Somnath Jyotirlinga — First of 12 Jyotirlingas" },
-      { title: "Nageshwar Jyotirlinga & Beyt Dwarka" },
-      { title: "Palitana Jain Temples, Shatrunjaya Hill" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=1200&q=80",
-      alt: "Pancha Dwaraka Tour from Ahmedabad — Gujarat",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "An extraordinary pilgrimage across Gujarat covering Dwarka, Somnath, and Palitana. Indruka Trips and Trip handled every detail superbly — comfortable hotels, timely transfers, and knowledgeable guides.",
-        author: "Haresh Shah",
-        date: "Travelled Dec 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "The Somnath Temple at the edge of the Arabian Sea at sunset was breathtaking. Climbing Shatrunjaya Hill to the Palitana Jain temples was challenging but spiritually rewarding. Wonderful tour!",
-        author: "Sonal Desai",
-        date: "Travelled Nov 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-9.jpg",
-        alt: "Dwarkadhish Temple",
-      },
-      {
-        id: 2,
-        src: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=640&q=80",
-        alt: "Somnath Temple Gujarat",
-      },
-      {
-        id: 3,
-        src: "https://images.unsplash.com/photo-1606141689920-8c8e21f6f70c?w=640&q=80",
-        alt: "Palitana Jain Temples",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Gujarat", href: "/india/gujarat" },
-      { label: "Pancha Dwaraka Tour from Ahmedabad" },
-    ],
-
-    badges: [
-      { label: "HERITAGE", variant: "solid" as const, color: "amber" },
-      { label: "PILGRIMAGE TOUR", variant: "outlined" as const, color: "blue" },
-    ],
-
-    durationDays: 10,
-    countryCount: 1,
-    cityCount: 4,
-    region: "Gujarat, India",
-
-    itineraryStops: [
-      { city: "Ahmedabad", nights: 1 },
-      { city: "Dwarka", nights: 2 },
-      { city: "Porbandar", nights: 1 },
-      { city: "Somnath / Junagadh", nights: 2 },
-      { city: "Palitana", nights: 1 },
-      { city: "Ahmedabad (Return)", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Ahmedabad",
-        details: [
-          "Arrive at Ahmedabad Airport / Railway Station and transfer to hotel. Visit the grand Swaminarayan Temple at Kalupur and the spectacular Akshardham Temple complex. Welcome dinner. Overnight Ahmedabad."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Ahmedabad → Dwarka",
-        details: [
-          "Drive to Dwarka (450 km / approx. 7 hrs) through the Saurashtra heartland. Evening darshan at the sacred Dwarkadhish Temple — one of the four Char Dhams — dedicated to Lord Krishna, rising magnificently beside the Gomti River. Attend the sunset aarti. Overnight Dwarka."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Dwarka — Beyt Dwarka & Nageshwar Jyotirlinga",
-        details: [
-          "Morning darshan at Dwarkadhish Temple and Rukmini Devi Temple (2 km from Dwarka). Boat ride to Beyt Dwarka Island, believed to be Lord Krishna's actual residence. Visit Nageshwar Jyotirlinga — one of the 12 sacred Jyotirlingas. Overnight Dwarka."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Dwarka → Porbandar",
-        details: [
-          "Drive to Porbandar (100 km / approx. 2 hrs) — birthplace of Mahatma Gandhi on the Saurashtra coast. Visit Sudama Mandir (honouring Krishna's dearest devotee), Kirti Mandir (Gandhi's ancestral home), and the tranquil Porbandar Beach. Overnight Porbandar."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Porbandar → Somnath",
-        details: [
-          "Drive to Somnath (170 km / approx. 3 hrs). Darshan at the Somnath Jyotirlinga Temple — the first and most revered of the 12 Jyotirlingas, standing at the Triveni Sangam of three rivers on the Arabian Sea coast. Visit Bhalka Tirth — where Lord Krishna left the mortal world. Overnight Somnath."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Somnath → Junagadh",
-        details: [
-          "Drive to Junagadh. Take the rope-way up Girnar Hill to visit ancient Jain temples at the summit. Explore the medieval Uparkot Fort with its ancient Buddhist caves and stepwells. Optional jeep safari to Gir National Park — the last wild habitat of Asiatic lions. Overnight Junagadh."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Junagadh → Palitana",
-        details: [
-          "Drive to Palitana (180 km / approx. 4 hrs). Ascend the 3,500+ steps of Shatrunjaya Hill to the spectacular cluster of 863 Jain temples — one of the holiest Jain pilgrimage sites in the world, with panoramic views of the Gulf of Khambhat. Overnight Palitana."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Palitana → Vadodara → Champaner",
-        details: [
-          "Drive toward Vadodara. En route visit the UNESCO-listed Champaner-Pavagadh Archaeological Park — a remarkable blend of Hindu and Islamic heritage. Ascend Pavagadh Hill (rope-way available) for darshan at Kalika Mata Temple. Overnight Vadodara."
-          ],
-      },
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Vadodara → Ahmedabad — City Sightseeing",
-        details: [
-          "Drive to Ahmedabad (110 km / approx. 2 hrs). Visit Sabarmati Ashram — Mahatma Gandhi's historic residence and nerve centre of India's independence movement — the exquisitely carved Adalaj Vav Stepwell, and the latticed Sidi Saiyyed Mosque. Overnight Ahmedabad."
-          ],
-      },
-      {
-        day: 10,
-        date: "Day 10",
-        title: "Ahmedabad — Departure",
-        details: [
-          "Morning visit to the Hutheesing Jain Temple — a masterpiece of white marble craftsmanship. Browse the local handicraft market for Patola silk, Bandhani fabric, and Gujarati embroidery as mementos of this sacred journey. Transfer to Ahmedabad Airport for onward travel. Tour concludes with blessings of Lord Dwarkadhish."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "9 Nights / 10 Days" },
-      {
-        label: "Destinations",
-        value: "Dwarka · Porbandar · Somnath · Junagadh · Palitana · Ahmedabad",
-      },
-      {
-        label: "Departure & Return",
-        value: "Ahmedabad Airport / Railway Station",
-      },
-      { label: "Tour Code", value: "PDW-PLGM-AMD-26" },
-      { label: "Meals", value: "All meals included (vegetarian)" },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Customised — 2 to 20+ pilgrims" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-  // ─────────────────────────────────────────────
-  // ID 139 — Dalhousie Khajjiar Tour Package
-  // ─────────────────────────────────────────────
-  // {
-  //   id: 139,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Dalhousie Khajjiar Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Pathankot", "Dalhousie", "Khajjiar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dalhousie-khajjiar-tour.webp",
-  //   popular: false,
-
-  //   tourFeatures: [
-  //     { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-  //     { icon: UtensilsCrossed, label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
-  //     { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-  //     { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-  //   ],
-
-  //   tourHighlights: [
-  //     { title: "Colonial charm of Dalhousie hill town" },
-  //     { title: "Panchpula waterfalls & Subhash Baoli" },
-  //     { title: "Khajjiar — Mini Switzerland of India" },
-  //     { title: "Khajjiar Lake & lush green meadows" },
-  //   ],
-
-  //   tourManagerCompany: "Indruka Trips and Trip",
-
-  //   heroImage: {
-  //     src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dalhousie-khajjiar-tour.webp",
-  //     alt: "Dalhousie Khajjiar Tour Package — Himachal Pradesh",
-  //   },
-
-  //   testimonials: [
-  //     {
-  //       id: 1,
-  //       text: "The Dalhousie trip was beautifully organised. Khajjiar truly felt like Switzerland — lush green and peaceful. Indruka Trips and Trip made every moment special.",
-  //       author: "Priya Mehta",
-  //       date: "Travelled October 2025",
-  //       manager: "Indruka Trips and ",
-  //       managerRole: "Tour Manager",
-  //     },
-  //     {
-  //       id: 2,
-  //       text: "A perfect short getaway for our family. The transfers were smooth, hotels were comfortable, and Khajjiar was breathtaking. Highly recommended!",
-  //       author: "Sandeep Verma",
-  //       date: "Travelled November 2025",
-  //       manager: "Indruka Trips and ",
-  //       managerRole: "Tour Manager",
-  //     },
-  //   ],
-
-  //   thumbnails: [
-  //     {
-  //       id: 1,
-  //       src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dalhousie-khajjiar-tour.webp",
-  //       alt: "Dalhousie Khajjiar Tour",
-  //     },
-  //   ],
-
-  //   breadcrumbs: [
-  //     { label: "Home", href: "/" },
-  //     { label: "India", href: "/india" },
-  //     { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
-  //     { label: "Dalhousie Khajjiar Tour Package" },
-  //   ],
-
-  //   badges: [
-  //     { label: "POPULAR", variant: "solid" as const, color: "blue" },
-  //     { label: "ROAD TRIP", variant: "outlined" as const, color: "green" },
-  //   ],
-
-  //   durationDays: 3,
-  //   countryCount: 1,
-  //   cityCount: 2,
-  //   region: "Himachal Pradesh, India",
-
-  //   itineraryStops: [
-  //     { city: "Delhi / Pathankot", nights: 0 },
-  //     { city: "Dalhousie", nights: 1 },
-  //     { city: "Khajjiar", nights: 1 },
-  //   ],
-
-  //   days: [
-  //     {
-  //       day: 1,
-  //       date: "Day 1",
-  //       title: "Delhi → Pathankot → Dalhousie",
-  //       details:
-  //         "Depart Delhi early morning and drive towards Pathankot. On arrival at Pathankot, meet our representative and proceed to Dalhousie. Check in to hotel, freshen up, and explore the colonial town at leisure. Overnight stay in Dalhousie.",
-  //     },
-  //     {
-  //       day: 2,
-  //       date: "Day 2",
-  //       title: "Dalhousie Sightseeing",
-  //       details:
-  //         "After breakfast, full-day sightseeing of Dalhousie — visit Panchpula (natural water pools & Sardar Ajit Singh monument), Subhash Baoli (where Netaji spent contemplative time), and Bhulwani Mata Mandir at Bara Pathar. Evening stroll on Mall Road. Overnight stay in Dalhousie.",
-  //     },
-  //     {
-  //       day: 3,
-  //       date: "Day 3",
-  //       title: "Dalhousie → Khajjiar → Delhi",
-  //       details:
-  //         "After breakfast, excursion to Khajjiar — the 'Mini Switzerland of India'. Explore the lush green meadow, Khajjiar Lake, and enjoy horse riding. Post lunch, drive back towards Delhi. Arrive Delhi late evening; tour concludes.",
-  //     },
-  //   ],
-
-  //   tourDetails: [
-  //     { label: "Duration", value: "3 Days / 2 Nights" },
-  //     { label: "Destinations", value: "Dalhousie · Khajjiar" },
-  //     { label: "Departure & Return", value: "Delhi" },
-  //     { label: "Tour Code", value: "HP-DAL-KHJ-139" },
-  //     { label: "Meals", value: "Breakfast & Dinner included" },
-  //     { label: "Best Time", value: "March–June & September–November" },
-  //     { label: "Group Size", value: "Customised — 2 to 15 passengers" },
-  //   ],
-
-  //   onViewItinerary: () => console.log("view itinerary clicked"),
-  // },
-
-  // ─────────────────────────────────────────────
-  // ID 140 — Dharamshala Weekend Tour Package
-  // ─────────────────────────────────────────────
-  {
     id: 140,
     country: "India",
     place: "Himachal Pradesh",
@@ -1826,19 +1147,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dharamshala-weekend-tour.webp",
+    src: "/himchalpardesh-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -1851,7 +1172,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dharamshala-weekend-tour.webp",
+      src: "/himachal2.jpg",
       alt: "Dharamshala Weekend Tour Package — Himachal Pradesh",
     },
 
@@ -1877,7 +1198,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dharamshala-weekend-tour.webp",
+      src: "/himachal3.jpg",
+        alt: "Dharamshala Weekend Tour",
+      },
+       {
+        id: 2,
+      src: "/himachal4.jpg",
+        alt: "Dharamshala Weekend Tour",
+      },
+      {
+        id: 3,
+      src: "/himachal6.jpg",
         alt: "Dharamshala Weekend Tour",
       },
     ],
@@ -1976,19 +1307,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
+    src: "/himaExoctic.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -2001,7 +1332,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and ",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
+      src: "/himaExoctic3.png",
       alt: "Exotic Himachal Tour Package — Himachal Pradesh",
     },
 
@@ -2027,7 +1358,22 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
+        src: "/himaExoctic5.jpg",
+        alt: "Exotic Himachal Tour",
+      },
+        {
+        id: 2,
+        src: "/himaExoctic2.jpg",
+        alt: "Exotic Himachal Tour",
+      },
+        {
+        id: 3,
+        src: "/himaExoctic.jpg",
+        alt: "Exotic Himachal Tour",
+      },
+        {
+        id: 4,
+        src: "/himaExoctic4.jpg",
         alt: "Exotic Himachal Tour",
       },
     ],
@@ -2135,19 +1481,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
+    src: "/shimla-manali.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -2160,7 +1506,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
+      src: "/shim.png",
       alt: "Shimla Manali Tour Package — Himachal Pradesh",
     },
 
@@ -2186,9 +1532,25 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
+        src: "/shim.jpg",
         alt: "Shimla Manali Tour",
       },
+        {
+        id: 2,
+        src: "/shim2.jpg",
+        alt: "Shimla Manali Tour",
+      },
+        {
+        id: 3,
+        src: "/shim3.jpg",
+        alt: "Shimla Manali Tour",
+      },
+        {
+        id:4,
+        src: "/shim7.jpg",
+        alt: "Shimla Manali Tour",
+      },
+        
     ],
 
     breadcrumbs: [
@@ -2302,19 +1664,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
+    src: "/EnchantingHimachal.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -2327,7 +1689,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
+      src: "/EnchantingHimachal2.jpg",
       alt: "Enchanting Himachal Tour Package — Himachal Pradesh",
     },
 
@@ -2353,7 +1715,12 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
+        src: "/EnchantingHimachal3.jpg",
+        alt: "Enchanting Himachal Tour",
+      },
+        {
+        id: 1,
+        src: "/himachal2.jpg",
         alt: "Enchanting Himachal Tour",
       },
     ],
@@ -2477,19 +1844,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himanchal-with-vaishno-devi-darshan.webp",
+    src: "/vaishno-Hima-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -2502,7 +1869,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himanchal-with-vaishno-devi-darshan.webp",
+      src: "/vaishno-Hima.jpg",
       alt: "Himachal Vaishno Devi Darshan Tour",
     },
 
@@ -2528,9 +1895,25 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himanchal-with-vaishno-devi-darshan.webp",
+      src: "/vaishno-Hima1.jpg",
         alt: "Himachal Vaishno Devi Tour",
       },
+      {
+        id:2,
+      src: "/vaishno-Hima6.jpg",
+        alt: "Himachal Vaishno Devi Tour",
+      },
+      {
+        id: 3,
+      src: "/vaishno-Hima7.jpg",
+        alt: "Himachal Vaishno Devi Tour",
+      },
+      {
+        id: 4,
+      src: "/vaishno-Hima8.jpg",
+        alt: "Himachal Vaishno Devi Tour",
+      },
+      
     ],
 
     breadcrumbs: [
@@ -2643,193 +2026,6 @@ export const tours = [
   // ─────────────────────────────────────────────
   // ID 145 — Himachal Delhi Darshan Tour Package
   // ─────────────────────────────────────────────
-  {
-    id: 145,
-    country: "India",
-    place: "Himachal Pradesh",
-    title: "Himachal Delhi Darshan Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "9 Days / 8 Nights",
-    durationTag: "9 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Manali", "Rohtang Pass", "Shimla"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 35000,
-    rating: 4.7,
-    reviews: 96,
-    badge: "popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Delhi Darshan — India Gate, Red Fort & Qutub Minar" },
-      { title: "Manali — Hadimba Temple & Solang Valley" },
-      { title: "Rohtang Pass snow excursion" },
-      { title: "Shimla — Queen of Hills & Mall Road" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-      alt: "Himachal Delhi Darshan Tour Package",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The Delhi Darshan combined with Himachal was a brilliant itinerary. Saw iconic Delhi monuments and then the majestic Himalayas — perfect for our family tour.",
-        author: "Rajesh Bhatia",
-        date: "Travelled April 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Excellent arrangements throughout. Rohtang Pass was simply breathtaking. Indruka Trips and Trip's team was always responsive and helpful.",
-        author: "Pooja Nair",
-        date: "Travelled May 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-        alt: "Himachal Delhi Darshan Tour",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
-      { label: "Himachal Delhi Darshan Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "ROAD TRIP", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 9,
-    countryCount: 1,
-    cityCount: 3,
-    region: "Delhi & Himachal Pradesh, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 2 },
-      { city: "Manali", nights: 3 },
-      { city: "Shimla", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Delhi",
-        details: [
-          "Arrive Delhi, check in to hotel. Welcome briefing. Evening at leisure. Overnight stay in Delhi."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Delhi Darshan",
-        details: [
-          "After breakfast, full day Delhi sightseeing — India Gate, Humayun's Tomb, Qutub Minar, Red Fort, Jama Masjid, Lotus Temple, Akshardham, and Connaught Place. Overnight stay in Delhi."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Delhi → Manali",
-        details: [
-          "After breakfast, drive to Manali via Kullu (approx. 12–14 hrs). En route stop at Pandoh Dam, Sundernagar Lake, and Hanogi Mata Temple. Arrive Manali, check in. Overnight stay."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Manali Local Sightseeing",
-        details: [
-          "After breakfast, visit Hadimba Devi Temple, Club House, Vashisht Temple & sulphur hot springs, Tibetan Monastery, and Van Vihar. Evening shopping at Mall Road. Overnight stay."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Solang Valley Adventure",
-        details: [
-          "After breakfast, full day at Solang Valley — paragliding, zorbing, ropeway, and skiing amidst stunning mountain scenery. Return to Manali. Overnight stay."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Rohtang Pass Excursion",
-        details: [
-          "Full day excursion to Rohtang Pass — Kothi Gorge, Gulaba, Rahalla Falls, Marhi. Enjoy snow sports and panoramic glacier views. Return to Manali. Overnight stay."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Manali → Shimla",
-        details: [
-          "After breakfast, drive to Shimla via Kullu (approx. 7–8 hrs). Arrive Shimla, check in. Evening stroll on Mall Road. Overnight stay."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Shimla Sightseeing",
-        details: [
-          "After breakfast, visit Kufri, Jakhu Temple, Viceregal Lodge, Scandal Point, and Christ Church. Afternoon free to explore the famous Shimla Mall Road market. Overnight stay."
-          ],
-      },
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Shimla → Delhi — Departure",
-        details: [
-          "After breakfast, check out and drive back to Delhi. Arrive Delhi by evening. Tour concludes."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "9 Days / 8 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Manali · Rohtang Pass · Shimla",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "HP-DEL-145" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "March–June & September–November" },
-      { label: "Group Size", value: "Customised — 2 to 15 passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
 
   // ─────────────────────────────────────────────
   // ID 146 — Scenic Himachal Tour Package
@@ -2851,19 +2047,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
+    src: "/Hima-Scene7.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -2876,7 +2072,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
+      src:  "/Hima-Scene6.jpg",
       alt: "Scenic Himachal Tour Package — Himachal Pradesh",
     },
 
@@ -2902,7 +2098,27 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
+      src:  "/Hima-Scene5.jpg",
+        alt: "Scenic Himachal Tour",
+      },
+        {
+        id: 2,
+      src:  "/Hima-Scene3.jpg",
+        alt: "Scenic Himachal Tour",
+      },
+        {
+        id: 3,
+      src:  "/Hima-Scene4.jpg",
+        alt: "Scenic Himachal Tour",
+      },
+        {
+        id: 4,
+      src:  "/Hima-Scene5.jpg",
+        alt: "Scenic Himachal Tour",
+      },
+        {
+        id: 6,
+      src:  "/Hima-Scene2.jpg",
         alt: "Scenic Himachal Tour",
       },
     ],
@@ -3040,19 +2256,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
+    src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -3241,19 +2457,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
+    src: "/himaExoctic.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -3266,7 +2482,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
+      src: "/himachal.jpg",
       alt: "Himachal Honeymoon Tour Package — Himachal Pradesh",
     },
 
@@ -3292,7 +2508,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
+        src: "/himaExoctic3.png",
+        alt: "Himachal Honeymoon Tour",
+      },
+        {
+        id: 2,
+        src: "/Hima-Scence.jpg",
+        alt: "Himachal Honeymoon Tour",
+      },
+      {
+        id: 3,
+        src: "/Hima-Scence2.jpg",
         alt: "Himachal Honeymoon Tour",
       },
     ],
@@ -3438,19 +2664,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
+    src: "/himachal6.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -3463,7 +2689,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
+      src: "/himachal2.jpg",
       alt: "Fascinating Himachal Tour Package — Himachal Pradesh",
     },
 
@@ -3489,7 +2715,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
+      src: "/EnchantingHimachal3.jpg",
+        alt: "Fascinating Himachal Tour",
+      },
+      {
+        id: 2,
+      src: "/himaExoctic4.jpg",
+        alt: "Fascinating Himachal Tour",
+      },
+      {
+        id: 3,
+      src: "/himaExoctic2.jpg",
         alt: "Fascinating Himachal Tour",
       },
     ],
@@ -3645,19 +2881,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-weekend-tour-package.webp",
+    src: "/goa-trip-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -3670,7 +2906,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-weekend-tour-package.webp",
+      src: "/goa6.jpg",
       alt: "Goa Weekend Tour Package — Goa, India",
     },
 
@@ -3696,9 +2932,20 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-weekend-tour-package.webp",
-        alt: "Goa Weekend Tour",
+ src: "/goa1.jpg",        
+ alt: "Goa Weekend Tour",
       },
+      {
+        id: 2,
+ src: "/goa3.jpg",        
+ alt: "Goa Weekend Tour",
+      },
+      {
+        id: 1,
+ src: "/goa7.jpg",        
+ alt: "Goa Weekend Tour",
+      },
+     
     ],
 
     breadcrumbs: [
@@ -3796,19 +3043,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-honeymoon-special-tour.webp",
+    src: "/goa-honey.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -3821,7 +3068,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-honeymoon-special-tour.webp",
+      src: "/goa-honeymoon.jpg",
       alt: "Goa Honeymoon Special Tour — Goa, India",
     },
 
@@ -3847,7 +3094,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-honeymoon-special-tour.webp",
+      src: "/goa10.jpg",
+        alt: "Goa Honeymoon Special Tour",
+      },
+      {
+        id: 1,
+      src: "/goa11.jpg",
+        alt: "Goa Honeymoon Special Tour",
+      },
+      {
+        id: 1,
+      src: "/goa12.jpg",
         alt: "Goa Honeymoon Special Tour",
       },
     ],
@@ -3927,151 +3184,7 @@ export const tours = [
   // ─────────────────────────────────────────────
   // ID 152 — Goa Adventure Tour Package
   // ─────────────────────────────────────────────
-  {
-    id: 152,
-    country: "India",
-    place: "Goa",
-    title: "Goa Adventure Tour Package",
-    type: "Honeymoon packages",
-    duration: "4 Days / 3 Nights",
-    durationTag: "4 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 9900,
-    rating: 4.7,
-    reviews: 96,
-    badge: "popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-adventure-tour-package.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Water sports — Jet Ski, Parasailing & Banana Boat Ride" },
-      { title: "Scuba Diving & Snorkelling at Grand Island" },
-      { title: "Bungee Jumping & ATV rides in North Goa" },
-      { title: "Dudhsagar Waterfall jeep safari excursion" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-adventure-tour-package.webp",
-      alt: "Goa Adventure Tour Package — Goa, India",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The water sports day at Baga was incredible — parasailing, banana boat, and jet ski all in one morning! Indruka Trips and Trip planned the adventure perfectly.",
-        author: "Karan Mehta",
-        date: "Travelled October 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "The Dudhsagar waterfall jeep safari was a highlight — stunning! The scuba diving experience at Grand Island was also world-class. Great adventure package!",
-        author: "Prateek Singh",
-        date: "Travelled November 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-adventure-tour-package.webp",
-        alt: "Goa Adventure Tour",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Goa", href: "/india/goa" },
-      { label: "Goa Adventure Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "ADVENTURE", variant: "outlined" as const, color: "orange" },
-    ],
-
-    durationDays: 4,
-    countryCount: 1,
-    cityCount: 2,
-    region: "Goa, India",
-
-    itineraryStops: [
-      { city: "Delhi (Departure)", nights: 0 },
-      { city: "North Goa", nights: 2 },
-      { city: "South Goa", nights: 1 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Goa",
-        details: [
-          "Arrive at Goa airport/railway station, transfer to hotel. Check in, freshen up. Evening explore the beach and enjoy Goa's famous shack culture — seafood dinner and nightlife. Overnight stay."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "North Goa Water Sports Day",
-        details: [
-          "After breakfast, head to Baga/Calangute Beach for a full water sports session — Jet Ski, Parasailing, Banana Boat Ride, Water Skiing, and Speed Boat. Afternoon: Bungee Jumping and ATV rides (at own cost). Visit Fort Aguada. Evening flea market at Anjuna or Arpora. Overnight stay."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Grand Island Scuba Diving & Dudhsagar Excursion",
-        details: [
-          "Morning: Grand Island boat trip for Scuba Diving and Snorkelling — explore vibrant coral reefs and marine life. Afternoon: Optional Dudhsagar Waterfall jeep safari through the jungle (seasonal, at own cost). Evening at leisure. Overnight stay."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Goa → Delhi — Departure",
-        details: [
-          "After breakfast, last-minute shopping at the local market (cashews, handicrafts). Transfer to Goa airport/railway station. Tour concludes."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "4 Days / 3 Nights" },
-      { label: "Destinations", value: "North Goa · South Goa · Grand Island" },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "GOA-ADV-152" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Customised — 2 to 15 passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
+ 
   // ─────────────────────────────────────────────
   // ID 153 — Most Wanted Goa Package
   // ─────────────────────────────────────────────
@@ -4092,19 +3205,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/most-wanted-goa-package.webp",
+    src: "/goa-wanted.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -4117,7 +3230,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/most-wanted-goa-package.webp",
+      src: "/goa14.jpg",
       alt: "Most Wanted Goa Package — Goa, India",
     },
 
@@ -4143,7 +3256,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/most-wanted-goa-package.webp",
+      src: "/goa15.jpg",
+        alt: "Most Wanted Goa Package",
+      },
+      {
+        id: 2,
+      src: "/goa16.jpg",
+        alt: "Most Wanted Goa Package",
+      },
+      {
+        id: 3,
+      src: "/goa7.jpg",
         alt: "Most Wanted Goa Package",
       },
     ],
@@ -4240,20 +3363,20 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-tour-package-with-flight.webp",
+    src: "/goa-flight.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Plane, label: "Flight", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Plane", label: "Flight", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -4266,7 +3389,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-tour-package-with-flight.webp",
+      src: "/goa-flight1.jpg",
       alt: "Goa Tour Package with Flight — Goa, India",
     },
 
@@ -4292,7 +3415,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-tour-package-with-flight.webp",
+      src: "/goa-flight2.jpg",
+        alt: "Goa Tour Package with Flight",
+      },
+      {
+        id:2,
+      src: "/goa1.jpg",
+        alt: "Goa Tour Package with Flight",
+      },
+      {
+        id: 3,
+      src: "/goa3.jpg",
         alt: "Goa Tour Package with Flight",
       },
     ],
@@ -4389,19 +3522,19 @@ export const tours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/amazing-goa-fiesta-tour.webp",
+    src: "/goa-fiesta.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -4414,7 +3547,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/amazing-goa-fiesta-tour.webp",
+      src: "/goa-fiesta1.jpg",
       alt: "Amazing Goa Fiesta Tour — Goa, India",
     },
 
@@ -4440,7 +3573,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/amazing-goa-fiesta-tour.webp",
+src: "/goa-fiesta3.jpg",
+        alt: "Amazing Goa Fiesta Tour",
+      },
+      {
+        id: 1,
+src: "/goa-fiesta5.jpg",
+        alt: "Amazing Goa Fiesta Tour",
+      },
+       {
+        id: 1,
+src: "/goa.jpg",
         alt: "Amazing Goa Fiesta Tour",
       },
     ],
@@ -4525,4049 +3668,10 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  {
-    id: 141,
-    country: "India",
-    place: "Himachal Pradesh",
-    title: "Exotic Himachal Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "5 Days / 4 Nights",
-    durationTag: "5 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Shimla", "Kullu", "Manali", "Rohtang Pass"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 25000,
-    rating: 4.7,
-    reviews: 96,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
-    popular: false,
+ 
 
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
 
-    tourHighlights: [
-      { title: "Shimla Mall Road & Jakhu Temple" },
-      { title: "Rohtang Pass Snow Adventure (Subject to Permit)" },
-      { title: "Solang Valley Skiing & Paragliding" },
-      { title: "Kullu River Rafting & Valley Views" },
-    ],
 
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
-      alt: "Exotic Himachal Tour Package — Shimla Manali",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The Rohtang Pass experience was breathtaking! Indruka Trips and Trip handled all permits and arrangements flawlessly. Highly recommended for first-time Himachal visitors.",
-        author: "Sunita Joshi",
-        date: "Travelled May 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "A wonderful 5-day trip covering the best of Himachal. The Solang Valley paragliding was a highlight. Very professional team and comfortable hotels.",
-        author: "Rajan Kapoor",
-        date: "Travelled June 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
-        alt: "Himachal Pradesh Scenic View",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/rohtang-pass-manali.jpg",
-        alt: "Rohtang Pass",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/solang-valley-manali.jpg",
-        alt: "Solang Valley",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
-      { label: "Exotic Himachal Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "ROAD TRIP", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 5,
-    countryCount: 1,
-    cityCount: 4,
-    region: "Himachal Pradesh, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Shimla", nights: 1 },
-      { city: "Kullu", nights: 0 },
-      { city: "Manali", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Shimla",
-        details: [
-          "Depart Delhi by coach (approx. 9 hrs). Arrive Shimla; check-in to hotel. Evening stroll on the iconic Mall Road. Overnight in Shimla."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Shimla Sightseeing → Drive to Manali",
-        details: [
-          "Morning sightseeing: Jakhu Temple (dedicated to Lord Hanuman), Christ Church, and Kalbadevi Mandir. Post-lunch, begin scenic drive to Manali via Kullu valley. Overnight in Manali."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Rohtang Pass & Solang Valley",
-        details: [
-          "Early morning excursion to Rohtang Pass (13,050 ft) — subject to permit availability and weather. Enjoy snow activities, photography, and stunning Himalayan vistas. Return via Solang Valley for skiing, paragliding, and zorbing. Overnight in Manali."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Manali Local Sightseeing",
-        details: [
-          "Visit Hadimba Devi Temple (a 16th-century wood temple), Vashisht Hot Water Springs, Old Manali village, and a Tibetan Monastery. Evening leisure. Depart for Delhi by overnight coach."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Arrive Delhi — Tour Concludes",
-        details: [
-          "Arrive Delhi in the morning. Transfer to your home/hotel. Tour concludes."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "5 Days / 4 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Shimla · Kullu · Manali · Rohtang Pass",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "HP-EXOT-DEL-02" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "March–June & September–November" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─────────────────────────────────────────────
-  // ID 142 — Shimla Manali Tour Package
-  // ─────────────────────────────────────────────
-  {
-    id: 142,
-    country: "India",
-    place: "Himachal Pradesh",
-    title: "Shimla Manali Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "6 Days / 5 Nights",
-    durationTag: "6 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Manali", "Shimla"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 18000,
-    rating: 4.7,
-    reviews: 96,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Hadimba Devi Temple & Vashisht Hot Springs, Manali" },
-      { title: "Rohtang Pass & Solang Valley Snow Activities" },
-      { title: "Jakhu Hill & Tara Devi Temple, Shimla" },
-      { title: "Kufri Horse Riding in Apple Orchards" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-      alt: "Shimla Manali Tour Package — Himachal Pradesh",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Best value Shimla-Manali package we could find! The Kufri horse riding and apple orchard visit was a unique experience. Everything was well organized.",
-        author: "Deepak Sharma",
-        date: "Travelled April 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Indruka Trips and Trip made our Himachal dream come true. Hotels were comfortable, food was great, and the driver was very experienced on mountain roads.",
-        author: "Kavita Singh",
-        date: "Travelled May 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-        alt: "Shimla Manali Tour",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/shimla-mall-road.jpg",
-        alt: "Shimla Mall Road",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/hadimba-temple-manali.jpg",
-        alt: "Hadimba Devi Temple",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
-      { label: "Shimla Manali Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "ROAD TRIP", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 6,
-    countryCount: 1,
-    cityCount: 3,
-    region: "Himachal Pradesh, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Manali", nights: 2 },
-      { city: "Shimla", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Manali Arrival",
-        details: [
-          "Depart Delhi by overnight coach. Arrive Manali; check-in. Visit Hadimba Devi Temple, Vashisht Hot Water Bath, and Tibetan Monastery. Overnight in Manali."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Rohtang Pass & Solang Valley Excursion",
-        details: [
-          "Full-day excursion to Rohtang Pass (permit required) for snow activities and panoramic Himalayan views. En-route enjoy Solang Valley — skiing, paragliding, zorbing. Return to Manali. Overnight."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Manali → Shimla Drive",
-        details: [
-          "After breakfast, drive to Shimla (approx. 7–8 hrs) via the scenic Kullu Valley. En-route stop at Pandoh Dam and Sundernagar. Check-in to hotel. Evening walk on Mall Road."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Shimla Sightseeing",
-        details: [
-          "Visit Jakhu Hill (Hanuman Temple), Tara Devi Temple, Institute of Advanced Study (Viceregal Lodge), Christ Church, and the famous Mall Road. Overnight in Shimla."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Kufri Excursion & Departure",
-        details: [
-          "Morning excursion to Kufri — horse riding through scenic apple orchards and snow-capped hills. Return to Shimla. Board overnight coach to Delhi."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Arrive Delhi — Tour Concludes",
-        details: [
-          "Arrive Delhi in the morning. Tour concludes with wonderful memories of the Queen of Hills and the Valley of Gods."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "6 Days / 5 Nights" },
-      { label: "Destinations", value: "Delhi · Manali · Shimla · Kufri" },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "HP-SHIM-MAN-03" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "March–June & September–November" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // {
-  //   id: 3,
-  //   country: "India",
-  //   place: "Srinagar",
-  //   title: "Amarnath Yatra Packages",
-  //   type: "Pilgrimage Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Srinagar → Amarnath Cave",
-  //   destinations: ["Srinagar", "Pahalgam", "Panjtarni", "Amarnath Cave"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25900,
-  //   rating: 4.8,
-  //   reviews: 197,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 4,
-  //   country: "India",
-  //   place: "Uttarakhand",
-  //   title: "Adi Kailash & Om Parvat Yatra",
-  //   type: "Pilgrimage Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Haldwani → Adi Kailash",
-  //   destinations: ["Haldwani", "Dharchula", "Gunji", "Kalapani", "Adi Kailash"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 48500,
-  //   rating: 4.8,
-  //   reviews: 83,
-  //   badge: "Premium",
-  //   badgeColor: "bg-sky-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 5,
-  //   country: "India",
-  //   place: "Delhi",
-  //   title: "Golden Triangle Tour Package",
-  //   type: "Cultural Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Delhi → Amritsar",
-  //   destinations: ["Delhi", "Agra", "Mathura", "Jaipur", "Amritsar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Guided Tours"],
-  //   price: 12500,
-  //   rating: 4.7,
-  //   reviews: 534,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 6,
-  //   country: "India",
-  //   place: "Bhubaneswar",
-  //   title: "Bhubaneswar Puri Konark Tour",
-  //   type: "Temple Tour",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Bhubaneswar → Puri",
-  //   destinations: ["Bhubaneswar", "Konark", "Puri"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12900,
-  //   rating: 4.6,
-  //   reviews: 142,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 7,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Kamakhya Devi Temple Tour",
-  //   type: "Pilgrimage Tour",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kamakhya Temple"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13500,
-  //   rating: 4.7,
-  //   reviews: 118,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 8,
-  //   country: "India",
-  //   place: "Varanasi",
-  //   title: "Varanasi Ayodhya Bodhgaya Chitrakoot Tour",
-  //   type: "Pilgrimage Tour",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Varanasi → Chitrakoot",
-  //   destinations: ["Varanasi", "Bodhgaya", "Ayodhya", "Chitrakoot"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 32500,
-  //   rating: 4.7,
-  //   reviews: 176,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 9,
-  //   country: "India",
-  //   place: "Ahmedabad",
-  //   title: "Pancha Dwaraka Tour from Ahmedabad",
-  //   type: "Pilgrimage Tour",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Ahmedabad → Somnath",
-  //   destinations: ["Ahmedabad", "Dwarka", "Porbandar", "Somnath"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 42900,
-  //   rating: 4.6,
-  //   reviews: 93,
-  //   badge: "Heritage",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 10,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Tamil Nadu Temple Tour from Chennai",
-  //   type: "Temple Tour",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Chennai → Trichy",
-  //   destinations: [
-  //     "Chennai",
-  //     "Pondicherry",
-  //     "Chidambaram",
-  //     "Rameswaram",
-  //     "Kanyakumari",
-  //     "Madurai",
-  //     "Trichy",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 38900,
-  //   rating: 4.7,
-  //   reviews: 214,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 11,
-  //   country: "India",
-  //   place: "Port Blair",
-  //   title: "Andaman Island Retreat",
-  //   type: "Island Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Port Blair → Havelock",
-  //   destinations: ["Port Blair", "Havelock Island", "Elephant Beach"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 39000,
-  //   rating: 4.8,
-  //   reviews: 267,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 12,
-  //   country: "India",
-  //   place: "Leh",
-  //   title: "Ladakh Adventure Tour",
-  //   type: "Adventure Tour",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Srinagar → Leh",
-  //   destinations: ["Srinagar", "Gulmarg", "Sonmarg", "Leh", "Pangong Tso"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 70000,
-  //   rating: 4.9,
-  //   reviews: 189,
-  //   badge: "Adventure",
-  //   badgeColor: "bg-emerald-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 13,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Sikkim & Darjeeling Holiday",
-  //   type: "Hill Station Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Kalimpong → Darjeeling",
-  //   destinations: ["Kalimpong", "Gangtok", "Darjeeling"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35000,
-  //   rating: 4.7,
-  //   reviews: 154,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 14,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Royal Rajasthan Tour",
-  //   type: "Heritage Tour",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Jaipur → Pushkar",
-  //   destinations: [
-  //     "Jaipur",
-  //     "Bikaner",
-  //     "Jaisalmer",
-  //     "Jodhpur",
-  //     "Udaipur",
-  //     "Mount Abu",
-  //     "Pushkar",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 78000,
-  //   rating: 4.8,
-  //   reviews: 302,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 15,
-  //   country: "India",
-  //   place: "Shirdi",
-  //   title: "Shirdi – Bhimashankar Pilgrimage Tour",
-  //   type: "Pilgrimage Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Shirdi → Bhimashankar",
-  //   destinations: ["Shirdi", "Bhimashankar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 26000,
-  //   rating: 4.6,
-  //   reviews: 107,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1561361058-c24cecae35ca?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 16,
-  //   country: "India",
-  //   place: "Pan India",
-  //   title: "Jyotirlinga Darshan Yatra",
-  //   type: "Pilgrimage Tour",
-  //   duration: "20 Days / 19 Nights",
-  //   durationTag: "20 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Somnath",
-  //     "Mallikarjuna",
-  //     "Mahakaleshwar",
-  //     "Omkareshwar",
-  //     "Kedarnath",
-  //     "Bhimashankar",
-  //     "Kashi",
-  //     "Trimbakeshwar",
-  //     "Vaidyanath",
-  //     "Nageshwar",
-  //     "Rameshwaram",
-  //     "Grishneshwar",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 110000,
-  //   rating: 4.9,
-  //   reviews: 241,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 17,
-  //   country: "India",
-  //   place: "Khajuraho",
-  //   title: "Khajuraho – Orchha Temple Tour",
-  //   type: "Heritage Tour",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Khajuraho → Jhansi",
-  //   destinations: ["Khajuraho", "Orchha", "Jhansi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 21000,
-  //   rating: 4.6,
-  //   reviews: 88,
-  //   badge: "Heritage",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1524492412937-b28074a5d7da?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 18,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Rameshwaram Madurai Kanyakumari Tour",
-  //   type: "Temple Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Chennai → Trivandrum",
-  //   destinations: [
-  //     "Chennai",
-  //     "Mahabalipuram",
-  //     "Tanjore",
-  //     "Trichy",
-  //     "Madurai",
-  //     "Rameshwaram",
-  //     "Kanyakumari",
-  //     "Trivandrum",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 42000,
-  //   rating: 4.7,
-  //   reviews: 196,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1590050752117-238cb0fb12b1?w=640&q=80",
-  //   popular: true,
-  // },
-
-  // // ─── INTERNATIONAL ────────────────────────────────────────
-  // {
-  //   id: 19,
-  //   country: "Vietnam",
-  //   place: "Hanoi",
-  //   title: "Vietnam Tour Packages",
-  //   type: "Cultural Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Hanoi → Ho Chi Minh City",
-  //   destinations: [
-  //     "Hanoi",
-  //     "Ninh Binh",
-  //     "Halong Bay",
-  //     "Da Nang",
-  //     "Hoi An",
-  //     "Ho Chi Minh City",
-  //     "Mekong Delta",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18500,
-  //   rating: 4.7,
-  //   reviews: 143,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1557750255-c76072a7aad1?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 20,
-  //   country: "Sri Lanka",
-  //   place: "Colombo",
-  //   title: "Sri Lanka Ramayana Tour",
-  //   type: "Cultural Tour",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Anuradhapura → Colombo",
-  //   destinations: [
-  //     "Anuradhapura",
-  //     "Trincomalee",
-  //     "Kandy",
-  //     "Nuwara Eliya",
-  //     "Kataragama",
-  //     "Colombo",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 34900,
-  //   rating: 4.8,
-  //   reviews: 178,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 21,
-  //   country: "Indonesia",
-  //   place: "Bali",
-  //   title: "Bali Tour Packages",
-  //   type: "Beach Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Ubud → Seminyak",
-  //   destinations: [
-  //     "Ubud",
-  //     "Kuta",
-  //     "Denpasar",
-  //     "Seminyak",
-  //     "Tegalalang Rice Terrace",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16500,
-  //   rating: 4.7,
-  //   reviews: 389,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 22,
-  //   country: "UAE",
-  //   place: "Dubai",
-  //   title: "Dubai Tour Packages",
-  //   type: "Luxury Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Dubai → Abu Dhabi",
-  //   destinations: ["Dubai", "Desert Safari", "Dhow Cruise", "Abu Dhabi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 26500,
-  //   rating: 4.8,
-  //   reviews: 456,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 23,
-  //   country: "Egypt",
-  //   place: "Cairo",
-  //   title: "Egypt Tour Packages",
-  //   type: "Heritage Tour",
-  //   duration: "Multi-Day",
-  //   durationTag: "Multi-Day",
-  //   startEnd: "Cairo → Sinai Peninsula",
-  //   destinations: ["Cairo", "Nile River Valley", "Red Sea", "Sinai Peninsula"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 45500,
-  //   rating: 4.8,
-  //   reviews: 162,
-  //   badge: "Premium",
-  //   badgeColor: "bg-sky-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1539768942893-daf53e448371?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 24,
-  //   country: "Nepal",
-  //   place: "Kathmandu",
-  //   title: "Muktinath Yatra (Nepal)",
-  //   type: "Pilgrimage Tour",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Kathmandu → Muktinath",
-  //   destinations: ["Kathmandu", "Pokhara", "Jomsom", "Muktinath"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 51000,
-  //   rating: 4.8,
-  //   reviews: 134,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 25,
-  //   country: "Nepal/Tibet",
-  //   place: "Tibet",
-  //   title: "Kailash Mansarovar Yatra",
-  //   type: "Pilgrimage Tour",
-  //   duration: "12 Days / 11 Nights",
-  //   durationTag: "12 Days",
-  //   startEnd: "Delhi → Mansarovar",
-  //   destinations: ["Delhi", "Kathmandu", "Nyalam", "Kailash", "Mansarovar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 220000,
-  //   rating: 4.9,
-  //   reviews: 97,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 26,
-  //   country: "Maldives",
-  //   place: "Male",
-  //   title: "Maldives Honeymoon & Leisure",
-  //   type: "Honeymoon Tour",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Male → Resort Island",
-  //   destinations: ["Male", "Resort Island"],
-  //   amenities: ["Resort", "Meals", "Transfers", "Sightseeing"],
-  //   price: 87000,
-  //   rating: 4.9,
-  //   reviews: 278,
-  //   badge: "Honeymoon",
-  //   badgeColor: "bg-pink-500",
-  //   mode: "Speedboat",
-  //   img: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 27,
-  //   country: "Singapore",
-  //   place: "Singapore",
-  //   title: "Singapore Family Tour",
-  //   type: "Family Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Singapore → Sentosa Island",
-  //   destinations: ["Singapore City", "Sentosa Island"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 60000,
-  //   rating: 4.8,
-  //   reviews: 213,
-  //   badge: "Family",
-  //   badgeColor: "bg-teal-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1525625293386-3f8f99389edd?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 28,
-  //   country: "Thailand",
-  //   place: "Bangkok",
-  //   title: "Thailand Holiday Tour",
-  //   type: "Beach Tour",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Bangkok → Pattaya",
-  //   destinations: ["Bangkok", "Pattaya"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 46000,
-  //   rating: 4.7,
-  //   reviews: 341,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1528181304800-259b08848526?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 29,
-  //   country: "Japan",
-  //   place: "Tokyo",
-  //   title: "Japan Experience Tour",
-  //   type: "Cultural Tour",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Tokyo → Osaka",
-  //   destinations: ["Tokyo", "Hakone", "Kyoto", "Osaka"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 133000,
-  //   rating: 4.9,
-  //   reviews: 187,
-  //   badge: "Premium",
-  //   badgeColor: "bg-sky-600",
-  //   mode: "Train",
-  //   img: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 30,
-  //   country: "Mauritius",
-  //   place: "Mauritius",
-  //   title: "Mauritius Luxury Tour",
-  //   type: "Luxury Tour",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "North Island → South Island",
-  //   destinations: ["North Island", "South Island"],
-  //   amenities: ["Resort", "Meals", "Transfers", "Sightseeing"],
-  //   price: 100000,
-  //   rating: 4.8,
-  //   reviews: 156,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=640&q=80",
-  //   popular: true,
-  // },
-
-  // // ─── HELICOPTER PACKAGES ──────────────────────────────────
-  // {
-  //   id: 31,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Chardham Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Gangotri", "Yamunotri", "Kedarnath", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 230000,
-  //   rating: 4.9,
-  //   reviews: 298,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1545552987-720aa18145ca?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 32,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Chardham Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Gangotri", "Yamunotri", "Kedarnath", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 43000,
-  //   rating: 4.9,
-  //   reviews: 298,
-  //   badge: "Bestseller",
-  //   badgeColor: "bg-amber-500",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1545552987-720aa18145ca?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 33,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Badri Kedar Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Kedarnath", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 140000,
-  //   rating: 4.8,
-  //   reviews: 164,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 34,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Badri Kedar Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Kedarnath", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 43000,
-  //   rating: 4.8,
-  //   reviews: 164,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 35,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Badrinath Kedarnath Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Badrinath", "Kedarnath"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 135000,
-  //   rating: 4.9,
-  //   reviews: 186,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 36,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Badrinath Kedarnath Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Badrinath", "Kedarnath"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 48000,
-  //   rating: 4.9,
-  //   reviews: 186,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 37,
-  //   country: "India",
-  //   place: "Haridwar",
-  //   title: "Badrinath Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Haridwar → Haridwar",
-  //   destinations: ["Haridwar", "Dehradun", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 85000,
-  //   rating: 4.7,
-  //   reviews: 112,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 38,
-  //   country: "India",
-  //   place: "Haridwar",
-  //   title: "Badrinath Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Haridwar → Haridwar",
-  //   destinations: ["Haridwar", "Dehradun", "Badrinath"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 39000,
-  //   rating: 4.7,
-  //   reviews: 112,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 39,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Kedarnath Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Phata", "Guptkashi", "Kedarnath"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 85000,
-  //   rating: 4.8,
-  //   reviews: 231,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 40,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Kedarnath Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Phata", "Guptkashi", "Kedarnath"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.8,
-  //   reviews: 231,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 41,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Gangotri Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Gangotri"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 80000,
-  //   rating: 4.7,
-  //   reviews: 89,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 42,
-  //   country: "India",
-  //   place: "Dehradun",
-  //   title: "Gangotri Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Dehradun → Dehradun",
-  //   destinations: ["Dehradun", "Gangotri"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 22000,
-  //   rating: 4.7,
-  //   reviews: 89,
-  //   badge: "Same Day",
-  //   badgeColor: "bg-orange-500",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 43,
-  //   country: "India",
-  //   place: "Jammu",
-  //   title: "Vaishno Devi Yatra By Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Jammu → Jammu",
-  //   destinations: ["Jammu", "Sanji Chatti", "Vaishno Devi"],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 320000,
-  //   rating: 4.9,
-  //   reviews: 143,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 44,
-  //   country: "India",
-  //   place: "Jammu",
-  //   title: "Vaishno Devi Yatra By Caps",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "Same Day (1 Day)",
-  //   durationTag: "1 Day",
-  //   startEnd: "Jammu → Jammu",
-  //   destinations: ["Jammu", "Sanji Chatti", "Vaishno Devi"],
-  //   amenities: ["Hotel", "Meals", "Caps", "Sightseeing"],
-  //   price: 18000,
-  //   rating: 4.9,
-  //   reviews: 143,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Caps",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 45,
-  //   country: "India",
-  //   place: "Amarnath",
-  //   title: "Amarnath Yatra by Helicopter from Baltal",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Srinagar → Srinagar",
-  //   destinations: ["Srinagar", "Sonmarg", "Baltal", "Panchtarni", "Amarnath"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.8,
-  //   reviews: 98,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 46,
-  //   country: "India",
-  //   place: "Amarnath",
-  //   title: "Amarnath Yatra with Kashmir Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Jammu → Jammu",
-  //   destinations: ["Jammu", "Srinagar", "Sonmarg", "Amarnath", "Vaishno Devi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 45000,
-  //   rating: 4.7,
-  //   reviews: 76,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 47,
-  //   country: "India",
-  //   place: "Amarnath",
-  //   title: "Amarnath Yatra by Helicopter from Pahalgam",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Srinagar → Srinagar",
-  //   destinations: ["Srinagar", "Pahalgam", "Panchtarni", "Amarnath"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.8,
-  //   reviews: 85,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 48,
-  //   country: "India",
-  //   place: "Amarnath",
-  //   title: "Amarnath Yatra with Vaishno Devi Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Jammu",
-  //     "Vaishno Devi",
-  //     "Srinagar",
-  //     "Patnitop",
-  //     "Amarnath",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 55000,
-  //   rating: 4.9,
-  //   reviews: 62,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1598091383021-15ddea10925d?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 49,
-  //   country: "India",
-  //   place: "Pithoragarh",
-  //   title: "Adi Kailash Helicopter Tour with Om Parvat",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Pithoragarh → Pithoragarh",
-  //   destinations: [
-  //     "Pithoragarh",
-  //     "Gunji",
-  //     "Nabhidhang",
-  //     "Kalapani",
-  //     "Parvati Sarovar",
-  //     "Adi Kailash",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 58500,
-  //   rating: 4.9,
-  //   reviews: 54,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 50,
-  //   country: "India",
-  //   place: "Pithoragarh",
-  //   title: "Adi Kailash, Om Parvat & Mt. Kailash Yatra by Helicopter",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Pithoragarh → Pithoragarh",
-  //   destinations: [
-  //     "Pithoragarh",
-  //     "Gunji",
-  //     "Adi Kailash",
-  //     "Om Parvat",
-  //     "Kailash Mansarovar",
-  //     "Old Lipulekh Pass",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 65500,
-  //   rating: 4.9,
-  //   reviews: 41,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Helicopter",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 51,
-  //   country: "India",
-  //   place: "Pithoragarh",
-  //   title: "Adi Kailash & Om Parvat Yatra Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Lucknow → Lucknow",
-  //   destinations: [
-  //     "Lucknow",
-  //     "Haldwani",
-  //     "Kathgodam",
-  //     "Dharchula",
-  //     "Gunji",
-  //     "Kalapani",
-  //     "Nabhidhang",
-  //     "Adi Kailash",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Helicopter", "Sightseeing"],
-  //   price: 48500,
-  //   rating: 4.8,
-  //   reviews: 67,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 52,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Agra", "Fatehpur Sikri", "Jaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14700,
-  //   rating: 4.8,
-  //   reviews: 210,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 53,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Agra", "Fatehpur Sikri", "Jaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 19500,
-  //   rating: 4.8,
-  //   reviews: 187,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 54,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Ajmer & Pushkar",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Agra",
-  //     "Fatehpur Sikri",
-  //     "Jaipur",
-  //     "Ajmer",
-  //     "Pushkar",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 21100,
-  //   rating: 4.7,
-  //   reviews: 134,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 55,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Ajmer and Pushkar",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Agra",
-  //     "Fatehpur Sikri",
-  //     "Jaipur",
-  //     "Ajmer",
-  //     "Pushkar",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16500,
-  //   rating: 4.7,
-  //   reviews: 98,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 56,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Amritsar",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Agra", "Fatehpur Sikri", "Jaipur", "Amritsar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16500,
-  //   rating: 4.8,
-  //   reviews: 112,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 57,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Ranthambore",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Agra", "Fatehpur Sikri", "Jaipur", "Ranthambore"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 19500,
-  //   rating: 4.8,
-  //   reviews: 89,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 58,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Haridwar and Rishikesh",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Jaipur",
-  //     "Fatehpur Sikri",
-  //     "Agra",
-  //     "Haridwar",
-  //     "Rishikesh",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22500,
-  //   rating: 4.8,
-  //   reviews: 76,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 59,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Jodhpur and Udaipur",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Agra",
-  //     "Fatehpur Sikri",
-  //     "Jaipur",
-  //     "Jodhpur",
-  //     "Udaipur",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 24500,
-  //   rating: 4.8,
-  //   reviews: 93,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 60,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Khajuraho and Varanasi",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Jaipur",
-  //     "Fatehpur Sikri",
-  //     "Agra",
-  //     "Khajuraho",
-  //     "Varanasi",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 27500,
-  //   rating: 4.7,
-  //   reviews: 68,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 61,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Rajasthan (15 Days)",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "15 Days / 14 Nights",
-  //   durationTag: "15 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Agra",
-  //     "Fatehpur Sikri",
-  //     "Jaipur",
-  //     "Ajmer",
-  //     "Pushkar",
-  //     "Udaipur",
-  //     "Jodhpur",
-  //     "Jaisalmer",
-  //     "Bikaner",
-  //     "Mandawa",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 42500,
-  //   rating: 4.9,
-  //   reviews: 57,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 62,
-  //   country: "India",
-  //   place: "Golden Triangle",
-  //   title: "Golden Triangle Tour with Rajasthan (18 Days)",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "18 Days / 17 Nights",
-  //   durationTag: "18 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Agra",
-  //     "Fatehpur Sikri",
-  //     "Jaipur",
-  //     "Ajmer",
-  //     "Pushkar",
-  //     "Udaipur",
-  //     "Jodhpur",
-  //     "Jaisalmer",
-  //     "Bikaner",
-  //     "Mandawa",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 49500,
-  //   rating: 4.9,
-  //   reviews: 44,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1564507592333-c60657eea523?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 63,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Kamakhya Temple Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kamakhya Temple"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 5650,
-  //   rating: 4.8,
-  //   reviews: 174,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 64,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Guwahati Temple Tour With Meghalaya",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Shillong", "Cherrapunji"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10700,
-  //   rating: 4.7,
-  //   reviews: 108,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 65,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Assam Tour Package for 3 Days",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kamakhya Temple"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13500,
-  //   rating: 4.7,
-  //   reviews: 92,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 66,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Kaziranga National Park Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kaziranga National Park"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10800,
-  //   rating: 4.9,
-  //   reviews: 136,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 67,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Guwahati Kamakhya Shillong Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kamakhya Temple", "Shillong"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14500,
-  //   rating: 4.8,
-  //   reviews: 119,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 68,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Jorhat Majuli Kaziranga Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: [
-  //     "Guwahati",
-  //     "Jorhat",
-  //     "Majuli Island",
-  //     "Kaziranga National Park",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15200,
-  //   rating: 4.8,
-  //   reviews: 87,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 69,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Special Package for Northeast India",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Dimapur → Kohima",
-  //   destinations: ["Dimapur", "Benreu", "Dzuleke", "Khonoma", "Kohima"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13500,
-  //   rating: 4.7,
-  //   reviews: 63,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 70,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Glimpses of Assam Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kaziranga National Park", "Shillong"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 24900,
-  //   rating: 4.8,
-  //   reviews: 75,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 71,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Shillong Cherrapunji Kamakhya Darshan Trip",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: ["Guwahati", "Kamakhya Temple", "Shillong", "Cherrapunji"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22450,
-  //   rating: 4.8,
-  //   reviews: 94,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 72,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Assam Meghalaya Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: [
-  //     "Guwahati",
-  //     "Cherrapunji",
-  //     "Shillong",
-  //     "Mawlynnong",
-  //     "Dawki",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 34900,
-  //   rating: 4.9,
-  //   reviews: 82,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 73,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Best of North East India Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Jalpaiguri → Jalpaiguri",
-  //   destinations: [
-  //     "Jalpaiguri",
-  //     "Bagdogra",
-  //     "Kalimpong",
-  //     "Darjeeling",
-  //     "Gangtok",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 32500,
-  //   rating: 4.8,
-  //   reviews: 101,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 74,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Best of Sikkim Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Bagdogra → Bagdogra",
-  //   destinations: ["Bagdogra", "Gangtok", "Lachen", "Lachung"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 38900,
-  //   rating: 4.9,
-  //   reviews: 88,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 75,
-  //   country: "India",
-  //   place: "Guwahati",
-  //   title: "Assam Meghalaya Arunachal Pradesh Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Guwahati → Guwahati",
-  //   destinations: [
-  //     "Guwahati",
-  //     "Kaziranga",
-  //     "Bomdila",
-  //     "Tawang",
-  //     "Dirang",
-  //     "Cherrapunji",
-  //     "Shillong",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 44200,
-  //   rating: 4.9,
-  //   reviews: 57,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1587474260584-136574528ed5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 76,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Chennai Temple Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: ["Chennai", "Kanchipuram", "Mahabalipuram"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14999,
-  //   rating: 4.8,
-  //   reviews: 132,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 77,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Chennai Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: ["Chennai"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14999,
-  //   rating: 4.7,
-  //   reviews: 98,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 78,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Thanjavur Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Madurai → Madurai",
-  //   destinations: ["Madurai", "Trichy", "Thanjavur", "Kumbakonam"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15500,
-  //   rating: 4.8,
-  //   reviews: 87,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 79,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Chennai Pondicherry Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: ["Chennai", "Pondicherry"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16999,
-  //   rating: 4.8,
-  //   reviews: 114,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 80,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Rameshwaram Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Madurai → Madurai",
-  //   destinations: ["Madurai", "Rameshwaram", "Kanyakumari", "Trivandrum"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 19500,
-  //   rating: 4.9,
-  //   reviews: 143,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 81,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Enchanting Tamil Nadu Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Chennai → Trivandrum",
-  //   destinations: [
-  //     "Tirupati",
-  //     "Mahabalipuram",
-  //     "Thanjavur",
-  //     "Madurai",
-  //     "Rameshwaram",
-  //     "Kanyakumari",
-  //     "Trivandrum",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 34500,
-  //   rating: 4.8,
-  //   reviews: 176,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 82,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Best of Tamil Nadu Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Chennai → Trivandrum",
-  //   destinations: [
-  //     "Chennai",
-  //     "Mahabalipuram",
-  //     "Thanjavur",
-  //     "Trichy",
-  //     "Madurai",
-  //     "Rameshwaram",
-  //     "Kanyakumari",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35500,
-  //   rating: 4.9,
-  //   reviews: 208,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 83,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Chennai Trichy Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: ["Chennai", "Mahabalipuram", "Thanjavur", "Trichy"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 49500,
-  //   rating: 4.8,
-  //   reviews: 91,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 84,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Tamil Nadu Beach Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: [
-  //     "Chennai",
-  //     "Mahabalipuram",
-  //     "Trichy",
-  //     "Madurai",
-  //     "Rameshwaram",
-  //     "Thanjavur",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 55500,
-  //   rating: 4.8,
-  //   reviews: 73,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 85,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Tamil Nadu Pilgrimage Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Chennai → Chennai",
-  //   destinations: [
-  //     "Mahabalipuram",
-  //     "Pondicherry",
-  //     "Chidambaram",
-  //     "Kumbakonam",
-  //     "Thanjavur",
-  //     "Trichy",
-  //     "Rameshwaram",
-  //     "Madurai",
-  //     "Kodaikanal",
-  //     "Palani",
-  //     "Ooty",
-  //     "Tiruvannamalai",
-  //     "Kanchipuram",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 55500,
-  //   rating: 4.9,
-  //   reviews: 118,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 86,
-  //   country: "India",
-  //   place: "Chennai",
-  //   title: "Tamil Nadu Cultural Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "22 Days / 21 Nights",
-  //   durationTag: "22 Days",
-  //   startEnd: "Chennai → Hyderabad",
-  //   destinations: [
-  //     "Chennai",
-  //     "Mahabalipuram",
-  //     "Trichy",
-  //     "Pondicherry",
-  //     "Madurai",
-  //     "Mysore",
-  //     "Hyderabad",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 85500,
-  //   rating: 4.9,
-  //   reviews: 44,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 87,
-  //   country: "India",
-  //   place: "PortBlair",
-  //   title: "Andaman Short Tour Package",
-  //   type: "Short Getaway",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Port Blair → Port Blair",
-  //   destinations: ["Port Blair", "Havelock Island"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 34500,
-  //   rating: 4.7,
-  //   reviews: 143,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 88,
-  //   country: "India",
-  //   place: "PortBlair",
-  //   title: "Andaman Beach Tour Package",
-  //   type: "Beach Holiday",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Port Blair → Port Blair",
-  //   destinations: ["Port Blair", "Havelock Island", "Neil Island"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 38500,
-  //   rating: 4.8,
-  //   reviews: 198,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 89,
-  //   country: "India",
-  //   place: "PortBlair",
-  //   title: "Andaman Scuba Diving Tour Package",
-  //   type: "Adventure Sports",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Port Blair → Port Blair",
-  //   destinations: ["Port Blair", "Havelock Island", "Long Island"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 52500,
-  //   rating: 4.9,
-  //   reviews: 112,
-  //   badge: "Adventure",
-  //   badgeColor: "bg-green-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 90,
-  //   country: "India",
-  //   place: "PortBlair",
-  //   title: "Andaman Honeymoon Tour Package",
-  //   type: "Romantic Getaway",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Port Blair → Port Blair",
-  //   destinations: ["Port Blair", "Havelock Island", "Elephant Beach"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 48500,
-  //   rating: 4.9,
-  //   reviews: 167,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 91,
-  //   country: "India",
-  //   place: "PortBlair",
-  //   title: "Port Blair Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Port Blair → Port Blair",
-  //   destinations: [
-  //     "Port Blair",
-  //     "Havelock Island",
-  //     "Ross Island",
-  //     "Jolly Buoy",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 62500,
-  //   rating: 4.9,
-  //   reviews: 89,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Ferry",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 92,
-  //   country: "India",
-  //   place: "Leh",
-  //   title: "Glimpses of Ladakh Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Leh → Leh",
-  //   destinations: ["Leh", "Sham Valley", "Pangong Tso", "Khardung La"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 20500,
-  //   rating: 4.8,
-  //   reviews: 156,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 93,
-  //   country: "India",
-  //   place: "Leh",
-  //   title: "Kashmir Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Srinagar → Srinagar",
-  //   destinations: ["Srinagar", "Gulmarg", "Pahalgam"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 27000,
-  //   rating: 4.9,
-  //   reviews: 213,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 94,
-  //   country: "India",
-  //   place: "Leh",
-  //   title: "Magical Ladakh with Kashmir Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Srinagar → Leh",
-  //   destinations: ["Srinagar", "Gulmarg", "Sonmarg", "Leh", "Pangong Tso"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28500,
-  //   rating: 4.8,
-  //   reviews: 124,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1559128010-7c1ad6e1b6a5?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 95,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Darjeeling Gangtok Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Gangtok → Darjeeling",
-  //   destinations: ["Gangtok", "Nathula Pass", "Darjeeling"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13999,
-  //   rating: 4.8,
-  //   reviews: 187,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 96,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Darjeeling Kalimpong Gangtok Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Kalimpong → Darjeeling",
-  //   destinations: ["Kalimpong", "Gangtok", "Darjeeling"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15999,
-  //   rating: 4.8,
-  //   reviews: 143,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 97,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Best of Sikkim Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Gangtok → Gangtok",
-  //   destinations: ["Gangtok", "Lachen", "Lachung"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16999,
-  //   rating: 4.9,
-  //   reviews: 162,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 98,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Darjeeling Gangtok Lachung Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Gangtok → Darjeeling",
-  //   destinations: ["Gangtok", "Darjeeling", "Lachung", "Lachen"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 27000,
-  //   rating: 4.9,
-  //   reviews: 118,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 99,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "North East India Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Jalpaiguri → Gangtok",
-  //   destinations: ["Jalpaiguri", "Kalimpong", "Darjeeling", "Gangtok"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25999,
-  //   rating: 4.8,
-  //   reviews: 96,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 100,
-  //   country: "India",
-  //   place: "Gangtok",
-  //   title: "Fascinating Eastern Himalaya Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Kalimpong → Darjeeling",
-  //   destinations: ["Kalimpong", "Gangtok", "Pelling", "Darjeeling"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25999,
-  //   rating: 4.8,
-  //   reviews: 79,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 101,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Golden Triangle Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Agra", "Jaipur", "Ajmer", "Pushkar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16000,
-  //   rating: 4.8,
-  //   reviews: 224,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 102,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Majestic Rajasthan Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Jaipur → Udaipur",
-  //   destinations: ["Jaipur", "Jodhpur", "Udaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18000,
-  //   rating: 4.8,
-  //   reviews: 176,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 103,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Jaipur → Delhi",
-  //   destinations: ["Jaipur", "Pushkar", "Udaipur", "Delhi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 20000,
-  //   rating: 4.9,
-  //   reviews: 198,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 104,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Wildlife Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Jaipur → Jaipur",
-  //   destinations: ["Jaipur", "Sariska", "Bharatpur", "Ranthambore"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.8,
-  //   reviews: 132,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 105,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Group Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: [
-  //     "Delhi",
-  //     "Mathura",
-  //     "Jaipur",
-  //     "Bikaner",
-  //     "Jodhpur",
-  //     "Pushkar",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28000,
-  //   rating: 4.7,
-  //   reviews: 109,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 106,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Heritage Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Jaipur",
-  //   destinations: ["Delhi", "Mandawa", "Khimsar", "Jodhpur", "Jaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 32000,
-  //   rating: 4.9,
-  //   reviews: 87,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 107,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Shining Rajasthan Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Jaipur → Jaipur",
-  //   destinations: ["Jaipur", "Bikaner", "Udaipur", "Pushkar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35000,
-  //   rating: 4.8,
-  //   reviews: 96,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 108,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Desert Safari Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Udaipur",
-  //   destinations: ["Delhi", "Mandawa", "Jaisalmer", "Jodhpur", "Udaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 36000,
-  //   rating: 4.9,
-  //   reviews: 143,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 109,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Colorful Rajasthan Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "13 Days / 12 Nights",
-  //   durationTag: "13 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Jaipur", "Bikaner", "Jaisalmer", "Udaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 48000,
-  //   rating: 4.9,
-  //   reviews: 78,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 110,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Forts & Palaces Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "15 Days / 14 Nights",
-  //   durationTag: "15 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Bikaner", "Udaipur", "Jaipur", "Bharatpur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 55000,
-  //   rating: 4.9,
-  //   reviews: 62,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 111,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Incredible Rajasthan Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "15 Days / 14 Nights",
-  //   durationTag: "15 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Bikaner", "Jodhpur", "Ajmer", "Jaipur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 56000,
-  //   rating: 4.9,
-  //   reviews: 54,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 112,
-  //   country: "India",
-  //   place: "Jaipur",
-  //   title: "Rajasthan Cultural Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "15 Days / 14 Nights",
-  //   durationTag: "15 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Bikaner", "Jaisalmer", "Udaipur", "Chittorgarh"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 57000,
-  //   rating: 4.9,
-  //   reviews: 47,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1599661046827-dacff0c0f09a?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 113,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10000,
-  //   rating: 4.7,
-  //   reviews: 134,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 114,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Aurangabad Sightseeing Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Aurangabad → Aurangabad",
-  //   destinations: ["Aurangabad"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 9500,
-  //   rating: 4.6,
-  //   reviews: 88,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 115,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Lonavala Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Lonavala → Lonavala",
-  //   destinations: ["Lonavala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 8500,
-  //   rating: 4.6,
-  //   reviews: 97,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 116,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Nashik Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Nashik → Nashik",
-  //   destinations: ["Nashik"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 9000,
-  //   rating: 4.6,
-  //   reviews: 76,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 117,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Nagpur Shirdi Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "2 Days / 1 Night",
-  //   durationTag: "2 Days",
-  //   startEnd: "Nagpur → Nagpur",
-  //   destinations: ["Nagpur", "Shirdi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10500,
-  //   rating: 4.7,
-  //   reviews: 83,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 118,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Ajanta Ellora Caves Tour Package (3D)",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Aurangabad → Aurangabad",
-  //   destinations: ["Aurangabad", "Ajanta", "Ellora"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10900,
-  //   rating: 4.9,
-  //   reviews: 198,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 119,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12500,
-  //   rating: 4.8,
-  //   reviews: 221,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 120,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Maharashtra Jyotirlinga Yatra Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai", "Bhimashankar", "Trimbakeshwar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15650,
-  //   rating: 4.8,
-  //   reviews: 143,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 121,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Shirdi Nashik Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai", "Shirdi", "Nashik"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13500,
-  //   rating: 4.8,
-  //   reviews: 176,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 122,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Cordelia Cruise Mumbai to Goa",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Mumbai → Goa",
-  //   destinations: ["Mumbai", "Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28000,
-  //   rating: 4.9,
-  //   reviews: 162,
-  //   badge: "Luxury",
-  //   badgeColor: "bg-purple-600",
-  //   mode: "Cruise",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 123,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Lonavala Weekend Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai", "Lonavala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12000,
-  //   rating: 4.7,
-  //   reviews: 118,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 124,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Lonavala Khandala Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Lonavala → Lonavala",
-  //   destinations: ["Lonavala", "Khandala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 11500,
-  //   rating: 4.7,
-  //   reviews: 104,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 125,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Nashik Shirdi Bhimashankar Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Nashik → Nashik",
-  //   destinations: ["Nashik", "Shirdi", "Bhimashankar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14500,
-  //   rating: 4.8,
-  //   reviews: 132,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 126,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Pune Nashik Weekend Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Pune → Pune",
-  //   destinations: ["Pune", "Nashik"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 13000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 127,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Nagpur Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Nagpur → Nagpur",
-  //   destinations: ["Nagpur"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12500,
-  //   rating: 4.6,
-  //   reviews: 71,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 128,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Kanha Nagpur Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Nagpur → Nagpur",
-  //   destinations: ["Nagpur", "Kanha"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15500,
-  //   rating: 4.8,
-  //   reviews: 89,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 129,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Nagpur Pachmarhi Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Nagpur → Nagpur",
-  //   destinations: ["Nagpur", "Pachmarhi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14000,
-  //   rating: 4.7,
-  //   reviews: 77,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 130,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Aurangabad Nashik Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Aurangabad → Aurangabad",
-  //   destinations: ["Aurangabad", "Nashik"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 17000,
-  //   rating: 4.7,
-  //   reviews: 82,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 131,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Cochin Beach Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Mumbai → Cochin",
-  //   destinations: ["Mumbai", "Cochin"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18500,
-  //   rating: 4.7,
-  //   reviews: 94,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 132,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "5 Jyotirlinga Tour Package Maharashtra",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: [
-  //     "Mumbai",
-  //     "Bhimashankar",
-  //     "Trimbakeshwar",
-  //     "Grishneshwar",
-  //     "Aundha Nagnath",
-  //     "Parli Vaijnath",
-  //   ],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22500,
-  //   rating: 4.9,
-  //   reviews: 167,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 133,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Ajanta Ellora Caves Tour Package (5D)",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Aurangabad → Aurangabad",
-  //   destinations: ["Aurangabad", "Ajanta", "Ellora"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 20500,
-  //   rating: 4.9,
-  //   reviews: 152,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 134,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Aurangabad Ajanta Ellora Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Aurangabad → Aurangabad",
-  //   destinations: ["Aurangabad", "Ajanta", "Ellora"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 21000,
-  //   rating: 4.8,
-  //   reviews: 109,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 135,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Lonavala Mahabaleshwar Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Lonavala → Lonavala",
-  //   destinations: ["Lonavala", "Mahabaleshwar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 20000,
-  //   rating: 4.8,
-  //   reviews: 113,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 136,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Nashik Shirdi Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai", "Nashik", "Shirdi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22500,
-  //   rating: 4.8,
-  //   reviews: 138,
-  //   badge: "Spiritual",
-  //   badgeColor: "bg-orange-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-  // {
-  //   id: 137,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai to Goa Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Mumbai → Goa",
-  //   destinations: ["Mumbai", "Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.8,
-  //   reviews: 187,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: true,
-  // },
-  // {
-  //   id: 138,
-  //   country: "India",
-  //   place: "Mumbai",
-  //   title: "Mumbai Aurangabad Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Mumbai → Mumbai",
-  //   destinations: ["Mumbai", "Aurangabad"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 24000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "Popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://images.unsplash.com/photo-1529253355930-ddbe423a2ac7?w=640&q=80",
-  //   popular: false,
-  // },
-
-  // {
-  //   id: 139,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Dalhousie Khajjiar Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Pathankot", "Dalhousie", "Khajjiar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dalhousie-khajjiar-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 140,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Dharamshala Weekend Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/dharamshala-weekend-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 141,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Exotic Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Kullu", "Manali", "Rohtang Pass"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 142,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Shimla Manali Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 143,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Enchanting Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Rohtang Pass"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 144,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Himachal Vaishno Devi Darshan Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "8 Days / 7 Nights",
-  //   durationTag: "8 Days",
-  //   startEnd: "Amritsar → Jammu",
-  //   destinations: ["Amritsar", "Dharamshala", "Katra", "Vaishno Devi"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 30000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himanchal-with-vaishno-devi-darshan.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 145,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Himachal Delhi Darshan Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Rohtang Pass", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 146,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Scenic Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 147,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Incredible Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie", "Khajjiar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 45000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 148,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Himachal Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 30000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 149,
-  //   country: "India",
-  //   place: "Himachal Pradesh",
-  //   title: "Fascinating Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 40000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 150,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Goa Weekend Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 10900,
-  //      rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-weekend-tour-package.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 151,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Goa Honeymoon Special Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 16900,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-honeymoon-special-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 152,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Goa Adventure Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 9900,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-adventure-tour-package.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 153,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Most Wanted Goa Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 24900,
-  //      rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/most-wanted-goa-package.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 154,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Goa Tour Package with Flight",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "4 Days / 3 Nights",
-  //   durationTag: "4 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 32500,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Flight",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/goa-tour-package-with-flight.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 155,
-  //   country: "India",
-  //   place: "Goa",
-  //   title: "Amazing Goa Fiesta Tour",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Panaji", "Goa", "North Goa", "South Goa"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25900,
-  //      rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/amazing-goa-fiesta-tour.webp",
-  //   popular: false,
-  // },
-  //  {
-  //   id: 156,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Shimla Sightseeing Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "3 Days / 2 Nights",
-  //   durationTag: "3 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 157,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Shimla Manali Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 158,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Exotic Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Kullu", "Manali", "Rohtang Pass"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 25000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/exotic-himachal-pardesh.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 159,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Enchanting Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Rohtang Pass"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 160,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Himachal Delhi Darshan Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Rohtang Pass", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 161,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Scenic Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 162,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Incredible Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie", "Khajjiar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 45000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id:167,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Himachal Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 30000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 168,
-  //   country: "India",
-  //   place: "Shimla",
-  //   title: "Fascinating Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 40000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 169,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Manali Weekend Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Manali", "Kullu", "Manikaran"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 12000,
-  //   rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/manali-weekend-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id:170,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Manali Honeymoon Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "5 Days / 4 Nights",
-  //   durationTag: "5 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Solang Valley", "Kullu", "Manikaran"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 14000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/manali-honeymoon-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 171,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Manali Volvo Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Rohtang Pass", "Kullu"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 15000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/manali-volvo-package.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id:172,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Shimla Manali Honeymoon Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Chandigarh → Chandigarh",
-  //   destinations: ["Shimla", "Manali", "Solang Valley", "Chandigarh"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-honeymoon-package.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id:173,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Shimla Manali Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "6 Days / 5 Nights",
-  //   durationTag: "6 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 18000,
-  //    rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/shimla-manali-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 174,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Enchanting Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "7 Days / 6 Nights",
-  //   durationTag: "7 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Rohtang Pass"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 22000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/enchanting-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 175,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Himachal Delhi Darshan Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Manali", "Rohtang Pass", "Shimla"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 35000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-pradesh-with-delhi-darshan.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 176,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Scenic Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "9 Days / 8 Nights",
-  //   durationTag: "9 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 28000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scenic-himachal.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 177,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Incredible Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie", "Khajjiar"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 45000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/incredible-himachal-tour.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 177,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Himachal Honeymoon Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "10 Days / 9 Nights",
-  //   durationTag: "10 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dharamshala"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 30000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/himachal-lovers-paradise.webp",
-  //   popular: false,
-  // },
-  // {
-  //   id: 178,
-  //   country: "India",
-  //   place: "Manali",
-  //   title: "Fascinating Himachal Tour Package",
-  //   type: "Hill Stations & Nature Destinations",
-  //   duration: "11 Days / 10 Nights",
-  //   durationTag: "11 Days",
-  //   startEnd: "Delhi → Delhi",
-  //   destinations: ["Delhi", "Shimla", "Manali", "Dalhousie"],
-  //   amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-  //   price: 40000,
-  //     rating: 4.7,
-  //   reviews: 96,
-  //   badge: "popular",
-  //   badgeColor: "bg-blue-600",
-  //   mode: "Road",
-  //   img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/fascinating-himachal.webp",
-  //   popular: false,
-  // },
   {
     id: 179,
     country: "India",
@@ -8585,19 +3689,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-tour-package-from-delhi-nits9.jpg",
+    src: "/nainital.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -8610,7 +3714,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-tour-package-from-delhi-nits9.jpg",
+      src: "/nainital2.jpg",
       alt: "Nainital Tour Package from Delhi",
     },
 
@@ -8636,17 +3740,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-tour-package-from-delhi-nits9.jpg",
+      src: "/nainital4.jpg",
         alt: "Nainital Lake View",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-snow-view-point.jpg",
+      src: "/nainital5.jpg",
         alt: "Snow View Point Nainital",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-mall-road.jpg",
+      src: "/nainital6.jpg",
         alt: "Nainital Mall Road",
       },
     ],
@@ -8714,158 +3818,6 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─────────────────────────────────────────────
-  // ID 180 — Nainital Weekend Tour Package
-  // ─────────────────────────────────────────────
-  {
-    id: 180,
-    country: "India",
-    place: "Nainital",
-    title: "Nainital Weekend Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "3 Days / 2 Nights",
-    durationTag: "3 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Nainital"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 10900,
-    rating: 4.7,
-    reviews: 96,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/nainital-weekend-tour.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Naini Lake Boating & Sunset Views" },
-      { title: "Naina Devi Temple & Mall Road" },
-      { title: "Snow View Point Cable Car Ride" },
-      { title: "Bara Bazaar Shopping for Local Woolens" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/nainital-weekend-tour.webp",
-      alt: "Nainital Weekend Tour Package",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Best budget weekend trip from Delhi! The hotel had a lovely lake view and Indruka Trips and Trip handled everything perfectly. Will definitely book again.",
-        author: "Priya Rawat",
-        date: "Travelled September 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Quick escape from the city — Nainital in 3 days was just what we needed. Well priced, smooth transfers, and beautiful hotel. Recommended!",
-        author: "Akash Verma",
-        date: "Travelled October 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/nainital-weekend-tour.webp",
-        alt: "Nainital Weekend",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/naini-lake-boating.jpg",
-        alt: "Naini Lake Boating",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nainital-naina-devi-temple.jpg",
-        alt: "Naina Devi Temple",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Nainital Weekend Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "WEEKEND", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 3,
-    countryCount: 1,
-    cityCount: 2,
-    region: "Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Nainital", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Nainital",
-        details: [
-          "Depart Delhi by coach. Arrive Nainital; check-in. Evening at Mall Road and Naini Lake boat ride. Overnight."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Nainital Sightseeing",
-        details: [
-          "Visit Naina Devi Temple, Snow View Point (cable car), Eco Cave Gardens, and Tiffin Top. Evening lakeside leisure. Overnight."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Nainital → Delhi",
-        details: [
-          "Morning shopping at Bara Bazaar. Post-breakfast drive back to Delhi. Tour concludes."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "3 Days / 2 Nights" },
-      { label: "Destinations", value: "Delhi · Nainital" },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "NNT-WKND-DEL-02" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "March–June & September–November" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─────────────────────────────────────────────
-  // ID 181 — Nainital Corbett Weekend Tour Package
-  // ─────────────────────────────────────────────
   {
     id: 181,
     country: "India",
@@ -8883,19 +3835,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/corbett-nainital-weekend.webp",
+    src: "/nainital-corb-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -8908,7 +3860,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/corbett-nainital-weekend.webp",
+      src:  "/nainital-corb-banner.jpg",
       alt: "Nainital Corbett Weekend Tour Package",
     },
 
@@ -8934,18 +3886,18 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/corbett-nainital-weekend.webp",
-        alt: "Corbett Nainital Tour",
+        src: "/nainital-corb-banner2.jpg",
+        alt: "src",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/jim-corbett-national-park-jeep-safari.jpg",
-        alt: "Corbett Jeep Safari",
+        src: "/nainital7.jpg",
+        alt: "src",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/garjia-devi-temple-corbett.jpg",
-        alt: "Garjia Devi Temple",
+        src: "/nainital8.jpg",
+        alt: "src",
       },
     ],
 
@@ -9024,9 +3976,7 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─────────────────────────────────────────────
-  // ID 182 — Uttarakhand Bird Watching Tour Package
-  // ─────────────────────────────────────────────
+
   {
     id: 182,
     country: "India",
@@ -9044,19 +3994,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-bird-watching-tour.webp",
+    src: "/nainital-bird.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -9069,7 +4019,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-bird-watching-tour.webp",
+      src: "/nainital-bird.jpg",
       alt: "Uttarakhand Bird Watching Tour Package",
     },
 
@@ -9095,17 +4045,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-bird-watching-tour.webp",
+        src: "/nainital-bird2.jpg",
         alt: "Bird Watching Uttarakhand",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/sattal-lake-bird-watching.jpg",
+        src:  "/nainital-bird3.jpg",
         alt: "Sat Tal Lake Birdwatching",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/corbett-birds.jpg",
+        src:  "/nainital-bird4.jpg",
         alt: "Corbett National Park Birds",
       },
     ],
@@ -9214,19 +4164,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/hills-of-kumaon-tour.webp",
+    src: "/kumaon.webp",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -9239,7 +4189,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/hills-of-kumaon-tour.webp",
+      src: "/kumaon.webp",
       alt: "Hills of Kumaon Tour Package",
     },
 
@@ -9265,17 +4215,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/hills-of-kumaon-tour.webp",
+        src: "/KumaonTour.jpg",
         alt: "Hills of Kumaon",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ranikhet-chaubatia-orchards.jpg",
+        src: "/KumaonTour2.jpg",
         alt: "Ranikhet Chaubatia Orchards",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/almora-bright-end-corner.jpg",
+        src: "/nainital12.jpg",
         alt: "Almora Bright End Corner",
       },
     ],
@@ -9380,194 +4330,7 @@ export const tours = [
   // ─────────────────────────────────────────────
   // ID 184 — Wonders of Kumaon Tour Package
   // ─────────────────────────────────────────────
-  {
-    id: 184,
-    country: "India",
-    place: "Nainital",
-    title: "Wonders of Kumaon Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Corbett", "Ranikhet", "Nainital"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 32900,
-    rating: 4.7,
-    reviews: 96,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/wonders-of-kumaon-tour.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Jim Corbett Jeep Safari — Tigers & Elephants" },
-      { title: "Ranikhet Chaubatia Orchards & Golf Course" },
-      { title: "Naini Lake Boating & Snow View Point" },
-      { title: "Bhimtal & Sat Tal Scenic Lake Drive" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/wonders-of-kumaon-tour.webp",
-      alt: "Wonders of Kumaon Tour Package",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "8 days covering Corbett, Ranikhet and Nainital — a perfect blend of wildlife, mountains and lakes. Indruka Trips and Trip's planning was excellent from start to finish.",
-        author: "Arun Sharma",
-        date: "Travelled March 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "The Corbett safari was thrilling and Ranikhet was so peaceful. Sat Tal on the way to Nainital was a beautiful surprise. A wonderful Kumaon adventure!",
-        author: "Pallavi Gupta",
-        date: "Travelled April 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/wonders-of-kumaon-tour.webp",
-        alt: "Wonders of Kumaon",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/bhimtal-lake.jpg",
-        alt: "Bhimtal Lake",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ranikhet-himalayan-view.jpg",
-        alt: "Ranikhet Himalayan View",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Wonders of Kumaon Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Kumaon, Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Jim Corbett", nights: 2 },
-      { city: "Ranikhet", nights: 2 },
-      { city: "Nainital", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Corbett",
-        details: [
-          "Depart Delhi. Arrive Jim Corbett; check-in to jungle resort. Overnight."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Corbett Safari",
-        details: [
-          "Morning and evening jeep safaris in Dhikala/Bijrani zones. Spot tigers, elephants, and leopards. Overnight."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Corbett → Ranikhet",
-        details: [
-          "Post-breakfast drive to Ranikhet. Visit Garjia Devi Temple en-route. Check-in. Evening at leisure. Overnight."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Ranikhet Sightseeing",
-        details: [
-          "Chaubatia Orchards, Jhula Devi Temple, Golf Course, Kalika Temple, and Majhkhali viewpoint. Overnight."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Ranikhet → Nainital",
-        details: [
-          "Drive to Nainital via Bhimtal and Sat Tal Lakes — scenic stops for photography. Check-in. Evening on Mall Road."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Nainital Sightseeing",
-        details: [
-          "Snow View Point (cable car), Naina Devi Temple, Eco Cave Gardens, Tiffin Top, and High Altitude Zoo. Overnight."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Nainital Leisure & Excursion",
-        details: [
-          "Day excursion to Mukteshwar — stunning Himalayan views and Chauli Ki Jali cliff. Evening boat ride on Naini Lake. Overnight."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Nainital → Delhi",
-        details:["Post-breakfast drive to Delhi. Tour concludes."],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Corbett · Ranikhet · Nainital · Bhimtal · Sat Tal",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "KUM-WOND-DEL-06" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "November–June" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
+  
 
   // ─────────────────────────────────────────────
   // ID 185 — Uttarakhand Delights Tour Package
@@ -9589,19 +4352,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-delights-tour.webp",
+    src: "/Delight.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -9614,7 +4377,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-delights-tour.webp",
+      src: "/UDelight.jpg",
       alt: "Uttarakhand Delights Tour Package",
     },
 
@@ -9640,17 +4403,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/uttarakhand-delights-tour.webp",
+        src: "/UDelight1.jpg",
         alt: "Uttarakhand Delights",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/mussoorie-kempty-falls.jpg",
+        src:  "/UDelight2.jpg",
         alt: "Kempty Falls Mussoorie",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/mussoorie-mall-road.jpg",
+        src:  "/UDelight3.jpg",
         alt: "Mussoorie Mall Road",
       },
     ],
@@ -9762,206 +4525,6 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─────────────────────────────────────────────
-  // ID 186 — Majestic Kumaon Tour Package
-  // ─────────────────────────────────────────────
-  {
-    id: 186,
-    country: "India",
-    place: "Nainital",
-    title: "Majestic Kumaon Tour Package",
-    type: "Hill Stations & Nature Destinations",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: ["Delhi", "Nainital", "Ranikhet", "Corbett"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 32900,
-    rating: 4.7,
-    reviews: 96,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/majestic-kumaon-tour.webp",
-    popular: false,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Nainital Lakes, Zoo & Snow View Point" },
-      { title: "Kausani — Sunrise over Nanda Devi & Trishul" },
-      { title: "Ranikhet Golf Course & Chaubatia Gardens" },
-      { title: "Jim Corbett Jeep Safari — India's Oldest National Park" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/majestic-kumaon-tour.webp",
-      alt: "Majestic Kumaon Tour Package",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Kausani's sunrise was worth the entire trip! The Himalayan panorama from Kausani is something you never forget. Indruka Trips and Trip added this gem to our itinerary.",
-        author: "Deepika Joshi",
-        date: "Travelled April 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Majestic indeed! Every single destination on this tour felt regal — especially Ranikhet with its alpine meadows and Corbett with its wild beauty.",
-        author: "Harish Bisht",
-        date: "Travelled May 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/09/majestic-kumaon-tour.webp",
-        alt: "Majestic Kumaon",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kausani-sunrise-nanda-devi.jpg",
-        alt: "Kausani Sunrise Nanda Devi",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ranikhet-forest-trail.jpg",
-        alt: "Ranikhet Forest Trail",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Majestic Kumaon Tour Package" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "purple" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Kumaon, Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Nainital", nights: 2 },
-      { city: "Kausani", nights: 1 },
-      { city: "Ranikhet", nights: 2 },
-      { city: "Jim Corbett", nights: 2 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Nainital",
-        details: [
-          "Depart Delhi. Arrive Nainital. Check-in. Evening at Naini Lake. Overnight."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Nainital Sightseeing",
-        details: [
-          "Snow View Point (cable car), Naina Devi Temple, Eco Cave Gardens, High Altitude Zoo, Tiffin Top. Overnight."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Nainital → Kausani",
-        details: [
-          "Scenic drive to Kausani (approx. 3 hrs). Check-in. Evening witness stunning sunset over the Himalayan range from Anasakti Ashram (where Mahatma Gandhi stayed). Overnight."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Kausani Sunrise → Ranikhet",
-        details: [
-          "Early morning sunrise view of Nanda Devi, Trishul, and Panchchuli peaks. Drive to Ranikhet. Sightseeing: Chaubatia Orchards and Jhula Devi Temple. Overnight."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Ranikhet Sightseeing",
-        details: [
-          "Kalika Temple, Binsar Mahadev, Golf Course, Majhkhali Viewpoint, and Rani Lake. Overnight Ranikhet."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Ranikhet → Corbett",
-        details: [
-          "Drive to Jim Corbett. Check-in to jungle resort. Afternoon nature walk. Overnight."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Corbett Jeep Safari",
-        details: [
-          "Morning and afternoon jeep safaris. Spot tigers, leopards, elephants, and over 600 bird species. Overnight."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Corbett → Delhi",
-        details: ["Post-breakfast drive to Delhi. Tour concludes."],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Nainital · Kausani · Ranikhet · Jim Corbett",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "KUM-MAJESTIC-DEL-08" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "March–June & September–November" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ════════════════════════════════════════════════════════════
-  // ─── DARJEELING (IDs 201–206) ─────────────────────────────
-  // ════════════════════════════════════════════════════════════
-
-  // ─────────────────────────────────────────────
-  // ID 201 — Darjeeling Heritage Tour Package
-  // ─────────────────────────────────────────────
   {
     id: 201,
     country: "India",
@@ -9979,19 +4542,19 @@ export const tours = [
     badge: "Budget",
     badgeColor: "bg-green-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+    src: "/darjeeling-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10004,7 +4567,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+      src: "/darjeeling-banner.jpg",
       alt: "Darjeeling Heritage Tour Package",
     },
 
@@ -10030,17 +4593,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+        src: "/darjeeling.jpg",
         alt: "Darjeeling Heritage",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/darjeeling-toy-train.jpg",
+        src: "/darjeeling1.jpg",
         alt: "Darjeeling Toy Train",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/tiger-hill-sunrise-darjeeling.jpg",
+        src: "/darjeeling4.jpg",
         alt: "Tiger Hill Sunrise",
       },
     ],
@@ -10128,19 +4691,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Gangtok-Tour-Package.jpg",
+    src: "/dar-gangtok.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10153,7 +4716,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Gangtok-Tour-Package.jpg",
+      src: "/dar-gangtok.jpg",
       alt: "Darjeeling with Gangtok Tour Package",
     },
 
@@ -10179,17 +4742,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Gangtok-Tour-Package.jpg",
+        src: "/dar-gangtok1.jpg",
         alt: "Darjeeling Gangtok Tour",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/nathula-pass-gangtok.jpg",
+        src:"/dar-gangtok2.jpg",
         alt: "Nathula Pass",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/rumtek-monastery-gangtok.jpg",
+        src: "/dar-gangtok3.jpg",
         alt: "Rumtek Monastery",
       },
     ],
@@ -10295,19 +4858,19 @@ export const tours = [
     badge: "Honeymoon",
     badgeColor: "bg-pink-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/09/Darjeeling-Gangtok-Honeymoon-Tour-Package.jpg",
+    src: "/darjeeling4.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10320,7 +4883,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/09/Darjeeling-Gangtok-Honeymoon-Tour-Package.jpg",
+      src: "/darjeeling4.jpg",
       alt: "Darjeeling Honeymoon Package",
     },
 
@@ -10346,17 +4909,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/09/Darjeeling-Gangtok-Honeymoon-Tour-Package.jpg",
+        src: "/darjeeling5.jpg",
         alt: "Darjeeling Honeymoon",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/tsomgo-lake-gangtok.jpg",
+        src: "/darjeeling6.jpg",
         alt: "Tsomgo Lake Gangtok",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/darjeeling-couple-tea-garden.jpg",
+        src: "/darjeeling6.jpg",
         alt: "Darjeeling Tea Garden Couple",
       },
     ],
@@ -10475,19 +5038,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Kalimpong-Gangtok-Tour-Package.jpg",
+    src: "/DGkalipong-banner.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10500,7 +5063,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Kalimpong-Gangtok-Tour-Package.jpg",
+      src: "/DGkalipong-banner.jpg",
       alt: "Darjeeling Kalimpong Gangtok Tour",
     },
 
@@ -10526,17 +5089,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Kalimpong-Gangtok-Tour-Package.jpg",
+        src: "/DGkalipong1.jpg",
         alt: "Darjeeling Kalimpong Gangtok",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kalimpong-deolo-hill.jpg",
+        src: "/DGkalipong2.jpg",
         alt: "Kalimpong Deolo Hill",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kalimpong-flower-nurseries.jpg",
+        src: "/DGkalipong3.jpg",
         alt: "Kalimpong Flower Nurseries",
       },
     ],
@@ -10653,19 +5216,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+    src: "/DGlachung2.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10678,7 +5241,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+      src: "/DGlachung2.jpg",
       alt: "Darjeeling Gangtok Lachung Tour",
     },
 
@@ -10704,17 +5267,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Darjeeling-Heritage-Tour-Package.jpg",
+        src: "/DGlachung1.jpg",
         alt: "Lachung Sikkim",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/yumthang-valley-flowers.jpg",
+        src: "/DGlachung4.jpg",
         alt: "Yumthang Valley of Flowers",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/gurudongmar-lake-sikkim.jpg",
+        src: "/DGlachung4.jpg",
         alt: "Gurudongmar Lake",
       },
     ],
@@ -10849,19 +5412,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Eastern-Himalayas-Tour-Package.jpg",
+    src: "/darjeeling10",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -10874,7 +5437,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Eastern-Himalayas-Tour-Package.jpg",
+      src: "/darjeeling10",
       alt: "Eastern Himalayas Tour Package",
     },
 
@@ -10900,17 +5463,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/10/Eastern-Himalayas-Tour-Package.jpg",
+        src: "/darjeeling11",
         alt: "Eastern Himalayas",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/tsomgo-lake.jpg",
+        src: "/darjeeling12",
         alt: "Tsomgo Lake",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kanchenjunga-sunrise.jpg",
+        src: "/darjeeling13",
         alt: "Kanchenjunga Sunrise",
       },
     ],
@@ -11032,9 +5595,6 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ════════════════════════════════════════════════════════════
-  // ─── MUNNAR (IDs 207–208) ─────────────────────────────────
-  // ════════════════════════════════════════════════════════════
 
   {
     id: 207,
@@ -11053,19 +5613,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+    src: "/Munnar.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -11078,7 +5638,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+      src:  "/Munnar.jpg",
       alt: "Munnar Thekkady Alleppey Tour Package",
     },
 
@@ -11104,17 +5664,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/munnar-tea-plantation.jpg",
+        src:  "/Munnar1.jpg",
         alt: "Munnar Tea Plantation",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/alleppey-houseboat-backwaters.jpg",
+        src:  "/Munnar2.jpg",
         alt: "Alleppey Houseboat",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/thekkady-periyar-boat.jpg",
+        src:  "/Munnar3.jpg",
         alt: "Thekkady Periyar Boat Ride",
       },
     ],
@@ -11231,19 +5791,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+    src: "/Kerala-Munnar.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -11256,7 +5816,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+      src: "/Kerala-Munnar.jpg",
       alt: "Kerala Hill Stations Tour – Munnar & Wayanad",
     },
 
@@ -11282,17 +5842,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/wayanad-soochipara-falls.jpg",
+        src: "/Kerala-Munnar1.jpg",
         alt: "Wayanad Soochipara Falls",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/wayanad-edakkal-caves.jpg",
+        src: "/Kerala-Munnar2.jpg",
         alt: "Edakkal Caves Wayanad",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/calicut-beach-kozhikode.jpg",
+        src: "/Kerala-Munnar3.jpg",
         alt: "Calicut Beach",
       },
     ],
@@ -11415,19 +5975,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+    src: "/ooty.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -11440,7 +6000,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
+      src: "/ooty.jpg",
       alt: "Ooty Kodaikanal Hill Tour Package",
     },
 
@@ -11466,17 +6026,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ooty-botanical-gardens.jpg",
+        src: "/ooty1.jpg",
         alt: "Ooty Botanical Gardens",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ooty-nilgiri-toy-train.jpg",
+        src: "/ooty3.jpg",
         alt: "Nilgiri Toy Train",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/kodaikanal-lake.jpg",
+        src: "/Ooty3.jpg",
         alt: "Kodaikanal Lake",
       },
     ],
@@ -11573,198 +6133,6 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  {
-    id: 210,
-    country: "India",
-    place: "Ooty",
-    title: "Best of Tamil Nadu – Ooty & Kodaikanal",
-    type: "Hill Stations & Nature Destinations",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Chennai → Chennai",
-    destinations: ["Chennai", "Mahabalipuram", "Ooty", "Kodaikanal", "Madurai"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 28900,
-    rating: 4.7,
-    reviews: 94,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bus, label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      { title: "Mahabalipuram — UNESCO Shore Temple & Rock Sculptures" },
-      { title: "Ooty Toy Train Ride & Botanical Gardens" },
-      { title: "Kodaikanal Lake & Pillar Rocks" },
-      { title: "Madurai Meenakshi Amman Temple — Divine Darshan" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/kanchipuram-temple.jpg",
-      alt: "Best of Tamil Nadu – Ooty & Kodaikanal",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "This tour was the perfect Tamil Nadu summary — ancient temples, colonial hill stations, and vibrant culture all in 8 days. Indruka Trips and Trip was outstanding throughout.",
-        author: "Balaji Rajan",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Mahabalipuram's shore temple at sunrise and Meenakshi temple's evening Aarthi were the most spiritual moments of our lives. Excellent 8-day coverage of Tamil Nadu!",
-        author: "Chitra Anand",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/mahabalipuram-shore-temple.jpg",
-        alt: "Mahabalipuram Shore Temple",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/madurai-meenakshi-temple.jpg",
-        alt: "Madurai Meenakshi Temple",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ooty-gardens.jpg",
-        alt: "Ooty Botanical Gardens",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Tamil Nadu", href: "/india/tamil-nadu" },
-      { label: "Best of Tamil Nadu – Ooty & Kodaikanal" },
-    ],
-
-    badges: [
-      { label: "POPULAR", variant: "solid" as const, color: "blue" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "green" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Tamil Nadu, India",
-
-    itineraryStops: [
-      { city: "Chennai / Mahabalipuram", nights: 1 },
-      { city: "Ooty", nights: 2 },
-      { city: "Kodaikanal", nights: 2 },
-      { city: "Madurai", nights: 2 },
-      { city: "Chennai (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Chennai → Mahabalipuram",
-        details: [
-          "Arrive Chennai. Drive to Mahabalipuram (60 km). Visit Shore Temple, Arjuna's Penance, Five Rathas, and Krishna's Butter Ball. Overnight."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Mahabalipuram → Ooty",
-        details: [
-          "Drive to Ooty via Coimbatore (approx. 6 hrs) or take the iconic toy train from Mettupalayam. Check-in Ooty. Overnight."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Ooty Sightseeing",
-        details: [
-          "Botanical Gardens, Ooty Lake, Doddabetta Peak, Wax World, Rose Garden. Overnight Ooty."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Ooty → Kodaikanal",
-        details: [
-          "Drive to Kodaikanal (4 hrs). Check-in. Evening lake boating. Overnight."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Kodaikanal Sightseeing",
-        details: [
-          "Coaker's Walk, Bear Shola Falls, Pillar Rocks, Guna Caves, Dolphin's Nose, Green Valley View. Overnight."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Kodaikanal → Madurai",
-        details: [
-          "Drive to Madurai (approx. 4 hrs). Check-in. Evening Meenakshi Amman Temple — breathtaking Gopurams and evening Aarthi. Overnight."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Madurai Sightseeing",
-        details: [
-          "Thirumalai Nayak Palace, Alagar Kovil, Gandhi Memorial Museum, and local market. Overnight Madurai."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Madurai → Chennai — Departure",
-        details:[ "Fly or train to Chennai. Tour concludes."],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Chennai · Mahabalipuram · Ooty · Kodaikanal · Madurai",
-      },
-      { label: "Departure & Return", value: "Chennai" },
-      { label: "Tour Code", value: "TN-BEST-CHE-02" },
-      { label: "Meals", value: "Breakfast & Dinner included" },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ════════════════════════════════════════════════════════════
-  // ─── ANDAMAN AND NICOBAR (IDs 211–215) ────────────────────
-  // ════════════════════════════════════════════════════════════
 
   {
     id: 211,
@@ -11783,19 +6151,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-beach-tour.webp",
+    src: "/nicobarand.jpeg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Plane, label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Plane", label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -11808,7 +6176,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-beach-tour.webp",
+      src: "/nicobarand.jpeg",
       alt: "Andaman Beach Tour Package",
     },
 
@@ -11834,17 +6202,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-beach-tour.webp",
+        src: "/nicobarand2.jpg",
         alt: "Andaman Beach Tour",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/radhanagar-beach-havelock.jpg",
+        src: "/nicobarand2.jpg",
         alt: "Radhanagar Beach Havelock",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/elephant-beach-snorkeling.jpg",
+        src: "/nicobarand3.jpg",
         alt: "Elephant Beach Snorkeling",
       },
     ],
@@ -11944,19 +6312,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-a-short-visit.webp",
+    src: "/andaman1.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Plane, label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Plane", label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -11969,7 +6337,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-a-short-visit.webp",
+      src: "/andaman1.jpg",
       alt: "Andaman Short Tour Package",
     },
 
@@ -11995,17 +6363,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/andaman-a-short-visit.webp",
+        src: "/Andaman2.jpg",
         alt: "Andaman Short Visit",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/ross-island-andaman.jpg",
+        src: "/Andaman3.jpg",
         alt: "Ross Island Andaman",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/corbyns-cove-beach.jpg",
+        src: "/Andaman4.jpg",
         alt: "Corbyn's Cove Beach",
       },
     ],
@@ -12097,19 +6465,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scuba-diving-andaman.webp",
+    src: "/andamanScuba.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Fish, label: "Diving", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Fish", label: "Diving", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -12122,7 +6490,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scuba-diving-andaman.webp",
+      src: "/andamanScuba.jpg",
       alt: "Andaman Scuba Diving Tour Package",
     },
 
@@ -12148,17 +6516,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/scuba-diving-andaman.webp",
+        src:  "/AndamanScuba1.jpg",
         alt: "Andaman Scuba Diving",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/havelock-scuba-coral.jpg",
+        src:  "/AndamanScuba2.jpg",
         alt: "Havelock Coral Reef Scuba",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/long-island-merk-bay.jpg",
+        src:  "/AndamanScuba3.jpg",
         alt: "Long Island Merk Bay",
       },
     ],
@@ -12254,19 +6622,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/romantic-andman.webp",
+    src: "/AndamanHooneyB.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Plane, label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Plane", label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -12279,7 +6647,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/romantic-andman.webp",
+      src: "/AndamanHooneyB.jpg",
       alt: "Andaman Honeymoon Tour Package",
     },
 
@@ -12305,17 +6673,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/romantic-andman.webp",
+        src: "/AndamanHoney1.jpg",
         alt: "Romantic Andaman",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/radhanagar-sunset-couple.jpg",
+        src: "/AndamanHoney2.jpg",
         alt: "Radhanagar Beach Couple Sunset",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/andaman-beach-dinner.jpg",
+       src: "/AndamanHoney.jpg",
         alt: "Andaman Beach Dinner",
       },
     ],
@@ -12431,19 +6799,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Flight",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/port-blair-package.webp",
+    src: "/PortBAndaman.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Plane, label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Plane", label: "Flights", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -12459,7 +6827,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/port-blair-package.webp",
+      src: "/PortBAndaman.jpg",
       alt: "Port Blair Complete Andaman Experience",
     },
 
@@ -12485,17 +6853,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/10/port-blair-package.webp",
+        src: "PortBAndaman1.jpg",
         alt: "Port Blair Andaman Package",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/jolly-buoy-island-coral.jpg",
+        src: "/PortBAndaman3.jpg",
         alt: "Jolly Buoy Island Coral",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/07/mahatma-gandhi-marine-park.jpg",
+        src: "/Andaman4.jpeg",
         alt: "Mahatma Gandhi Marine National Park",
       },
     ],
@@ -12627,19 +6995,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-10.jpg",
+    src: "/TamilTemple.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -12655,7 +7023,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-10.jpg",
+      src: "/TamilTemple.jpg",
       alt: "Tamil Nadu Temple Tour from Chennai",
     },
 
@@ -12681,17 +7049,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-10.jpg",
+        src: "/TamilTemple1.jpg",
         alt: "Tamil Nadu Temple Tour",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/tamilnadu-tour.jpg",
+        src:  "/TamilTemple3.jpg",
         alt: "Meenakshi Amman Temple Madurai",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/tamil-nadu-tour-packages.jpg",
+        src:  "/TamilTemple3.jpg",
         alt: "Kanyakumari Sunrise",
       },
     ],
@@ -12820,19 +7188,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/chennai-pondicherry-tour.jpg",
+    src: "/pondicherry.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -12848,7 +7216,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/chennai-pondicherry-tour.jpg",
+      src: "/pondicherry.jpg",
       alt: "Pondicherry Short Getaway Package",
     },
 
@@ -12874,17 +7242,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/chennai-pondicherry-tour.jpg",
+        src: "/pondicherry1.jpg",
         alt: "Pondicherry French Quarter",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/12/chennai-sightseeing-tour.jpg",
+        src:"/pondicherry4.jpg",
         alt: "Chennai City Sightseeing",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/tamil-nadu-tour-packages.jpg",
+        src: "/pondicherry5.jpg",
         alt: "Auroville Pondicherry",
       },
     ],
@@ -12976,19 +7344,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
+    src: "/kovalam1.jpg",
     popular: false,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Waves, label: "Beach", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Waves", label: "Beach", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -13004,7 +7372,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
+      src: "/kovalam1.jpg",
       alt: "Kovalam Varkala Beach Holiday",
     },
 
@@ -13030,19 +7398,15 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
+        src: "/kovalam.jpg",
         alt: "Kovalam Beach Kerala",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
+        src: "/kovalam2.jpg",
         alt: "Varkala Cliff Beach",
       },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Incredible-Kerala-Tour-Package.png",
-        alt: "Poovar Backwaters",
-      },
+      
     ],
 
     breadcrumbs: [
@@ -13141,19 +7505,19 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
+    src: "/kerala-black5.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Waves, label: "Beach", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Waves", label: "Beach", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -13166,7 +7530,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
+      src: "/kerala-black6.jpg",
       alt: "Kerala Beaches and Backwaters Tour",
     },
 
@@ -13192,17 +7556,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
+        src: "/kerala-black7.jpg",
         alt: "Kerala Backwaters Houseboat",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Incredible-Kerala-Tour-Package.png",
+        src: "/kerala-black8.jpg",
         alt: "Alleppey Backwaters Kerala",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
+        src: "/kerala-black9.jpg",
         alt: "Kovalam Beach Kerala",
       },
     ],
@@ -13312,1127 +7676,6 @@ export const tours = [
 
   // ─── PILGRIMAGE TOURS ───────────────────────────────────────────────────────
 
-  {
-    id: 302,
-    country: "India",
-    place: "Kedarnath",
-    title: "Badrinath Kedarnath Do Dham Yatra Tour Package",
-    type: "Religious yatras",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Haridwar → Haridwar",
-    destinations: ["Haridwar", "Kedarnath", "Badrinath"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 24900,
-    rating: 4.8,
-    reviews: 210,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Badri-kedar_t78tkd.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Darshan at Kedarnath Temple — One of the 12 Sacred Jyotirlingas of Lord Shiva",
-      },
-      { title: "Darshan of Badri Vishal — Atop the Himalayas at 3,133 m" },
-      {
-        title:
-          "Ganga Aarti at Haridwar Har Ki Pauri Ghat — Spectacular Evening Ritual",
-      },
-      {
-        title:
-          "Scenic Himalayan Drive through Rishikesh, Devprayag & Rudraprayag Confluences",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Badri-kedar_t78tkd.jpg",
-      alt: "Badrinath Kedarnath Do Dham Yatra",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The Kedarnath darshan in the early morning fog was one of the most spiritually profound moments of my life. NIT's team handled the entire trek logistics, aarti passes, and stay without a single hitch.",
-        author: "Sudhir & Malati Joshi",
-        date: "Travelled May 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Attending Ganga Aarti at Har Ki Pauri and then doing Badri Vishal darshan at sunset — this Do Dham tour touched my soul. Well organized and very comfortable even for seniors.",
-        author: "Krishnamurthy & Saroja Rao",
-        date: "Travelled October 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Badri-kedar_t78tkd.jpg",
-        alt: "Badrinath Kedarnath Do Dham",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/01/Kedarnath-min.jpg",
-        alt: "Kedarnath Temple Snow",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/01/Badrinath-min.jpg",
-        alt: "Badrinath Temple",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Badrinath Kedarnath Do Dham Yatra" },
-    ],
-
-    badges: [
-      { label: "DO DHAM YATRA", variant: "solid" as const, color: "orange" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 3,
-    region: "Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Haridwar", nights: 1 },
-      { city: "Guptkashi / Kedarnath Base", nights: 2 },
-      { city: "Kedarnath", nights: 1 },
-      { city: "Badrinath", nights: 2 },
-      { city: "Haridwar (Return)", nights: 1 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Haridwar",
-        details:[
-          "Arrive Haridwar. Check-in to hotel. Evening at Har Ki Pauri for the magnificent Ganga Aarti — one of India's most mesmerizing spiritual spectacles. Overnight Haridwar.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Haridwar → Guptkashi",
-        details:[
-          "Drive to Guptkashi (220 km / ~7 hrs) via Rishikesh, Devprayag, and Rudraprayag. Scenic mountain drives along the Alaknanda and Mandakini rivers. Check-in at Guptkashi. Evening visit to Vishwanath Temple at Guptkashi. Overnight Guptkashi.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Guptkashi → Kedarnath",
-        details:[
-          "Early start. Drive to Gaurikund (30 km). Begin the 18 km trek to Kedarnath (or hire a pony / palki). Check-in at Kedarnath. Afternoon darshan at the sacred Kedarnath Temple — one of the 12 Jyotirlingas. Evening Rudrabhishek Aarti. Overnight Kedarnath.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Kedarnath → Guptkashi",
-        details:[
-          "Early morning Kedarnath Darshan at sunrise — ethereal experience in the Himalayan snow. Trek back down to Gaurikund. Drive to Guptkashi. Rest and overnight Guptkashi.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Guptkashi → Badrinath",
-        details:[
-          "Drive from Guptkashi to Badrinath (180 km / ~6 hrs) via Chopta and Joshimath. Arrive Badrinath. Check-in to hotel near the temple. Evening Darshan at Badri Vishal (Lord Vishnu). Evening Aarti. Overnight Badrinath.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Badrinath — Sightseeing",
-        details:[
-          "Morning Abhishek Puja at Badrinath Temple. Visit Mana Village — last Indian village before the Tibet border. See Bhim Pul, Vasudhara Waterfall, and Vyas Gufa. Saraswati River origin point. Overnight Badrinath.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Badrinath → Rudraprayag",
-        details:[
-          "Return drive from Badrinath. Stop at Vishnuprayag, Nandaprayag, and Karnaprayag — confluence points of the sacred Himalayan rivers. Overnight at Rudraprayag / Srinagar.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Rudraprayag → Haridwar — Departure",
-        details:[
-          "Drive back to Haridwar via Rishikesh. Last dip at Har Ki Pauri Ghat. Transfer to railway station / airport. Do Dham Yatra concludes with blessings of Kedarnath and Badrinath.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Haridwar · Guptkashi · Kedarnath · Badrinath · Mana Village",
-      },
-      { label: "Departure & Return", value: "Haridwar" },
-      { label: "Tour Code", value: "UK-DODHAM-HRW-08" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      { label: "Best Time", value: "May–June & September–October" },
-      {
-        label: "Group Size",
-        value: "Families, Senior Citizens, Devotees — Private & Group",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 303,
-    country: "India",
-    place: "Badrinath",
-    title: "Char Dham Yatra Package from Delhi",
-    type: "Religious yatras",
-    duration: "12 Days / 11 Nights",
-    durationTag: "12 Days",
-    startEnd: "Delhi → Delhi",
-    destinations: [
-      "Delhi",
-      "Rishikesh",
-      "Yamunotri",
-      "Gangotri",
-      "Kedarnath",
-      "Badrinath",
-    ],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 43900,
-    rating: 4.9,
-    reviews: 312,
-    badge: "Top Rated",
-    badgeColor: "bg-yellow-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Chardham-Yatra-Package-from-Delhi.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title: "Ganga Aarti at Har Ki Pauri Haridwar & Rishikesh Triveni Ghat",
-      },
-      {
-        title:
-          "Darshan at All Four Sacred Dhams — Yamunotri, Gangotri, Kedarnath & Badrinath",
-      },
-      {
-        title:
-          "Visit Mana Village — Last Indian Village on the Indo-Tibet Border",
-      },
-      { title: "Samadhi of Adi Shankaracharya at Kedarnath & Kempty Falls" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Chardham-Yatra-Package-from-Delhi.jpg",
-      alt: "Char Dham Yatra Package from Delhi",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The best decision to choose Indruka Trips and Trip for our Chardham Yatra. Affordable package with excellent accommodations and transport. Spiritually fulfilling and an experience to return to.",
-        author: "Mr Ramesh Rao and group",
-        date: "Travelled March 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Chardham Yatra with NIT was truly excellent! Hotels were comfortable, food was great. Travelling with like-minded pilgrims made it all the more fulfilling. Guides were knowledgeable and ensured a smooth journey.",
-        author: "Mr. Padmanaban and family",
-        date: "Travelled March 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/10/Chardham-Yatra-Package-from-Delhi.jpg",
-        alt: "Chardham Yatra from Delhi",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/01/Kedarnath-min.jpg",
-        alt: "Kedarnath Temple",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/01/Gangotri-min.jpg",
-        alt: "Gangotri Dham",
-      },
-      {
-        id: 4,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/01/Badrinath-min.jpg",
-        alt: "Badrinath Temple",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Char Dham", href: "/india/uttarakhand/chardham" },
-      { label: "Char Dham Yatra Package from Delhi" },
-    ],
-
-    badges: [
-      { label: "CHAR DHAM", variant: "solid" as const, color: "orange" },
-      { label: "12 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 12,
-    countryCount: 1,
-    cityCount: 6,
-    region: "Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 1 },
-      { city: "Haridwar / Rishikesh", nights: 1 },
-      { city: "Yamunotri (Kharsali)", nights: 1 },
-      { city: "Gangotri (Harsil)", nights: 1 },
-      { city: "Kedarnath (Guptkashi)", nights: 2 },
-      { city: "Badrinath", nights: 2 },
-      { city: "Haridwar", nights: 1 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Haridwar",
-        details:[
-          "Drive from Delhi to Haridwar (210 km / ~5 hrs). Check-in. Evening Ganga Aarti at Har Ki Pauri — one of India's most spiritual spectacles. Overnight Haridwar.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Haridwar → Rishikesh → Barkot",
-        details:[
-          "Visit Triveni Ghat in Rishikesh. Drive to Barkot (210 km) via Kempty Falls, Mussoorie viewpoints, and Yamuna Valley. Overnight Barkot.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Barkot → Yamunotri → Barkot",
-        details:[
-          "Drive to Janki Chatti (50 km). Trek 6 km to Yamunotri Temple or take a pony/palki. Darshan of Goddess Yamuna. Dip in Surya Kund hot spring. Return to Barkot. Overnight Barkot.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Barkot → Uttarkashi (Gangotri)",
-        details:[
-          "Drive to Uttarkashi (100 km). En route visit Vishwanath Temple. Drive to Gangotri (100 km). Darshan at Gangotri Temple dedicated to Goddess Ganga. Overnight Gangotri / Harsil.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Gangotri → Guptkashi",
-        details:[
-          "Drive from Gangotri to Guptkashi (220 km via Uttarkashi and Tehri). Scenic route through the Himalayan valleys. Overnight Guptkashi.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Guptkashi → Kedarnath",
-        details:[
-          "Drive to Gaurikund (30 km). Trek or pony ride 18 km to Kedarnath. VIP Darshan at Kedarnath Jyotirlinga Temple. Visit Samadhi of Adi Shankaracharya. Overnight Kedarnath.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Kedarnath → Guptkashi",
-        details:[
-          "Morning Kedarnath Abhishek Puja. Trek down to Gaurikund. Drive back to Guptkashi. Rest and overnight.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Guptkashi → Badrinath",
-        details:[
-          "Drive to Badrinath (180 km) via Joshimath. Arrive Badrinath. Evening Darshan at Badri Vishal. Attend Aarti at the temple. Overnight Badrinath.",
-      ]},
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Badrinath — Sightseeing",
-        details:[
-          "Abhishek Puja at Badrinath. Visit Mana Village — India's last village before Tibet. Bhim Pul, Vasudhara Waterfall, Vyas Gufa, Ganesh Gufa. Overnight Badrinath.",
-      ]},
-      {
-        day: 10,
-        date: "Day 10",
-        title: "Badrinath → Rudraprayag",
-        details:[
-          "Drive back via Joshimath, Vishnuprayag, and Nandaprayag — holy river confluences. Overnight Rudraprayag.",
-      ]},
-      {
-        day: 11,
-        date: "Day 11",
-        title: "Rudraprayag → Haridwar",
-        details:[
-          "Drive back to Haridwar via Devprayag and Rishikesh. Final dip at Har Ki Pauri. Evening Ganga Aarti. Overnight Haridwar.",
-      ]},
-      {
-        day: 12,
-        date: "Day 12",
-        title: "Haridwar → Delhi — Departure",
-        details:[
-          "Drive back to Delhi (210 km / ~5 hrs). Tour concludes with the divine blessings of all four Dhams.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "12 Days / 11 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Delhi · Haridwar · Rishikesh · Yamunotri · Gangotri · Kedarnath · Badrinath · Mana Village",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "UK-CHARDHAM-DEL-12" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      { label: "Best Time", value: "May–June & September–October" },
-      {
-        label: "Group Size",
-        value: "All types — Private & Group options available",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 305,
-    country: "India",
-    place: "Vaishno Devi",
-    title: "Mata Vaishno Devi Pilgrimage Yatra Package",
-    type: "Religious yatras",
-    duration: "4 Days / 3 Nights",
-    durationTag: "4 Days",
-    startEnd: "Delhi → Katra",
-    destinations: ["Delhi", "Jammu", "Katra", "Vaishno Devi"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 14900,
-    rating: 4.7,
-    reviews: 196,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2019/06/vaishno-devi.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Darshan at Mata Vaishno Devi Cave Shrine — 14 km Sacred Trek from Katra",
-      },
-      { title: "Bhawan Aarti — Spiritual Experience inside the Holy Cave" },
-      { title: "Shiv Khori Temple & Banganga Kund En Route" },
-      { title: "Raghunath Temple & Bahu Fort Sightseeing in Jammu" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/06/vaishno-devi.jpg",
-      alt: "Mata Vaishno Devi Pilgrimage Yatra",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Mata's darshan in the holy cave was a life-changing experience. The 14 km trek felt effortless because of the spiritual energy around. NIT arranged our yatra pass, pony service, and hotel all seamlessly.",
-        author: "Rakesh & Sunita Sharma",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "We are senior citizens and NIT customized the trek support with pony and battery vehicle rides. The cave darshan at night was absolutely divine. Highly recommended for all devotees.",
-        author: "Rajendra & Kamla Gupta",
-        date: "Travelled December 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2019/06/vaishno-devi.jpg",
-        alt: "Vaishno Devi Cave Shrine",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/include/footer/uttar-pradesh-tour-packages.jpg",
-        alt: "Katra Base Camp",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
-        alt: "Jammu Raghunath Temple",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Jammu & Kashmir", href: "/india/jammu-kashmir" },
-      { label: "Mata Vaishno Devi Pilgrimage Yatra" },
-    ],
-
-    badges: [
-      { label: "PILGRIMAGE", variant: "solid" as const, color: "orange" },
-      { label: "4 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 4,
-    countryCount: 1,
-    cityCount: 4,
-    region: "Jammu & Kashmir, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Jammu", nights: 1 },
-      { city: "Katra", nights: 1 },
-      { city: "Vaishno Devi Bhawan", nights: 1 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Jammu (Overnight Train / Drive)",
-        details:[
-          "Depart Delhi for Jammu by overnight train or AC vehicle. Arrive Jammu in the morning. Visit Raghunath Temple and Bahu Fort. Afternoon drive to Katra (50 km). Check-in to hotel near the base camp. Register for the Vaishno Devi Yatra. Overnight Katra.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Katra → Vaishno Devi Bhawan",
-        details:[
-          "Begin the 14 km trek from Katra to Bhawan (or take a pony / battery vehicle). En route: Banganga Kund, Charan Paduka, Adhkwari (optional), Sanjhi Chatt helipad, Bhawan. Darshan at Mata Vaishno Devi Cave Shrine — three Pindis (Maha Kali, Maha Lakshmi, Maha Saraswati). Evening Aarti at Bhawan. Overnight at Bhawan / Katra.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Vaishno Devi → Shiv Khori → Katra",
-        details:[
-          "Early morning optional visit to Bhairon Baba Temple (3 km beyond Bhawan — completing the yatra). Trek down to Katra. Afternoon drive to Shiv Khori Temple — a natural cave shrine dedicated to Lord Shiva with a 200 m long cave. Return to Katra. Overnight Katra.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Katra → Jammu → Delhi — Departure",
-        details:[
-          "Morning at leisure. Drive to Jammu (50 km). Shopping at Raghunath Bazaar for dry fruits, Kashmiri shawls, and souvenirs. Board train / flight back to Delhi. Yatra concludes with Mata's blessings.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "4 Days / 3 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Jammu · Katra · Vaishno Devi Bhawan · Shiv Khori",
-      },
-      { label: "Departure & Return", value: "Delhi → Katra" },
-      { label: "Tour Code", value: "JK-VAISHNO-DEL-04" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      { label: "Best Time", value: "March–June & September–November" },
-      {
-        label: "Group Size",
-        value: "Families, Senior Citizens, Solo Devotees — Private & Group",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 306,
-    country: "India",
-    place: "Amritsar",
-    title: "Golden Temple Amritsar Spiritual Tour Package",
-    type: "Religious yatras",
-    duration: "4 Days / 3 Nights",
-    durationTag: "4 Days",
-    startEnd: "Delhi → Amritsar",
-    destinations: ["Delhi", "Amritsar", "Wagah Border", "Jallianwala Bagh"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 12500,
-    rating: 4.8,
-    reviews: 154,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Golden Temple (Harmandir Sahib) — Pre-dawn Palki Sahib Procession & Amrit Vela",
-      },
-      {
-        title:
-          "Wagah Border Beating Retreat Ceremony — Electrifying Patriotic Spectacle",
-      },
-      { title: "Jallianwala Bagh Memorial — Solemn & Moving Historic Site" },
-      {
-        title:
-          "Langar at the Golden Temple — World's Largest Free Community Kitchen",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
-      alt: "Golden Temple Amritsar Spiritual Tour",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The pre-dawn Amrit Vela at the Golden Temple was transcendently peaceful — the reflection in the Sarovar, the kirtan echoing across the water. Jallianwala Bagh moved us to tears. An unforgettable 4 days.",
-        author: "Vikram & Harpreet Singh",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "The Wagah Border ceremony is something every Indian must witness. The patriotic fervour, the march, the crowd — incredible! NIT arranged front-row seats and brilliant logistics.",
-        author: "Srinath & Meenakshi Iyer",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
-        alt: "Golden Temple Amritsar",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/tajmahal-agra.jpg",
-        alt: "Wagah Border Ceremony",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/uttar-pradesh-tour-packages.jpg",
-        alt: "Jallianwala Bagh Amritsar",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Punjab", href: "/india/punjab" },
-      { label: "Golden Temple Amritsar Spiritual Tour" },
-    ],
-
-    badges: [
-      { label: "SPIRITUAL TOUR", variant: "solid" as const, color: "yellow" },
-      { label: "4 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 4,
-    countryCount: 1,
-    cityCount: 4,
-    region: "Punjab, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 0 },
-      { city: "Amritsar", nights: 3 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Delhi → Amritsar",
-        details:[
-          "Depart Delhi for Amritsar by Shatabdi Express or AC vehicle (5–6 hrs). Check-in to hotel. Evening visit to the magnificent Golden Temple (Harmandir Sahib). Witness the Palki Sahib procession — the ceremonial return of the Guru Granth Sahib to the inner sanctum. Overnight Amritsar.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Amritsar — Golden Temple & Sightseeing",
-        details:[
-          "4 AM Amrit Vela visit to the Golden Temple — the most peaceful and spiritual time of the day. Participate in the Langar (free community kitchen — feeds 100,000+ people daily). Visit Akal Takht, the highest temporal seat of Sikh authority. Morning visit to Jallianwala Bagh Memorial. Afternoon at Ram Bagh Gardens and Maharaja Ranjit Singh Museum. Overnight Amritsar.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Amritsar — Wagah Border Ceremony",
-        details:[
-          "Morning visit to Durgiana Temple (the Hindu counterpart to the Golden Temple). Visit Partition Museum — India's first museum dedicated to the 1947 Partition. Afternoon drive to Wagah Border (30 km). Witness the iconic Beating Retreat Ceremony — electrifying display of patriotism with BSF soldiers. Return to Amritsar. Overnight Amritsar.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Amritsar → Delhi — Departure",
-        details:[
-          "Morning visit to Gobindgarh Fort. Shopping at Hall Bazaar and Lawrence Road for Punjabi juttis, phulkari dupattas, and Amritsari papad. Transfer to Amritsar railway station / airport. Return to Delhi. Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "4 Days / 3 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Amritsar · Wagah Border · Jallianwala Bagh",
-      },
-      { label: "Departure & Return", value: "Delhi → Amritsar" },
-      { label: "Tour Code", value: "PB-GOLDEN-DEL-04" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      { label: "Best Time", value: "October–March" },
-      {
-        label: "Group Size",
-        value: "Families, Couples, Solo, Senior Citizens — Private & Group",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─── PURI / JAGANNATH ───────────────────────────────────────────────────────
-
-  {
-    id: 307,
-    country: "India",
-    place: "Puri",
-    title: "Bhubaneswar Puri Konark Jagannath Temple Tour",
-    type: "Religious yatras",
-    duration: "4 Days / 3 Nights",
-    durationTag: "4 Days",
-    startEnd: "Bhubaneswar → Bhubaneswar",
-    destinations: ["Bhubaneswar", "Konark", "Puri"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 12900,
-    rating: 4.6,
-    reviews: 98,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-6.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Darshan at Shri Jagannath Temple Puri — One of the 4 Sacred Dhams of India",
-      },
-      {
-        title:
-          "Konark Sun Temple — UNESCO World Heritage Site & One of 7 Wonders of India",
-      },
-      {
-        title:
-          "Chilika Lake Boat Ride — Asia's Largest Brackish Lagoon & Irrawaddy Dolphins",
-      },
-      {
-        title:
-          "Lingaraj, Mukteshwar & Rajarani Temples — Bhubaneswar's Ancient Temple Trail",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-6.jpg",
-      alt: "Bhubaneswar Puri Konark Jagannath Temple Tour",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The Jagannath Temple darshan was a deeply moving spiritual experience. Konark's Sun Temple left us speechless — the architecture is beyond imagination. Chilika Lake with dolphins was the perfect bonus. NIT made every detail seamless.",
-        author: "Sourabh Chouhan & Family",
-        date: "Travelled January 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Orissa is truly the soul of India — its temples, beaches, and the Chilika Lake experience were all exceptional. The itinerary was perfectly paced for our senior parents. Hotels and transport were very comfortable.",
-        author: "Krishnan & Saroja Pillai",
-        date: "Travelled December 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/include/top-selling-nit-tour-6.jpg",
-        alt: "Jagannath Temple Puri",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/2.3-Konark-sun-temple-1.jpg",
-        alt: "Konark Sun Temple",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/3.1-Chilka-lake.jpg",
-        alt: "Chilika Lake Boat Ride",
-      },
-      {
-        id: 4,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/1.2-lingaraj-temple.jpg",
-        alt: "Lingaraj Temple Bhubaneswar",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Odisha", href: "/india/odisha" },
-      { label: "Bhubaneswar Puri Konark Jagannath Temple Tour" },
-    ],
-
-    badges: [
-      { label: "PILGRIMAGE", variant: "solid" as const, color: "orange" },
-      { label: "4 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 4,
-    countryCount: 1,
-    cityCount: 3,
-    region: "Odisha, India",
-
-    itineraryStops: [
-      { city: "Bhubaneswar", nights: 1 },
-      { city: "Puri", nights: 2 },
-      { city: "Bhubaneswar (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Bhubaneswar — Temple Trail",
-        details:[
-          "Arrive Bhubaneswar airport / railway station. Met by NIT representative and transferred to hotel. Check-in and freshen up. Afternoon full-day Bhubaneswar temple tour — Lingaraj Temple, Mukteshwar Temple, Parshuram Temple, Rajarani Temple, Kedargouri Temple, and the serene Bindusagar Lake. Overnight Bhubaneswar.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Bhubaneswar → Dhauli → Pipli → Konark → Puri",
-        details:[
-          "Post-breakfast, drive via the peaceful Buddhist stupa at Dhauli and the appliqué craft village of Pipli. Visit the iconic Konark Sun Temple (UNESCO World Heritage Site & Black Pagoda). Continue to Chandrabhaga Beach. Stop at Ramchandi Temple en route. Arrive Puri and check in to beach hotel. Evening VIP Darshan at Shri Jagannath Temple. Overnight Puri.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Puri — Chilika Lake & Golden Beach",
-        details:[
-          "Morning excursion to Chilika Lake — Asia's largest brackish water lagoon. Boat ride to spot Irrawaddy dolphins and thousands of migratory birds. Visit Kalijai Island Temple on the lake. Return to Puri for the afternoon. Sunset at Golden Beach — one of India's most beautiful beaches. Overnight Puri.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Puri → Bhubaneswar — Departure",
-        details:[
-          "Breakfast at hotel. Drive back to Bhubaneswar. Shopping for Pattachitra paintings, Odissi craft, and local handicrafts. Transfer to Bhubaneswar airport / railway station. Tour concludes with the blessings of Lord Jagannath.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "4 Days / 3 Nights" },
-      {
-        label: "Destinations",
-        value: "Bhubaneswar · Dhauli · Pipli · Konark · Puri · Chilika Lake",
-      },
-      {
-        label: "Departure & Return",
-        value: "Bhubaneswar Airport / Railway Station",
-      },
-      { label: "Tour Code", value: "OD-PURI-BHB-04" },
-      { label: "Meals", value: "Breakfast daily" },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Families, Pilgrims, Solo — Private Tour" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─── RISHIKESH / YOGA ───────────────────────────────────────────────────────
-
-  {
-    id: 308,
-    country: "India",
-    place: "Rishikesh",
-    title: "Yoga & Meditation Tour of India — Rishikesh",
-    type: "Religious yatras",
-    duration: "6 Days / 5 Nights",
-    durationTag: "6 Days",
-    startEnd: "Delhi → Rishikesh → Delhi",
-    destinations: ["Delhi", "Haridwar", "Rishikesh"],
-    amenities: ["Hotel", "Meals", "Transfers", "Yoga Classes"],
-    price: 70819,
-    rating: 4.8,
-    reviews: 143,
-    badge: "Trending",
-    badgeColor: "bg-green-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/yoga-rishikesh.jpg",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Leaf, label: "Yoga & Spa", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Daily Yoga & Meditation Classes with Professional Trainer in Rishikesh",
-      },
-      {
-        title:
-          "Ganga Aarti at Har Ki Pauri Haridwar — India's Most Sacred Evening Ritual",
-      },
-      {
-        title:
-          "Vashishtha Cave Trek & Neer Garh Waterfall — Himalayan Nature Walk",
-      },
-      {
-        title:
-          "River Rafting on the Ganga — Roller Coaster, Return to Sender Rapids",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/yoga-rishikesh.jpg",
-      alt: "Yoga and Meditation Tour Rishikesh",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The morning yoga sessions overlooking the Ganga were transformative. The Ganga Aarti at Haridwar and the Vashishtha Cave meditation — this trip genuinely reset my mind and soul. NIT's planning was flawless.",
-        author: "Vanita Jashnani",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "River rafting by day, Ayurvedic spa by evening, and yoga at dawn — Rishikesh is the perfect wellness destination. The Himalayan air and the Ganga's energy are incomparable. Thank you NIT for an exceptional experience.",
-        author: "Rao Yagneswar & Family",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/yoga-rishikesh.jpg",
-        alt: "Yoga at Rishikesh",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/include/himalayan-sojourn_rlqkkz.jpg",
-        alt: "Haridwar Ganga Aarti",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/include/footer/uttarakhand-tour-packages.jpg",
-        alt: "River Rafting Rishikesh",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
-      { label: "Yoga & Meditation Tour — Rishikesh" },
-    ],
-
-    badges: [
-      { label: "YOGA & WELLNESS", variant: "solid" as const, color: "green" },
-      { label: "6 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 6,
-    countryCount: 1,
-    cityCount: 3,
-    region: "Uttarakhand, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 1 },
-      { city: "Haridwar", nights: 1 },
-      { city: "Rishikesh", nights: 3 },
-      { city: "Delhi (Return)", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Delhi",
-        details:[
-          "Arrive Delhi International Airport. Meet and greet by NIT representative. Transfer to hotel. Evening at Delhi Haat or Connaught Place for a feel of the city. Overnight Delhi.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Delhi → Haridwar — Ganga Aarti",
-        details:[
-          "Post-breakfast, drive to Haridwar (210 km / ~5 hrs). En route, cross the lush Himalayan foothills. Check-in to hotel. Evening attend the magnificent Ganga Aarti at Har Ki Pauri — the divine gateway to god. Overnight Haridwar.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Haridwar → Rishikesh — Yoga Capital",
-        details:[
-          "Morning Haridwar temple tour — Mansa Devi, Chandi Devi, Maya Devi, Bharat Mata Temple, and Sapt Rishi Ashram. Evening Ganga Aarti at Har Ki Pauri. Drive to Rishikesh (20 km). Check-in. Evening walk on Ram Jhula and Lakshman Jhula. Overnight Rishikesh.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Rishikesh — Yoga, Vashishtha Cave & Waterfall Trek",
-        details:[
-          "Early morning Yoga and Meditation session with a professional trainer by the Ganga. Post-breakfast trek to Vashishtha Cave — where sage Vasistha meditated on the banks of the holy Ganga. Visit Neer Garh Waterfall — a scenic 30-minute forest walk. Evening Meditation session. Overnight Rishikesh.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Rishikesh — River Rafting & Ayurvedic Spa",
-        details:[
-          "Morning Yoga session. Post-breakfast: thrilling Ganga river rafting — navigate rapids like Roller Coaster, Return to Sender, Golf Course, and Three Blind Mice. Optional cliff jumping and body surfing. Afternoon: Ayurvedic spa treatment and Panchakarma session at the resort. Evening crystal healing and meditation. Overnight Rishikesh.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Rishikesh → Delhi — Departure",
-        details:[
-          "Final sunrise Yoga session. Breakfast. Drive back to Delhi (5–6 hrs). Shopping at Rishikesh for Ayurvedic products, yoga gear, rudraksha, and spiritual souvenirs. Transfer to Delhi airport. Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Delhi · Haridwar · Rishikesh · Vashishtha Cave · Neer Garh Waterfall",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "UK-YOGA-DEL-06" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      {
-        label: "Best Time",
-        value: "October–June (avoid monsoon July–September)",
-      },
-      {
-        label: "Group Size",
-        value: "Solo, Couples, Small Groups — Private & Group options",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
 
   // ─── UDAIPUR / RAJASTHAN ────────────────────────────────────────────────────
 
@@ -14453,24 +7696,24 @@ export const tours = [
     badge: "Luxury",
     badgeColor: "bg-yellow-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
+    src: "/rajasthan-banner.jpg",
     popular: true,
 
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Palace Hotel",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -14486,7 +7729,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
+      src: "/rajasthan.jpg",
       alt: "Majestic Royal Rajasthan Tour Udaipur",
     },
 
@@ -14512,17 +7755,27 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
+        src: "/rajasthan2.jpg",
         alt: "Royal Rajasthan Udaipur",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
+       src: "/rajasthan3.jpg",
         alt: "Hawa Mahal Jaipur",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/khajirao-temple.jpg",
+        src: "/rajasthan4.jpg",
+        alt: "Mehrangarh Fort Jodhpur",
+      },
+       {
+        id: 4,
+        src: "/rajasthan5.jpg",
+        alt: "Mehrangarh Fort Jodhpur",
+      },
+       {
+        id: 5,
+        src: "/rajasthan26.jpg",
         alt: "Mehrangarh Fort Jodhpur",
       },
     ],
@@ -14660,24 +7913,24 @@ export const tours = [
     badge: "Romantic",
     badgeColor: "bg-pink-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
+    src: "/jaipur.jpg",
     popular: true,
 
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Luxury Hotel",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Heart, label: "Honeymoon", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Heart", label: "Honeymoon", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -14695,7 +7948,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
+      src: "/jaipur.jpg",
       alt: "Rajasthan Honeymoon Tour Jaipur Pushkar Udaipur",
     },
 
@@ -14721,17 +7974,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
+       src: "/jaipur1.jpg",
         alt: "Hawa Mahal Jaipur Honeymoon",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
+        src: "/jaipur2.jpg",
         alt: "Udaipur Lake Palace",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/tajmahal-agra.jpg",
+       src: "/jaipur3.jpg",
         alt: "Pushkar Lake Rajasthan",
       },
     ],
@@ -14821,413 +8074,7 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─── JAIPUR ─────────────────────────────────────────────────────────────────
 
-  {
-    id: 403,
-    country: "India",
-    place: "Jaipur",
-    title: "Golden Triangle Tour — Delhi Agra Jaipur",
-    type: "Cultural Tour",
-    duration: "6 Days / 5 Nights",
-    durationTag: "6 Days",
-    startEnd: "Delhi → Jaipur → Delhi",
-    destinations: ["Delhi", "Agra", "Fatehpur Sikri", "Mathura", "Jaipur"],
-    amenities: ["Hotel", "Meals", "Transfers", "Sightseeing"],
-    price: 12500,
-    rating: 4.8,
-    reviews: 326,
-    badge: "Bestseller",
-    badgeColor: "bg-orange-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/11/4days-golden-triangle-tour.webp",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title: "Taj Mahal Agra at Sunrise — World's Greatest Monument to Love",
-      },
-      { title: "Rickshaw Ride through Old Delhi's Chandni Chowk Spice Market" },
-      {
-        title: "Amber Fort Jaipur — Elephant Ride & Sheesh Mahal Mirror Palace",
-      },
-      {
-        title:
-          "Fatehpur Sikri — Akbar's Abandoned Mughal Capital (UNESCO Site)",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/11/4days-golden-triangle-tour.webp",
-      alt: "Golden Triangle Tour Delhi Agra Jaipur",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The car was great, our driver Manish was excellent and very patient. The Taj Mahal and the Amber Fort were highlights. When we return to India we would definitely use Indruka Trips and Trip again.",
-        author: "Alex de Aboitiz",
-        date: "Travelled March 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Excellent management — all hotels were good, food was fresh and tasty, driver was calm. No hurry during sightseeing. Thank you Indruka Trips and Team for making our journey a memorable one.",
-        author: "Manisha Dalvi",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/11/4days-golden-triangle-tour.webp",
-        alt: "Golden Triangle Delhi Agra Jaipur",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/tajmahal-agra.jpg",
-        alt: "Taj Mahal Agra",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
-        alt: "Hawa Mahal Jaipur",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Rajasthan", href: "/india/rajasthan" },
-      { label: "Golden Triangle Tour — Delhi Agra Jaipur" },
-    ],
-
-    badges: [
-      { label: "BESTSELLER", variant: "solid" as const, color: "orange" },
-      { label: "6 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 6,
-    countryCount: 1,
-    cityCount: 5,
-    region: "North India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 2 },
-      { city: "Agra", nights: 1 },
-      { city: "Fatehpur Sikri", nights: 0 },
-      { city: "Jaipur", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Delhi — Old Delhi Exploration",
-        details:[
-          "Arrive Delhi. Transfer to hotel. Afternoon rickshaw ride through Chandni Chowk — the iconic old Delhi spice, silver and textile market. Visit Jama Masjid and Red Fort (exterior). Guided tour of Raj Ghat (Mahatma Gandhi Memorial). Overnight Delhi.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Delhi — New Delhi Monuments",
-        details:[
-          "Morning guided tour of Qutub Minar (UNESCO) and Humayun's Tomb (UNESCO). Afternoon India Gate, Rajpath, Parliament House drive-by. Visit Akshardham Temple and Lotus Temple (exteriors). Evening at Connaught Place. Overnight Delhi.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Delhi → Mathura → Agra",
-        details:[
-          "Drive to Agra (230 km) via Mathura — birthplace of Lord Krishna. Visit Krishna Janmabhoomi Temple and Dwarkadhish Temple in Mathura. Continue to Agra. Check-in to hotel with Taj Mahal view if possible. Evening sunset view of the Taj Mahal from Mehtab Bagh. Overnight Agra.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Agra — Taj Mahal & Fatehpur Sikri",
-        details:[
-          "Sunrise visit to the Taj Mahal — the most beautiful monument in the world. Tonga ride on arrival at Agra Fort (Red Fort of Agra). Drive to Fatehpur Sikri — Akbar's abandoned Mughal capital (UNESCO World Heritage Site). Evening drive to Jaipur (240 km). Overnight Jaipur.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Jaipur — Amber Fort & Pink City",
-        details:[
-          "Morning elephant ride to Amber Fort — explore Sheesh Mahal and Diwan-i-Aam. Visit Jaigarh Fort and City Palace Museum. Hawa Mahal photo stop. Afternoon Jantar Mantar (UNESCO). Evening at Johari Bazaar and Bapu Bazaar for gems and handicraft shopping. Overnight Jaipur.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Jaipur → Delhi — Departure",
-        details:[
-          "Morning at leisure. Drive back to Delhi (280 km / ~5 hrs) or take Shatabdi Express. Transfer to Delhi airport for onward travel. Golden Triangle Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Mathura · Agra · Fatehpur Sikri · Jaipur",
-      },
-      { label: "Departure & Return", value: "Delhi" },
-      { label: "Tour Code", value: "GT-CLASSIC-DEL-06" },
-      { label: "Meals", value: "Breakfast & Dinner daily" },
-      { label: "Best Time", value: "October–March" },
-      {
-        label: "Group Size",
-        value: "All types — Private & Group options available",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 404,
-    country: "India",
-    place: "Jaipur",
-    title: "Royal Rajasthan Grand Tour — Full Circuit",
-    type: "Luxury stays",
-    duration: "10 Days / 9 Nights",
-    durationTag: "10 Days",
-    startEnd: "Jaipur → Pushkar",
-    destinations: [
-      "Jaipur",
-      "Bikaner",
-      "Jaisalmer",
-      "Jodhpur",
-      "Udaipur",
-      "Mount Abu",
-      "Ajmer",
-      "Pushkar",
-    ],
-    amenities: ["Heritage Hotels", "Meals", "Transfers", "Sightseeing"],
-    price: 78000,
-    rating: 4.9,
-    reviews: 214,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-    popular: true,
-
-    tourFeatures: [
-      {
-        icon: Building2,
-        label: "Heritage Hotel",
-        color: "#6C72E8",
-        bg: "#EEF0FD",
-      },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Jaisalmer Desert Camp — Camel Safari & Rajasthani Folk Dance at Sam Sand Dunes",
-      },
-      {
-        title: "Mehrangarh Fort Jodhpur & Udaipur Lake Palace Sunset Boat Ride",
-      },
-      { title: "Bikaner Camel Breeding Farm & Junagarh Fort" },
-      {
-        title:
-          "Mount Abu — Dilwara Jain Temples & Nakki Lake at Rajasthan's Only Hill Station",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-      alt: "Royal Rajasthan Grand Tour Full Circuit",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The full Rajasthan circuit is a journey through time — from the golden sands of Jaisalmer to the blue city of Jodhpur and the lake city of Udaipur. Every heritage hotel was exceptional. NIT's planning was meticulous.",
-        author: "George Christopher",
-        date: "Travelled March 2026",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Sleeping under the stars at Sam Sand Dunes after a camel safari was pure magic. The Dilwara Jain temples at Mount Abu are the most intricate marble carvings I have ever seen. An extraordinary 10 days.",
-        author: "Rallabandi Srinivasa",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-        alt: "Royal Rajasthan Grand Tour",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/hawa-mahal-jaipur.jpg",
-        alt: "Jaipur Pink City",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/11/train-tour.jpg",
-        alt: "Jaisalmer Desert Camp",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Rajasthan", href: "/india/rajasthan" },
-      { label: "Royal Rajasthan Grand Tour — Full Circuit" },
-    ],
-
-    badges: [
-      { label: "FULL CIRCUIT", variant: "solid" as const, color: "blue" },
-      { label: "10 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 10,
-    countryCount: 1,
-    cityCount: 8,
-    region: "Rajasthan, India",
-
-    itineraryStops: [
-      { city: "Jaipur", nights: 2 },
-      { city: "Bikaner", nights: 1 },
-      { city: "Jaisalmer", nights: 2 },
-      { city: "Jodhpur", nights: 1 },
-      { city: "Udaipur", nights: 2 },
-      { city: "Mount Abu", nights: 1 },
-      { city: "Ajmer / Pushkar", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Jaipur — Pink City",
-        details:[
-          "Arrive Jaipur (JAI). Transfer to heritage hotel. Afternoon Amber Fort elephant ride and Sheesh Mahal. Evening at Chokhi Dhani — Rajasthani folk performance and dinner. Overnight Jaipur.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Jaipur — City Palace & Hawa Mahal",
-        details:[
-          "Morning City Palace Museum, Jantar Mantar (UNESCO), Hawa Mahal. Afternoon Nahargarh Fort at sunset — panoramic Pink City views. Shopping at Johari Bazaar for gems. Overnight Jaipur.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Jaipur → Bikaner",
-        details:[
-          "Drive to Bikaner (330 km). Visit Junagarh Fort — one of the few unconquered forts in Rajasthan. National Research Centre on Camel (Camel Breeding Farm). Karni Mata Temple (Rat Temple) en route. Overnight Bikaner.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Bikaner → Jaisalmer — Golden City",
-        details:[
-          "Drive to Jaisalmer (330 km). Arrive the golden city. Check-in to heritage haveli. Visit Jaisalmer Fort (a living fort — UNESCO). Patwon Ki Haveli and Salim Singh Ki Haveli. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Jaisalmer — Desert Safari & Luxury Camp",
-        details:[
-          "Morning Gadsisar Lake boat ride. Afternoon drive to Sam Sand Dunes. Camel safari at sunset. Check-in to luxury desert camp. Rajasthani folk dance and music under the stars. Bonfire dinner. Overnight luxury desert camp.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Jaisalmer → Jodhpur — Blue City",
-        details:[
-          "Drive to Jodhpur (300 km). Visit Mehrangarh Fort — massive 15th-century hilltop fortress. Jaswant Thada cenotaph. Old city walking tour through the blue-painted lanes of Brahmpuri. Rajasthani gala dinner. Overnight Jodhpur.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Jodhpur → Udaipur — City of Lakes",
-        details:[
-          "Drive to Udaipur (250 km). Check-in to lake-view luxury hotel. Sunset boat ride on Lake Pichola. Rooftop candlelight dinner overlooking the Lake Palace. Overnight Udaipur.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Udaipur — City Palace & Cultural Show",
-        details:[
-          "Morning City Palace Museum, Jagdish Temple, Saheliyon Ki Bari. Afternoon Pichola village excursion. Evening Bagore Ki Haveli cultural show — folk dances and puppetry. Overnight Udaipur.",
-      ]},
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Udaipur → Mount Abu",
-        details:[
-          "Drive to Mount Abu (165 km) — Rajasthan's only hill station. Check-in. Visit Dilwara Jain Temples — considered among the finest marble temple carvings in the world. Sunset point. Nakki Lake boat ride. Overnight Mount Abu.",
-      ]},
-      {
-        day: 10,
-        date: "Day 10",
-        title: "Mount Abu → Ajmer → Pushkar — Departure",
-        details:[
-          "Drive to Ajmer (185 km). Visit Dargah Sharif of Khwaja Moinuddin Chishti. Continue to Pushkar — Brahma Temple and Pushkar Lake Ghats. Transfer to Jaipur airport (JAI) or Ajmer railway station. Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "10 Days / 9 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Jaipur · Bikaner · Jaisalmer · Sam Dunes · Jodhpur · Udaipur · Mount Abu · Ajmer · Pushkar",
-      },
-      { label: "Departure & Return", value: "Jaipur → Ajmer / Pushkar" },
-      { label: "Tour Code", value: "RJ-GRAND-JAI-10" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner daily; All meals at desert camp",
-      },
-      { label: "Best Time", value: "October–March" },
-      {
-        label: "Group Size",
-        value: "Families, Couples, Groups — Private & Group options",
-      },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
 
   // ─── JAISALMER / LUXURY TRAIN ────────────────────────────────────────────────
 
@@ -15257,19 +8104,19 @@ export const tours = [
     badge: "Premium",
     badgeColor: "bg-purple-700",
     mode: "Train",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2023/11/train-tour.jpg",
+    src: "/jaisalmer.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Train, label: "Train Suite", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Train", label: "Train Suite", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "All Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -15291,7 +8138,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/11/train-tour.jpg",
+      src:  "/jaisalmer1.jpg",
       alt: "Indian Splendour Luxury Train Tour Rajasthan",
     },
 
@@ -15317,24 +8164,20 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/11/train-tour.jpg",
+        src:  "/jaisalmer3.jpg",
         alt: "Indian Splendour Luxury Train",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/tajmahal-agra.jpg",
+        src:  "/jaisalmer4.jpg",
         alt: "Taj Mahal Agra",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/jim-corbett-national-park-jeep-safari.jpg",
+       src:  "/jaisalmer5.jpg",
         alt: "Ranthambore Tiger Safari",
       },
-      {
-        id: 4,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-        alt: "Jodhpur Blue City",
-      },
+     
     ],
 
     breadcrumbs: [
@@ -15443,417 +8286,9 @@ export const tours = [
 
   // ─── KERALA BACKWATERS / ALLEPPEY ────────────────────────────────────────────
 
-  {
-    id: 407,
-    country: "India",
-    place: "Alleppey",
-    title: "Kerala Beaches & Backwaters Premium Houseboat Tour",
-    type: "Adventure",
-    duration: "7 Days / 6 Nights",
-    durationTag: "7 Days",
-    startEnd: "Cochin → Trivandrum",
-    destinations: [
-      "Cochin",
-      "Munnar",
-      "Thekkady",
-      "Alleppey",
-      "Varkala",
-      "Kovalam",
-      "Trivandrum",
-    ],
-    amenities: ["Premium Houseboat", "Meals", "Transfers", "Sightseeing"],
-    price: 24999,
-    rating: 4.7,
-    reviews: 198,
-    badge: "Popular",
-    badgeColor: "bg-blue-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
-    popular: true,
+ 
 
-    tourFeatures: [
-      {
-        icon: Building2,
-        label: "Premium Houseboat",
-        color: "#6C72E8",
-        bg: "#EEF0FD",
-      },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      {
-        icon: Waves,
-        label: "Beach & Backwaters",
-        color: "#E8508A",
-        bg: "#FFF0F4",
-      },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Munnar Tea Gardens — Misty Hills, Rolling Estates & Scenic Sunrise",
-      },
-      {
-        title:
-          "Thekkady Periyar Wildlife Sanctuary — Elephant, Tiger & Boat Safari",
-      },
-      {
-        title:
-          "Alleppey Premium Houseboat Overnight — Kerala Backwaters & Village Life",
-      },
-      { title: "Varkala Cliff Sunset & Kovalam Lighthouse Beach" },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
-      alt: "Kerala Beaches and Backwaters Premium Houseboat",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Munnar's misty tea gardens in the morning and floating through the Alleppey backwaters at night — Kerala is impossibly beautiful. The premium houseboat was spacious, the food was authentic Kerala cuisine. Loved every moment.",
-        author: "Ravi & Sunita Chandran",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "7 destinations in 7 days — each one completely different from the last. Periyar boat safari, Varkala cliffs, Kovalam beach — God's Own Country lives up to every word of its name. Brilliantly planned by NIT.",
-        author: "Anand & Kavitha Iyer",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/include/footer/kerala-tour-packages.jpg",
-        alt: "Kerala Houseboat Backwaters",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Fascinating-Kerala-Tour-Package.png",
-        alt: "Munnar Tea Gardens",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Beaches-Tour-Package.png",
-        alt: "Varkala Beach Kerala",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
-      { label: "Kerala Beaches & Backwaters Premium Houseboat Tour" },
-    ],
-
-    badges: [
-      { label: "BACKWATERS", variant: "solid" as const, color: "blue" },
-      { label: "7 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 7,
-    countryCount: 1,
-    cityCount: 7,
-    region: "Kerala, India",
-
-    itineraryStops: [
-      { city: "Cochin", nights: 1 },
-      { city: "Munnar", nights: 1 },
-      { city: "Thekkady", nights: 1 },
-      { city: "Alleppey (Houseboat)", nights: 1 },
-      { city: "Varkala", nights: 1 },
-      { city: "Kovalam", nights: 1 },
-      { city: "Trivandrum", nights: 0 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Cochin — Fort Kochi",
-        details:[
-          "Arrive Cochin (COK). Transfer to hotel. Visit Fort Kochi — Chinese fishing nets, Santa Cruz Basilica, Mattancherry Palace, Jew Town. Evening Kathakali dance performance. Overnight Cochin.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Cochin → Munnar — Tea Hills",
-        details:[
-          "Drive to Munnar (130 km / ~4 hrs) through scenic Ghats. Arrive Munnar — check-in to hill resort. Visit Eravikulam National Park (Nilgiri Tahr), Mattupetty Dam, and Echo Point. Tea estate walk. Overnight Munnar.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Munnar → Thekkady — Wildlife Sanctuary",
-        details:[
-          "Drive to Thekkady (90 km). Periyar Wildlife Sanctuary boat ride — spot wild elephants, bison, and migratory birds on the Periyar Lake. Spice plantation tour. Evening cultural show — Kalaripayattu martial arts. Overnight Thekkady.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Thekkady → Alleppey — Premium Houseboat",
-        details:[
-          "Drive to Alleppey (140 km). Board your premium private houseboat. Cruise through the Alleppey backwaters — coconut groves, paddy fields, village canals. All Kerala meals served on board. Sunset on the backwaters. Overnight on houseboat.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Alleppey → Varkala — Cliff Beach",
-        details:[
-          "Disembark houseboat. Drive to Varkala (80 km). Check-in to cliff-top resort. Walk along the dramatic laterite cliffs. Visit Janardhanaswamy Temple (2000+ years old). Sunset from the cliff with the Arabian Sea below. Overnight Varkala.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Varkala → Kovalam — Lighthouse Beach",
-        details:[
-          "Drive to Kovalam (54 km). Check-in to beach resort. Day at Lighthouse Beach and Samudra Beach. Optional water sports. Ayurvedic massage. Sunset at the iconic Kovalam Lighthouse. Overnight Kovalam.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Kovalam → Trivandrum — Departure",
-        details:[
-          "Drive to Trivandrum (16 km). Visit Padmanabhaswamy Temple, Napier Museum. Shopping at Chalai Bazaar for Kerala spices and handicrafts. Transfer to Trivandrum airport (TRV). Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "7 Days / 6 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Cochin · Munnar · Thekkady · Alleppey · Varkala · Kovalam · Trivandrum",
-      },
-      { label: "Departure & Return", value: "Cochin (COK) → Trivandrum (TRV)" },
-      { label: "Tour Code", value: "KER-BOAT-COK-07" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner daily; All meals on houseboat",
-      },
-      { label: "Best Time", value: "November–February" },
-      { label: "Group Size", value: "Couples, Families — Private Tour" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  {
-    id: 408,
-    country: "India",
-    place: "Munnar",
-    title: "Kerala Honeymoon — Luxury Backwaters & Hill Stations",
-    type: "Honeymoon packages",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Cochin → Kovalam",
-    destinations: ["Cochin", "Munnar", "Alleppey", "Kumarakom", "Kovalam"],
-    amenities: ["Luxury Houseboat", "Resort Stay", "Meals", "Transfers"],
-    price: 35000,
-    rating: 4.8,
-    reviews: 156,
-    badge: "Romantic",
-    badgeColor: "bg-pink-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-    popular: true,
-
-    tourFeatures: [
-      {
-        icon: Building2,
-        label: "Luxury Resort",
-        color: "#6C72E8",
-        bg: "#EEF0FD",
-      },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Heart, label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Waves, label: "Houseboat", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Munnar Luxury Hillside Resort — Misty Tea Gardens & Couple's Sunrise Trek",
-      },
-      {
-        title:
-          "Alleppey Luxury Houseboat — Private Backwater Cruise with Candlelight Dinner",
-      },
-      {
-        title:
-          "Kumarakom Bird Sanctuary Boat Ride — Tranquil Vembanad Lake & Lush Backwaters",
-      },
-      {
-        title:
-          "Kovalam Lighthouse Beach — Couples Ayurvedic Spa & Beachside Romance",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-      alt: "Kerala Honeymoon Luxury Backwaters and Hill Stations",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Kerala is the most romantic destination in India — the misty Munnar hills, the magical Alleppey houseboat night, and the Kovalam sunset. Our NIT honeymoon package was perfectly curated down to the last candlelit dinner.",
-        author: "Rohit & Priya Sharma",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Kumarakom was the hidden gem of the trip — waking up to birds calling on Vembanad Lake, drifting through the backwaters in our private houseboat. NIT took care of every romantic detail flawlessly.",
-        author: "Anil & Sunita Verma",
-        date: "Travelled December 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-        alt: "Kerala Honeymoon Luxury",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Fascinating-Kerala-Tour-Package.png",
-        alt: "Munnar Tea Garden Honeymoon",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-with-Kanyakumari-Tour-Package.png",
-        alt: "Alleppey Houseboat Honeymoon",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
-      { label: "Kerala Honeymoon — Luxury Backwaters & Hill Stations" },
-    ],
-
-    badges: [
-      { label: "HONEYMOON", variant: "solid" as const, color: "pink" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Kerala, India",
-
-    itineraryStops: [
-      { city: "Cochin", nights: 1 },
-      { city: "Munnar", nights: 2 },
-      { city: "Alleppey (Houseboat)", nights: 1 },
-      { city: "Kumarakom", nights: 2 },
-      { city: "Kovalam", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Cochin — Romantic Fort Kochi",
-        details:[
-          "Arrive Cochin (COK). Transfer to boutique hotel. Evening stroll at Fort Kochi — Chinese fishing nets, colonial streets. Candlelight dinner at a waterfront restaurant. Overnight Cochin.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Cochin → Munnar — Misty Hill Romance",
-        details:[
-          "Drive to Munnar (130 km). Check-in to luxury hillside resort. Afternoon tea estate walk with couple's high tea overlooking the tea gardens. Sunset from Echo Point. Overnight Munnar.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Munnar — Sunrise Trek & Nature",
-        details:[
-          "Sunrise nature walk / couple's trek. Visit Eravikulam National Park (Nilgiri Tahr). Mattupetty Dam and Kundala Lake. Couples Ayurvedic massage at the resort spa. Romantic dinner. Overnight Munnar.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Munnar → Alleppey — Luxury Houseboat",
-        details:[
-          "Drive to Alleppey (140 km). Board your private luxury houseboat. Cruise through the famous Kerala backwaters — paddy fields, canals, village life. Candlelight dinner on the houseboat deck. Overnight on houseboat.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Alleppey → Kumarakom — Vembanad Lake",
-        details:[
-          "Disembark houseboat. Drive to Kumarakom (30 km). Check-in to a luxury backwater resort on Vembanad Lake. Afternoon Kumarakom Bird Sanctuary boat ride. Sunset from the resort deck over the lake. Overnight Kumarakom.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Kumarakom — Lake & Leisure",
-        details:[
-          "Day at leisure in Kumarakom. Optional canoe ride through the mangroves. Couple's Panchakarma Ayurvedic spa treatment. Evening romantic dinner on a floating platform. Overnight Kumarakom.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Kumarakom → Kovalam — Lighthouse Beach",
-        details:[
-          "Drive to Kovalam (175 km). Check-in to beachside luxury resort. Sunset walk on Lighthouse Beach. Candlelight beachside dinner with the sound of the Arabian Sea. Overnight Kovalam.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Kovalam → Trivandrum — Departure",
-        details:[
-          "Morning couples yoga and meditation on the beach. Drive to Trivandrum (16 km). Shopping for Kerala spices, coconut products, and handicrafts. Transfer to Trivandrum airport (TRV). Honeymoon tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Cochin · Munnar · Alleppey · Kumarakom · Kovalam · Trivandrum",
-      },
-      { label: "Departure & Return", value: "Cochin (COK) → Trivandrum (TRV)" },
-      { label: "Tour Code", value: "KER-HONEY-COK-08" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner daily; Candlelight dinners included",
-      },
-      { label: "Best Time", value: "November–February" },
-      { label: "Group Size", value: "Couples — Private Honeymoon Tour" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
+  
 
   // ─── LEH LADAKH ─────────────────────────────────────────────────────────────
 
@@ -15882,19 +8317,19 @@ export const tours = [
     badge: "Trending",
     badgeColor: "bg-green-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+    src: "/ladak.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Building2, label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Car, label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Car", label: "Transfers", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -15916,7 +8351,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+      src: "/ladak.jpg",
       alt: "Leh Ladakh Adventure Tour Package",
     },
 
@@ -15942,17 +8377,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+        src: "/ladak1.jpg",
         alt: "Leh Ladakh Adventure",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src: "/ladak2.jpg",
         alt: "Pangong Tso Ladakh",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/jim-corbett-national-park-jeep-safari.jpg",
+        src:"/ladak3.jpg",
         alt: "Nubra Valley Camel Safari",
       },
     ],
@@ -16112,19 +8547,19 @@ export const tours = [
     badge: "Adventure",
     badgeColor: "bg-orange-600",
     mode: "Bike",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+    src: "/ladak4.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Bike, label: "Bike Rental", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Bike", label: "Bike Rental", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Tent, label: "Camp Stay", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Tent", label: "Camp Stay", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -16146,7 +8581,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+      src: "/ladak4.jpg",
       alt: "Leh Ladakh Bike Tour Manali to Leh",
     },
 
@@ -16172,17 +8607,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+        src: "/ladak5.jpg",
         alt: "Ladakh Bike Tour",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2023/10/jim-corbett-national-park-jeep-safari.jpg",
+        src: "/ladak6.jpg",
         alt: "Manali to Leh Highway",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src: "/ladak7.jpg",
         alt: "Pangong Tso Camp",
       },
     ],
@@ -16356,24 +8791,24 @@ export const tours = [
     badge: "Romantic",
     badgeColor: "bg-pink-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+    src: "/ladak8.jpg",
     popular: true,
 
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Luxury Hotel",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Heart, label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Heart", label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -16395,7 +8830,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+      src: "/ladak8.jpg",
       alt: "Ladakh Honeymoon Tour Pangong Lake and Nubra Valley",
     },
 
@@ -16421,17 +8856,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+        src: "/ladak9.jpg",
         alt: "Ladakh Honeymoon Pangong Lake",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
+        src: "/ladak10.jpg",
         alt: "Nubra Valley Romantic",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src: "/ladak1.jpg",
         alt: "Leh Palace Ladakh Sunset",
       },
     ],
@@ -16572,19 +9007,19 @@ export const tours = [
     badge: "Premium",
     badgeColor: "bg-purple-700",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+    src: "/ladak10.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Bike, label: "Bike Rental", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Bike", label: "Bike Rental", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Tent, label: "Camp Stay", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Tent", label: "Camp Stay", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -16617,7 +9052,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+      src: "/ladak10.jpg",
       alt: "Kashmir to Ladakh Grand Tour — Srinagar to Manali via Kargil and Pangong",
     },
 
@@ -16643,17 +9078,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
+        src:"/ladak11.jpg",
         alt: "Pangong Tso Ladakh Grand Tour",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+        src: "/ladak12.jpg",
         alt: "Dal Lake Srinagar Kashmir",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src: "/ladak13.jpg",
         alt: "Nubra Valley Khardung La Ladakh",
       },
     ],
@@ -16810,626 +9245,7 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─────────────────────────────────────────────────────────
-  // 👑  RAJASTHAN
-  // ─────────────────────────────────────────────────────────
 
-  {
-    id: 506,
-    country: "India",
-    place: "Jaipur",
-    title: "Rajasthan Royal Triangle — Jaipur Udaipur Jaisalmer",
-    type: "Luxury Heritage Tour",
-    duration: "9 Days / 8 Nights",
-    durationTag: "9 Days",
-    startEnd: "Delhi → Jaipur → Jaisalmer → Udaipur → Delhi",
-    destinations: [
-      "Delhi",
-      "Jaipur",
-      "Pushkar",
-      "Jaisalmer",
-      "Jodhpur",
-      "Udaipur",
-    ],
-    amenities: ["Heritage Hotels", "Meals", "Transfers", "Sightseeing"],
-    price: 52000,
-    rating: 4.9,
-    reviews: 289,
-    badge: "Bestseller",
-    badgeColor: "bg-orange-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-    popular: true,
-
-    tourFeatures: [
-      {
-        icon: Building2,
-        label: "Heritage Hotel",
-        color: "#6C72E8",
-        bg: "#EEF0FD",
-      },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      {
-        icon: Crown,
-        label: "Royal Experience",
-        color: "#1AADA0",
-        bg: "#E8F7F3",
-      },
-      { icon: Mountain, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Amber Fort Elephant Ride — Royal Jaipur Welcome at a Mughal Masterpiece",
-      },
-      {
-        title:
-          "Jaisalmer Desert Camp — Camel Safari & Folk Music on Sam Sand Dunes",
-      },
-      {
-        title:
-          "City Palace Udaipur — Lake Pichola Sunset Boat Ride in the City of Lakes",
-      },
-      {
-        title:
-          "Mehrangarh Fort Jodhpur — Blue City Panorama from the Blue Fort",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-      alt: "Rajasthan Royal Triangle Tour — Jaipur Udaipur Jaisalmer",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "The Jaisalmer desert camp under a canopy of stars was unlike anything we have ever experienced. Rajasthan is pure magic — every fort, every palace, every sunset. NIT made sure we didn't miss a single moment.",
-        author: "Arjun & Meera Singhania",
-        date: "Travelled November 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "From the Pink City to the Blue City to the City of Lakes — 9 days was just enough to fall completely in love with Rajasthan. Amber Fort at sunrise was breathtaking. Highly recommend this itinerary.",
-        author: "Sameer & Divya Lakhani",
-        date: "Travelled October 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-        alt: "Rajasthan Royal Triangle Jaipur",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-        alt: "Jaisalmer Desert Camp Rajasthan",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
-        alt: "Udaipur Lake Pichola Sunset",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Rajasthan", href: "/india/rajasthan" },
-      { label: "Rajasthan Royal Triangle — Jaipur Udaipur Jaisalmer" },
-    ],
-
-    badges: [
-      { label: "BESTSELLER", variant: "solid" as const, color: "orange" },
-      { label: "9 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 9,
-    countryCount: 1,
-    cityCount: 6,
-    region: "Rajasthan, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 1 },
-      { city: "Jaipur", nights: 2 },
-      { city: "Jaisalmer", nights: 2 },
-      { city: "Jodhpur", nights: 1 },
-      { city: "Udaipur", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Delhi — Transfer to Jaipur",
-        details:[
-          "Arrive Delhi. Transfer to Jaipur by road (280 km, ~5 hrs). Check-in to heritage hotel. Evening walk through Jaipur's bazaars — bangles, block prints, and blue pottery. Welcome dinner. Overnight Jaipur.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Jaipur — Amber Fort & City Palace",
-        details:[
-          "Morning visit to Amber Fort — jeep or elephant ride to the hilltop entrance. Explore Sheesh Mahal (Hall of Mirrors). Afternoon at City Palace, Jantar Mantar observatory, and the iconic Hawa Mahal. Overnight Jaipur.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Jaipur → Pushkar → Jaisalmer",
-        details:[
-          "Drive via Pushkar — visit the sacred Brahma Temple and the ghats of Pushkar Lake. Continue to Jaisalmer (550 km total). Check-in to haveli-style hotel inside the golden fort city. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Jaisalmer — Golden Fort & Sam Sand Dunes",
-        details:[
-          "Morning exploration of Jaisalmer Fort, Patwon Ki Haveli, and Gadisar Lake. Evening drive to Sam Sand Dunes — camel safari at sunset, Rajasthani folk music and dinner at the desert camp. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Jaisalmer → Jodhpur — The Blue City",
-        details:[
-          "Drive to Jodhpur (280 km). Visit the magnificent Mehrangarh Fort — panoramic views of the blue-painted city below. Explore Jaswant Thada and the Clock Tower market. Overnight Jodhpur.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Jodhpur → Udaipur — City of Lakes",
-        details:[
-          "Drive to Udaipur (250 km) through the Aravalli hills. Check-in to lakeside hotel on the banks of Lake Pichola. Evening boat ride on Lake Pichola — views of the illuminated Lake Palace. Overnight Udaipur.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Udaipur — City Palace & Vintage Car Museum",
-        details:[
-          "Visit the grand City Palace complex — seven palaces merged over centuries. Explore the Vintage Car Museum, Saheliyon Ki Bari gardens, and the Jagdish Temple. Sunset from the Monsoon Palace hilltop. Overnight Udaipur.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Udaipur — Leisure & Local Markets",
-        details:[
-          "Morning at leisure — optional cooking class or pottery workshop. Afternoon stroll through Udaipur's art galleries and Hathi Pol market — miniature paintings, silver jewellery, and local textiles. Farewell dinner. Overnight Udaipur.",
-      ]},
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Udaipur — Departure to Delhi",
-        details:[
-          "Transfer to Udaipur airport or railway station. Fly or train to Delhi. Rajasthan Royal Triangle Tour concludes — the colours, forts, and deserts of Rajasthan etched into memory.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "9 Days / 8 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Jaipur · Pushkar · Jaisalmer · Jodhpur · Udaipur",
-      },
-      { label: "Departure & Return", value: "Delhi → Udaipur" },
-      { label: "Tour Code", value: "RAJ-ROYAL-DEL-09" },
-      {
-        label: "Meals",
-        value:
-          "Breakfast & Dinner daily; Desert camp dinner at Sam Dunes included",
-      },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Private & Small Group Tours available" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─────────────────────────────────────────────────────────
-
-  {
-    id: 507,
-    country: "India",
-    place: "Udaipur",
-    title: "Jaipur Udaipur Jaisalmer Honeymoon Tour",
-    type: "Honeymoon Tour",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Delhi → Jaipur → Jaisalmer → Udaipur",
-    destinations: ["Delhi", "Jaipur", "Jaisalmer", "Sam Sand Dunes", "Udaipur"],
-    amenities: ["Luxury Hotels", "Meals", "Desert Camp", "Sightseeing"],
-    price: 48000,
-    rating: 4.8,
-    reviews: 198,
-    badge: "Romantic",
-    badgeColor: "bg-pink-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-    popular: true,
-
-    tourFeatures: [
-      {
-        icon: Building2,
-        label: "Luxury Hotel",
-        color: "#6C72E8",
-        bg: "#EEF0FD",
-      },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Heart, label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Tent, label: "Desert Camp", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Amber Fort Sunrise — Romantic Jeep Ride to a Mughal Hilltop Palace",
-      },
-      {
-        title:
-          "Sam Sand Dunes Desert Camp — Candlelight Dinner under a Rajasthani Starlit Sky",
-      },
-      {
-        title:
-          "Lake Pichola Boat Ride — Udaipur's Illuminated Lake Palace at Dusk",
-      },
-      {
-        title:
-          "Jaisalmer Golden Fort — Honeymoon Stroll through a Living 12th-Century Citadel",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-      alt: "Jaipur Udaipur Jaisalmer Honeymoon Tour — Rajasthan Romance",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "Rajasthan is the most romantic destination in India and nobody talks about it enough. The candlelight dinner at Sam Sand Dunes and the Lake Palace boat ride in Udaipur were pure magic. NIT took care of every detail.",
-        author: "Karan & Nisha Malhotra",
-        date: "Travelled December 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "We chose Rajasthan over Goa for our honeymoon and it was the best decision we ever made. The colours, the forts, the desert — it is like honeymooning inside a fairytale. Thank you Indruka Trips and Trip.",
-        author: "Dev & Preethi Iyer",
-        date: "Travelled November 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-        alt: "Jaisalmer Desert Honeymoon Rajasthan",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-        alt: "Udaipur Lake Palace Honeymoon",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
-        alt: "Jaipur Amber Fort Romantic",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Rajasthan", href: "/india/rajasthan" },
-      { label: "Jaipur Udaipur Jaisalmer Honeymoon Tour" },
-    ],
-
-    badges: [
-      { label: "HONEYMOON", variant: "solid" as const, color: "pink" },
-      { label: "8 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Rajasthan, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 1 },
-      { city: "Jaipur", nights: 2 },
-      { city: "Jaisalmer", nights: 2 },
-      { city: "Udaipur", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Delhi — Transfer to Jaipur",
-        details:[
-          "Arrive Delhi. Drive to Jaipur (280 km). Check-in to luxury hotel. Evening candlelit dinner at a rooftop Jaipur restaurant with fort views. Welcome to Rajasthan. Overnight Jaipur.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Jaipur — Amber Fort & Hawa Mahal",
-        details:[
-          "Sunrise jeep ride to Amber Fort — explore Sheesh Mahal and the royal zenana quarters. Afternoon at Hawa Mahal, City Palace, and Jantar Mantar. Romantic rooftop dinner overlooking the Pink City. Overnight Jaipur.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Jaipur → Jaisalmer — Golden City Arrival",
-        details:[
-          "Drive to Jaisalmer (540 km). Check-in to a luxury heritage haveli inside or near Jaisalmer Fort. Sunset walk through the golden sandstone lanes of the living fort. Dinner at a haveli rooftop. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Jaisalmer — Fort, Havelis & Sam Sand Dunes Camp",
-        details:[
-          "Morning visit to Patwon Ki Haveli and Gadisar Lake. Evening camel safari at Sam Sand Dunes at sunset. Candlelight dinner at a luxury desert camp with folk music and dance under the stars. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Jaisalmer → Udaipur — City of Lakes",
-        details:[
-          "Drive to Udaipur (490 km). Check-in to a lakeside luxury hotel overlooking Lake Pichola. Evening sunset boat ride on Lake Pichola — the illuminated Lake Palace glowing on the water. Overnight Udaipur.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Udaipur — City Palace & Lake Palace Views",
-        details:[
-          "Visit the City Palace complex — seven palaces merged over centuries of royal history. Explore Jagdish Temple and Saheliyon Ki Bari gardens. Romantic dinner at a Lake Pichola-facing terrace restaurant. Overnight Udaipur.",
-      ]},
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Udaipur — Monsoon Palace & Leisure",
-        details:[
-          "Morning at leisure — optional couple's spa at the hotel. Afternoon drive to Monsoon Palace (Sajjan Garh) for panoramic sunset views of the Aravalli hills and the lakes of Udaipur. Farewell dinner. Overnight Udaipur.",
-      ]},
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Udaipur — Departure",
-        details:[
-          "Transfer to Udaipur airport or railway station. Fly or train onward. Rajasthan Honeymoon Tour concludes — the forts, lakes, and desert skies of Rajasthan forever in your hearts.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Jaipur · Jaisalmer · Sam Sand Dunes · Udaipur",
-      },
-      { label: "Departure & Return", value: "Delhi → Udaipur" },
-      { label: "Tour Code", value: "RAJ-HONEY-DEL-08" },
-      {
-        label: "Meals",
-        value:
-          "Breakfast & Dinner daily; Candlelight desert camp dinner at Sam Dunes included",
-      },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Couples — Private Honeymoon Tour" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─────────────────────────────────────────────────────────
-
-  {
-    id: 508,
-    country: "India",
-    place: "Jaisalmer",
-    title: "Jaisalmer Desert Camp & Jaipur Heritage Circuit",
-    type: "Adventure & Heritage Tour",
-    duration: "6 Days / 5 Nights",
-    durationTag: "6 Days",
-    startEnd: "Delhi → Jaipur → Jaisalmer → Delhi",
-    destinations: ["Delhi", "Jaipur", "Bikaner", "Jaisalmer", "Sam Sand Dunes"],
-    amenities: ["Hotel & Camp", "Meals", "Camel Safari", "Sightseeing"],
-    price: 28500,
-    rating: 4.7,
-    reviews: 154,
-    badge: "Trending",
-    badgeColor: "bg-amber-600",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Tent, label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bike, label: "Camel Safari", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Adventure", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Amber Fort Jaipur — Hilltop Mughal Fortress & Sheesh Mahal Hall of Mirrors",
-      },
-      {
-        title:
-          "Bikaner Camel Research Station — Only One of Its Kind in the World",
-      },
-      {
-        title: "Sam Sand Dunes Camel Safari — Golden Desert Sunset on the Thar",
-      },
-      {
-        title:
-          "Jaisalmer Desert Camp — Starlit Rajasthani Campfire Night on the Dunes",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-      alt: "Jaisalmer Desert Camp and Jaipur Heritage Circuit Tour",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "6 days felt like a complete Rajasthan experience — the heritage of Jaipur, the quirky charm of Bikaner, and the sheer silence of the Jaisalmer desert. The Sam Sand Dunes camp night was unforgettable. Brilliant value from NIT.",
-        author: "Rohit Sharma & Friends",
-        date: "Travelled January 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "The camel safari at sunset and the campfire dinner under a sky full of stars at Sam Dunes — I still think about it. Jaipur's Amber Fort is also something everyone should see. NIT delivered everything on time.",
-        author: "Priya & Ankit Verma",
-        date: "Travelled February 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Royal-Rajasthan-Tour-Packages.webp",
-        alt: "Jaisalmer Desert Camp Sam Sand Dunes",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
-        alt: "Jaipur Amber Fort Heritage Tour",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
-        alt: "Bikaner Rajasthan Camel Safari",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Rajasthan", href: "/india/rajasthan" },
-      { label: "Jaisalmer Desert Camp & Jaipur Heritage Circuit" },
-    ],
-
-    badges: [
-      { label: "TRENDING", variant: "solid" as const, color: "amber" },
-      { label: "6 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 6,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Rajasthan, India",
-
-    itineraryStops: [
-      { city: "Delhi", nights: 1 },
-      { city: "Jaipur", nights: 1 },
-      { city: "Bikaner", nights: 1 },
-      { city: "Jaisalmer", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Delhi — Transfer to Jaipur",
-        details:[
-          "Arrive Delhi. Drive to Jaipur (280 km, ~5 hrs). Check-in to hotel. Evening stroll through Jaipur's Johari Bazaar — gems, silver, and block-printed textiles. Dinner at a local Rajasthani dhaba. Overnight Jaipur.",
-      ]},
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Jaipur — Amber Fort & City Heritage",
-        details:[
-          "Sunrise jeep ride to Amber Fort — Sheesh Mahal, Ganesh Pol, and the panoramic Maota Lake views. Afternoon at Hawa Mahal, City Palace, and Jantar Mantar. Drive to Bikaner (330 km) by evening. Overnight Bikaner.",
-      ]},
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Bikaner — Junagarh Fort & Camel Research Centre",
-        details:[
-          "Morning visit to Junagarh Fort — one of Rajasthan's most intact medieval fortresses. Visit the National Research Centre on Camels — the world's only camel research station. Drive to Jaisalmer (330 km). Overnight Jaisalmer.",
-      ]},
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Jaisalmer — Golden Fort & Havelis",
-        details:[
-          "Explore Jaisalmer Fort — a living 12th-century citadel still inhabited today. Visit Patwon Ki Haveli and Nathmal Ki Haveli for intricate sandstone carvings. Afternoon at Gadisar Lake. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Jaisalmer — Sam Sand Dunes Desert Adventure",
-        details:[
-          "Free morning in Jaisalmer. Afternoon drive to Sam Sand Dunes (42 km). Camel safari at golden hour sunset over the Thar Desert. Dinner at a desert camp — Rajasthani folk music and bonfire under stars. Overnight Jaisalmer.",
-      ]},
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Jaisalmer — Departure to Delhi",
-        details:[
-          "Early morning sunrise over the dunes. Drive to Jaisalmer railway station or airport. Train or flight to Delhi. Jaisalmer Desert Camp & Jaipur Heritage Circuit Tour concludes.",
-      ]},
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Jaipur · Bikaner · Jaisalmer · Sam Sand Dunes",
-      },
-      { label: "Departure & Return", value: "Delhi → Jaisalmer" },
-      { label: "Tour Code", value: "RAJ-DESERT-DEL-06" },
-      {
-        label: "Meals",
-        value:
-          "Breakfast & Dinner daily; Desert camp campfire dinner at Sam Dunes included",
-      },
-      { label: "Best Time", value: "October–March" },
-      { label: "Group Size", value: "Private & Small Group Tours available" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  // ─────────────────────────────────────────────────────────
-  // 🌸  KASHMIR — Paradise on Earth
-  // ─────────────────────────────────────────────────────────
 
   {
     id: 509,
@@ -17448,29 +9264,29 @@ export const tours = [
     badge: "Bestseller",
     badgeColor: "bg-orange-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+    src: "/kashmir-scene4.jpg",
     popular: true,
 
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Houseboat Stay",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
       {
-        icon: Sailboat,
+        icon: "Sailboat",
         label: "Shikara Ride",
         color: "#1AADA0",
         bg: "#E8F7F3",
       },
-      { icon: Mountain, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -17492,7 +9308,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+      src: "/kashmir-scene.jpg",
       alt: "Kashmir Tour Package — Srinagar Dal Lake Gulmarg Pahalgam",
     },
 
@@ -17518,17 +9334,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+        src: "/kashmir-scene2.jpg",
         alt: "Dal Lake Srinagar Kashmir Houseboat",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
+        src: "/kashmir-scene3.jpg",
         alt: "Gulmarg Gondola Snow Kashmir",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src: "/kashmir-scene5.jpg",
         alt: "Pahalgam Betaab Valley Kashmir",
       },
     ],
@@ -17655,25 +9471,25 @@ export const tours = [
     badge: "Romantic",
     badgeColor: "bg-pink-600",
     mode: "Road",
-    img: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+    src: "/kashmir-honey.jpg",
     popular: true,
 
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Luxury Houseboat",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Heart, label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Heart", label: "Honeymoon", color: "#1AADA0", bg: "#E8F7F3" },
       {
-        icon: Sailboat,
+        icon: "Sailboat",
         label: "Shikara Ride",
         color: "#E8508A",
         bg: "#FFF0F4",
@@ -17702,7 +9518,7 @@ export const tours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+      src:  "/kashmir-honey.jpg",
       alt: "Kashmir Honeymoon Package — Dal Lake Shikara Houseboat Stay",
     },
 
@@ -17728,17 +9544,17 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-        src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
+        src:  "/kashmir-honey2.jpg",
         alt: "Dal Lake Houseboat Honeymoon Kashmir",
       },
       {
         id: 2,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2024/11/Kerala-Honeymoon-Tour-Package.png",
+        src: "/kashmir-honey3.png",
         alt: "Shikara Ride Sunset Dal Lake",
       },
       {
         id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
+        src:  "/kashmir-honey5.jpg",
         alt: "Betaab Valley Pahalgam Honeymoon",
       },
     ],
@@ -17839,289 +9655,6 @@ export const tours = [
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
 
-  // ─────────────────────────────────────────────────────────
-  // 🏔️  KASHMIR → LADAKH GRAND TOUR
-  // ─────────────────────────────────────────────────────────
-
-  {
-    id: 511,
-    country: "India",
-    place: "Leh",
-    title: "Kashmir to Ladakh Grand Tour",
-    type: "Adventure ",
-    duration: "14 Days / 13 Nights",
-    durationTag: "14 Days",
-    startEnd: "Srinagar → Kargil → Leh → Manali",
-    destinations: [
-      "Srinagar",
-      "Gulmarg",
-      "Sonamarg",
-      "Kargil",
-      "Leh",
-      "Nubra Valley",
-      "Pangong Tso",
-      "Manali",
-    ],
-    amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
-    price: 75000,
-    rating: 4.9,
-    reviews: 189,
-    badge: "Premium",
-    badgeColor: "bg-purple-700",
-    mode: "Road",
-    img: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
-    popular: true,
-
-    tourFeatures: [
-      { icon: Tent, label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Bike, label: "Adventure", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-
-    tourHighlights: [
-      {
-        title:
-          "Dal Lake Shikara Ride — Floating Gardens & Houseboat Stay in Srinagar",
-      },
-      {
-        title:
-          "Gulmarg Gondola — World's 2nd Highest Cable Car over the Kashmir Valley",
-      },
-      {
-        title:
-          "Zoji La & Kargil — Drass War Memorial & the Coldest Town in India",
-      },
-      {
-        title:
-          "Khardung La Pass — Drive over One of the World's Highest Motorable Roads",
-      },
-      {
-        title:
-          "Nubra Valley Camel Safari — Bactrian Camels on Himalayan Sand Dunes",
-      },
-      {
-        title:
-          "Pangong Tso Sunrise — World's Highest Saltwater Lake on the Indo-China Border",
-      },
-    ],
-
-    tourManagerCompany: "Indruka Trips and Trip",
-
-    heroImage: {
-      src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
-      alt: "Kashmir to Ladakh Grand Tour — Srinagar to Manali via Kargil and Pangong",
-    },
-
-    testimonials: [
-      {
-        id: 1,
-        text: "14 days, two worlds — lush Kashmir and barren Ladakh. From Dal Lake's floating gardens to Pangong's blue silence, this grand tour is the ultimate Indian road journey. NIT handled every pass and valley flawlessly.",
-        author: "Vikram & Ananya Sharma",
-        date: "Travelled July 2025",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-      {
-        id: 2,
-        text: "Kargil and Lamayuru were unexpected highlights nobody talks about. The Leh–Manali highway finale through Rohtang was surreal. One trip, every landscape India has to offer. Thank you NIT.",
-        author: "Rajesh & Pooja Mehta",
-        date: "Travelled August 2024",
-        manager: "Indruka Trips and ",
-        managerRole: "Tour Manager",
-      },
-    ],
-
-    thumbnails: [
-      {
-        id: 1,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Ladakh-Adventure-Tour-Packages.webp",
-        alt: "Pangong Tso Ladakh Grand Tour",
-      },
-      {
-        id: 2,
-        src: "https://www.namasteindiatrip.com/include/footer/kashmir-tour-packages.jpg",
-        alt: "Dal Lake Srinagar Kashmir",
-      },
-      {
-        id: 3,
-        src: "https://www.namasteindiatrip.com/wp-content/uploads/2025/07/Sikkim-Darjeeling-Holiday-Packages.webp",
-        alt: "Nubra Valley Khardung La Ladakh",
-      },
-    ],
-
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "India", href: "/india" },
-      { label: "Ladakh", href: "/india/ladakh" },
-      { label: "Kashmir to Ladakh Grand Tour" },
-    ],
-
-    badges: [
-      { label: "PREMIUM", variant: "solid" as const, color: "purple" },
-      { label: "14 DAYS", variant: "outlined" as const, color: "cyan" },
-    ],
-
-    durationDays: 14,
-    countryCount: 1,
-    cityCount: 8,
-    region: "Kashmir & Ladakh, India",
-
-    itineraryStops: [
-      { city: "Srinagar", nights: 3 },
-      { city: "Kargil", nights: 1 },
-      { city: "Leh", nights: 3 },
-      { city: "Nubra Valley", nights: 1 },
-      { city: "Pangong Tso", nights: 2 },
-      { city: "Leh (Return)", nights: 1 },
-      { city: "Manali", nights: 2 },
-    ],
-
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrive Srinagar — Shikara Ride on Dal Lake",
-        details: [
-          "Arrive Srinagar airport. Transfer to houseboat on Dal Lake. 2-hour Shikara ride past Char Chinar Island, Floating Gardens, and the lake bazaar. Welcome dinner on the houseboat. Overnight Srinagar."
-          ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Srinagar — Mughal Gardens & Pahalgam Excursion",
-        details: [
-          "Morning visit to Nishat Bagh, Shalimar Bagh, and Chashma Shahi Mughal Gardens. Full-day excursion to Pahalgam (88 km) — Betaab Valley, Aru Valley, and Chandanwari. Return for dinner on houseboat. Overnight Srinagar."
-          ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Srinagar — Gulmarg Gondola Ride",
-        details: [
-          "Full-day excursion to Gulmarg (50 km). Ride the world's 2nd highest cable car — Gulmarg Gondola — for sweeping Himalayan views. Optional skiing and snow activities. Return to houseboat for dinner. Overnight Srinagar."
-          ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Srinagar → Sonamarg → Kargil",
-        details: [
-          "Checkout and drive to Kargil (200 km) via Sonamarg — the 'Meadow of Gold'. Cross Zoji La Pass. Stop at Drass — India's coldest town and site of the 1999 Kargil War. Visit Kargil War Memorial. Overnight Kargil."
-          ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Kargil → Lamayuru → Leh",
-        details: [
-          "Drive to Leh (200 km) via Lamayuru — Ladakh's oldest monastery perched above the surreal Moonland landscape. Visit Alchi Monastery and Magnetic Hill en route. Arrive Leh, check-in and rest. Overnight Leh."
-          ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Leh — Acclimatization & Local Sightseeing",
-        details: [
-          "Rest morning for high-altitude acclimatization (3,500 m). Afternoon visit to Shanti Stupa at sunset, 17th-century Leh Palace, and Namgyal Tsemo Monastery. Evening walk through Leh Market. Overnight Leh."
-          ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Leh — Monastery Circuit & Sangam",
-        details: [
-          "Visit Thiksey Monastery (resembles Tibet's Potala Palace), Hemis Monastery (largest in Ladakh), and Shey Palace. Sangam — confluence of the Indus and Zanskar rivers. Magnetic Hill stop. Overnight Leh."
-          ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Leh → Khardung La → Nubra Valley",
-        details: [
-          "Drive over Khardung La Pass (5,359 m) — photo stop at one of the world's highest motorable roads. Descend to Nubra Valley (120 km). Bactrian camel safari at Hunder Sand Dunes. Campfire dinner under Himalayan skies. Overnight Nubra Valley."
-          ],
-      },
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Nubra Valley → Shyok River → Pangong Tso",
-        details: [
-          "Drive to Pangong Tso (140 km) via the scenic Shyok River Valley. First view of the legendary blue-green lake at 4,350 m. Check-in to lakeside camp. Candlelight dinner by the water. Overnight Pangong Tso."
-          ],
-      },
-      {
-        day: 10,
-        date: "Day 10",
-        title: "Pangong Tso — Sunrise & Full Day at the Lake",
-        details: [
-          "Wake before dawn for the Pangong Tso sunrise — the lake shifts from deep cobalt to blazing gold. Morning walk along the shore. Afternoon at leisure — photography, optional kayaking, or quiet time by the Indo-China border lake. Overnight Pangong Tso."
-          ],
-      },
-      {
-        day: 11,
-        date: "Day 11",
-        title: "Pangong Tso → Leh via Chang La Pass",
-        details: [
-          "Drive back to Leh (220 km) over Chang La Pass (5,360 m). Afternoon free for Leh Market shopping — Pashmina, turquoise jewellery, Ladakhi handicrafts. Farewell dinner at a Leh heritage restaurant. Overnight Leh."
-          ],
-      },
-      {
-        day: 12,
-        date: "Day 12",
-        title: "Leh → Sarchu — Leh–Manali Highway Begins",
-        details: [
-          "Begin the legendary Leh–Manali Highway. Drive through Upshi and cross Tanglang La Pass (5,328 m). Descend into the high plains of Morey. Arrive Sarchu (4,290 m) camp by evening. Overnight Sarchu camp."
-          ],
-      },
-      {
-        day: 13,
-        date: "Day 13",
-        title: "Sarchu → Rohtang Pass → Manali",
-        details: [
-          "Cross Baralacha La (4,890 m) and Rohtang Pass (3,978 m) — dramatic shift from barren desert to pine-forested Kullu Valley. Arrive Manali by evening. Celebration dinner. Overnight Manali."
-          ],
-      },
-      {
-        day: 14,
-        date: "Day 14",
-        title: "Manali — Solang Valley & Departure",
-        details: [
-          "Morning excursion to Solang Valley and Hadimba Devi Temple (16th-century pagoda in cedar forest). Last browse at Manali Mall Road. Transfer to Bhuntar Airport or bus stand. Kashmir to Ladakh Grand Tour concludes."
-          ],
-      },
-    ],
-
-    tourDetails: [
-      { label: "Duration", value: "14 Days / 13 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Srinagar · Pahalgam · Gulmarg · Sonamarg · Kargil · Lamayuru · Leh · Nubra Valley · Pangong Tso · Manali",
-      },
-      {
-        label: "Departure & Return",
-        value: "Srinagar (SXR) → Manali / Bhuntar (KUU)",
-      },
-      { label: "Tour Code", value: "KAL-GRAND-SXR-14" },
-      {
-        label: "Meals",
-        value:
-          "Breakfast & Dinner daily; Campfire dinner at Nubra & Pangong included",
-      },
-      { label: "Best Time", value: "June–September" },
-      { label: "Group Size", value: "Private & Small Group Tours available" },
-    ],
-
-    onViewItinerary: () => console.log("view itinerary clicked"),
-  },
-
-  //Bhutan Itininary
 
   {
     id: 512,
@@ -18148,19 +9681,19 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Road",
-    img: "/haa1.jpg",
+    src: "/haa1.jpg",
     popular: true,
 
     tourFeatures: [
-      { icon: Home, label: "Homestay", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Home", label: "Homestay", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Mountain, label: "Hiking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Hiking", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -18441,19 +9974,19 @@ export const tours = [
     badge: "Adventure",
     badgeColor: "bg-green-700",
     mode: "Trek",
-    img: "", // To be filled
+    src: "/Jomolhari.jpg", // To be filled
     popular: true,
 
     tourFeatures: [
-      { icon: Tent, label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Tent", label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Mountain, label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
 
     tourHighlights: [
@@ -18480,12 +10013,28 @@ export const tours = [
     tourManagerCompany: "", // To be filled
 
     heroImage: {
-      src: "", // To be filled
+      src:  "/Jomolhari1.jpg", // To be filled
       alt: "Jomolhari Trekking in Bhutan — Paro to Thimphu via Jangothang and Lingzhi",
     },
 
     testimonials: [], // To be filled
-    thumbnails: [], // To be filled
+    thumbnails: [
+        {
+        id: 1,
+        src: "/Jomolhari2.png",
+        alt: "Jomolhari2",
+      },
+      {
+        id: 2,
+        src: "/Jomolhari3.jpg",
+        alt: "Jomolhari3",
+      },
+      {
+        id: 3,
+        src: "/Jomolhari4.jpg",
+        alt: "Jomolhari24",
+      },
+    ], // To be filled
 
     breadcrumbs: [
       { label: "Home", href: "/" },
@@ -18715,273 +10264,7 @@ export const tours = [
 
     onViewItinerary: () => console.log("view itinerary clicked"),
   },
-  {
-    id: 513,
-    country: "Bhutan",
-    place: "Paro",
-    title: "Jomolhari Trekking in Bhutan",
-    type: "Adventure",
-    duration: "12 Days / 11 Nights",
-    durationTag: "12 Days",
-    startEnd:
-      "Paro → Shingkharap → Jangothang → Lingzhi → Thimphu → Punakha → Paro",
-    destinations: [
-      "Paro",
-      "Shingkharap",
-      "Soi Thangkha",
-      "Jangothang",
-      "Lingzhi",
-      "Shodu",
-      "Thimphu",
-      "Punakha",
-    ],
-    amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
-    price: 0,
-    rating: 0,
-    reviews: 0,
-    badge: "Adventure",
-    badgeColor: "bg-green-700",
-    mode: "Trek",
-    img: "",
-    popular: true,
-    tourFeatures: [
-      { icon: Tent, label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon: Mountain, label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-    tourHighlights: [
-      {
-        title:
-          "Hike to Paro Taktsang — Sacred Tiger's Nest Monastery at 3,120m",
-      },
-      {
-        title:
-          "Remote Himalayan Camping — Nights Under the Stars at High Altitude",
-      },
-      { title: "Jomolhari Base Camp — Sacred Peak Views at 4,040m" },
-      {
-        title:
-          "Neyle La & Yale La — Crossing Two Dramatic High-Altitude Passes",
-      },
-      { title: "Tshophu Twin Lakes — Mirror-Like Alpine Waters at 4,400m" },
-      {
-        title:
-          "Lingzhi Dzong — Remote Historic Fortress in an Untouched Valley",
-      },
-    ],
-    tourManagerCompany: "",
-    heroImage: {
-      src: "",
-      alt: "Jomolhari Trekking in Bhutan — Paro to Thimphu via Jangothang and Lingzhi",
-    },
-    testimonials: [],
-    thumbnails: [],
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "Bhutan", href: "/bhutan" },
-      { label: "Paro", href: "/bhutan/paro" },
-      { label: "Jomolhari Trekking in Bhutan", href: "" },
-    ],
-    badges: [
-      { label: "ADVENTURE", variant: "solid", color: "green" },
-      { label: "12 DAYS", variant: "outlined", color: "cyan" },
-    ],
-    durationDays: 12,
-    countryCount: 1,
-    cityCount: 8,
-    region: "Kingdom of Bhutan",
-    maxGuests: 16,
-    itineraryStops: [
-      { city: "Paro", nights: 2 },
-      { city: "Shingkharap", nights: 1 },
-      { city: "Soi Thangkha", nights: 1 },
-      { city: "Jangothang", nights: 2 },
-      { city: "Lingzhi", nights: 1 },
-      { city: "Shodu", nights: 1 },
-      { city: "Thimphu", nights: 1 },
-      { city: "Punakha", nights: 1 },
-      { city: "Paro (Return)", nights: 1 },
-    ],
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Touching Down in the Kingdom of the Thunder Dragon",
-        details: [
-          "At 2,280 metres above sea level, the journey begins with one of the most breathtaking flights on earth, where the Himalayas rise like a grand stone curtain and, on a clear day, even Everest and Kanchenjunga make their majestic appearance from the window.",
-          "As the plane dips into Paro International Airport, the valley opens up with pine-covered hills, whitewashed farmhouses, and a quiet kind of beauty that feels almost unreal.",
-          "After the airport formalities, the drive to the hotel is short and gentle, followed by a relaxed lunch to settle into Bhutanese time.",
-          "In the afternoon, Paro begins to reveal its treasures with a visit to the striking Rinpung Dzong, standing proudly above the river, then onward to Kichu Lhakhang, one of the oldest and most sacred temples in the country, where the air feels still and deeply blessed.",
-          "The day continues to the historic ruins of Drukgyal Dzong, where stories of old battles and Bhutanese resilience seem to linger in the mountain breeze.",
-          "By evening, a leisurely stroll through Paro town rounds off the day nicely, with its neat wooden shopfronts, soft valley light, and first little taste of Bhutanese charm before settling in for the night at a hotel in Paro.",
-        ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Tiger's Nest Monastery Hike",
-        details: [
-          "The morning begins with a short drive to the trailhead, where the real adventure quietly unfolds, climbing through a forest of fluttering prayer flags and whispering pines toward Bhutan's most iconic sanctuary, Paro Taktsang.",
-          "The hike takes around 4–5 hours round trip, gradually ascending to 3,120 metres, and while the trail tests the lungs a little, it rewards every step with sweeping panoramic views of the Paro Valley unfolding far below.",
-          "As the monastery finally reveals itself, clinging impossibly to a sheer cliff, there's a moment of stillness that's hard to put into words — this is where Guru Rinpoche is said to have meditated, and the spiritual energy feels deeply rooted in the rock itself.",
-          "After exploring the sacred halls and soaking in the atmosphere, the descent follows the same forested path back down, a little easier on the legs but just as beautiful.",
-          "By late afternoon, the return to Paro brings a well-earned sense of accomplishment, with the evening left free to unwind at the hotel and quietly relive the day's unforgettable climb.",
-        ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Paro → Shingkharap — Trek Begins",
-        details: [
-          "The journey takes a quieter, more intimate turn today as the road winds gently out of Paro toward Gunitsawa, the true beginning of the trek, where permits are checked and the last signs of the outside world slowly fade.",
-          "From here, the trail eases into a pleasant 9 km walk over 4–5 hours, following the soothing rhythm of the Paro Chhu river as it snakes through dense forests of blue pine and rhododendron, with occasional clearings revealing glimpses of distant peaks.",
-          "The path feels almost meditative — soft underfoot, shaded, and alive with birdsong — making this first day a gentle introduction to the mountain rhythm.",
-          "As the altitude gradually rises to 3,110 metres, the campsite at Shingkharap appears like a quiet woodland retreat, surrounded by towering trees and the sound of flowing water nearby.",
-          "The evening settles in with a simple, comforting camp atmosphere, where the crisp mountain air and the hush of nature mark the true beginning of life on the trail.",
-        ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title:
-          "Shingkharap → Soi Thangkha — Following the River into the High Forests",
-        details: [
-          "The trail stretches deeper into the mountains today, covering around 15 km over 5–6 hours, as the path faithfully follows the winding course of the Pachu River, its steady flow becoming a quiet companion throughout the journey.",
-          "The landscape begins to shift in character, with dense forests of pine, oak, and blooming rhododendron wrapping the trail in shades of green and bursts of colour, especially in spring when the forest feels almost alive with blossoms.",
-          "The ascent is gradual but noticeable, allowing the body to slowly adjust as the altitude climbs to 3,670 metres, with occasional openings in the trees offering fleeting views of higher ridges ahead.",
-          "There's a peaceful rhythm to the day — walking, pausing, listening to the river — until the campsite at Soi Thangkha emerges in a wide alpine clearing beneath towering slopes.",
-          "The air feels thinner, crisper now, and as evening settles over camp, the mountains begin to reveal their quieter, more raw side, far removed from the valleys left behind.",
-        ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Soi Thangkha → Jangothang — Arrival at Jomolhari's Doorstep",
-        details: [
-          "The landscape opens up dramatically today as the trail climbs beyond the tree line, leaving the forests behind and stepping into a vast, high-altitude wilderness where the sky feels closer and the air sharper with every breath.",
-          "Covering 17 km in about 4–5 hours, the path follows the valley floor with a gentle but steady ascent, passing scattered yak herder settlements where life continues in quiet harmony with the mountains.",
-          "As the altitude reaches 4,040 metres, the views become nothing short of spectacular, with the sacred Mount Jomolhari rising in commanding elegance and the striking Jichu Drake standing proudly nearby, both peaks seeming close enough to touch.",
-          "The campsite at Jangothang Base Camp sits in a wide open valley beneath these towering giants, a place that feels both humbling and awe-inspiring.",
-          "As the sun dips behind the snow-capped ridges, the mountains glow softly in the fading light, marking a truly unforgettable arrival at the doorstep of the high Himalaya.",
-        ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Jangothang — Acclimatization Day",
-        details: [
-          "A well-earned pause at high altitude, this day is all about letting the body catch its breath while quietly soaking in the grandeur of the Himalayas that now feel incredibly close.",
-          "Gentle optional hikes of 2–4 hours lead up the surrounding ridges, each step offering even more dramatic perspectives of the valley below and the towering peaks above.",
-          "For those feeling strong, a rewarding climb to the Tshophu Twin Lakes at around 4,400 metres reveals still, mirror-like waters cradled beneath rugged slopes, a place that feels untouched and deeply serene.",
-          "The landscape here is alive in subtle ways — herds of blue sheep grazing along the hillsides and, if luck is on your side, a golden eagle soaring effortlessly across the vast sky.",
-          "Back at Jangothang camp, the rest of the day unfolds slowly, with time to rest, wander, and simply take in the silence of the mountains, allowing the altitude to settle gently into the body before the journey continues deeper into the range.",
-        ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Jangothang → Lingzhi — Crossing Neyle La Pass",
-        details: [
-          "The day begins with a steady, purposeful climb out of Jangothang, as the trail gradually leads toward Neyle La at 4,830 metres, one of the highest and most rewarding passes on the journey.",
-          "The ascent demands patience, but the reward is immense — standing atop the pass, the world opens in every direction with sweeping, almost unreal views of snow-capped giants stretching across the horizon.",
-          "From here, the trail descends into the remote and windswept Lingzhi valley, where the landscape feels raw, expansive, and beautifully untouched.",
-          "After covering around 18 km over 6–7 hours, the path gently brings the journey to the historic Lingzhi Dzong, perched dramatically on a ridge overlooking the valley, silently guarding this isolated region.",
-          "The campsite rests nearby at 4,010 metres, surrounded by wide alpine plains and distant peaks, where the evening carries a quiet sense of remoteness that few places on earth can offer.",
-        ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Lingzhi → Shodu — Crossing Yale La Pass",
-        details: [
-          "This is one of those days that quietly tests both body and spirit, as the trail stretches over 19 km and 7–8 hours, climbing steadily toward the formidable Yale La at 4,942 metres.",
-          "The ascent is demanding, but every step upward unfolds some of the most breathtaking panoramic Himalayan views of the entire journey — vast ridgelines, distant snow peaks, and a sense of standing on the very spine of the mountains.",
-          "At the top, the wind carries a raw, untouched energy, marking a true high point in both altitude and experience.",
-          "From here, the descent begins into the remote Shodu valley, where the terrain softens into rolling alpine landscapes and wide-open silence.",
-          "As the altitude settles around 4,100 metres, the campsite appears tucked beside the river, surrounded by an immense stillness that feels far removed from everything else.",
-          "The day ends with a deep sense of accomplishment, having crossed one of the trek's most challenging yet rewarding passages.",
-        ],
-      },
-      {
-        day: 9,
-        date: "Day 9",
-        title: "Shodu → Thimphu — Farewell to the Mountains",
-        details: [
-          "The final day on the trail begins with a gentle descent along the soothing flow of the Thimphu Chhu, as the path winds through lush forests, past cascading waterfalls, and back into greener, lower landscapes that feel almost welcoming after days in the high alpine.",
-          "Covering around 16 km over 5–6 hours, the walk carries a bittersweet rhythm, each step marking the end of a journey that has unfolded so deeply in the mountains.",
-          "Along the way, a quiet stop at the ruins of Barshong Dzong adds a final touch of history, its weathered walls standing as a reminder of Bhutan's past in this remote valley.",
-          "As the trek concludes, the vehicle awaits, and the drive to Thimphu slowly reintroduces the comforts of civilisation.",
-          "By evening, the capital feels lively yet gentle, offering a warm transition from wilderness to town, and a well-deserved rest in the comfort of a hotel after days of unforgettable trekking.",
-        ],
-      },
-      {
-        day: 10,
-        date: "Day 10",
-        title: "Thimphu → Dochula Pass → Punakha",
-        details: [
-          "The day begins with a gentle exploration of Thimphu, starting at the peaceful National Memorial Chorten, where locals quietly circle in prayer, followed by a visit to the grand Buddha Dordenma overlooking the valley in serene silence.",
-          "A short drive leads to the Motithang Takin Preserve, home to Bhutan's unique national animal, adding a touch of character to the morning.",
-          "Soon after, the journey continues toward Punakha, winding up to the breathtaking Dochula Pass at 3,100 metres, where on a clear day, a sweeping panorama of Himalayan peaks stretches endlessly beyond the 108 chortens.",
-          "As the road descends into the warmer Punakha valley, the air softens and the scenery shifts to terraced fields and riverside beauty.",
-          "Before settling in, a pleasant walk through rice fields leads to the fertility temple of Chimi Lhakhang, a place filled with local stories and quiet blessings.",
-          "By evening, Punakha's gentle climate and lush surroundings offer a comforting contrast to the high mountains left behind, with a restful night awaiting at the hotel.",
-        ],
-      },
-      {
-        day: 11,
-        date: "Day 11",
-        title: "Punakha → Paro",
-        details: [
-          "The morning begins in the heart of Punakha with a visit to the magnificent Punakha Dzong, standing gracefully at the confluence of two rivers, its intricate woodwork and riverside setting making it one of the most beautiful fortresses in Bhutan.",
-          "Just nearby, a walk across the long Punakha Suspension Bridge adds a touch of adventure, with prayer flags fluttering above the rushing Pho Chhu below.",
-          "Soon after, the journey winds back toward Paro, retracing the scenic route through Thimphu, where there's time to pause at local markets — perfect for picking up last-minute souvenirs and soaking in a bit more of Bhutan's everyday charm.",
-          "The drive, stretching around 4–5 hours, feels reflective in nature, as familiar valleys and mountain passes pass by once more.",
-          "By evening, arrival in Paro brings a calm, full-circle feeling, settling into the hotel for one last peaceful night in the kingdom.",
-        ],
-      },
-      {
-        day: 12,
-        date: "Day 12",
-        title: "Departure from Paro",
-        details: [
-          "The final morning arrives quietly in Paro, where the crisp mountain air and slow rhythm of the valley make it hard to say goodbye.",
-          "After breakfast, a short transfer leads back to Paro International Airport, the same peaceful gateway where the journey first began.",
-          "As the flight lifts off, the valleys, rivers, and distant snow peaks slowly fade beneath the clouds, leaving behind not just memories of places visited, but a deeper connection to the spirit of Bhutan that lingers long after departure.",
-        ],
-      },
-    ],
-    tourDetails: [
-      { label: "Duration", value: "12 Days / 11 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Paro · Shingkharap · Soi Thangkha · Jangothang · Lingzhi · Shodu · Thimphu · Punakha",
-      },
-      {
-        label: "Departure & Return",
-        value:
-          "Paro International Airport (PBH) → Paro International Airport (PBH)",
-      },
-      { label: "Tour Code", value: "BHU-JOM-PBH-12" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner daily; All meals included during trek days",
-      },
-      { label: "Best Time", value: "April–June & September–November" },
-      { label: "Group Size", value: "Max 16 Guests" },
-      {
-        label: "Trek Distance",
-        value: "Approx. 94 km total trekking distance",
-      },
-      { label: "Max Altitude", value: "Yale La Pass at 4,942m" },
-    ],
-  },
+
   {
     id: 514,
     country: "Bhutan",
@@ -19008,18 +10291,18 @@ export const tours = [
     badge: "Adventure",
     badgeColor: "bg-green-700",
     mode: "Trek",
-    img: "",
+    src: "/Dagala1.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Tent, label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Tent", label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Mountain, label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19043,11 +10326,27 @@ export const tours = [
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "",
+      src: "/Dagala2.jpg",
       alt: "Dagala Thousand Lakes Trek in Bhutan — Paro to Thimphu via Dagala Highlands",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+       {
+        id: 1,
+        src: "/Dagala2.jpg",
+        alt: "Dagala2",
+      },
+      {
+        id: 2,
+        src: "/Dagala3.jpg",
+        alt: "Dagala3",
+      },
+      {
+        id: 3,
+        src: "/Dagala6.jpg",
+        alt: "Dagala6",
+      },
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -19213,7 +10512,7 @@ export const tours = [
     duration: "6 Days / 5 Nights",
     durationTag: "6 Days",
     startEnd: "Paro → Thimphu → Punakha → Paro",
-    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha", "Paro"],
+    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 0,
     rating: 0,
@@ -19221,18 +10520,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/paro.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19261,11 +10560,27 @@ export const tours = [
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "",
+      src: "/paro.jpg",
       alt: "Glimpse of Bhutan — Paro, Thimphu, Punakha 6-Day Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/paro2.jpg",
+        alt: "paro2",
+      },
+      {
+        id: 2,
+        src: "/paro3.jpg",
+        alt: "paro3",
+      },
+      {
+        id: 3,
+        src: "/paro6.jpg",
+        alt: "paro6",
+      },
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -19391,18 +10706,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/thimphu.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19425,11 +10740,34 @@ export const tours = [
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "",
+      src: "/thimphu1.jpg",
       alt: "Bhutan Short Trip — Paro and Thimphu 4-Day Cultural Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/thimphu2.jpg",
+        alt: "thimphu2",
+      },
+      {
+        id: 2,
+        src: "/thimphu3.jpg",
+        alt: "thimphu3",
+      },
+      {
+        id: 3,
+        src: "/thimphu4.jpg",
+        alt: "thimphu4",
+      },
+       {
+        id: 3,
+        src: "/dochula_overview.jpg",
+        alt: "dochula_overview.jpg",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -19520,7 +10858,7 @@ export const tours = [
     duration: "8 Days / 7 Nights",
     durationTag: "8 Days",
     startEnd: "Paro → Thimphu → Punakha → Paro",
-    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha", "Paro"],
+    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 0,
     rating: 0,
@@ -19528,18 +10866,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/paro-festival.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Landmark, label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Landmark", label: "Culture", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19569,11 +10907,29 @@ export const tours = [
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "",
+      src: "/paro-festival1.jpg",
       alt: "Paro Festival Tour — Paro Tsechu, Thimphu & Punakha 8-Day Cultural Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/paro-festival2.jpg",
+        alt: "paro-festival2",
+      },
+      {
+        id: 2,
+        src: "/paro-festival3.jpg",
+        alt: "paro-festival3",
+      },
+      {
+        id: 3,
+        src: "/paro.jpg",
+        alt: "paro",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -19730,18 +11086,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/pobjikha-bird.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19771,11 +11127,29 @@ export const tours = [
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "",
+      src: "pobjikha.jpg",
       alt: "Best of Bhutan Tour — Paro, Thimphu, Phobjikha & Punakha 9-Day Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/Phobjikha2.jpg",
+        alt: "Phobjikha2",
+      },
+      {
+        id: 2,
+        src: "/thimphu.jpg",
+        alt: "himphu.jpg3",
+      },
+      {
+        id: 3,
+        src: "/paro.jpg",
+        alt: "paro",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -19929,7 +11303,7 @@ export const tours = [
     duration: "8 Days / 7 Nights",
     durationTag: "8 Days",
     startEnd: "Paro → Thimphu → Punakha → Paro",
-    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha", "Paro"],
+    destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha",],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 0,
     rating: 0,
@@ -19937,18 +11311,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/punakha-dong.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -19978,11 +11352,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "/paro-festival.jpg",
       alt: "Punakha Festival Tour — Paro, Thimphu & Punakha 8-Day Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/paro-festival2.jpg",
+        alt: "paro-festival12",
+      },
+      {
+        id: 2,
+        src: "/paro-festvals.jpg",
+        alt: "paro-festval13",
+      },
+      {
+        id: 3,
+        src: "/paro-festval1.jpg",
+        alt: "paro-festval1",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -20139,18 +11531,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/thimphu-festival.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -20180,11 +11572,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "/thimphu-festival1.jpg",
       alt: "Thimphu Festival Tour — Paro, Thimphu, Phobjikha & Punakha 8-Day Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/thimphu.jpg",
+        alt: "thimphu1",
+      },
+      {
+        id: 2,
+        src: "/paro-festival1.jpg",
+        alt: "paro-festival3",
+      },
+      {
+        id: 3,
+        src: "/paro-festival3.jpg",
+        alt: "paro-festival6",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -20359,18 +11769,18 @@ export const tours = [
     badge: "Trekking",
     badgeColor: "bg-green-600",
     mode: "Trek",
-    img: "",
+    src: "/druk-path-1.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Tent, label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Tent", label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Mountain, label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -20400,11 +11810,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "/druk-path2.jpg",
       alt: "Druk Path Trek — Paro to Thimphu 10-Day High-Altitude Trek",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/druk-path3.jpg",
+        alt: "druk-path3",
+      },
+      {
+        id: 2,
+        src: "/paro1.jpg",
+        alt: "paro1",
+      },
+      {
+        id: 3,
+        src: "/paro2.jpg",
+        alt: "paro2",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -20604,222 +12032,7 @@ export const tours = [
       { label: "Max Altitude", value: "4,220m (Phume La Pass)" },
     ],
   },
-  {
-    id: 520,
-    country: "Bhutan",
-    place: "Paro",
-    title: "Thimphu Festival Tour",
-    type: "Cultural",
-    duration: "8 Days / 7 Nights",
-    durationTag: "8 Days",
-    startEnd: "Paro → Thimphu → Phobjikha → Punakha → Paro",
-    destinations: [
-      "Paro",
-      "Thimphu",
-      "Dochula Pass",
-      "Phobjikha Valley",
-      "Punakha",
-      "Paro",
-    ],
-    amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
-    price: 0,
-    rating: 0,
-    reviews: 0,
-    badge: "Cultural",
-    badgeColor: "bg-orange-600",
-    mode: "Tour",
-    img: "",
-    popular: true,
-    tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: UtensilsCrossed,
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
-      { icon:Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
-    ],
-    tourHighlights: [
-      {
-        title:
-          "Thimphu Tshechu — Sacred Mask Dances & Religious Ceremonies at Tashichho Dzong",
-      },
-      {
-        title:
-          "Tiger's Nest Hike — Iconic Taktsang Monastery Perched at 3,120m Above Paro Valley",
-      },
-      {
-        title:
-          "Phobjikha Valley — Glacial Valley & Winter Home of the Black-Necked Crane",
-      },
-      {
-        title:
-          "Gangtey Monastery — 17th-Century Monastery Overlooking Phobjikha Valley",
-      },
-      {
-        title:
-          "Punakha Dzong — Majestic Fortress at the Confluence of Pho Chhu & Mo Chhu Rivers",
-      },
-      { title: "Dochula Pass — Panoramic Himalayan Views at 3,050m" },
-    ],
-    tourManagerCompany: "Indruka Tours and Travels",
-    heroImage: {
-      src: "",
-      alt: "Thimphu Festival Tour — Paro, Thimphu, Phobjikha & Punakha 8-Day Tour",
-    },
-    testimonials: [],
-    thumbnails: [],
-    breadcrumbs: [
-      { label: "Home", href: "/" },
-      { label: "Bhutan", href: "/bhutan" },
-      { label: "Paro", href: "/bhutan/paro" },
-      { label: "Thimphu Festival Tour", href: "" },
-    ],
-    badges: [
-      { label: "CULTURAL", variant: "solid", color: "orange" },
-      { label: "8 DAYS", variant: "outlined", color: "cyan" },
-    ],
-    durationDays: 8,
-    countryCount: 1,
-    cityCount: 5,
-    region: "Kingdom of Bhutan",
-    maxGuests: 16,
-    itineraryStops: [
-      { city: "Thimphu", nights: 2 },
-      { city: "Phobjikha Valley", nights: 1 },
-      { city: "Punakha", nights: 2 },
-      { city: "Paro", nights: 2 },
-    ],
-    days: [
-      {
-        day: 1,
-        date: "Day 1",
-        title: "Arrival in Paro — Tachog Lhakhang & Transfer to Thimphu",
-        details: [
-          "The flight into Bhutan offers spectacular views of the Eastern Himalayas, including some of the world's highest peaks.",
-          "As the aircraft descends into the Paro Valley, the beautiful Paro River (Pa Chhu), Paro Dzong, and Ta Dzong come into view.",
-          "Upon arrival at Paro International Airport, guests are warmly received by a representative before driving to Thimphu (approximately 1 hour).",
-          "En route, a visit is made to Tachog Lhakhang — located along the Paro–Thimphu highway — reached by crossing the Paro River via an iron chain bridge originally built by the famous Tibetan saint and engineer Thangtong Gyalpo, who constructed many iron bridges across the Himalayas.",
-          "The afternoon includes Thimphu sightseeing, with visits to the Memorial Chorten — built in memory of the Third King of Bhutan — the gigantic Buddha Dordenma statue overlooking Thimphu Valley, and the lively Centenary Farmers Market.",
-          "The night is spent at a hotel in Thimphu.",
-        ],
-      },
-      {
-        day: 2,
-        date: "Day 2",
-        title: "Thimphu Tshechu Festival at Tashichho Dzong",
-        details: [
-          "The morning is spent attending the Thimphu Tshechu Festival at Tashichho Dzong — one of the most important religious festivals in Bhutan.",
-          "Monks and lay performers present sacred mask dances (Cham) representing Buddhist teachings and spiritual stories.",
-          "Local people dressed in their finest traditional attire gather to receive blessings and celebrate this vibrant cultural event.",
-          "The night is spent at a hotel in Thimphu.",
-        ],
-      },
-      {
-        day: 3,
-        date: "Day 3",
-        title: "Thimphu → Dochula Pass → Phobjikha Valley",
-        details: [
-          "The drive heads towards Phobjikha Valley with an en-route stop at Dochula Pass at 3,050 metres, where on a clear day spectacular panoramic views of the eastern Himalayan mountain range can be enjoyed.",
-          "The journey continues, descending through subtropical valleys before reaching the beautiful Phobjikha (Gangtey) Valley — a glacial valley famous as the winter home of rare black-necked cranes migrating from Tibet.",
-          "Visits include Gangtey Monastery (17th century) and the Black-Necked Crane Information Centre.",
-          "The valley is part of a protected conservation area managed by the Royal Society for Protection of Nature.",
-          "The night is spent at a hotel in Phobjikha Valley.",
-        ],
-      },
-      {
-        day: 4,
-        date: "Day 4",
-        title: "Phobjikha Valley → Wangdue Phodrang → Chimi Lhakhang → Punakha",
-        details: [
-          "After breakfast, the Gangtey Nature Trail is enjoyed — one of the most scenic short hikes in central Bhutan — offering panoramic views of the glacial Phobjikha Valley, peaceful pine forests, open meadows, traditional Bhutanese villages, and clear flowing streams.",
-          "The drive then heads toward Wangdue Phodrang for a visit to Wangdue Phodrang Dzong — a historic fortress on a ridge overlooking the confluence of the Puna Tsang Chhu and Dang Chhu rivers, making it a strategically important defensive site.",
-          "After lunch, a visit is made to Chimi Lhakhang, situated on a hill in the Lobesa Valley and dedicated to Lama Drukpa Kuenley — also known as the Divine Madman — who used humour, songs, and unconventional behaviour to teach Buddhist philosophy.",
-          "Widely known as the Temple of Fertility, where many couples pray for children, the temple is reached by a pleasant 30-minute walk across rice fields from the road.",
-          "The night is spent at a hotel in Punakha.",
-        ],
-      },
-      {
-        day: 5,
-        date: "Day 5",
-        title: "Punakha Sightseeing — Khamsum Chorten & Punakha Dzong",
-        details: [
-          "The morning begins with a hike to Khamsum Yulley Namgyal Chorten, located on a ridge above the Punakha Valley and built by the Queen Mother for the peace and prosperity of Bhutan.",
-          "The afternoon includes a visit to Punakha Dzong — often considered the most beautiful fortress in Bhutan — located at the confluence of the Pho Chhu and Mo Chhu rivers.",
-          "The night is spent at a hotel in Punakha.",
-        ],
-      },
-      {
-        day: 6,
-        date: "Day 6",
-        title: "Punakha → Ta Dzong & Rinpung Dzong → Paro",
-        details: [
-          "After breakfast, the drive heads back to Paro.",
-          "Afternoon visits include Ta Dzong (National Museum) — originally built as a watchtower for Paro Dzong — and Rinpung Dzong (Paro Dzong), built in 1646 by Zhabdrung Ngawang Namgyal.",
-          "The evening is spent on a leisurely stroll through Paro town for shopping and exploration.",
-          "The night is spent at a hotel in Paro.",
-        ],
-      },
-      {
-        day: 7,
-        date: "Day 7",
-        title: "Tiger's Nest Hike — Paro Taktsang",
-        details: [
-          "After breakfast, the hike to Taktsang Palphug Monastery — popularly known as Paro Taktsang or the Tiger's Nest — begins; dramatically perched on a cliff at 3,120 metres above the Paro Valley, it is one of Bhutan's most revered landmarks and a powerful cultural symbol.",
-          "The ascent takes 2 to 3 hours depending on pace and fitness level, with the option to ride a horse to the halfway point (approximately 1 to 1.5 hours); the trail winds through serene blue pine forests adorned with colourful prayer flags.",
-          "The Taktsang Cafeteria at the halfway point provides spectacular views of the monastery for those preferring a lighter experience without completing the full climb.",
-          "The descent takes around 1.5 to 2 hours, making the total round trip approximately 4 to 5 hours.",
-          "The afternoon is spent strolling through Paro town for shopping and exploration.",
-          "The night is spent at a hotel in Paro.",
-        ],
-      },
-      {
-        day: 8,
-        date: "Day 8",
-        title: "Departure from Paro",
-        details: [
-          "After breakfast, transfer to Paro International Airport for the onward flight.",
-        ],
-      },
-    ],
-    inclusions: [
-      "All Meals",
-      "Daily Mineral Water",
-      "Sustainable Development Fee",
-      "English Language Speaking Guide",
-      "Accommodation on a twin-sharing basis",
-      "Comfortable Vehicles with Skilled Drivers",
-      "A minimum of 3 star accommodation (4 & 5 star may require an additional premium)",
-      "Monument entrance fees as per itinerary",
-    ],
-    exclusions: [
-      "Airfare international & domestic",
-      "Personal shopping",
-      "Tips for guide & driver",
-      "Travel insurance",
-      "Laundry",
-      "Alcohol",
-    ],
-    tourDetails: [
-      { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Paro · Thimphu · Dochula Pass · Phobjikha Valley · Punakha",
-      },
-      {
-        label: "Departure & Return",
-        value:
-          "Paro International Airport (PBH) → Paro International Airport (PBH)",
-      },
-      { label: "Tour Code", value: "BHU-TFT-PBH-08" },
-      { label: "Meals", value: "All meals included" },
-      { label: "Best Time", value: "September–October (Festival Season)" },
-      { label: "Group Size", value: "Max 16 Guests" },
-      { label: "Tour Type", value: "Cultural & Festival" },
-    ],
-  },
+ 
   {
     id: 522,
     country: "Bhutan",
@@ -20847,18 +12060,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "/BhutanCulture.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -20888,11 +12101,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "/bhutanCulture1.jpg",
       alt: "Bhutan Cultural Journey — Paro, Thimphu, Phobjikha, Bumthang & Punakha 10-Day Tour",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/bhutanCulture1.jpg",
+        alt: "BhutanCulture1.jpg",
+      },
+      {
+        id: 2,
+        src: "/bhutanCulture4.jpg",
+        alt: "/bhutanCulture1.jpg",
+      },
+      {
+        id: 3,
+        src: "/paro-festival2.jpg",
+        alt: "paro-festival2",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -21112,23 +12343,23 @@ export const tours = [
     badge: "Luxury",
     badgeColor: "bg-yellow-600",
     mode: "Tour",
-    img: "",
+    src: "/bhutan-lux.jpg",
     popular: true,
     tourFeatures: [
       {
-        icon: Building2,
+        icon: "Building2",
         label: "Luxury Hotels",
         color: "#6C72E8",
         bg: "#EEF0FD",
       },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Fine Dining",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Mountain, label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Mountain", label: "Hiking", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -21166,11 +12397,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "bhutan-lux2.jpg",
       alt: "Bhutan Luxury Tour — Thimphu, Punakha, Gangtey & Bumthang 11-Day Luxury Journey",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/bhutan-lux3.jpg",
+        alt: "bhutan-lux3",
+      },
+      {
+        id: 2,
+        src: "/bhutan-lux4.jpg",
+        alt: "bhutan-lux4",
+      },
+      {
+        id: 3,
+        src: "/bhutan-lux5.jpg",
+        alt: "bhutan-lux5",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -21416,18 +12665,18 @@ export const tours = [
     badge: "Trekking",
     badgeColor: "bg-green-600",
     mode: "Trek",
-    img: "",
+    src: "/happiness-trek.jpg",
     popular: true,
     tourFeatures: [
-      { icon: Tent, label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Tent", label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Mountain, label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Camera, label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Mountain", label: "Trekking", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {
@@ -21457,11 +12706,29 @@ export const tours = [
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "",
+      src: "/happiness-trek1.jpg",
       alt: "Happiness Trek — 14-Day Culture, Trekking & Timeless Adventure Through Bhutan",
     },
     testimonials: [],
-    thumbnails: [],
+    thumbnails: [
+      {
+        id: 1,
+        src: "/happiness-trek2.jpg",
+        alt: "happiness-trek2",
+      },
+      {
+        id: 2,
+        src: "/happiness-trek3.jpg",
+        alt: "happiness-trek3",
+      },
+      {
+        id: 3,
+        src: "/happiness-trek4.jpg",
+        alt: "happiness-trek4",
+      },
+
+
+    ],
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "Bhutan", href: "/bhutan" },
@@ -21737,7 +13004,7 @@ export const tours = [
       "Phuentsholing",
       "Thimphu",
       "Paro",
-      "Phuentsholing",
+      "P/ling",
     ],
     amenities: ["Hotels", "Meals", "Cab Transfer", "Sightseeing"],
     price: 21000,
@@ -21749,18 +13016,18 @@ export const tours = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    img: "",
+    src: "",
     popular: true,
     tourFeatures: [
-      { icon: Building2, label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
+      { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
       {
-        icon: UtensilsCrossed,
+        icon: "UtensilsCrossed",
         label: "Meals (MAP)",
         color: "#F4884A",
         bg: "#FEF0E8",
       },
-      { icon: Camera, label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
-      { icon: Car, label: "Cab Transfer", color: "#E8508A", bg: "#FFF0F4" },
+      { icon: "Camera", label: "Sightseeing", color: "#1AADA0", bg: "#E8F7F3" },
+      { icon: "Car", label: "Cab Transfer", color: "#E8508A", bg: "#FFF0F4" },
     ],
     tourHighlights: [
       {

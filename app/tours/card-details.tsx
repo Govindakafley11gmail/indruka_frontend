@@ -8,7 +8,7 @@ export interface Tour {
   title: string;
   type: string;
   badge: "Bestseller" | "Trek" | "Helicopter" | "Popular" | string;
-  img: string;
+  img?: string;
   duration: string;
   rating: number;
   reviews: number;
@@ -109,7 +109,7 @@ export default function CardDetailsPage({
 
             <div className="flex items-center gap-1.5 text-[12.5px] text-slate-500 mb-3.5 flex-wrap">
               {tour.destinations.map((d, idx) => (
-                <span key={d} className="flex items-center gap-1">
+                <span key={`${d}-${idx}`} className="flex items-center gap-1">
                   {idx === 0 && <span>📍</span>}
                   <span className="font-medium text-slate-700">{d}</span>
                   {idx < tour.destinations.length - 1 && (

@@ -70,15 +70,14 @@ export default function SacredYatra() {
       return [...merged];
     }
 
-    // 3. Fallback → show all specialities from all tours
-    const merged = new Set<string>();
-    allTours.forEach((tour) => {
-      const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
-        (k) => k.toLowerCase() === tour.country.toLowerCase(),
-      );
-      if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
-    });
-    return [...merged];
+  const merged = new Set<string>();
+tours.checkedCountry.forEach((country) => {
+  const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
+    (k) => k.toLowerCase() === country.toLowerCase(),
+  );
+  if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+});
+return [...merged];
   }, [tours.checkedCountry, tours.checkedPlace]); // ✅ no tours.filtered dependency
   useEffect(() => {
     setActivePage(1);
@@ -207,7 +206,7 @@ export default function SacredYatra() {
       `}</style>
 
       <TourCollage tours={collageTours} />
-<TourCards tours={tours.filtered} />      
+      <TourCards tours={tours.filtered} />
       <Footer />
     </div>
   );

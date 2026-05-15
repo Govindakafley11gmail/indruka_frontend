@@ -11,6 +11,7 @@ import {
 } from "../constants";
 import { FilterMainDrawer } from "@/app/components/drawer/drawer-horizontal";
 import { MobileMenuContent } from "@/app/components/drawer/mobileMenuContent";
+import Link from "next/link";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -41,13 +42,17 @@ export function Header() {
             
               <Button variant="outline" className="flex items-center gap-1.5">
                 <HeadphonesIcon className="w-4 h-4" />
-                About Us
+                <Link href={"/about"}>
+                ABout Us
+                </Link>
               </Button>
 
               <Button variant="outline" className="flex items-center gap-1.5">
                 <Phone className="w-4 h-4" />
+                 
+                <Link href={"/support"}>
                 Support
-                <ChevronDown className="w-3 h-3" />
+                </Link>
               </Button>
             </nav>
 
