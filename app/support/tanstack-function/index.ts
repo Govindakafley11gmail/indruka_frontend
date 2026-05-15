@@ -5,7 +5,8 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import apiClient from "@/app/connect-backend/api-client";
 import TRAVELAGENTSAPI from "@/app/connect-backend/api";
 import type { errorResponse } from "@/app/error";
-import type { BookingPayload, CallBackPayloadInterface, CreateResponseAttributes } from "../interface";
+import type { CreateResponseAttributes } from "@/app/view-details/booking-backend/interface";
+import type { EnquiryPayloadInterface } from "../interface";
 
 interface MutationOptions {
   onSuccess?: (data: CreateResponseAttributes) => void;
@@ -15,7 +16,7 @@ interface MutationOptions {
 // ============= API CALLS =============
 
 // CreateBooking
-const createBookings = async (data: BookingPayload) => {
+const createContact = async (data: EnquiryPayloadInterface) => {
   const response = await apiClient.post(TRAVELAGENTSAPI.bookingUser, data);
 
   if (response.data?.success === false) {
@@ -24,29 +25,21 @@ const createBookings = async (data: BookingPayload) => {
   return response.data;
 };
 
-const createCallBack = async (data: CallBackPayloadInterface) => {
-  const response = await apiClient.post(TRAVELAGENTSAPI.callBack, data);
-
-  if (response.data?.success === false) {
-    throw { data: response.data };
-  }
-  return response.data;
-};
 
 
 
 
-export const useBookingMutations = (options?: MutationOptions) => {
+export const useCallbackMutations = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
   const createMutation = useMutation<
     CreateResponseAttributes,
     errorResponse,
-    BookingPayload
+    EnquiryPayloadInterface
   >({
-    mutationFn: createBookings,
+    mutationFn: createContact,
     onSuccess: (data) => {
-      queryClient.invalidateQueries({ queryKey: ["Booking-list"] });
+      queryClient.invalidateQueries({ queryKey: ["callback-list"] });
       options?.onSuccess?.(data);
     },
     onError: (error) => {
@@ -57,7 +50,7 @@ export const useBookingMutations = (options?: MutationOptions) => {
 
 
   return {
-    createBooking: createMutation.mutate,
+    createContact: createMutation.mutate,
     isCreating: createMutation.isPending,
    
     isLoading:createMutation.isPending 

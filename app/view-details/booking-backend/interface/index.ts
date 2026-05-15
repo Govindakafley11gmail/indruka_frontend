@@ -15,7 +15,10 @@ export interface BookingPayload {
   parties: Party[];
 }
 
-
+export interface CallBackPayloadInterface{
+    name:string;
+    contact:string
+}
 //response
 export interface PartyResponse {
   id: string;

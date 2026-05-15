@@ -2,8 +2,8 @@ export const API_EndPoints = process.env.NEXT_PUBLIC_API_EndPoints;
 
 const TRAVELAGENTSAPI = {
   bookingUser: `${API_EndPoints}/bookings`,
-//   list_policy: `${API_EndPoints}/policy_under_party`,
-//   policy_details: `${API_EndPoints}/policy_details`,
+  callBack: `${API_EndPoints}/call-back`,
+  contact: `${API_EndPoints}/contact`,
 //   policy_risk: `${API_EndPoints}/policy-risk`,
   
 };

@@ -5,24 +5,14 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import apiClient from "@/app/connect-backend/api-client";
 import TRAVELAGENTSAPI from "@/app/connect-backend/api";
 import type { errorResponse } from "@/app/error";
-import type { BookingPayload, CallBackPayloadInterface, CreateResponseAttributes } from "../interface";
+import type { CreateResponseAttributes, CallBackPayloadInterface, BookingPayload } from "../booking-backend/interface";
 
 interface MutationOptions {
   onSuccess?: (data: CreateResponseAttributes) => void;
   onError?: (error: errorResponse) => void;
 }
 
-// ============= API CALLS =============
 
-// CreateBooking
-const createBookings = async (data: BookingPayload) => {
-  const response = await apiClient.post(TRAVELAGENTSAPI.bookingUser, data);
-
-  if (response.data?.success === false) {
-    throw { data: response.data };
-  }
-  return response.data;
-};
 
 const createCallBack = async (data: CallBackPayloadInterface) => {
   const response = await apiClient.post(TRAVELAGENTSAPI.callBack, data);
@@ -36,15 +26,15 @@ const createCallBack = async (data: CallBackPayloadInterface) => {
 
 
 
-export const useBookingMutations = (options?: MutationOptions) => {
+export const useCallBackMutations = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
-  const createMutation = useMutation<
+  const createCallBackMutation = useMutation<
     CreateResponseAttributes,
     errorResponse,
-    BookingPayload
+    CallBackPayloadInterface
   >({
-    mutationFn: createBookings,
+    mutationFn: createCallBack,
     onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ["Booking-list"] });
       options?.onSuccess?.(data);
@@ -57,10 +47,10 @@ export const useBookingMutations = (options?: MutationOptions) => {
 
 
   return {
-    createBooking: createMutation.mutate,
-    isCreating: createMutation.isPending,
+    createCallBack: createCallBackMutation.mutate,
+    isCreating: createCallBackMutation.isPending,
    
-    isLoading:createMutation.isPending 
+    isLoading:createCallBackMutation.isPending 
 
   };
 };

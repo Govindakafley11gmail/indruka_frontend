@@ -5,6 +5,8 @@ import { useMemo, useState, useRef, useEffect } from "react";
 import { Check, Phone, Search, X } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { COUNTRIES } from "./callbacks-data";
+import { useCallBackMutations } from "./call-back";
+import { showToast } from "nextjs-toast-notify";
 
 
 
@@ -21,7 +23,30 @@ export default function RequestCallBack() {
   const searchRef = useRef<HTMLInputElement>(null);
 
   const selectedCountry = COUNTRIES.find((c) => c.code === countryCode) ?? COUNTRIES[0];
-
+const {
+    createCallBack,
+  
+  } = useCallBackMutations({
+    onSuccess: (data) => {
+      showToast.success(data.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+      
+    },
+    onError: (error) => {
+      showToast.error(error?.data?.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+  });
   const filteredCountries = useMemo(() => {
     const q = search.toLowerCase();
     return COUNTRIES.filter(
@@ -55,14 +80,22 @@ export default function RequestCallBack() {
     return !err.fullName && !err.phone;
   };
 
-  const handleSubmit = () => {
-    if (!validate()) return;
-    setIsLoading(true);
-    setTimeout(() => {
-      setIsLoading(false);
-      setSubmitted(true);
-    }, 1200);
+const handleSubmit = () => {
+  if (!validate()) return;
+  setIsLoading(true);
+
+  const payload = {
+    name: fullName,
+    contact: `${selectedCountry.dialCode}${phone}`,
   };
+
+  createCallBack(payload, {
+    onSettled: () => setIsLoading(false),
+    onSuccess: () => {
+      setSubmitted(true);
+    },
+  });
+};
 
   // ── Success state ──────────────────────────────────────────────
   if (submitted) {
