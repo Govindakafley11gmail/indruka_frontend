@@ -988,7 +988,7 @@ export const tours = [
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/bhuPK.jpg",
+    src: "/bhuPk.jpg",
     popular: true,
 
     tourFeatures: [
@@ -1198,7 +1198,7 @@ export const tours = [
     thumbnails: [
       {
         id: 1,
-      src: "/himachal3.jpg",
+      src: "/himachal3.jpeg",
         alt: "Dharamshala Weekend Tour",
       },
        {
@@ -4352,7 +4352,7 @@ src: "/goa.jpg",
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/Delight.jpg",
+    src: "/UDelight.jpg",
     popular: false,
 
     tourFeatures: [
@@ -4377,7 +4377,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/UDelight.jpg",
+      src: "/UUDelight.jpg",
       alt: "Uttarakhand Delights Tour Package",
     },
 
@@ -5412,7 +5412,7 @@ src: "/goa.jpg",
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/darjeeling10",
+    src: "/darjeeling10.jpg",
     popular: false,
 
     tourFeatures: [
@@ -5437,7 +5437,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/darjeeling10",
+      src: "/darjeeling10.jpg",
       alt: "Eastern Himalayas Tour Package",
     },
 
@@ -12060,7 +12060,7 @@ src: "/goa.jpg",
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    src: "/BhutanCulture.jpg",
+    src: "/bhtuanCulture.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
