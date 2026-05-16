@@ -7398,7 +7398,7 @@ src: "/goa.jpg",
     thumbnails: [
       {
         id: 1,
-        src: "/kovalam.jpg",
+        src: "/Kovalam.jpg",
         alt: "Kovalam Beach Kerala",
       },
       {

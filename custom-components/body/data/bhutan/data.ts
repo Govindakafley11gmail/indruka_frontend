@@ -406,7 +406,7 @@ export const Indiaitem: TourCardProps[] = [
     discount: "20% OFF",
     tags: ["Multi-Day", "Beach", "Backwaters"],
     images: [
-      "/Kovalam.jpg",
+      "/Kovalam.jpg503ufwdr8-0n-a.js:8 type undefined",
       "Kovalam1.jpg",
     ],
     inclusions: [

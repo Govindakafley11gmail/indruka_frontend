@@ -49,7 +49,6 @@ export default function TourCard({
 
   const prevImage = () =>
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
-     console.log("type",type)
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
 const href =
   country === "Bhutan"
