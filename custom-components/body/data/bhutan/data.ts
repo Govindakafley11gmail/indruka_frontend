@@ -566,7 +566,7 @@ export const Indiaitem: TourCardProps[] = [
     discount: "7% OFF",
     tags: ["6N/5D", "Yoga & Spiritual", "Trending"],
     images: [
-      "/UDelight1.jpg",
+      "/Udelight1.jpg",
  "/UDelight2.png",    ],
     inclusions: [
       { icon: Plane, label: "Flights", optional: true },
@@ -688,7 +688,7 @@ export const Indiaitem: TourCardProps[] = [
     discount: "13% OFF",
     tags: ["8N/7D", "Honeymoon", "Luxury Backwaters"],
     images: [
-      "/kerala-Munnar1.jpg",
+      "/Kerala-Munnar1.jpg",
      "/kerala-Munnar2.jpg",
     ],
     inclusions: [
