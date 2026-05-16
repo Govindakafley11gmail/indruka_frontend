@@ -184,7 +184,7 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
   }));
 
   const payload: BookingPayload = {
-    number_of_travellers: numberOfTravellers,
+    travellers: numberOfTravellers,
     trip_name: data.trip_name,
     country: country ?? "",
     start_date: startDate,
