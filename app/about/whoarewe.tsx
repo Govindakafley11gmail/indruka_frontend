@@ -3,7 +3,7 @@ import { CheckCircle2 } from "lucide-react";
 const highlights = [
   "Licensed by the Tourism Council of Bhutan",
   "Member of the Association of Bhutanese Tour Operators (ABTO)",
-  "15+ years of experience in Bhutan travel",
+  "3+ years of experience in Bhutan travel",
   "Dedicated local guides fluent in multiple languages",
   "Customized cultural, festival, trekking & honeymoon tours",
   "Transparent pricing — no hidden fees",
