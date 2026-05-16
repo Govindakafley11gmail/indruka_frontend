@@ -44,19 +44,23 @@ export default function WhoWeAre() {
               Who We Are
             </span>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight mb-5">
-              A Passionate Team Born from Bhutan&apos;s Heart
+              Your Trusted Travel Partner, In Bhutan and Around the World
             </h2>
             <p className="text-gray-600 text-lg leading-relaxed mb-5">
-              Book Bhutan Tour was born out of a deep love for Bhutan — a land of ancient
-              monasteries, pristine valleys, and a people whose warmth is unmatched. Founded
-              by a team with over 15 years of combined experience in international cooperation
-              and Bhutanese culture, we are dedicated to turning your dream journey into reality.
+              Indurka is a newly established travel company with a universal vision. We
+              welcome foreign travelers to discover the wonders of Bhutan — its ancient
+              monasteries, breathtaking mountain landscapes, and rich living culture. At
+              the same time, we help travelers from Bhutan explore the world, from the
+              vibrant destinations of India and China to the iconic cities of Europe and
+              beyond.
             </p>
             <p className="text-gray-600 leading-relaxed mb-8">
-              We work closely with local guides, drivers, and hoteliers to ensure every aspect
-              of your trip is seamless. Whether you are seeking a cultural immersion, a festival
-              experience, or a challenging Himalayan trek — we craft each itinerary personally,
-              treating every traveler as a valued guest.
+              Whether you are a traveler coming to experience Bhutan for the first time
+              or a Bhutanese explorer heading out into the world, we are here for you.
+              We work with trusted local partners, guides, and hospitality providers
+              across every destination to ensure your journey is smooth, meaningful, and
+              truly memorable — crafting each itinerary personally to suit your interests,
+              pace, and budget.
             </p>
 
             <ul className="grid sm:grid-cols-2 gap-3">
