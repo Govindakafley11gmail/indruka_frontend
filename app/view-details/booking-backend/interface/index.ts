@@ -7,7 +7,7 @@ export interface Party {
 }
 
 export interface BookingPayload {
-  number_of_travellers: number;
+  travellers: number;
   trip_name: string;
   country: string;
   start_date: string; // ISO date string "YYYY-MM-DD"
