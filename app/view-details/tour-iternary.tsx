@@ -446,12 +446,7 @@ function SectionContent({ tab, props }: { tab: MainTab; props: TourPageProps }) 
       return <CancellationSection cancellationRows={props.cancellationRows} />;
    
     default:
-      return (
-        <>
-          <h2 className="text-xl font-bold text-gray-900 mb-4">{tab.label}</h2>
-          <p className="text-base text-gray-400">Content coming soon.</p>
-        </>
-      );
+      return 
   }
 }
 
