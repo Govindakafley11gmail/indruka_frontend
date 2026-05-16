@@ -128,13 +128,13 @@ export default function SocialCardSlider() {
 
                   <div className="flex gap-2">
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <Image src="/icons/facebook.png" alt="Facebook" width={16} height={16} />
+                      <Image src="/facebook.png" alt="Facebook" width={16} height={16} />
                     </Button>
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <Image src="/icons/instagram.png" alt="Instagram" width={16} height={16} />
+                      <Image src="/instagram.png" alt="Instagram" width={16} height={16} />
                     </Button>
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <Image src="/icons/twitter.png" alt="Twitter" width={16} height={16} />
+                      <Image src="/whatsapp.png" alt="Twitter" width={16} height={16} />
                     </Button>
                   </div>
                 </div>
