@@ -79,7 +79,7 @@ export const bhutanTripConfig = (
       colSpan: 2,
     },
     {
-      id: "travellers",
+      id: "number_of_travellers",
       type: "number",
       label: "Number of Travelers",
       placeholder: "1",

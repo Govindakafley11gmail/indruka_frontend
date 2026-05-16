@@ -147,7 +147,7 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
         colSpan: 2,
       },
       {
-        id: "travelers",
+        id: "number_of_travellers",
         type: "number",
         label: "Number of Travelers",
         placeholder: "1",
@@ -184,7 +184,7 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
   }));
 
   const payload: BookingPayload = {
-    travellers: numberOfTravellers,
+    number_of_travellers: numberOfTravellers,
     trip_name: data.trip_name,
     country: country ?? "",
     start_date: startDate,
@@ -213,7 +213,7 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
         open={bhutan.open}
         onClose={bhutan.closeModal}
         pricePerPerson={price}
-        guestsFieldId="travelers"
+        guestsFieldId="number_of_travellers"
         tourName={tourName}
         price={price}
       />

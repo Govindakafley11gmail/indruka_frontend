@@ -341,7 +341,7 @@ export default function TourCards({ tours }: TourCardsProps) {
       {selectedTour && (
         <BookingModal
           pricePerPerson={selectedTour?.price ?? 0}
-          guestsFieldId="travelers"
+          guestsFieldId="number_of_travellers"
           tourName={selectedTour?.title ?? ""}
           price={selectedTour?.price ?? 0}
            config={bhutanTripConfig(
