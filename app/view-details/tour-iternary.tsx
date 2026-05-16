@@ -444,8 +444,7 @@ function SectionContent({ tab, props }: { tab: MainTab; props: TourPageProps }) 
       return <NeedToKnowSection needToKnow={props.needToKnow} />;
     case "cancellation":
       return <CancellationSection cancellationRows={props.cancellationRows} />;
-    case "upgrades":
-      return <UpgradesSection upgrades={props.upgrades} />;
+   
     default:
       return (
         <>
