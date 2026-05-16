@@ -24,7 +24,7 @@ interface Review {
   text: string;
   author: string;
   date: string;
-  avatar: string;
+  // avatar: string;
   initials: string;
 }
 
@@ -42,7 +42,7 @@ const reviews: Review[] = [
     text: "We completed our Chardham Yatra by helicopter on 6th June 2025 as a group of six. Despite initial hiccups and weather challenges, the Thomas Cook team ensured smooth darshan and timely return to Dehradun. A special thanks to Mr. Mandar for ensuring that my husband and I could continue the journey together after completing the first two dhams.",
     author: "Kanan Nanavati",
     date: "June, 2025",
-    avatar: "/avatars/kanan.jpg",
+    // avatar: "/avatars/kanan.jpg",
     initials: "KN",
   },
   {
@@ -50,7 +50,7 @@ const reviews: Review[] = [
     text: "It was a pleasure traveling with Thomas Cook again—first Europe, now Vietnam—both trips were fantastic! We loved the hotels, itinerary, food, and especially Tour Manager Dr. Mehak's engaging guidance. Looking forward to more memorable trips with Thomas Cook.",
     author: "Geetha Guruswamy",
     date: "January, 2026",
-    avatar: "/avatars/geetha.jpg",
+    // avatar: "/avatars/geetha.jpg",
     initials: "GG",
   },
   {
@@ -58,7 +58,7 @@ const reviews: Review[] = [
     text: "My family and I enjoyed a wonderful Europe holiday with Thomas Cook last Christmas. The entire trip was well-planned, seamless, and truly memorable. We also appreciate the smooth handling of our visa process, which made our journey even easier. We plan to do more such holidays with Thomas Cook in the future.",
     author: "Lawrence Yesudass",
     date: "December, 2025",
-    avatar: "/avatars/lawrence.jpg",
+    // avatar: "/avatars/lawrence.jpg",
     initials: "LY",
   },
   {
@@ -66,7 +66,7 @@ const reviews: Review[] = [
     text: "Booked a Rajasthan heritage tour for our anniversary and it exceeded every expectation. The accommodations were luxurious, guides were knowledgeable, and the itinerary perfectly balanced sightseeing with leisure. Thomas Cook truly knows how to craft unforgettable journeys.",
     author: "Priya Sharma",
     date: "March, 2026",
-    avatar: "/avatars/priya.jpg",
+    // avatar: "/avatars/priya.jpg",
     initials: "PS",
   },
   {
@@ -74,7 +74,7 @@ const reviews: Review[] = [
     text: "Our group of 15 people went on a Thailand trip organized by Thomas Cook. Everything from flights to hotels to local transfers was perfectly coordinated. The tour manager was exceptional — always available and extremely helpful. Highly recommended!",
     author: "Arjun Mehta",
     date: "February, 2026",
-    avatar: "/avatars/arjun.jpg",
+    // avatar: "/avatars/arjun.jpg",
     initials: "AM",
   },
 ];
@@ -121,7 +121,7 @@ function ReviewCard({ review }: { review: Review }) {
         {/* Author */}
         <div className="flex items-center gap-3">
           <Avatar className="w-11 h-11 border-2 border-blue-200">
-            <AvatarImage src={review.avatar} alt={review.author} />
+            {/* <AvatarImage src={review.avatar} alt={review.author} /> */}
             <AvatarFallback className="bg-blue-600 text-white text-sm font-bold">
               {review.initials}
             </AvatarFallback>
