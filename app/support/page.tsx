@@ -33,19 +33,19 @@ const contactDetails = [
   {
     icon: Phone,
     title: "Call Us",
-    lines: ["+975 17 123 456", "+975 77 654 321"],
+    lines: ["+975 77367954", "+975 17949827"],
     sub: "Mon – Sat, 9 AM – 6 PM (BST)",
   },
   {
     icon: Mail,
     title: "Email Us",
-    lines: ["info@yourtour.bt", "bookings@yourtour.bt"],
+    lines: ["indruka2026@gmail.com"],
     sub: "We reply within 24 hours",
   },
   {
     icon: MapPin,
     title: "Our Office",
-    lines: ["Norzin Lam, Thimphu", "Bhutan – 11001"],
+    lines: ["Babesa, Thimphu", "Bhutan – 11001"],
     sub: "Walk-ins welcome",
   },
   {
