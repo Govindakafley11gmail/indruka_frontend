@@ -140,7 +140,7 @@ const href =
             {oldPrice && (
               <div className="flex items-center gap-2">
                 <span className="line-through text-gray-400 text-sm">
-                  ₹ {oldPrice}
+                   {oldPrice}
                 </span>
                 {discount && (
                   <Badge className="bg-orange-500 text-white text-[10px]">
