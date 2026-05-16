@@ -79,24 +79,24 @@ const reviews: Review[] = [
   },
 ];
 
-// ─── Stat Card ─────────────────────────────────────────────────────────────────
-function StatItem({ value, label, isLast }: Stat & { isLast: boolean }) {
-  return (
-    <div className="flex items-center gap-0">
-      <div className="flex flex-col items-center px-6 md:px-10 py-4 text-center">
-        <span className="text-4xl md:text-5xl font-extrabold text-blue-600 tracking-tight">
-          {value}
-        </span>
-        <span className="mt-1 text-sm md:text-base text-slate-500 font-medium uppercase tracking-widest">
-          {label}
-        </span>
-      </div>
-      {!isLast && (
-        <div className="h-12 w-px bg-blue-200 shrink-0" aria-hidden="true" />
-      )}
-    </div>
-  );
-}
+// // ─── Stat Card ─────────────────────────────────────────────────────────────────
+// function StatItem({ value, label, isLast }: Stat & { isLast: boolean }) {
+//   return (
+//     <div className="flex items-center gap-0">
+//       <div className="flex flex-col items-center px-6 md:px-10 py-4 text-center">
+//         <span className="text-4xl md:text-5xl font-extrabold text-blue-600 tracking-tight">
+//           {value}
+//         </span>
+//         <span className="mt-1 text-sm md:text-base text-slate-500 font-medium uppercase tracking-widest">
+//           {label}
+//         </span>
+//       </div>
+//       {!isLast && (
+//         <div className="h-12 w-px bg-blue-200 shrink-0" aria-hidden="true" />
+//       )}
+//     </div>
+//   );
+// }
 
 // ─── Review Card ───────────────────────────────────────────────────────────────
 function ReviewCard({ review }: { review: Review }) {
@@ -184,7 +184,7 @@ export default function CustomerReviews() {
           </p>
         </div>
 
-        {/* ── Stats Bar ── */}
+        {/* ── Stats Bar ──
         <div className="flex flex-wrap justify-center items-center mb-14 bg-white/70 backdrop-blur-sm rounded-2xl shadow-sm border border-blue-100 w-fit mx-auto px-2 py-2">
           {stats.map((stat, i) => (
             <StatItem
@@ -193,7 +193,7 @@ export default function CustomerReviews() {
               isLast={i === stats.length - 1}
             />
           ))}
-        </div>
+        </div> */}
 
         {/* ── Carousel ── */}
         <Carousel
