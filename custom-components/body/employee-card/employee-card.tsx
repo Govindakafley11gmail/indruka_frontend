@@ -20,16 +20,17 @@ type Profile = {
 };
 
 const profiles: Profile[] = [
+
   {
     id: 1,
-    name: "Govinda Prasad Sharma",
+    name: "Jina Powdel",
     role: "Founder",
     image: "/jina.jpeg",
   },
-  {
+    {
     id: 2,
-    name: "Jina Powdel",
-    role: "Director Operation & IT",
+    name: "Govinda Prasad Sharma",
+    role: "Operation Manager",
     image: "/govinda.jpeg",
   },
   {
