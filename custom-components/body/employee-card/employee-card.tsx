@@ -22,15 +22,15 @@ type Profile = {
 const profiles: Profile[] = [
   {
     id: 1,
-    name: "Tashi Dorji",
-    role: "Travel Guide",
-    image: "https://images.unsplash.com/photo-1502685104226-ee32379fefbe",
+    name: "Govinda Prasad Sharma",
+    role: "Founder",
+    image: "/jina.jpeg",
   },
   {
     id: 2,
-    name: "Karma Wangmo",
-    role: "Photographer",
-    image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330",
+    name: "Jina Powdel",
+    role: "Director Operation & IT",
+    image: "/govinda.jpeg",
   },
   {
     id: 3,
@@ -128,13 +128,13 @@ export default function SocialCardSlider() {
 
                   <div className="flex gap-2">
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <LeafIcon size={16} />
+                      <Image src="/icons/facebook.png" alt="Facebook" width={16} height={16} />
                     </Button>
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <Home size={16} />
+                      <Image src="/icons/instagram.png" alt="Instagram" width={16} height={16} />
                     </Button>
                     <Button size="icon" className="rounded-full bg-white/20 text-white">
-                      <Globe size={16} />
+                      <Image src="/icons/twitter.png" alt="Twitter" width={16} height={16} />
                     </Button>
                   </div>
                 </div>
