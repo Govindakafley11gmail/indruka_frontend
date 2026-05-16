@@ -41,7 +41,6 @@ export default function PartyInputPage({ onSelect }: PartyInputPageProps) {
 
   const handleRowClick = (row: BookingParty) => {
     // Sum all numeric "amount" fields across ALL rows in the table
-    console.log('tableData', tableData)
     const totalAmount = tableData.reduce((sum, party) => sum + party.amount, 0);
     onSelect?.({ selectedRow: row, amount: totalAmount });
   };

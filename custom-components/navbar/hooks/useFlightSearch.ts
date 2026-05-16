@@ -45,7 +45,6 @@ export function useFlightSearch() {
     setState((prev:any) => ({ ...prev, travellers }));
 
   const handleSearch = () => {
-    console.log("Searching with state:", state);
     // integrate with search API here
   };
 

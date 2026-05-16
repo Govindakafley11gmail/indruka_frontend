@@ -123,7 +123,6 @@ export const bhutanTripConfig = (
       parties,
     };
 
-    console.log("Payload to send:", payload);
     createBooking(payload);
   },
 });

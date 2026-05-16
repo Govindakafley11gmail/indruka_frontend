@@ -11,7 +11,6 @@ export function PendingBookingsWidget() {
   const { data, isLoading, isError } = useGetPendingBookings("PENDING");
 
   const pendingBookings = data?.data ?? [];
-   console.log(data)
   const handleBookingClick = (bookingId: string) => {
     router.push(`/booking?partyId=${bookingId}`);
   };

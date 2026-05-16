@@ -27,7 +27,7 @@ const places: Place[] = [
     rating: 4.9,
     reviews: 3241,
     tag: "Iconic",
-    image: "/bhutan1.jpg",
+    image: "/photo13.jpg",
   },
   {
     id: 2,
@@ -37,7 +37,18 @@ const places: Place[] = [
     rating: 4.8,
     reviews: 1879,
     tag: "Heritage",
-    image: "/bhutan2.jpg",
+    image: "/punakhadzong.jpg",
+    country: "Bhutan",
+  },
+   {
+    id: 7,
+    name: "Thimphu",
+    region: "Thimphu",
+    type: "Cultural",
+    rating: 4.8,
+    reviews: 1879,
+    tag: "Heritage",
+    image: "/thimphudzong.jpg",
     country: "Bhutan",
   },
   {

@@ -192,7 +192,6 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
     parties,
   };
 
-  console.log("Payload to send:", payload);
   createBooking(payload);
 },
   };

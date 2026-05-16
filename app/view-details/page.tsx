@@ -10,7 +10,6 @@ export default async function TouristPageDetails({
   const params = await searchParams;
   const id = Number(params.id);
   const tour = tours.find((t) => t.id === id);
-console.log("tour",tour?.country)
   if (!tour) {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -21,6 +20,5 @@ console.log("tour",tour?.country)
 
   // Strip any function fields before passing to Client Component
   const { onViewItinerary, ...plainTour } = tour as any;
-console.log("plain tour",plainTour)
   return <TourPageClient tour={plainTour} />;
 }

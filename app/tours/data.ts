@@ -200,7 +200,7 @@ export const tours = [
       { label: "Group Size", value: "Customised — 2 to 10+ passengers" },
     ],
 
-    onViewItinerary: () => console.log("view itinerary clicked"),
+    onViewItinerary: () => {},
   },
   {
     id: 2,
@@ -9681,7 +9681,7 @@ src: "/goa.jpg",
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Road",
-    src: "/haa1.jpg",
+    src: "/photo13.jpg",
     popular: true,
 
     tourFeatures: [
@@ -9717,7 +9717,7 @@ src: "/goa.jpg",
     tourManagerCompany: "",
 
     heroImage: {
-      src: "/haa1.jpg",
+      src: "/photo13.jpg",
       alt: "Bhutan Tour with Haa Valley — Paro to Bumthang via Punakha and Haa",
     },
 
@@ -9725,17 +9725,17 @@ src: "/goa.jpg",
     thumbnails: [
         {
         id: 1,
-        src: "/haa2.jpg",
+        src: "/photo13.jpg",
         alt: "Haa Dzong",
       },
       {
         id: 2,
-        src: "/haa3.jpg",
+        src: "/doc3.jpg",
         alt: "Haa Dzongkhag",
       },
       {
         id: 3,
-        src: "/haa4.jpg",
+        src: "/tigers-nest-path.jpg",
         alt: "haa places",
       },
     ],
@@ -10291,7 +10291,7 @@ src: "/goa.jpg",
     badge: "Adventure",
     badgeColor: "bg-green-700",
     mode: "Trek",
-    src: "/Dagala1.jpg",
+    src: "/doc3.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Tent", label: "Camp Stay", color: "#6C72E8", bg: "#EEF0FD" },
@@ -10326,19 +10326,19 @@ src: "/goa.jpg",
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "/Dagala2.jpg",
+      src: "/doc3.jpg",
       alt: "Dagala Thousand Lakes Trek in Bhutan — Paro to Thimphu via Dagala Highlands",
     },
     testimonials: [],
     thumbnails: [
        {
         id: 1,
-        src: "/Dagala2.jpg",
+        src: "/doc3.jpg",
         alt: "Dagala2",
       },
       {
         id: 2,
-        src: "/Dagala3.jpg",
+        src: "/vaishno-Hima8.jpg",
         alt: "Dagala3",
       },
       {
@@ -10520,7 +10520,7 @@ src: "/goa.jpg",
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    src: "/paro.jpg",
+    src: "/punakhadzong.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
@@ -10560,19 +10560,19 @@ src: "/goa.jpg",
     ],
     tourManagerCompany: "",
     heroImage: {
-      src: "/paro.jpg",
+      src: "/punakhadzong.jpg",
       alt: "Glimpse of Bhutan — Paro, Thimphu, Punakha 6-Day Tour",
     },
     testimonials: [],
     thumbnails: [
       {
         id: 1,
-        src: "/paro2.jpg",
+        src: "/vaishno-Hima2.jpg",
         alt: "paro2",
       },
       {
         id: 2,
-        src: "/paro3.jpg",
+        src: "/thimphu5.jpg",
         alt: "paro3",
       },
       {
@@ -11364,7 +11364,7 @@ src: "/goa.jpg",
       },
       {
         id: 2,
-        src: "/paro-festvals.jpg",
+        src: "/punakha-festivals.jpg",
         alt: "paro-festval13",
       },
       {
@@ -11769,7 +11769,7 @@ src: "/goa.jpg",
     badge: "Trekking",
     badgeColor: "bg-green-600",
     mode: "Trek",
-    src: "/druk-path-1.jpg",
+    src: "/huge-complex.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Tent", label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
@@ -12060,7 +12060,7 @@ src: "/goa.jpg",
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    src: "/bhtuanCulture.jpg",
+    src: "/DGkalipong2.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },
@@ -12101,14 +12101,14 @@ src: "/goa.jpg",
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "/bhutanCulture1.jpg",
+      src: "/DGkalipong2.jpg",
       alt: "Bhutan Cultural Journey — Paro, Thimphu, Phobjikha, Bumthang & Punakha 10-Day Tour",
     },
     testimonials: [],
     thumbnails: [
       {
         id: 1,
-        src: "/bhutanCulture1.jpg",
+        src: "/DGkalipong2.jpg",
         alt: "BhutanCulture1.jpg",
       },
       {
@@ -12665,7 +12665,7 @@ src: "/goa.jpg",
     badge: "Trekking",
     badgeColor: "bg-green-600",
     mode: "Trek",
-    src: "/happiness-trek.jpg",
+    src: "/The lake.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Tent", label: "Camping", color: "#6C72E8", bg: "#EEF0FD" },
@@ -12706,14 +12706,14 @@ src: "/goa.jpg",
     ],
     tourManagerCompany: "Indruka Tours and Travels",
     heroImage: {
-      src: "/happiness-trek1.jpg",
+      src: "/The lake.jpg",
       alt: "Happiness Trek — 14-Day Culture, Trekking & Timeless Adventure Through Bhutan",
     },
     testimonials: [],
     thumbnails: [
       {
         id: 1,
-        src: "/happiness-trek2.jpg",
+        src: "/adikalesh.jpg",
         alt: "happiness-trek2",
       },
       {
@@ -13016,7 +13016,7 @@ src: "/goa.jpg",
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Tour",
-    src: "/thimphu1.jpg",
+    src: "/darjeeling11.jpg",
     popular: true,
     tourFeatures: [
       { icon: "Building2", label: "Hotels", color: "#6C72E8", bg: "#EEF0FD" },

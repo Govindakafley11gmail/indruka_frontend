@@ -18,7 +18,6 @@ const DocumentCustomDialog = ({ selectedRow }: any) => {
 
     // 👇 Fetch documents by selectedRow.id
     const { data: documents, isLoading } = useGetDocuments(selectedRow?.id);
-console.log('documents',documents)
     const documentFields = DocumentDialogFields;
     const [isEditing, setIsEditing] = useState(false);
 

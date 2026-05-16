@@ -49,8 +49,8 @@ export const BhutanItem: TourCardProps[] = [
       "Max 16 Guests",
     ],
     images: [
-      "/Haa_Valley.jpg", // To be filled
-      "/haa1.jpg", // To be filled
+      "/paro1.jpg", // To be filled
+      "/ooty3.jpg", // To be filled
     ],
     inclusions: [
       { icon: Plane, label: "Flights", optional: true },
@@ -102,8 +102,8 @@ export const BhutanItem: TourCardProps[] = [
      type:["Family","Cultural"],
     tags: ["3N/4D", "Cultural Tour", "Tiger's Nest", "Max 16 Guests"],
     images: [
-      "/short_trip.jpg", // To be filled
-      "paro.jpg", // To be filled
+      "/pondicherry.jpg", // To be filled
+      "kashmir-scene3.jpg", // To be filled
     ],
     inclusions: [
       { icon: Plane, label: "Flights", optional: true },
@@ -126,7 +126,7 @@ export const BhutanItem: TourCardProps[] = [
      type:["Family","Festivals"],
     tags: ["7N/8D", "Festival Tour", "Paro Tsechu", "Max 16 Guests"],
     images: [
-      "/paro-festival1.jpg", // To be filled
+      "/thimphu-festival1.jpg", // To be filled
       "/paro-festival2.jpg", // To be filled
     ],
     inclusions: [
@@ -158,7 +158,7 @@ export const BhutanItem: TourCardProps[] = [
       "Max 16 Guests",
     ],
     images: [
-      "/thimphu1.jpg", // To be filled
+      "/bhutan-thimphu-city.jpg", // To be filled
       "/dochula_overview.jpg", // To be filled
     ],
     inclusions: [
@@ -259,8 +259,8 @@ export const BhutanItem: TourCardProps[] = [
       "Indruka Tours and Travel",
     ],
     images: [
-      "/phuentsholing.jpg", // To be filled
-      "/phuentsholing1.jpg", // To be filled
+      "/buddha.png", // To be filled
+      "/Bhutanese village.jpg", // To be filled
     ],
     inclusions: [
       { icon: Building2, label: "Base Category Hotels" },

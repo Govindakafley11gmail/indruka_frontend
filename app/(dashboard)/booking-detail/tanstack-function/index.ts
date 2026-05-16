@@ -139,7 +139,6 @@ const updateRegBooking = async ({
   booking_id,
   data,
 }: UpdateBookingPayload): Promise<BookingPartyAttributes> => {
-  console.log("hgdhgdhs", booking_id, 'value', data)
   const response = await apiClient.patch(
     `${ACL_API_URL.bookings}/${booking_id}`,
     data,
@@ -195,7 +194,6 @@ const updateBooking = async ({
   booking_id,
   data,
 }: UpdateBookingPayload): Promise<BookingPartyAttributes> => {
-  console.log("hgdhgdhs", booking_id, 'value', data)
   const response = await apiClient.patch(
     `${ACL_API_URL.bookings}/party/${booking_id}`,
     data,

@@ -24,7 +24,6 @@ const QuotationFormFields: FC<QuotationFormFieldsProps> = ({
             initialValues={initialValues}
             enableReinitialize
             onSubmit={(values) => {
-                console.log("Submitting form:", values);
                 onSubmit(values); // pass data to parent
             }}
         >
