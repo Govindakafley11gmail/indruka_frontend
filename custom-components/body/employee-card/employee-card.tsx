@@ -126,7 +126,7 @@ export default function SocialCardSlider() {
                     {profile.role}
                   </p>
 
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 bg-white">
                     <Button size="icon" className="rounded-full ">
                       <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
                     </Button>
