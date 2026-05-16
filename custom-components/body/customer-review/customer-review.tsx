@@ -39,7 +39,7 @@ const stats: Stat[] = [
 const reviews: Review[] = [
   {
     id: 1,
-    text: "We completed our Chardham Yatra by helicopter on 6th June 2025 as a group of six. Despite initial hiccups and weather challenges, the Thomas Cook team ensured smooth darshan and timely return to Dehradun. A special thanks to Mr. Mandar for ensuring that my husband and I could continue the journey together after completing the first two dhams.",
+    text: "We completed our Chardham Yatra by helicopter on 6th June 2025 as a group of six. Despite initial hiccups and weather challenges, the Indruka Tours team ensured smooth darshan and timely return to Dehradun. A special thanks to Mr. Mandar for ensuring that my husband and I could continue the journey together after completing the first two dhams.",
     author: "Kanan Nanavati",
     date: "June, 2025",
     // avatar: "/avatars/kanan.jpg",
@@ -47,7 +47,7 @@ const reviews: Review[] = [
   },
   {
     id: 2,
-    text: "It was a pleasure traveling with Thomas Cook again—first Europe, now Vietnam—both trips were fantastic! We loved the hotels, itinerary, food, and especially Tour Manager Dr. Mehak's engaging guidance. Looking forward to more memorable trips with Thomas Cook.",
+    text: "It was a pleasure traveling with Indruka Tours again—first Europe, now Vietnam—both trips were fantastic! We loved the hotels, itinerary, food, and especially Tour Manager Dr. Mehak's engaging guidance. Looking forward to more memorable trips with Indruka Tours.",
     author: "Geetha Guruswamy",
     date: "January, 2026",
     // avatar: "/avatars/geetha.jpg",
@@ -55,7 +55,7 @@ const reviews: Review[] = [
   },
   {
     id: 3,
-    text: "My family and I enjoyed a wonderful Europe holiday with Thomas Cook last Christmas. The entire trip was well-planned, seamless, and truly memorable. We also appreciate the smooth handling of our visa process, which made our journey even easier. We plan to do more such holidays with Thomas Cook in the future.",
+    text: "My family and I enjoyed a wonderful Europe holiday with Indruka Tours last Christmas. The entire trip was well-planned, seamless, and truly memorable. We also appreciate the smooth handling of our visa process, which made our journey even easier. We plan to do more such holidays with Indruka Tours in the future.",
     author: "Lawrence Yesudass",
     date: "December, 2025",
     // avatar: "/avatars/lawrence.jpg",
@@ -63,7 +63,7 @@ const reviews: Review[] = [
   },
   {
     id: 4,
-    text: "Booked a Rajasthan heritage tour for our anniversary and it exceeded every expectation. The accommodations were luxurious, guides were knowledgeable, and the itinerary perfectly balanced sightseeing with leisure. Thomas Cook truly knows how to craft unforgettable journeys.",
+    text: "Booked a Rajasthan heritage tour for our anniversary and it exceeded every expectation. The accommodations were luxurious, guides were knowledgeable, and the itinerary perfectly balanced sightseeing with leisure. Indruka Tours truly knows how to craft unforgettable journeys.",
     author: "Priya Sharma",
     date: "March, 2026",
     // avatar: "/avatars/priya.jpg",
@@ -71,7 +71,7 @@ const reviews: Review[] = [
   },
   {
     id: 5,
-    text: "Our group of 15 people went on a Thailand trip organized by Thomas Cook. Everything from flights to hotels to local transfers was perfectly coordinated. The tour manager was exceptional — always available and extremely helpful. Highly recommended!",
+    text: "Our group of 15 people went on a Thailand trip organized by Indruka Tours. Everything from flights to hotels to local transfers was perfectly coordinated. The tour manager was exceptional — always available and extremely helpful. Highly recommended!",
     author: "Arjun Mehta",
     date: "February, 2026",
     // avatar: "/avatars/arjun.jpg",
