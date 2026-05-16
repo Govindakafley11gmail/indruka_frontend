@@ -12,6 +12,7 @@ import {
 import { FilterMainDrawer } from "@/app/components/drawer/drawer-horizontal";
 import { MobileMenuContent } from "@/app/components/drawer/mobileMenuContent";
 import Link from "next/link";
+import { socials } from "@/custom-components/footer/footer";
 
 export function Header() {
   const [open, setOpen] = useState(false);
@@ -58,9 +59,30 @@ export function Header() {
 
             {/* Desktop Login */}
             <div className="hidden md:block">
-              <Button className="rounded-full bg-blue-600 text-white">
-                Login / Signup
-              </Button>
+              <div className="flex gap-3">
+              {/* {["FB", "TW", "IG"].map((s) => (
+                <button
+                  key={s}
+                  className="h-9 w-9 rounded-full border border-gray-300 bg-white text-xs font-semibold text-gray-500 transition-all duration-200 hover:border-blue-500 hover:bg-blue-600 hover:text-white"
+                >
+                  {s}
+                </button>
+                
+              ))} */}
+              {socials.map(({ label, href, bg, icon }) => (
+                <a
+                  key={label}
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label={label}
+                  className="flex h-10 w-10 items-center justify-center rounded-full transition-opacity duration-200 hover:opacity-80"
+                  style={{ background: bg }}
+                >
+                  {icon}
+                </a>
+              ))}
+            </div>
             </div>
 
             {/* Mobile Menu Button */}

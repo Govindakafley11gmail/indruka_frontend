@@ -23,13 +23,13 @@ const profiles: Profile[] = [
 
   {
     id: 1,
-    name: "Jina Powdel",
+    name: "Govin Sharma",
     role: "Founder",
     image: "/jina.jpeg",
   },
     {
     id: 2,
-    name: "Govinda Prasad Sharma",
+    name: "Jina Sharma",
     role: "Operation Manager",
     image: "/govinda.jpeg",
   },
@@ -119,7 +119,7 @@ export default function SocialCardSlider() {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                 </div>
 
-                <div className="absolute bottom-0 p-5 w-full backdrop-blur-md bg-white/10 border-t border-white/20">
+                <div className="absolute bottom-0 p-5 w-full backdrop-blur-md border-t border-white/20">
                   <h3 className="text-white text-lg font-semibold">
                     {profile.name}
                   </h3>
@@ -127,8 +127,8 @@ export default function SocialCardSlider() {
                     {profile.role}
                   </p>
 
-                  <div className="flex gap-2 bg-white">
-                    <Button size="icon" className="rounded-full ">
+                  <div className="flex gap-2">
+                    {/* <Button size="icon" className="rounded-full ">
                       <Image src="/facebook.png" alt="Facebook" width={24} height={24} />
                     </Button>
                     <Button size="icon" className="rounded-full ">
@@ -136,7 +136,7 @@ export default function SocialCardSlider() {
                     </Button>
                     <Button size="icon" className="rounded-full ">
                       <Image src="/whatsapp.png" alt="Twitter" width={24} height={24} />
-                    </Button>
+                    </Button> */}
                   </div>
                 </div>
               </Card>
