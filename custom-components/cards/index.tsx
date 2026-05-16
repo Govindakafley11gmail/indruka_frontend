@@ -115,7 +115,7 @@ const href =
               )}
 
               <div
-                className={`w-10 h-10 flex items-center justify-center rounded-lg ${
+                className={`w-10 h-10 flex items-center justify-center p-2 rounded-lg ${
                   optional ? "bg-orange-50" : "bg-blue-50"
                 }`}
               >
@@ -150,7 +150,7 @@ const href =
               </div>
             )}
 
-            <div className="text-xl font-bold">₹ {price}</div>
+            <div className="text-xl font-bold"> {price}</div>
             <p className="text-xs text-gray-400">Starting price per adult</p>
           </div>
 
