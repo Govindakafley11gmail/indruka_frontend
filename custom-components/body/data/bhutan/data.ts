@@ -35,7 +35,7 @@ export const BhutanItem: TourCardProps[] = [
     title: "Bhutan Tour with Haa Valley",
     place: "Paro",
     itinerary:
-      "1N Paro • 2N Thimphu • 1N Punakha • 1N Phobjikha • 1N Tang Valley • 1N Bumthang • 1N Thimphu • 1N Haa • 2N Paro",
+      "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
     price: 'From $3,370', // To be filled
     oldPrice: 0, // To be filled
@@ -67,7 +67,7 @@ export const BhutanItem: TourCardProps[] = [
     title: "Jomolhari Trekking in Bhutan",
     place: "Pharo",
     itinerary:
-      "2N Paro • 1N Shingkharap • 1N Soi Thangkha • 2N Jangothang • 1N Lingzhi • 1N Shodu • 1N Thimphu • 1N Punakha • 1N Paro",
+      "Paro • Shingkharap • Soi Thangkha • Jangothang • Lingzhi • Shodu • Thimphu • Punakha ",
     country: "Bhutan",
     price: '$ 3,980', // To be filled
     oldPrice: 0, // To be filled
@@ -94,7 +94,7 @@ export const BhutanItem: TourCardProps[] = [
   {
     title: "Bhutan Short Trip",
     place: "Paro",
-    itinerary: "1N Thimphu • 2N Paro",
+    itinerary: "Thimphu •  Paro",
     country: "Bhutan",
     price: "$ 1,065", // To be filled
     oldPrice: 0, // To be filled
@@ -103,7 +103,7 @@ export const BhutanItem: TourCardProps[] = [
     tags: ["3N/4D", "Cultural Tour", "Tiger's Nest", "Max 16 Guests"],
     images: [
       "/short_trip.jpg", // To be filled
-      "Paro.jpg", // To be filled
+      "paro.jpg", // To be filled
     ],
     inclusions: [
       { icon: Plane, label: "Flights", optional: true },
@@ -118,7 +118,7 @@ export const BhutanItem: TourCardProps[] = [
   {
     title: "Paro Festival Tour",
     place: "Paro",
-    itinerary: "2N Thimphu • 2N Punakha • 3N Paro",
+    itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
     price:"$ 2,300", // To be filled
     oldPrice: 0, // To be filled
@@ -143,7 +143,7 @@ export const BhutanItem: TourCardProps[] = [
   {
     title: "Best of Bhutan Tour",
     place: "Paro",
-    itinerary: "2N Thimphu • 2N Phobjikha • 1N Punakha • 2N Paro",
+    itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
     price:"$ 2,550", // To be filled
     oldPrice: 0, // To be filled
@@ -176,7 +176,7 @@ export const BhutanItem: TourCardProps[] = [
 {
     title: "Bhutan Cultural Journey",
     place: "Paro",
-    itinerary: "2N Thimphu • 1N Phobjikha • 1N Tang Valley • 1N Jakar • 2N Punakha • 2N Paro",
+    itinerary: "Thimphu • Phobjikha • Tang Valley • Jakar • Punakha • Paro",
     country: "Bhutan",
     price: 0, // To be filled
     oldPrice: 0, // To be filled
@@ -208,7 +208,7 @@ export const BhutanItem: TourCardProps[] = [
  {
     title: "Bhutan Luxury Tour",
     place: "Paro",
-    itinerary: "2N Thimphu • 2N Punakha • 2N Gangtey • 2N Bumthang • 2N Paro",
+    itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
     price: 0, // To be filled
     oldPrice: 0, // To be filled
@@ -240,45 +240,11 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Drama, label: "Private Farewell Dinner" },
     ],
   },
-  //   {
-  //   title: "Happiness Trek",
-  //   place: "Paro",
-  //   itinerary: "2N Bumthang • 4N Camping • 2N Phobjikha • 1N Punakha • 1N Thimphu • 2N Paro",
-  //   country: "Bhutan",
-  //   price: 0, // To be filled
-  //   oldPrice: 0, // To be filled
-  //   discount: "", // To be filled
-  //       type:["Trekking"],
-  //   tags: [
-  //     "13N/14D",
-  //     "Trek & Walk",
-  //     "Moderate",
-  //     "Central Bhutan",
-  //     "Village Immersion",
-  //   ],
-  //   images: [
-  //     "", // To be filled
-  //     "", // To be filled
-  //   ],
-  //   inclusions: [
-  //     { icon: Plane, label: "Domestic Flight (Bumthang)", optional: true },
-  //     { icon: Building2, label: "Hotels & Guesthouses" },
-  //     { icon: Home, label: "Village Homestays" },
-  //     { icon: Tent, label: "Indruka Camping" },
-  //     { icon: UtensilsCrossed, label: "All Meals" },
-  //     { icon: Car, label: "Transfers" },
-  //     { icon: UserCheck, label: "Expert Trek Guide" },
-  //     { icon: Footprints, label: "Trekking Crew & Pack Animals" },
-  //     { icon: Mountain, label: "Tiger's Nest Hike" },
-  //     { icon: Bird, label: "Crane Sanctuary Visit" },
-  //     { icon: Flame, label: "Campfire & Ara Tasting" },
-  //     { icon: Music2, label: "Village Folk Dance Evening" },
-  //   ],
-  // },
+
     {
     title: "From Historical to Modern Day Bhutan",
     place: "Phuentsholing",
-    itinerary: "2N Phuentsholing • 1N Thimphu • 2N Paro",
+    itinerary: "Phuentsholing • Thimphu • Paro",
     country: "Bhutan",
     price: 21000,
     oldPrice: 23334,
