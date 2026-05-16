@@ -29,7 +29,7 @@ export default function TourCategories() {
 
       {/* TABS */}
       <div className="max-w-7xl mx-auto ">
-        <Tabs defaultValue="india" className="w-full">
+        <Tabs defaultValue="bhutan" className="w-full">
           {/* COUNTRY SWITCH */}
           <div className="flex justify-center">
             <TabsList className="flex gap-3 bg-transparent p-0 h-auto">
@@ -132,7 +132,7 @@ export default function TourCategories() {
             </TabsList>
           </div>
           <TabsContent value="bhutan" className="mt-0 pt-0">
-            <Card title="India Tours" item={BhutanItem} />
+            <Card title="Bhutan Tours" item={BhutanItem} />
           </TabsContent>
           <TabsContent value="india" className="mt-0 pt-0">
             <Card title="India Tours" item={Indiaitem} />
