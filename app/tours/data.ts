@@ -4403,7 +4403,7 @@ src: "/goa.jpg",
     thumbnails: [
       {
         id: 1,
-        src: "/UDelight1.jpg",
+        src: "/Udelight1.jpg",
         alt: "Uttarakhand Delights",
       },
       {
