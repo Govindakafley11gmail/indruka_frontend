@@ -6,11 +6,13 @@ export const tourInformationTabs: TabSection[] = [
     label: "Inclusions",
     dotColor: "bg-green-500",
     items: [
-      "Return airfare (Economy class)",
-      "4-star hotel accommodation (twin sharing)",
-      "Daily breakfast & select dinners",
-      "All transfers by air-conditioned coach",
+      "Airfare (Economy class) (optional)",
+      "3-star and above hotel accommodation (twin sharing)",
+      "Daily breakfast ,Lunch &  dinners",
       "English-speaking Tour Manager throughout",
+      "Government Taxes",
+      "Travel insurance (optional)",
+      "Sightseeing Fees & Visa"
     ],
   },
   {
@@ -18,10 +20,11 @@ export const tourInformationTabs: TabSection[] = [
     label: "Exclusions",
     dotColor: "bg-red-500",
     items: [
-      "Visa fees",
-      "Travel insurance",
+      "Airfare if not included",
+      "Travel insurance, if not included.",
       "Personal expenses & tips",
-      "Meals not mentioned in inclusions",
+      "Optional Activities",
+      "Alcoholic & Special Beverages"
     ],
   },
   {
@@ -29,18 +32,21 @@ export const tourInformationTabs: TabSection[] = [
     label: "Visa Info",
     dotColor: "bg-blue-500",
     items: [
-      "Schengen visa required for Indian passport holders",
+      "A digital copy of a valid passport",
       "Processing time: 10–15 working days",
-      "Documents: passport copy, bank statement, photos",
+      "Documents: passport copy, photos",
+      "Travel Insurance"
     ],
   },
 ];
 
 export const needToKnow: string[] = [
   "Carry comfortable walking shoes — cobblestone streets ahead!",
-  "Currency: Euro (€). ATMs are widely available.",
+  "Currency: Dollar/ Crypto. ATMs are widely available.",
   "Weather in June: 18 °C – 25 °C. Light jacket recommended.",
-  "Tipping: €1–2 per day for your Tour Manager is appreciated.",
+  "Sustainable Development Fee (SDF) of USD100 per night per adult and USD50 for children aged 5 to 12 years old. Children below 5 years are waived.",
+  "A one-time visa application fee of USD40.",
+   "For Indian: Sustainable Development Fee (SDF) of Rs.1200 per night per adult and Rs.600 for children aged 5 to 12 years old. Children below 5 years are waived and Government of Bhutan will provide on arrival visa.",
 ];
 
 export const cancellationRows: CancellationRow[] = [
@@ -74,7 +80,6 @@ export const mainTabs: MainTab[] = [
   { value: "tour-information", label: "Tour Information" },
   { value: "need-to-know", label: "Need to Know" },
   { value: "cancellation", label: "Cancellation Policy" },
-  { value: "upgrades", label: "Upgrades" },
 ];
 export interface ViewDetailsPageProps {
   searchParams: Promise<{
