@@ -45,7 +45,7 @@ export default function BookingPage({
 
   const {
     createBooking,
-  
+
     isLoading,
   } = useBookingMutations({
     onSuccess: (data) => {
@@ -56,7 +56,6 @@ export default function BookingPage({
         icon: "",
         sound: true,
       });
-      
     },
     onError: (error) => {
       showToast.error(error?.data?.message, {
@@ -68,7 +67,8 @@ export default function BookingPage({
       });
     },
   });
-const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
+  const tripTypeOptions: string[] =
+    SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
   const bookingConfig: BookingModalConfig = {
     title: `Book ${tourName}`,
     subtitle: "Complete your details to request a booking",
@@ -111,28 +111,6 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
         options: tripTypeOptions, // ← dynamically set from country
       },
       {
-        id: "nationality",
-        type: "select",
-        label: "Nationality",
-        placeholder: "Select nationality",
-        required: true,
-        colSpan: 2,
-        options: [
-          "Bangladesh",
-          "India",
-          "Nepal",
-          "Sri Lanka",
-          "United States",
-          "United Kingdom",
-          "Australia",
-          "Canada",
-          "Germany",
-          "France",
-          "Japan",
-          "Singapore",
-        ],
-      },
-      {
         id: "phone",
         type: "phone",
         label: "Phone",
@@ -165,35 +143,36 @@ const tripTypeOptions: string[] = SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
     ],
 
     onSubmit: (data: any) => {
-  const startDate = data.dateRange?.from
-    ? new Date(data.dateRange.from).toISOString().split("T")[0]
-    : "";
-  const endDate = data.dateRange?.to
-    ? new Date(data.dateRange.to).toISOString().split("T")[0]
-    : "";
 
-  const numberOfTravellers = Number(data.travelers) || 1;
+      const startDate = data.dateRange?.from
+        ? new Date(data.dateRange.from).toISOString().split("T")[0]
+        : "";
+      const endDate = data.dateRange?.to
+        ? new Date(data.dateRange.to).toISOString().split("T")[0]
+        : "";
 
-  // Build parties array — one entry per traveller
-  const parties = Array.from({ length: numberOfTravellers }, () => ({
-    user_name: `${data.firstName} ${data.lastName}`,
-    mobile_number: data.phone ?? "",
-    email: data.email,
-    amount: price ?? 0,
-    adults: 1,
-  }));
+      const numberOfTravellers = Number(data.number_of_travellers) || 1; // ← was data.travelers
 
-  const payload: BookingPayload = {
-    number_of_travellers: numberOfTravellers,
-    trip_name: data.trip_name,
-    country: country ?? "",
-    start_date: startDate,
-    end_date: endDate,
-    parties,
-  };
+      const parties = Array.from({ length: numberOfTravellers }, () => ({
+        user_name: `${data.firstName} ${data.lastName}`,
+        mobile_number: data.phone ?? "", // ← full number as typed e.g. "+9751234567"
+        email: data.email,
+        amount: price ?? 0,
+        adults: 1,
+      }));
 
-  createBooking(payload);
-},
+      const payload: BookingPayload = {
+        number_of_travellers: numberOfTravellers,
+        trip_name: data.trip_name,
+        country: data.phoneCountry  || "", // ← detected from phone, fallback to prop
+        start_date: startDate,
+        end_date: endDate,
+        parties,
+      };
+      console.log("Payload",payload)
+
+      createBooking(payload);
+    },
   };
 
   return (

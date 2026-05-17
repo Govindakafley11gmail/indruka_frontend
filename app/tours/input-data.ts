@@ -56,15 +56,6 @@ export const bhutanTripConfig = (
       options: SPECIALITIES_BY_COUNTRY[country] ?? [],
     },
     {
-      id: "nationality",
-      type: "select",
-      label: "Nationality",
-      placeholder: "Select nationality",
-      required: true,
-      colSpan: 2,
-      options: nationalityOptions,
-    },
-    {
       id: "phone",
       type: "phone",
       label: "Phone",
@@ -97,32 +88,35 @@ export const bhutanTripConfig = (
   ],
 
   onSubmit: (data: any) => {
-    const startDate = data.dateRange?.from
-      ? new Date(data.dateRange.from).toISOString().split("T")[0]
-      : "";
-    const endDate = data.dateRange?.to
-      ? new Date(data.dateRange.to).toISOString().split("T")[0]
-      : "";
+  const startDate = data.dateRange?.from
+    ? new Date(data.dateRange.from).toISOString().split("T")[0]
+    : "";
+  const endDate = data.dateRange?.to
+    ? new Date(data.dateRange.to).toISOString().split("T")[0]
+    : "";
 
-    const numberOfTravellers = Number(data.number_of_travellers) || 1;
+  const numberOfTravellers = Number(data.number_of_travellers) || 1;
 
-    const parties = Array.from({ length: numberOfTravellers }, () => ({
-      user_name: `${data.firstName} ${data.lastName}`,
-      mobile_number: data.phone ?? "",
-      email: data.email,
-      amount: pricePerPerson ?? 0,
-      adults: 1,
-    }));
+  // ✅ Read per-traveller fields
+  const parties = Array.from({ length: numberOfTravellers }, (_, i) => ({
+    user_name: i === 0
+      ? `${data.firstName} ${data.lastName}`
+      : `${data[`firstName_${i}`] ?? ""} ${data[`lastName_${i}`] ?? ""}`.trim(),
+    mobile_number: data.phone ?? "",
+    email: i === 0 ? data.email : (data[`email_${i}`] ?? data.email),
+    amount: pricePerPerson ?? 0,
+    adults: 1,
+  }));
 
-    const payload: BookingPayload = {
-      number_of_travellers: numberOfTravellers,
-      trip_name: data.trip_name,
-      country: country ?? "",
-      start_date: startDate,
-      end_date: endDate,
-      parties,
-    };
-
-    createBooking(payload);
-  },
+  const payload: BookingPayload = {
+    number_of_travellers: numberOfTravellers,
+    trip_name: data.trip_name,
+    country: data.phoneCountry as string,
+    start_date: startDate,
+    end_date: endDate,
+    parties,
+  };
+console.log("Payload",payload)
+  createBooking(payload);
+},
 });
