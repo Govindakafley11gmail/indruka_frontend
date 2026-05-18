@@ -1,61 +1,60 @@
-export const API_EndPoints = process.env.NEXT_PUBLIC_API_EndPoints;
 
 const ACL_API_URL = {
-  Login: `${API_EndPoints}/users/login`,
-  LogOut: `${API_EndPoints}/users/logout`,
+  Login: `/users/login`,
+  LogOut: `/users/logout`,
 
   //USER MANAGEMENT
   //1. Users
-  User: `${API_EndPoints}/users`,
+  User: `/users`,
 
   //2. Roles
-  Role: `${API_EndPoints}/roles`,
+  Role: `/roles`,
   //3. Permissions
-  Permission: `${API_EndPoints}/permissions`,
+  Permission: `/permissions`,
 
   //branches
-  Branches: `${API_EndPoints}/master/branches`,
+  Branches: `/master/branches`,
   //department
-  Department: `${API_EndPoints}/master/departments`,
-  Salutation: `${API_EndPoints}/master/salutation`,
+  Department: `/master/departments`,
+  Salutation: `/master/salutation`,
 
   //Nationality
-  Nationality: `${API_EndPoints}/master/nationality`,
+  Nationality: `/master/nationality`,
   //Gender
-  Gender: `${API_EndPoints}/master/gender`,
+  Gender: `/master/gender`,
   //Maritial-status
-  maritialStatus: `${API_EndPoints}/master/marital-status`,
+  maritialStatus: `/master/marital-status`,
   //Bank
-  bank: `${API_EndPoints}/master/banks`,
+  bank: `/master/banks`,
   //indentification number
-  indentificationType: `${API_EndPoints}/master/identification-type`,
-  businessType: `${API_EndPoints}/master/business-type`,
+  indentificationType: `/master/identification-type`,
+  businessType: `/master/business-type`,
   //Country
-  country: `${API_EndPoints}/master/country`,
+  country: `/master/country`,
   //Dzongkhag
-  dzongkhag: `${API_EndPoints}/master/dzongkhag`,
+  dzongkhag: `/master/dzongkhag`,
   //gewog
-  gewog: `${API_EndPoints}/master/gewogs/by/dzongkhag`,
+  gewog: `/master/gewogs/by/dzongkhag`,
   //Occupations
-  occupations: `${API_EndPoints}/master/occupations`,
+  occupations: `/master/occupations`,
   //Employer Type
-  legalConstitution: `${API_EndPoints}/master/legal-constitution`,
+  legalConstitution: `/master/legal-constitution`,
 
-  accountGroup: `${API_EndPoints}/account-group`,
-  accountType: `${API_EndPoints}/account-type`,
+  accountGroup: `/account-group`,
+  accountType: `/account-type`,
   
-  policyLob: `${API_EndPoints}/lobs`,
-  policyProducts: `${API_EndPoints}/products`,
-  policyProductsByLob: `${API_EndPoints}/products/productByLob`,
+  policyLob: `/lobs`,
+  policyProducts: `/products`,
+  policyProductsByLob: `/products/productByLob`,
 
-  branches: `${API_EndPoints}/master/branches`,
+  branches: `/master/branches`,
 
   //reports
-  reports: `${API_EndPoints}/reports`,
+  reports: `/reports`,
 
-  bookings:  `${API_EndPoints}/bookings`,
+  bookings:  `/bookings`,
 
-  documents: `${API_EndPoints}/documents`
+  documents: `/documents`
 
 };
 

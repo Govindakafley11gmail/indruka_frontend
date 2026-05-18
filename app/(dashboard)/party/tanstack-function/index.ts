@@ -3,7 +3,7 @@ import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import axios from "axios";
 import { errorResponse } from "@/app/connect-backend/error-interface";
 import { BookingSearchResponse, SearchBookingResponse } from "../interface";
-import ACL_API_URL, { API_EndPoints } from "@/app/connect-backend/api/acl-route";
+import ACL_API_URL from "@/app/connect-backend/api/acl-route";
 
 export interface BookingSearchDto {
   bookingId?: string;
