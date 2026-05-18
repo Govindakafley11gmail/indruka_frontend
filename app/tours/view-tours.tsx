@@ -70,14 +70,14 @@ export default function SacredYatra() {
       return [...merged];
     }
 
-  const merged = new Set<string>();
-tours.checkedCountry.forEach((country) => {
-  const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
-    (k) => k.toLowerCase() === country.toLowerCase(),
-  );
-  if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
-});
-return [...merged];
+    const merged = new Set<string>();
+    tours.checkedCountry.forEach((country) => {
+      const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
+        (k) => k.toLowerCase() === country.toLowerCase(),
+      );
+      if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+    });
+    return [...merged];
   }, [tours.checkedCountry, tours.checkedPlace]); // ✅ no tours.filtered dependency
   useEffect(() => {
     setActivePage(1);
@@ -189,7 +189,14 @@ return [...merged];
             tours={paginatedTours}
             wishlist={wishlist}
             onWishlistToggle={onWishlistToggle}
-            formatPrice={(price: number) => `₹${price.toLocaleString()}`}
+            formatPrice={(price: number) => {
+              const isBhutan = paginatedTours.some(
+                (item) => item.country === "Bhutan",
+              );
+              return isBhutan
+                ? `$ ${price.toLocaleString()}` // Bhutan currency (Ngultrum)
+                : `₹ ${price.toLocaleString()}`; // Indian Rupee (default)
+            }}
           />
 
           <Pagination

@@ -16,13 +16,13 @@ type Inclusion = {
 
 type TourCardProps = {
   title: string;
-  type?: string[];   // ← was string, now array
+  type?: string[]; // ← was string, now array
 
   country: string;
   place: string;
   itinerary: string;
   price: any;
-  oldPrice?: string | number
+  oldPrice?: string | number;
   discount?: string;
   tags: string[];
   images: string[];
@@ -50,12 +50,12 @@ export default function TourCard({
   const prevImage = () =>
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
-const href =
-  country === "Bhutan"
-    ? (type ?? []).length > 0
-      ? `/tours?country=Bhutan&spec=${(type ?? []).map(encodeURIComponent).join(",")}`
-      : `/tours?country=Bhutan`
-    : `/tours?id=${place}`;   // India keeps existing behaviour
+  const href =
+    country === "Bhutan"
+      ? (type ?? []).length > 0
+        ? `/tours?country=Bhutan&spec=${(type ?? []).map(encodeURIComponent).join(",")}`
+        : `/tours?country=Bhutan`
+      : `/tours?id=${place}`; // India keeps existing behaviour
   return (
     <Card className=" overflow-hidden rounded-2xl shadow-xl border p-0">
       {/* Image */}
@@ -140,7 +140,9 @@ const href =
             {oldPrice && (
               <div className="flex items-center gap-2">
                 <span className="line-through text-gray-400 text-sm">
-                   {oldPrice}
+                  {country === "Bhutan"
+                    ? `${oldPrice.toLocaleString("en-US")}`
+                    : `₹ ${oldPrice.toLocaleString("en-US")}`}
                 </span>
                 {discount && (
                   <Badge className="bg-orange-500 text-white text-[10px]">
@@ -150,7 +152,14 @@ const href =
               </div>
             )}
 
-            <div className="text-xl font-bold"> {price}</div>
+            <div className="text-xl font-bold">
+              {" "}
+                 <span className="text-base">
+                  {country === "Bhutan"
+                    ? `${price.toLocaleString("en-US")}`
+                    : `₹ ${price.toLocaleString("en-US")}`}
+                </span>
+            </div>
             <p className="text-xs text-gray-400">Starting price per adult</p>
           </div>
 
