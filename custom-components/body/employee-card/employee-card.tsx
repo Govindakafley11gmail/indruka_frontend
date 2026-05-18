@@ -35,16 +35,11 @@ const profiles: Profile[] = [
   },
   {
     id: 3,
-    name: "Sonam Tshering",
-    role: "Tour Planner",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e",
+    name: "Ratna Rana Mongar",
+    role: "CEO",
+    image: "/ratnay.jpeg",
   },
-  {
-    id: 4,
-    name: "Pema Lhamo",
-    role: "Blogger",
-    image: "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e",
-  },
+ 
 ];
 
 export default function SocialCardSlider() {
