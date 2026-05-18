@@ -22,7 +22,7 @@ type TourCardProps = {
   place: string;
   itinerary: string;
   price: any;
-  oldPrice?: number;
+  oldPrice?: string | number
   discount?: string;
   tags: string[];
   images: string[];

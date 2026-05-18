@@ -8,7 +8,7 @@ export interface TourCardProps {
   title: string;
   itinerary: string;
   price: any;
-  oldPrice?: number;
+  oldPrice?: string | number
   discount?: string;
   tags: string[];
   country: string;
