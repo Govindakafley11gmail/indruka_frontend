@@ -27,18 +27,19 @@ const profiles: Profile[] = [
     role: "Founder",
     image: "/jina.jpeg",
   },
-    {
+   {
     id: 2,
-    name: "Jina Sharma",
-    role: "Operation Manager",
-    image: "/govinda.jpeg",
-  },
-  {
-    id: 3,
     name: "Ratna Rana Mongar",
     role: "CEO",
     image: "/ratnay.jpeg",
   },
+    {
+    id: 3,
+    name: "Jina Sharma",
+    role: "Operation Manager",
+    image: "/govinda.jpeg",
+  },
+ 
  
 ];
 
