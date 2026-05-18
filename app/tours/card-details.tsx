@@ -147,7 +147,7 @@ export default function CardDetailsPage({
                   variant="outline"
                   className="rounded-[9px] text-[13px] font-semibold border-[1.5px] border-blue-200 text-blue-700 bg-white px-3.5 py-2 h-auto"
                 >
-                  Send Query
+                 <Link href='/support'>Send Query</Link> 
                 </Button>
                 <Link href={`/view-details?id=${tour.id}`}>
                   <Button className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">

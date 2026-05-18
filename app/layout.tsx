@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Indruka tours",
   description: "Indruka tours and travels",
-  icons: {
-    icon: "/icon.png",          // ← your logo
-    shortcut: "/icon.png",
-    apple: "/apple-icon.png",   // ← optional, for Apple devices
-  },
+  // icons: {
+  //   icon: "/icon.png",          // ← your logo
+  //   shortcut: "/icon.png",
+  //   apple: "/apple-icon.png",   // ← optional, for Apple devices
+  // },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

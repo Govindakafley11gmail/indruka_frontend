@@ -7,13 +7,14 @@ import { useState } from "react";
 const navLinks = {
   Company: [
     { label: "About Us", href: "/about" },
-    { label: "Services", href: "/#" },
+    { label: "Services", href: "#" },
   ],
   indruka2026: [
     { label: "Help Center", href: "/support" },
     { label: "Contact", href: "/support" },
   ],
 };
+
 export const socials = [
   {
     label: "Facebook",
@@ -184,7 +185,7 @@ export default function Footer() {
               </h2>
             </div>
             <Link
-              href="/services"
+              href="#"
               className="group inline-flex items-center gap-2 rounded-full bg-blue-600 px-7 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-900/40 transition-all duration-300 hover:bg-blue-500 hover:shadow-blue-600/40 hover:gap-3 whitespace-nowrap"
             >
               Get a Free Quote
@@ -313,9 +314,9 @@ export default function Footer() {
             <p>© 2026 Indruka tours & travels. All rights reserved.</p>
             <div className="flex gap-6">
               {[
-                { label: "Privacy Policy", href: "/privacy" },
-                { label: "Terms", href: "/terms" },
-                { label: "Legal", href: "/legal" },
+                { label: "Privacy Policy", href: "#" },
+                { label: "Terms", href: "#" },
+                { label: "Legal", href: "#" },
               ].map(({ label, href }) => (
                 <Link
                   key={label}
