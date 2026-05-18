@@ -30,7 +30,7 @@ const profiles: Profile[] = [
    {
     id: 2,
     name: "Ratna Rana Mongar",
-    role: "CEO",
+    role: "Director Operation & IT",
     image: "/ratnay.jpeg",
   },
     {
@@ -38,9 +38,7 @@ const profiles: Profile[] = [
     name: "Jina Sharma",
     role: "Operation Manager",
     image: "/govinda.jpeg",
-  },
- 
- 
+  }, 
 ];
 
 export default function SocialCardSlider() {
