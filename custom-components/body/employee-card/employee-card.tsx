@@ -24,7 +24,7 @@ const profiles: Profile[] = [
   {
     id: 1,
     name: "Govin Sharma",
-    role: "Founder",
+    role: "Chief Executive Officer",
     image: "/jina.jpeg",
   },
    {
