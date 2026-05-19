@@ -10,6 +10,8 @@ import { Label } from "@/components/ui/label";
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
 import { CheckCircle2, Send } from "lucide-react";
 import { PhoneInput } from "./PhoneInput";
+import { useContactMutations } from "./tanstack-function";
+import { showToast } from "nextjs-toast-notify";
 
 const travellerOptions = ["1", "2", "3–5", "6–10", "11–20", "20+"];
 const durationOptions  = ["3–5 days", "6–8 days", "9–12 days", "13–15 days", "16+ days", "Custom"];
@@ -34,10 +36,31 @@ const schema = Yup.object({
 type FormErrors = Partial<Record<keyof typeof initialForm, string>>;
 
 export function ContactForm() {
-  const [form, setForm]       = useState(initialForm);
-  const [errors, setErrors]   = useState<FormErrors>({});
-  const [loading, setLoading] = useState(false);
+  const [form, setForm]           = useState(initialForm);
+  const [errors, setErrors]       = useState<FormErrors>({});
+  const [loading, setLoading]     = useState(false);
   const [submitted, setSubmitted] = useState(false);
+
+  const { createContact } = useContactMutations({
+    onSuccess: (data: any) => {
+      showToast.success(data.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+    onError: (error: any) => {
+      showToast.error(error?.data?.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+  });
 
   const handleChange = (field: string, value: string) => {
     setForm((prev) => ({ ...prev, [field]: value }));
@@ -45,18 +68,28 @@ export function ContactForm() {
     setErrors((prev) => ({ ...prev, [field]: undefined }));
   };
 
+  // FIX 1: Accept the form event (not `data`), and call e.preventDefault() correctly.
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-
+    e.preventDefault(); // FIX 2: was `e.predefault()` — typo and wrong method name.
     try {
       await schema.validate(form, { abortEarly: false });
       setErrors({});
-      console.log("Form submitted:", form);
       setLoading(true);
+      createContact({
+        firstName:           form.firstName,
+        lastName:            form.lastName,
+        email:               form.email,
+        phone:               form.phone,
+        numberOfTravellers:  parseInt(form.travellers, 10),
+        tripDuration:        parseInt(form.duration, 10),
+        plannedArrivalDate:  form.arrivalDate,
+        message:             form.message,
+      });
       await new Promise((r) => setTimeout(r, 1400));
       setLoading(false);
       setSubmitted(true);
     } catch (err) {
+      setLoading(false);
       if (err instanceof Yup.ValidationError) {
         const fieldErrors: FormErrors = {};
         err.inner.forEach((e) => {
@@ -128,7 +161,8 @@ export function ContactForm() {
           <PhoneInput
             value={form.phone}
             onChange={(v) => handleChange("phone", v)}
-            className={`${errors.phone} ? "border-red-400" : "" border-slate-200 focus-visible:ring-blue-50`}
+            // FIX 5: ternary was outside the template literal interpolation `${}`.
+            className={`${errors.phone ? "border-red-400" : ""} border-slate-200 focus-visible:ring-blue-500`}
           />
           {errors.phone && <p className="text-xs text-red-500">{errors.phone}</p>}
         </div>
@@ -137,7 +171,7 @@ export function ContactForm() {
       {/* Travellers + Duration */}
       <div className="mb-4 grid gap-4 sm:grid-cols-2">
         {[
-          { field: "travellers", label: "Number of Travellers", options: travellerOptions, render: (o: string) => `${o} ${parseInt(o) === 1 ? "person" : "people"}` },
+          { field: "travellers", label: "Number of Travellers", options: travellerOptions, render: (o: string) => `${o} ${o === "1" ? "person" : "people"}` },
           { field: "duration",   label: "Trip Duration",        options: durationOptions,  render: (o: string) => o },
         ].map(({ field, label, options, render }) => (
           <div key={field} className="space-y-1.5">

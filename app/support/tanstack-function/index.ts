@@ -18,7 +18,7 @@ interface MutationOptions {
 
 // CreateBooking
 const createContact = async (data: EnquiryPayloadInterface) => {
-  const response = await apiClient.post(TRAVELAGENTSAPI.bookingUser, data);
+  const response = await apiClient.post(TRAVELAGENTSAPI.contact, data);
 
   if (response.data?.success === false) {
     throw { data: response.data };
@@ -30,7 +30,7 @@ const createContact = async (data: EnquiryPayloadInterface) => {
 
 
 
-export const useCallbackMutations = (options?: MutationOptions) => {
+export const useContactMutations = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
   const createMutation = useMutation<
