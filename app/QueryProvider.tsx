@@ -13,7 +13,7 @@ export default function Providers({ children }: { children: ReactNode }) {
   const pathname = usePathname();
 
   const isDashboardRoute = pathname.startsWith(DASHBOARD_PREFIX);
-
+  console.log("isDashboardRoute",isDashboardRoute)
   return (
     <QueryClientProvider client={queryClient}>
       {isDashboardRoute ? (
