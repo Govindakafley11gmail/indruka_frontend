@@ -21,7 +21,7 @@ export default function Providers({ children }: { children: ReactNode }) {
     .filter(Boolean) as string[];
 
   const isDashboardRoute = dashboardRoutes.some(route => pathname.startsWith(route));
-
+   console.log('isDashboardRoute',isDashboardRoute)
   return (
     <QueryClientProvider client={queryClient}>
         {isDashboardRoute ? (
