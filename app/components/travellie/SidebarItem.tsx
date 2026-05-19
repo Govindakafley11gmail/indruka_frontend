@@ -51,42 +51,42 @@ export const sidebarMenuMain = [
           },
         ],
       },
-      {
-        title: "Master",
-        icon: MarsStroke,
-        children: [
-          {
-            title: "Account Group",
-            href: "/account-group",
-            icon: Group,
-          },
-          {
-            title: "Account Type",
-            href: "/account-type",
-            icon: AccessibilityIcon,
-          },
-          {
-            title: "Line of Business",
-            href: "/line-of-business",
-            icon: PopcornIcon,
-          },
-          {
-            title: "Line of Business Product",
-            href: "/line-of-business-product",
-            icon: BriefcaseBusiness,
-          },
-          {
-            title: "Life Insurance Scheme",
-            href: "/life-insurance-scheme",
-            icon: BriefcaseBusiness,
-          },
-          {
-            title: "Bonus Rate",
-            href: "/bonus-rate",
-            icon: BriefcaseBusiness,
-          },
-        ],
-      },
+      // {
+      //   title: "Master",
+      //   icon: MarsStroke,
+      //   children: [
+      //     {
+      //       title: "Account Group",
+      //       href: "/account-group",
+      //       icon: Group,
+      //     },
+      //     {
+      //       title: "Account Type",
+      //       href: "/account-type",
+      //       icon: AccessibilityIcon,
+      //     },
+      //     {
+      //       title: "Line of Business",
+      //       href: "/line-of-business",
+      //       icon: PopcornIcon,
+      //     },
+      //     {
+      //       title: "Line of Business Product",
+      //       href: "/line-of-business-product",
+      //       icon: BriefcaseBusiness,
+      //     },
+      //     {
+      //       title: "Life Insurance Scheme",
+      //       href: "/life-insurance-scheme",
+      //       icon: BriefcaseBusiness,
+      //     },
+      //     {
+      //       title: "Bonus Rate",
+      //       href: "/bonus-rate",
+      //       icon: BriefcaseBusiness,
+      //     },
+      //   ],
+      // },
       {
         title: "Party (eKYC)",
         href: "/party",
@@ -109,33 +109,33 @@ export const sidebarMenuMain = [
   //   href: "/contact",
   //   icon: Boxes,
   // },
-  {
-    section: "Applications",
-    items: [
-      {
-        title: "Inventory",
-        href: "/inventory",
-        icon: Boxes,
-      },
-      {
-        title: "Accounting",
-        href: "/accounting",
-        icon: Calculator,
-      },
-    ],
+  // {
+  //   section: "Applications",
+  //   items: [
+  //     {
+  //       title: "Inventory",
+  //       href: "/inventory",
+  //       icon: Boxes,
+  //     },
+  //     {
+  //       title: "Accounting",
+  //       href: "/accounting",
+  //       icon: Calculator,
+  //     },
+  //   ],
 
-  },
-  {
-    section: "Reports",
-    items: [
-      {
-        title: "Report",
-        href: "/report",
-        icon: Boxes,
-      }
-    ],
+  // },
+  // {
+  //   section: "Reports",
+  //   items: [
+  //     {
+  //       title: "Report",
+  //       href: "/report",
+  //       icon: Boxes,
+  //     }
+  //   ],
 
-  },
+  // },
 
 ];
 

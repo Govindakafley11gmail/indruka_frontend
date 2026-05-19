@@ -1,13 +1,13 @@
+/* eslint-disable react-hooks/set-state-in-effect */
 /* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import Link from "next/link";
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import { ChevronDown, Menu } from "lucide-react";
 import clsx from "clsx";
 import { usePathname, useSearchParams } from "next/navigation";
 import { Lato } from "next/font/google";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { sidebarMenuMain, sidebarMenuParty } from "./SidebarItem";
 
 const lato = Lato({ subsets: ["latin"], weight: ["400", "700"] });
@@ -28,48 +28,27 @@ export function Sidebar() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
 
-  const [mounted, setMounted] = useState(false);
   const [collapsed, setCollapsed] = useState(false);
   const [openMenus, setOpenMenus] = useState<string[]>([]);
-  const [sidebarMenu, setSidebarMenu] =
-    useState<SidebarMenu[]>(sidebarMenuMain);
+  const [sidebarMenu, setSidebarMenu] = useState<SidebarMenu[]>(sidebarMenuMain);
   const [isPartySidebar, setIsPartySidebar] = useState(false);
 
-  // ✅ Get partyId once
   const partyId = searchParams.get("partyId");
 
-  // ✅ Hook MUST be at top level
-  // const { data: partyDetailsData, isLoading } = usePartyDetailsByID(
-  //   partyId!,
-  //   {
-  //     enabled: !!partyId,
-  //   },
-  // );
-
-
-
-
-  const partyRoutes = sidebarMenuParty
-    .flatMap((s) => s.items)
-    .map((i) => i.href)
-    .filter(Boolean) as string[];
+  const partyRoutes = useMemo(
+    () =>
+      sidebarMenuParty
+        .flatMap((s) => s.items)
+        .map((i) => i.href)
+        .filter(Boolean) as string[],
+    [],
+  );
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect
-    setMounted(true);
-  }, []);
-
-  useEffect(() => {
-    if (!mounted) return;
-
-    const isParty = partyRoutes.some((route) =>
-      pathname.startsWith(route),
-    );
-
-    // eslint-disable-next-line react-hooks/set-state-in-effect
+    const isParty = partyRoutes.some((route) => pathname.startsWith(route));
     setIsPartySidebar(isParty);
     setSidebarMenu(isParty ? sidebarMenuParty : sidebarMenuMain);
-  }, [pathname, mounted]);
+  }, [pathname, partyRoutes]);
 
   const toggleMenu = (title: string) => {
     setOpenMenus((prev) =>
@@ -77,7 +56,6 @@ export function Sidebar() {
     );
   };
 
-  // ✅ PURE function (NO hooks inside)
   const renderMenu = (items: SidebarItem[], level = 0) =>
     items.map(({ title, href, icon: Icon, children }) => {
       const hasChildren = !!children?.length;
@@ -95,7 +73,6 @@ export function Sidebar() {
 
       return (
         <div key={title} className="relative group">
-          {/* Parent */}
           {hasChildren ? (
             <button
               onClick={() => !collapsed && toggleMenu(title)}
@@ -142,7 +119,6 @@ export function Sidebar() {
             </Link>
           )}
 
-          {/* Children */}
           {hasChildren && (
             <div
               className={clsx(
@@ -150,7 +126,7 @@ export function Sidebar() {
                   ? "absolute left-full top-0 ml-2 hidden group-hover:block bg-white dark:bg-gray-900 shadow-lg rounded-lg p-2 w-48 z-50"
                   : "ml-6 mt-1 overflow-hidden transition-all duration-300",
                 !collapsed &&
-                (isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"),
+                  (isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"),
               )}
             >
               {renderMenu(children!, level + 1)}
@@ -159,8 +135,6 @@ export function Sidebar() {
         </div>
       );
     });
-
-  if (!mounted) return null;
 
   return (
     <aside
@@ -173,7 +147,8 @@ export function Sidebar() {
       <div className="flex items-center justify-between px-4 py-4">
         {!collapsed && (
           <span className="text-2xl font-bold text-blue-800 dark:text-blue-400">
-Indruka tours & travels         </span>
+            Indruka tours & travels
+          </span>
         )}
         <button
           onClick={() => setCollapsed(!collapsed)}
@@ -184,9 +159,9 @@ Indruka tours & travels         </span>
       </div>
 
       {/* Party Info */}
-      {isPartySidebar  && (
+      {isPartySidebar && (
         <div className="px-4 pt-3 pb-2">
-          
+          {/* Party details can go here */}
         </div>
       )}
 

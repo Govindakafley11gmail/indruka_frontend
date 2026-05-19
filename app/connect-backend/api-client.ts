@@ -20,10 +20,10 @@ apiClient.interceptors.response.use(
     return response;
   },
   (error) => {
-    // if (error.response?.status === 401) {
-    //   // Handle redirect to login page
-    //   window.location.href = "/signin";
-    // }
+    if (error.response?.status === 401) {
+      // Handle redirect to login page
+      window.location.href = "/signin";
+    }
     return Promise.reject(error);
   },
 );
