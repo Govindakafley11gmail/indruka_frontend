@@ -208,8 +208,8 @@ export default function SacredYatra() {
             onWishlistToggle={onWishlistToggle}
             formatPrice={(price: number | string, country: string) => {
               return country.toLowerCase() === "bhutan"
-                ? `Nu. ${price.toLocaleString()}`
-                : `₹ ${price.toLocaleString()}`;
+                ? `$. ${price.toLocaleString()}`
+                : `$ ${price.toLocaleString()}`;
             }}
           />
 
