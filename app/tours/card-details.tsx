@@ -1,8 +1,10 @@
+"use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
+import { useRouter } from "next/navigation";
 export interface Tour {
   id: number;
   title: string;
@@ -41,6 +43,7 @@ export default function CardDetailsPage({
   onWishlistToggle,
   formatPrice = defaultFormat,
 }: CardDetailsPageProps) {
+  const router = useRouter()
   return (
     <div className="flex flex-col gap-[1.1rem]">
       {tours.length === 0 && (
@@ -144,16 +147,15 @@ export default function CardDetailsPage({
               </div>
               <div className="flex gap-2 flex-wrap">
                 <Button
+                onClick={()=>router.push('/support')}
                   variant="outline"
                   className="rounded-[9px] text-[13px] font-semibold border-[1.5px] border-blue-200 text-blue-700 bg-white px-3.5 py-2 h-auto"
                 >
-                 <Link href='/support'>Send Query</Link> 
+                 Send Query
                 </Button>
-                <Link href={`/view-details?id=${tour.id}`}>
-                  <Button className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
+                  <Button onClick={()=>router.push(`/view-details?id=${tour.id}`)} className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
                     View Details →
                   </Button>
-                </Link>
               </div>
             </div>
           </CardContent>
