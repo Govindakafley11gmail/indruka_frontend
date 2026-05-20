@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import type { CancellationRow, MainTab, TabSection, UpgradeItem } from "./tour-iternary";
 
 export const tourInformationTabs: TabSection[] = [
@@ -83,6 +84,7 @@ export const mainTabs: MainTab[] = [
 ];
 export interface ViewDetailsPageProps {
   searchParams: Promise<{
+    [x: string]: any;
     id?: string;
   }>;
 }

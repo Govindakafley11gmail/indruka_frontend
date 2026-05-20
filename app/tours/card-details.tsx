@@ -24,11 +24,15 @@ interface CardDetailsPageProps {
   tours: Tour[];
 wishlist: Set<number>;          // ← was Set<string>
   onWishlistToggle: (id: number) => void;  // ← was string
-  formatPrice?: (price: number) => string;
+  formatPrice?: (price: number | string, country: string) => string;
 }
 
-const defaultFormat = (price: number) =>
-  new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR" }).format(price);
+const defaultFormat = (price: number | string, country: string) => {
+  if (country.toLowerCase() === "bhutan") {
+    return `Nu. ${price.toLocaleString()}`;
+  }
+  return `₹ ${price.toLocaleString()}`;
+};
 
 const BADGE_COLORS: Record<string, string> = {
   Bestseller: "bg-amber-600",
@@ -141,7 +145,7 @@ export default function CardDetailsPage({
                   Starting from
                 </p>
                 <p className="text-xl font-black text-[#1A4BB5] leading-none">
-                  {formatPrice(tour.price)}
+                  {formatPrice(tour.price, tour.title)}
                 </p>
                 <p className="text-[11px] text-slate-400 mt-0.5">per person · twin sharing</p>
               </div>

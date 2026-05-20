@@ -1,5 +1,6 @@
 /* eslint-disable react-hooks/set-state-in-effect */
 "use client";
+
 import { useEffect, useState, useMemo, type RefObject } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -16,7 +17,8 @@ import { useTours } from "./hooks/use-tours";
 import { useWishlist } from "./hooks/use-wishlist";
 import { useDrawer } from "./hooks/use-drawer";
 import { Pagination } from "./components/pagenationProps";
-import { tours as allTours, SPECIALITIES_BY_COUNTRY } from "./data";
+import {  indiaTours, SPECIALITIES_BY_COUNTRY } from "./data";
+import { bhutanTours } from "./bhutan";
 
 const ITEMS_PER_PAGE = 10;
 
@@ -25,6 +27,18 @@ export default function SacredYatra() {
   const { wishlist, toggle: onWishlistToggle } = useWishlist();
   const drawer = useDrawer();
   const [activePage, setActivePage] = useState(1);
+  const allTours = useMemo(() => {
+    return [
+      ...indiaTours.map((t) => ({
+        ...t,
+        country: "India",
+      })),
+      ...bhutanTours.map((t) => ({
+        ...t,
+        country: "Bhutan",
+      })),
+    ];
+  }, []);
 
   const collageTours = useMemo(() => {
     return allTours
@@ -40,21 +54,27 @@ export default function SacredYatra() {
   }, [tours.checkedCountry]);
 
   const activeSpecialities = useMemo(() => {
-    // 1. Country is checked → show that country's specialities
+    // Country selected
     if (tours.checkedCountry.size > 0) {
       const merged = new Set<string>();
+
       tours.checkedCountry.forEach((country) => {
         const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
           (k) => k.toLowerCase() === country.toLowerCase(),
         );
-        if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+
+        if (key) {
+          SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+        }
       });
+
       return [...merged];
     }
 
-    // 2. Place is checked (e.g. ?id=Jaipur) → find country from that place's tours
+    // Place selected
     if (tours.checkedPlace.size > 0) {
       const merged = new Set<string>();
+
       allTours
         .filter((tour) =>
           [...tours.checkedPlace].some((p) =>
@@ -65,20 +85,18 @@ export default function SacredYatra() {
           const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
             (k) => k.toLowerCase() === tour.country.toLowerCase(),
           );
-          if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+
+          if (key) {
+            SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
+          }
         });
+
       return [...merged];
     }
 
-    const merged = new Set<string>();
-    tours.checkedCountry.forEach((country) => {
-      const key = Object.keys(SPECIALITIES_BY_COUNTRY).find(
-        (k) => k.toLowerCase() === country.toLowerCase(),
-      );
-      if (key) SPECIALITIES_BY_COUNTRY[key].forEach((s) => merged.add(s));
-    });
-    return [...merged];
-  }, [tours.checkedCountry, tours.checkedPlace]); // ✅ no tours.filtered dependency
+    return [];
+  }, [tours.checkedCountry, tours.checkedPlace]);
+
   useEffect(() => {
     setActivePage(1);
   }, [
@@ -108,7 +126,7 @@ export default function SacredYatra() {
     checkedDest: tours.checkedDest,
     checkedMode: tours.checkedMode,
     checkedCountry: tours.checkedCountry,
-    activeSpecialities, // ← passed down, not re-derived
+    activeSpecialities,
     toggle: tours.toggleSet,
     setCheckedSpec: tours.setCheckedSpec,
     setCheckedDur: tours.setCheckedDur,
@@ -121,7 +139,6 @@ export default function SacredYatra() {
     <div className="font-sans bg-[#F0F4FA] overflow-x-hidden">
       <Navbar isActive={false} />
 
-      {/* ✅ receives dynamic specialities instead of static SPECIALITIES */}
       <TourPackageCard
         checkedSpec={tours.checkedSpec}
         onSpecClick={(spec) => tours.toggleSet(tours.setCheckedSpec, spec)}
@@ -145,7 +162,7 @@ export default function SacredYatra() {
         drawerRef={drawer.drawerRef as RefObject<HTMLDivElement>}
         onDragStart={drawer.handleDragStart}
         onClearAll={tours.clearAll}
-        filterContentProps={filterProps} // ← activeSpecialities flows in here too
+        filterContentProps={filterProps}
       />
 
       <div className="max-w-315 mx-auto px-4 py-7 grid grid-cols-1 md:grid-cols-[230px_1fr] lg:grid-cols-[270px_1fr] gap-6 items-start">
@@ -189,13 +206,10 @@ export default function SacredYatra() {
             tours={paginatedTours}
             wishlist={wishlist}
             onWishlistToggle={onWishlistToggle}
-            formatPrice={(price: number) => {
-              const isBhutan = paginatedTours.some(
-                (item) => item.country === "Bhutan",
-              );
-              return isBhutan
-                ? `$ ${price.toLocaleString()}` // Bhutan currency (Ngultrum)
-                : `₹ ${price.toLocaleString()}`; // Indian Rupee (default)
+            formatPrice={(price: number | string, country: string) => {
+              return country.toLowerCase() === "bhutan"
+                ? `Nu. ${price.toLocaleString()}`
+                : `₹ ${price.toLocaleString()}`;
             }}
           />
 
@@ -208,12 +222,31 @@ export default function SacredYatra() {
       </div>
 
       <style>{`
-        @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: translateY(0); } }
-        @keyframes slideInRight { from { transform: translateX(100%); } to { transform: translateX(0); } }
+        @keyframes fadeUp {
+          from {
+            opacity: 0;
+            transform: translateY(14px);
+          }
+          to {
+            opacity: 1;
+            transform: translateY(0);
+          }
+        }
+
+        @keyframes slideInRight {
+          from {
+            transform: translateX(100%);
+          }
+          to {
+            transform: translateX(0);
+          }
+        }
       `}</style>
 
       <TourCollage tours={collageTours} />
+
       <TourCards tours={tours.filtered} />
+
       <Footer />
     </div>
   );
