@@ -101,6 +101,7 @@ function AccordionMenu({
 }
 
 export function MobileMenuContent({ onClose }: Props) {
+  const router = useRouter();
   return (
     <div className="flex flex-col h-full bg-white">
       <div className="flex-shrink-0 -mt-3">
@@ -155,18 +156,18 @@ export function MobileMenuContent({ onClose }: Props) {
 
         {/* UTILITY LINKS */}
         <div className="border-t border-blue-100 pt-4 mt-2 flex flex-col gap-1">
-          <button className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-all duration-150 group">
+          <button onClick={() => router.push("/about")} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-all duration-150 group">
             <div className="w-8 h-8 rounded-lg bg-blue-50 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
               <HeadphonesIcon className="w-4 h-4 text-blue-500" />
             </div>
-            <Link href={"/about"}>About Us</Link>
+            About Us
           </button>
 
-          <button className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-all duration-150 group">
+          <button onClick={() => router.push("/support")} className="flex items-center gap-3 px-4 py-3 rounded-xl text-sm font-medium text-slate-700 hover:bg-blue-50 hover:text-blue-700 transition-all duration-150 group">
             <div className="w-8 h-8 rounded-lg bg-blue-50 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
               <Phone className="w-4 h-4 text-blue-500" />
             </div>
-            <Link href={"/support"}>Support</Link>
+            Support
           </button>
         </div>
       </div>
