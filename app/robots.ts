@@ -8,6 +8,6 @@ export default function robots() {
         "/dashboard/", // Hidden client portals
       ],
     },
-    sitemap: "https://indrukatours.com",
+    sitemap: "https://indrukatours.com/sitemap.xml",
   };
 }
