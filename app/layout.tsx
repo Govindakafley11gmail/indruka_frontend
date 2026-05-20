@@ -28,14 +28,18 @@ export const metadata: Metadata = {
   icons: {
     icon: "/favicon.ico",
   },
-  keywords: [
-    "Bhutan travel agency",
-    "Bhutan tour packages",
-    "Indruka Tours and Travels",
-    "Bhutan trekking tours",
-    "Travel to Bhutan",
-    "Thimphu tour operator"
-  ],
+ keywords: [
+  "Indruka Tours and Travels", // 1. Your brand
+  "Bhutan travel agency",       // 2. Main category
+  "Bhutan tour packages",       // 3. Main service
+  "Travel to Bhutan",           // 4. Broad intent
+  "Bhutan trekking tours",      // 5. Niche activity
+  "Thimphu tour operator",      // 6. Local search
+  "Paro holiday packages",      // 7. Core destination
+  "Bhutan cultural tours",      // 8. Popular trip type
+  "Book Bhutan trip",           // 9. Actionable keyword
+  "Bhutan luxury travel"        // 10. High-value keyword
+],
   openGraph: {
     title: "Bhutan Tour Packages & Travel Agency | Indruka Tours and Travels",
     description: "Discover the Land of the Thunder Dragon with Indruka Tours and Travels. Book customized cultural and trekking tours.",
