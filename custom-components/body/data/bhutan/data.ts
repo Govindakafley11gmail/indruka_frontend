@@ -32,7 +32,7 @@ import type { TourCardProps } from "../../Bhutan/landing/card";
 
 export const BhutanItem: TourCardProps[] = [
   {
-    title: "Bhutan Tour with Haa Valley",
+    title: "Bhutan Tour with Haa Valley | Cultural & Valley Explorer Package",
     place: "Paro",
     itinerary:
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
@@ -64,12 +64,12 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
   {
-    title: "Jomolhari Trekking in Bhutan",
+    title: "Jomolhari Trek Bhutan | Himalayan Base Camp Trekking Adventure",
     place: "Pharo",
     itinerary:
       "Paro • Shingkharap • Soi Thangkha • Jangothang • Lingzhi • Shodu • Thimphu • Punakha ",
     country: "Bhutan",
-    price: '$ 3,980', // To be filled
+    price: '$ 2,999', // To be filled
     oldPrice: '', // To be filled
     discount:"", // To be filled
     type:["Trekking"],
@@ -92,7 +92,7 @@ export const BhutanItem: TourCardProps[] = [
 
   
   {
-    title: "Bhutan Short Trip",
+    title: "Bhutan Short Trip | 3 Nights Tiger's Nest & Thimphu Getaway",
     place: "Paro",
     itinerary: "Thimphu •  Paro",
     country: "Bhutan",
@@ -116,11 +116,11 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
   {
-    title: "Paro Festival Tour",
+    title: "Paro Tsechu Festival Tour | Bhutan Cultural Festival Package",
     place: "Paro",
     itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
-    price:"$ 2,300", // To be filled
+    price:"$ 1,799", // To be filled
     oldPrice: '',//To be filled
     discount: "", // To be filled
      type:["Family","Festivals"],
@@ -141,11 +141,11 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
   {
-    title: "Best of Bhutan Tour",
+    title:"Best of Bhutan Tour | Tiger's Nest, Cranes & Cultural Highlights" ,
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price:"$ 2,550", // To be filled
+    price:"$ 1,299", // To be filled
     oldPrice: '', // To be filled
     discount: "", // To be filled
             type:["Family","Cultural"],
@@ -174,11 +174,11 @@ export const BhutanItem: TourCardProps[] = [
   },
   
 {
-    title: "Bhutan Cultural Journey",
+    title: "Bhutan Cultural Journey | Explore the Heart of Bhutan",
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Tang Valley • Jakar • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,850", // To be filled
+    price: "$ 1,899", // To be filled
     oldPrice: '', // To be filled
     discount: "", // To be filled
     tags: [
@@ -206,11 +206,11 @@ export const BhutanItem: TourCardProps[] = [
     ],
 },
  {
-    title: "Bhutan Luxury Tour",
+    title: "Bhutan Luxury Tour | Private Guide, Fine Dining & Heritage Hotels",
     place: "Paro",
     itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
-    price: "$ 3,150", // To be filled
+    price: "$ 1,999", // To be filled
     oldPrice: '', // To be filled
     discount: "", // To be filled
         type:["Family","Luxury"],
@@ -242,7 +242,7 @@ export const BhutanItem: TourCardProps[] = [
   },
 
     {
-    title: "From Historical to Modern Day Bhutan",
+    title: "Bhutan Budget Tour from Phuentsholing | Thimphu & Paro Package",
     place: "Phuentsholing",
     itinerary: "Phuentsholing • Thimphu • Paro",
     country: "Bhutan",
