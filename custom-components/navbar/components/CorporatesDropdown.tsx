@@ -31,10 +31,10 @@ export function CorporatesDropdown({
     const encoded = encodeURIComponent(place);
     router.push(`/tours?place=${encoded}`);
   };
- const handleCategoryClick = (category: string) => {
-  const encoded = encodeURIComponent(category);
-  router.push(`/tours?country=Bhutan&spec=${encoded}`); // ← spec + country
-};
+  const handleCategoryClick = (category: string) => {
+    const encoded = encodeURIComponent(category);
+    router.push(`/tours?country=Bhutan&spec=${encoded}`); // ← spec + country
+  };
 
   return (
     <DropdownMenu>
@@ -56,9 +56,7 @@ export function CorporatesDropdown({
       <DropdownMenuContent
         align="center"
         className={`p-4 rounded-2xl border border-gray-100 shadow-2xl bg-white ${
-          variant === "titles-only"
-            ? "w-auto"
-            : "w-[100vw] max-w-6xl"
+          variant === "titles-only" ? "w-auto" : "w-[100vw] max-w-6xl"
         }`}
       >
         {variant === "titles-only" ? (
@@ -67,7 +65,7 @@ export function CorporatesDropdown({
             {items.map((item, i) => (
               <div
                 key={i}
-        onClick={() => handleCategoryClick(item.title)}  // ← changed
+                onClick={() => handleCategoryClick(item.title)} // ← changed
                 className="px-3 py-2 rounded-xl font-semibold text-gray-800 text-sm hover:text-pink-600 hover:bg-pink-50 transition cursor-pointer whitespace-nowrap"
               >
                 {item.title}
