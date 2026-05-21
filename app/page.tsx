@@ -14,7 +14,7 @@ export default function Home() {
     <div className="w-full h-full overflow-x-hidden">
       <Navbar />
       {/* Hero Section */}
-      <ScrollReveal>
+      {/* <ScrollReveal> */}
         <div
           className="w-full
     py-5
@@ -31,10 +31,10 @@ export default function Home() {
         >
           <TourCategories />
         </div>
-      </ScrollReveal>
+      {/* </ScrollReveal> */}
 
       {/* Trending Section */}
-      <ScrollReveal delay={0.2}>
+      {/* <ScrollReveal delay={0.2}> */}
         <div className="w-full relative overflow-hidden shadow-lg">
           {/* Background shapes */}
           <div className="absolute inset-0 z-0">
@@ -59,17 +59,17 @@ export default function Home() {
             <TopTrendingCard />
           </div>
         </div>
-      </ScrollReveal>
+      {/* </ScrollReveal> */}
 
       {/* Social Slider */}
-      <ScrollReveal y={60} delay={0.1}>
+      {/* <ScrollReveal y={60} delay={0.1}> */}
         <SocialCardSlider />
-      </ScrollReveal>
+      {/* </ScrollReveal> */}
 
       {/* Reviews */}
-      <ScrollReveal y={80}>
+      {/* <ScrollReveal y={80}> */}
         <CustomerReviews />
-      </ScrollReveal>
+      {/* </ScrollReveal> */}
 
       <Footer />
     </div>
