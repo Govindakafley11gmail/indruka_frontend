@@ -4,8 +4,7 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
       disallow: [
-           // Hidden management dashboards
-        "/dashboard/", // Hidden client portals
+        "/dashboard/",
       ],
     },
     sitemap: "https://indrukatours.com/sitemap.xml",

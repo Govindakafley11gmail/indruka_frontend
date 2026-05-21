@@ -5,20 +5,21 @@ import { Button } from "@/components/ui/button";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
-export interface Tour {
-  id: number;
-  title: string;
-  type: string;
-  badge: "Bestseller" | "Trek" | "Helicopter" | "Popular" | string;
-  src?: string;
-  duration: string;
-  rating: number;
-  reviews: number;
-  destinations: string[];
-  amenities: string[];
-  price: number;
-  popular?: boolean;
-}
+import type { Tour } from "./tourtype";
+// export interface Tour {
+//   id: number;
+//   title: string;
+//   type: string;
+//   badge: "Bestseller" | "Trek" | "Helicopter" | "Popular" | string;
+//   src?: string;
+//   duration: string;
+//   rating: number;
+//   reviews: number;
+//   destinations: string[];
+//   amenities: string[];
+//   price: number;
+//   popular?: boolean;
+// }
 
 interface CardDetailsPageProps {
   tours: Tour[];
@@ -157,7 +158,7 @@ export default function CardDetailsPage({
                 >
                  Send Query
                 </Button>
-                  <Button onClick={()=>router.push(`/view-details?id=${tour.id}`)} className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
+                  <Button onClick={()=>router.push(`/view-details/${tour.seoMeta?.slug}`)} className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
                     View Details →
                   </Button>
               </div>

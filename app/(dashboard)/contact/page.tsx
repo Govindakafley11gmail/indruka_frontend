@@ -31,7 +31,6 @@ export default function ContactPage() {
             refetch();
         },
         onError: (err) => {
-            console.error("Failed to update status:", err);
         },
     });
 

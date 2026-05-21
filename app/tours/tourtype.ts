@@ -49,6 +49,14 @@ export interface HeroImage {
   src: string;
   alt: string;
 }
+export interface SeoMeta {
+  id?:number
+  metaTitle?: string;
+  metaDescription?: string;
+  slug?: string;
+  canonicalUrl?: string;
+  keywords: string[];
+}
 
 export interface Tour {
   id: number;
@@ -72,6 +80,7 @@ export interface Tour {
   mode: string;
   src: string;
   popular: boolean;
+
   tourFeatures: TourFeature[];
   tourHighlights: TourHighlight[];
   tourManagerCompany: string;
@@ -80,19 +89,19 @@ export interface Tour {
   thumbnails: TourThumbnail[];
   breadcrumbs: TourBreadcrumb[];
   badges: TourBadge[];
+
   durationDays: number;
   countryCount: number;
   cityCount: number;
   region: string;
-  maxGuests: number;
+  maxGuests?: number;
   itineraryStops: ItineraryStop[];
   days: TourDay[];
   tourDetails: TourDetail[];
+
   inclusions?: string[];
   exclusions?: string[];
-  // SEO fields
-  metaTitle?: string;
-  metaDescription?: string;
-  slug?: string;
-  keywords?: string[];
+
+  // SEO fields (FIXED)
+  seoMeta?: SeoMeta;
 }

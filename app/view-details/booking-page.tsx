@@ -169,7 +169,6 @@ export default function BookingPage({
         end_date: endDate,
         parties,
       };
-      console.log("Payload",payload)
 
       createBooking(payload);
     },

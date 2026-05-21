@@ -13,59 +13,61 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// ✅ SEO METADATA (correct and optimized)
+// ✅ GLOBAL SEO (Root Layout - brand only)
 export const metadata: Metadata = {
+  metadataBase: new URL("https://indrukatours.com"),
+
   title: {
     template: "%s | Indruka Tours and Travels",
     default: "Bhutan Tour Packages & Travel Agency | Indruka Tours and Travels",
   },
+
   description:
-    "Discover Bhutan with Indruka Tours and Travels. We offer customized Bhutan cultural tours, trekking packages, and authentic travel experiences.",
+    "Discover Bhutan with Indruka Tours and Travels. We offer customized Bhutan cultural tours, trekking packages, and authentic Himalayan travel experiences.",
 
-  metadataBase: new URL("https://indrukatours.com"),
-
+  // ✅ FIXED canonical (correct Next.js way)
   alternates: {
-    canonical: "https://indrukatours.com/",
+    canonical: "/",
   },
 
   icons: {
     icon: "/favicon.ico",
   },
 
+  robots: {
+    index: true,
+    follow: true,
+  },
+
+  // ⚠️ keywords (optional, Google mostly ignores)
   keywords: [
-    "Indruka Tours and Travels",
     "Bhutan travel agency",
     "Bhutan tour packages",
-    "Travel to Bhutan",
     "Bhutan trekking tours",
-    "Thimphu tour operator",
-    "Paro holiday packages",
+    "Paro Bhutan tours",
+    "Thimphu Bhutan travel",
     "Bhutan cultural tours",
-    "Book Bhutan trip",
-    "Bhutan luxury travel",
+    "Himalayan travel Bhutan",
   ],
 
   openGraph: {
     title: "Bhutan Tour Packages & Travel Agency | Indruka Tours and Travels",
     description:
-      "Discover Bhutan with Indruka Tours and Travels. Book customized cultural and trekking tours.",
+      "Discover Bhutan with Indruka Tours and Travels. Book cultural tours, trekking packages, and Himalayan adventures.",
     url: "https://indrukatours.com",
     siteName: "Indruka Tours and Travels",
-    locale: "en",
+    locale: "en_US",
     type: "website",
+
+    // ✅ FIXED (must be absolute URL)
     images: [
       {
-        url: "/punakhadzong.jpg",
+        url: "https://indrukatours.com/punakhadzong.jpg",
         width: 1200,
         height: 630,
-        alt: "Beautiful Bhutan landscape by Indruka Tours and Travels",
+        alt: "Bhutan Tours by Indruka Tours and Travels",
       },
     ],
-  },
-
-  robots: {
-    index: true,
-    follow: true,
   },
 };
 
@@ -80,7 +82,7 @@ export default function RootLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {/* ✅ JSON-LD SCHEMA (IMPORTANT FOR GOOGLE) */}
+        {/* ✅ GLOBAL JSON-LD STRUCTURED DATA (SEO BOOST) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -90,13 +92,17 @@ export default function RootLayout({
               name: "Indruka Tours and Travels",
               url: "https://indrukatours.com",
               description:
-                "Indruka Tours and Travels offers Bhutan cultural tours, trekking packages, and customized travel experiences.",
-              areaServed: "Bhutan",
+                "Bhutan travel agency offering cultural tours, trekking packages, and customized Himalayan experiences.",
+              areaServed: {
+                "@type": "Country",
+                name: "Bhutan",
+              },
               knowsAbout: [
                 "Bhutan Tours",
                 "Trekking in Bhutan",
                 "Cultural Travel",
-                "Holiday Packages",
+                "Himalayan Tourism",
+                "Tour Packages",
               ],
             }),
           }}

@@ -131,7 +131,6 @@ export const useUpdateRegBooking = () => {
     },
 
     onError: (error) => {
-      console.error("Failed to update booking:", error);
     },
   });
 };
@@ -163,7 +162,6 @@ export const useUpdateBooking = () => {
     },
 
     onError: (error) => {
-      console.error("Failed to update booking:", error);
     },
   });
 };
@@ -179,7 +177,6 @@ export const useCreateParty = () => {
     },
 
     onError: (error) => {
-      console.error("Failed to create party:", error);
     },
   });
 };

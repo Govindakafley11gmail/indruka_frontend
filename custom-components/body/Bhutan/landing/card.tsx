@@ -3,18 +3,20 @@
 
 import TourCard from "@/custom-components/cards";
 import DefaultTourCard from "@/custom-components/cards/defaultcard";
+import { useRouter } from "next/navigation";
 
 export interface TourCardProps {
   title: string;
+  slug?: string;
   itinerary: string;
   price: any;
-  oldPrice?: string | number
+  oldPrice?: string | number;
   discount?: string;
   tags: string[];
   country: string;
-  place:string;
+  place: string;
   images: string[];
-  type?: string[];   // ← was string, now array
+  type?: string[];
   inclusions: { icon: any; label: string; optional?: boolean }[];
 }
 
@@ -22,15 +24,16 @@ export interface TourProperties {
   title: string;
   item: TourCardProps[];
   mainContainer?: string;
-
 }
 
-const TOTAL_SLOTS = 50; // 2 rows × 4 cols
-const DEFAULT_CARD_INDEX = 7; // 3rd slot of row 2 (0-based)
+const TOTAL_SLOTS = 50;
+const DEFAULT_CARD_INDEX = 7;
 
 export default function Card({ item, title, mainContainer }: TourProperties) {
+  const router = useRouter();
   const country = item[0]?.country ?? "";
   const remainingCount = Math.max(0, item.length - (TOTAL_SLOTS - 1));
+  const viewAllHref = `/tours/${country.toLowerCase()}`;
 
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
@@ -39,41 +42,37 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
           {Array.from({ length: TOTAL_SLOTS }).map((_, i) => {
             if (i === DEFAULT_CARD_INDEX) {
               return (
-                <DefaultTourCard
-                  key="default"
-                  remainingCount={remainingCount}
-                />
+                <DefaultTourCard key="default" remainingCount={remainingCount} />
               );
             }
 
             const tourIndex = i < DEFAULT_CARD_INDEX ? i : i - 1;
 
             if (tourIndex < item.length) {
-              return <TourCard key={i} {...item[tourIndex]}  />;
+              const tour = item[tourIndex];
+
+              if (!tour.slug) return null;
+
+              return <TourCard key={i} {...tour} />;
             }
 
             return null;
           })}
         </div>
 
-        {/* ✅ View More Button */}
+        {/* View All Tours → /tours/bhutan or /tours/india */}
         <div className="w-full flex justify-end mt-6">
           <button
-            onClick={() => (window.location.href = `/tours?country=${country}`)}
+            onClick={() => router.push(viewAllHref)}
             className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-full border border-blue-200 bg-white shadow-sm hover:shadow-md hover:border-blue-400 transition-all duration-300 overflow-hidden"
           >
-            {/* Animated fill background */}
             <span className="absolute inset-0 bg-gradient-to-r from-blue-500 to-indigo-500 translate-x-[-101%] group-hover:translate-x-0 transition-transform duration-500 ease-out rounded-full" />
-
-            {/* Label */}
             <span className="relative z-10 text-sm font-semibold tracking-wide text-blue-600 group-hover:text-white transition-colors duration-300">
-              View All Tours
+              View All {country} Tours
             </span>
-
-            {/* Icon bubble */}
             <span className="relative z-10 flex items-center justify-center w-7 h-7 rounded-full bg-blue-50 group-hover:bg-white/20 transition-colors duration-300">
               <svg
-                className="w-3.5 h-3.5 text-blue-500 group-hover:text-white transition-colors duration-300 group-hover:translate-x-0.5 transition-transform"
+                className="w-3.5 h-3.5 text-blue-500 group-hover:text-white transition-colors duration-300"
                 fill="none"
                 stroke="currentColor"
                 strokeWidth={2.5}

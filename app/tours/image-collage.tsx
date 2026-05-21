@@ -1,13 +1,7 @@
 "use client";
 import { Card } from "@/components/ui/card";
+import type { Tour } from "./tourtype";
 
-type Tour = {
-  id: number;
-  title: string;
-  country: string;
-  src?: string;        // ← real field from your tours data
-  place?: string;
-};
 
 type Props = {
   tours: Tour[];      // ← passed in dynamically from SacredYatra

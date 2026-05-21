@@ -49,7 +49,6 @@ export default function TourPageClient({ tour }: { tour: any }) {
         cityCount={tour.cityCount ?? tour.destinations.length}
         region={tour.region ?? tour.place}
         itineraryStops={tour.itineraryStops ?? []}
-        onViewItinerary={handleViewItinerary}
       />
 
       <TourHighlights

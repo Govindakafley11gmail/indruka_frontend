@@ -25,7 +25,7 @@ export default function ScrollReveal({
   const ref = useRef(null);
 
   const isInView = useInView(ref, {
-    once: false,
+    once: true,
     margin: "-100px",
   });
 
@@ -33,7 +33,12 @@ export default function ScrollReveal({
     <motion.div
       ref={ref}
       className={`w-full ${className}`}
-      initial={false}
+      initial={{
+        opacity: 0,
+        y,
+        x,
+        scale,
+      }}
       animate={{
         opacity: isInView ? 1 : 0,
         y: isInView ? 0 : y,

@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 
 import { useState } from "react";
@@ -7,6 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import Image from "next/image";
+import Link from "next/link";
+
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 type Inclusion = {
   icon: any;
@@ -16,8 +18,8 @@ type Inclusion = {
 
 type TourCardProps = {
   title: string;
-  type?: string[]; // ← was string, now array
-
+  slug?: string; // ← required, no ?
+  type?: string[];
   country: string;
   place: string;
   itinerary: string;
@@ -28,9 +30,9 @@ type TourCardProps = {
   images: string[];
   inclusions: Inclusion[];
 };
-import { useRouter } from "next/navigation";
-import Link from "next/link";
+
 export default function TourCard({
+  slug, // ← was missing from destructure
   place,
   title,
   itinerary,
@@ -39,25 +41,32 @@ export default function TourCard({
   discount,
   tags,
   images,
-  type, // ← destructure
-
+  type = [],
   country,
   inclusions,
 }: TourCardProps) {
   const [currentImage, setCurrentImage] = useState(0);
-  const router = useRouter();
 
   const prevImage = () =>
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
   const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
-  const href =
-    country === "Bhutan"
-      ? (type ?? []).length > 0
-        ? `/tours?country=Bhutan&spec=${(type ?? []).map(encodeURIComponent).join(",")}`
-        : `/tours?country=Bhutan`
-      : `/tours?id=${place}`; // India keeps existing behaviour
+  let href: string;
+
+ if (country === "Bhutan") {
+  href = `/tours/bhutan/${(type?.[0] ?? "general").toLowerCase()}`;
+} else {
+  href = `/tours/india/${(place ?? "").toLowerCase().replace(/\s+/g, "-")}`;
+}
+
+  const formatPrice = (val: any) => {
+    if (typeof val === "string") return val;
+    return country === "Bhutan"
+      ? val.toLocaleString("en-US")
+      : `₹ ${val.toLocaleString("en-US")}`;
+  };
+
   return (
-    <Card className=" overflow-hidden rounded-2xl shadow-xl border p-0">
+    <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-[350px] g-2">
       {/* Image */}
       <div className="relative h-[200px] overflow-hidden">
         <Image
@@ -69,7 +78,6 @@ export default function TourCard({
           unoptimized
         />
 
-        {/* Controls */}
         <button
           onClick={prevImage}
           className="absolute left-4 top-1/2 -translate-y-1/2 w-8 h-8 bg-white/90 rounded-full flex items-center justify-center"
@@ -105,7 +113,7 @@ export default function TourCard({
         <p className="text-sm text-gray-500">{itinerary}</p>
 
         {/* Inclusions */}
-        <div className="flex items-center gap-4">
+        <div className="flex flex-wrap items-center gap-4">
           {inclusions.map(({ icon: Icon, label, optional }) => (
             <div key={label} className="flex flex-col items-center relative">
               {optional && (
@@ -113,7 +121,6 @@ export default function TourCard({
                   Optional
                 </span>
               )}
-
               <div
                 className={`w-10 h-10 flex items-center justify-center p-2 rounded-lg ${
                   optional ? "bg-orange-50" : "bg-blue-50"
@@ -125,13 +132,11 @@ export default function TourCard({
                   }`}
                 />
               </div>
-
               <span className="text-[11px] text-gray-500">{label}</span>
             </div>
           ))}
         </div>
 
-        {/* Divider */}
         <div className="border-t border-dashed" />
 
         {/* Pricing */}
@@ -140,9 +145,7 @@ export default function TourCard({
             {oldPrice && (
               <div className="flex items-center gap-2">
                 <span className="line-through text-gray-400 text-sm">
-                  {country === "Bhutan"
-                    ? `${oldPrice.toLocaleString("en-US")}`
-                    : `₹ ${oldPrice.toLocaleString("en-US")}`}
+                  {formatPrice(oldPrice)}
                 </span>
                 {discount && (
                   <Badge className="bg-orange-500 text-white text-[10px]">
@@ -153,12 +156,7 @@ export default function TourCard({
             )}
 
             <div className="text-xl font-bold">
-              {" "}
-                 <span className="text-base">
-                  {country === "Bhutan"
-                    ? `${price.toLocaleString("en-US")}`
-                    : `₹ ${price.toLocaleString("en-US")}`}
-                </span>
+              <span className="text-base">{formatPrice(price)}</span>
             </div>
             <p className="text-xs text-gray-400">Starting price per adult</p>
           </div>

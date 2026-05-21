@@ -83,7 +83,6 @@ export interface TourGalleryPageProps {
   region: string;
   itineraryStops: ItineraryStop[];
   itineraryLinkLabel?: string;
-  onViewItinerary?: () => void;
 }
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
@@ -209,7 +208,6 @@ export default function TourGalleryPage({
   region,
   itineraryStops,
   itineraryLinkLabel = "View day-wise tour itinerary",
-  onViewItinerary,
   /** id of the itinerary section to scroll to (defaults to "itinerary") */
   itinerarySectionId = "itinerary",
 }: TourGalleryPageProps & { itinerarySectionId?: string }) {
@@ -475,14 +473,12 @@ export default function TourGalleryPage({
             {/* View itinerary link */}
             <button
               onClick={(e) => {
-                if (onViewItinerary) {
-                  onViewItinerary();
-                } else {
+              
                   e.preventDefault();
                   document
                     .getElementById(itinerarySectionId)
                     ?.scrollIntoView({ behavior: "smooth", block: "start" });
-                }
+             
               }}
               className="hidden md:flex items-center gap-1 text-sm font-semibold text-black cursor-pointer transition-colors underline underline-offset-2"
             >

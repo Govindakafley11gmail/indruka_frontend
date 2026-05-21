@@ -116,7 +116,6 @@ export const bhutanTripConfig = (
     end_date: endDate,
     parties,
   };
-console.log("Payload",payload)
   createBooking(payload);
 },
 });

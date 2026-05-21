@@ -33,7 +33,6 @@ export default function CallBackPage() {
             refetch();
         },
         onError: (err) => {
-            console.error("Failed to update callBack:", err);
         },
     });
 

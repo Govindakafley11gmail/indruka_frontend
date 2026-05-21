@@ -41,7 +41,22 @@ export const indiaTours = [
     mode: "Helicopter",
     src: "/chardham.jpg",
     popular: true,
-
+  seoMeta: {
+  slug: "char-dham-yatra-by-helicopter",
+  metaTitle:
+    "Char Dham Yatra By Helicopter | 6 Days Premium Uttarakhand Tour",
+  metaDescription:
+    "Experience Char Dham Yatra by helicopter covering Yamunotri, Gangotri, Kedarnath & Badrinath with VIP darshan and luxury arrangements.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/char-dham-yatra-by-helicopter",
+  keywords: [
+    "Char Dham Yatra helicopter",
+    "Kedarnath helicopter tour",
+    "Badrinath tour package",
+    "Uttarakhand pilgrimage tour",
+    "India religious tour",
+  ],
+},
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
@@ -114,7 +129,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Char Dham Yatra By Helicopter" },
     ],
 
@@ -200,7 +215,7 @@ export const indiaTours = [
       { label: "Group Size", value: "Customised — 2 to 10+ passengers" },
     ],
 
-    onViewItinerary: () => {},
+
   },
   {
     id: 2,
@@ -221,6 +236,21 @@ export const indiaTours = [
     mode: "Road",
     src: "/badrinath1.jpg",
     popular: true,
+  seoMeta: {
+  slug: "chardham-yatra-package-from-delhi",
+  metaTitle:
+    "Chardham Yatra Package from Delhi | 11 Days Uttarakhand Pilgrimage Tour",
+  metaDescription:
+    "Book Char Dham Yatra from Delhi covering Yamunotri, Gangotri, Kedarnath & Badrinath with hotel, meals & transfers included.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/chardham-yatra-package-from-delhi",
+  keywords: [
+    "Chardham Yatra from Delhi",
+    "Char Dham pilgrimage tour",
+    "Uttarakhand tour package",
+    "Kedarnath Badrinath tour",
+  ],
+},
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
@@ -303,7 +333,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Char Dham Yatra By Helicopter" },
     ],
 
@@ -410,7 +440,22 @@ export const indiaTours = [
     mode: "Road",
       src: "amarnath5.jpg",
     popular: true,
-
+seoMeta: {
+  slug: "amarnath-yatra-packages-srinagar-7-days",
+  metaTitle: "Amarnath Yatra Packages | 7 Days Pilgrimage Tour from Srinagar",
+  metaDescription:
+    "Book Amarnath Yatra Packages from Srinagar covering Pahalgam, Panjtarni, and the sacred Amarnath Cave. 7-day spiritual journey with full pilgrimage support and guided trek experience.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/amarnath-yatra-packages-srinagar-7-days",
+  keywords: [
+    "Amarnath Yatra package",
+    "Amarnath cave tour",
+    "Srinagar Amarnath pilgrimage",
+    "Amarnath trek 2025",
+    "Kashmir religious tour",
+    "Baba Barfani darshan"
+  ],
+},
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
@@ -477,7 +522,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kashmir", href: "/india/kashmir" },
+      { label: "Kashmir", href: "/india" },
       { label: "Amarnath Yatra Packages" },
     ],
 
@@ -576,6 +621,22 @@ export const indiaTours = [
 
   {
     id: 4,
+    seoMeta: {
+  slug: "adi-kailash-om-parvat-yatra-10-days-uttarakhand",
+  metaTitle: "Adi Kailash & Om Parvat Yatra | 10 Days Spiritual Trek Uttarakhand",
+  metaDescription:
+    "Join the Adi Kailash and Om Parvat Yatra in Uttarakhand. A 10-day high-altitude spiritual journey covering Dharchula, Gunji, Kalapani, and sacred Himalayan landscapes.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/adi-kailash-om-parvat-yatra-10-days-uttarakhand",
+  keywords: [
+    "Adi Kailash yatra",
+    "Om Parvat tour",
+    "Kailash Parikrama India",
+    "Uttarakhand pilgrimage trek",
+    "Kalapani Om symbol",
+    "Gunji Adi Kailash route"
+  ],
+},
     country: "India",
     place: "Uttarakhand",
     title: "Adi Kailash & Om Parvat Yatra",
@@ -658,7 +719,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Adi Kailash & Om Parvat Yatra" },
     ],
 
@@ -783,6 +844,22 @@ export const indiaTours = [
   {
     id: 5,
     country: "India",
+    seoMeta: {
+  slug: "adi-kailash-om-parvat-yatra-10-days-uttarakhand",
+  metaTitle: "Adi Kailash & Om Parvat Yatra | 10 Days Spiritual Trek Uttarakhand",
+  metaDescription:
+    "Join the Adi Kailash and Om Parvat Yatra in Uttarakhand. A 10-day high-altitude spiritual journey covering Dharchula, Gunji, Kalapani, and sacred Himalayan landscapes.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/adi-kailash-om-parvat-yatra-10-days-uttarakhand",
+  keywords: [
+    "Adi Kailash yatra",
+    "Om Parvat tour",
+    "Kailash Parikrama India",
+    "Uttarakhand pilgrimage trek",
+    "Kalapani Om symbol",
+    "Gunji Adi Kailash route"
+  ],
+},
     place: "Delhi",
     title: "Golden Triangle Tour Package",
     type: "Religious yatras",
@@ -973,6 +1050,22 @@ export const indiaTours = [
 
   {
     id: 6,
+    seoMeta: {
+  slug: "bhubaneswar-puri-konark-tour-4-days-odisha",
+  metaTitle: "Bhubaneswar Puri Konark Tour Package | 4 Days Odisha Temple Tour",
+  metaDescription:
+    "Discover Odisha’s spiritual triangle with Bhubaneswar, Puri, and Konark. A 4-day temple tour covering Jagannath Temple, Sun Temple, and Chilika Lake.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/bhubaneswar-puri-konark-tour-4-days-odisha",
+  keywords: [
+    "Odisha tour package",
+    "Puri Jagannath tour",
+    "Konark Sun Temple visit",
+    "Bhubaneswar temple tour",
+    "Chilika Lake trip",
+    "Odisha pilgrimage tour"
+  ],
+},
     country: "India",
     place: "Bhubaneswar",
     title: "Bhubaneswar Puri Konark Tour",
@@ -1057,7 +1150,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Odisha", href: "/india/odisha" },
+      { label: "Odisha", href: "/india" },
       { label: "Bhubaneswar Puri Konark Tour" },
     ],
 
@@ -1132,6 +1225,22 @@ export const indiaTours = [
 
   {
     id: 140,
+    seoMeta: {
+  slug: "dharamshala-weekend-tour-package-4-days",
+  metaTitle: "Dharamshala Weekend Tour Package | 4 Days McLeodGanj Trip",
+  metaDescription:
+    "Enjoy a peaceful weekend in Dharamshala and McLeodGanj. Visit Dalai Lama Temple, Bhagsu Waterfall, and scenic Himalayan viewpoints in this 4-day getaway.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/dharamshala-weekend-tour-package-4-days",
+  keywords: [
+    "Dharamshala tour package",
+    "McLeodGanj trip",
+    "Himachal weekend tour",
+    "Dalai Lama temple visit",
+    "Bhagsu waterfall trek",
+    "Dharamshala sightseeing"
+  ],
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Dharamshala Weekend Tour Package",
@@ -1172,7 +1281,7 @@ export const indiaTours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/himachal2.jpg",
+      src: "2.jpg",
       alt: "Dharamshala Weekend Tour Package — Himachal Pradesh",
     },
 
@@ -1198,17 +1307,17 @@ export const indiaTours = [
     thumbnails: [
       {
         id: 1,
-      src: "/himachal3.jpeg",
+      src: "3.jpeg",
         alt: "Dharamshala Weekend Tour",
       },
        {
         id: 2,
-      src: "/himachal4.jpg",
+      src: "4.jpg",
         alt: "Dharamshala Weekend Tour",
       },
       {
         id: 3,
-      src: "/himachal6.jpg",
+      src: "6.jpg",
         alt: "Dharamshala Weekend Tour",
       },
     ],
@@ -1216,7 +1325,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Dharamshala Weekend Tour Package" },
     ],
 
@@ -1292,6 +1401,22 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 141,
+    seoMeta: {
+  slug: "exotic-himachal-tour-package-5-days",
+  metaTitle: "Exotic Himachal Tour Package | Shimla Manali Rohtang 5 Days",
+  metaDescription:
+    "Explore Shimla, Kullu, Manali, and Rohtang Pass in this 5-day Exotic Himachal tour. Perfect blend of snow adventures, nature, and hill station beauty.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/exotic-himachal-tour-package-5-days",
+  keywords: [
+    "Himachal tour package",
+    "Shimla Manali Rohtang trip",
+    "Kullu Manali tour",
+    "Himachal honeymoon package",
+    "snow tour India",
+    "hill station tour Himachal"
+  ],
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Exotic Himachal Tour Package",
@@ -1381,7 +1506,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Exotic Himachal Tour Package" },
     ],
 
@@ -1466,6 +1591,22 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 800,
+    seoMeta: {
+  slug: "shimla-manali-tour-package-6-days",
+  metaTitle: "Shimla Manali Tour Package | 6 Days Himachal Road Trip",
+  metaDescription:
+    "Book Shimla Manali tour package covering Kufri, Kullu, Rohtang Pass, and Manali sightseeing. A perfect 6-day Himalayan road trip from Delhi.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/shimla-manali-tour-package-6-days",
+  keywords: [
+    "Shimla Manali tour",
+    "Himachal road trip package",
+    "Rohtang Pass tour",
+    "Kullu Manali honeymoon",
+    "Shimla Kufri trip",
+    "Delhi to Manali package"
+  ],
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Shimla Manali Tour Package",
@@ -1556,7 +1697,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Shimla Manali Tour Package" },
     ],
 
@@ -1649,6 +1790,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 143,
+    seoMeta: {
+  slug: "enchanting-himachal-tour-package-7-days",
+  metaTitle: "Enchanting Himachal Tour Package | 7 Days Shimla Manali Tour",
+  metaDescription:
+    "Explore Shimla, Manali, Kufri, Rohtang Pass and Kullu with this 7-day Enchanting Himachal tour package. Perfect Himalayan road trip from Delhi.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/enchanting-himachal-tour-package-7-days",
+  keywords: [
+    "Himachal tour package",
+    "Shimla Manali 7 days",
+    "Rohtang Pass trip",
+    "Kullu Manali tour",
+    "Himachal road trip from Delhi"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Enchanting Himachal Tour Package",
@@ -1720,7 +1876,7 @@ export const indiaTours = [
       },
         {
         id: 1,
-        src: "/himachal2.jpg",
+        src: "2.jpg",
         alt: "Enchanting Himachal Tour",
       },
     ],
@@ -1728,7 +1884,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Enchanting Himachal Tour Package" },
     ],
 
@@ -1829,6 +1985,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 144,
+    seoMeta: {
+  slug: "himachal-vaishno-devi-darshan-tour-8-days",
+  metaTitle: "Himachal Vaishno Devi Darshan Tour | Amritsar to Katra Package",
+  metaDescription:
+    "Spiritual Himachal Vaishno Devi tour covering Amritsar, Dharamshala, Katra and Vaishno Devi shrine with comfortable road travel and guided pilgrimage experience.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details-vaishno-devi-darshan-tour-8-days",
+  keywords: [
+    "Vaishno Devi tour package",
+    "Amritsar Dharamshala Katra trip",
+    "Himachal pilgrimage tour",
+    "Vaishno Devi yatra package",
+    "Golden Temple to Vaishno Devi"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Himachal Vaishno Devi Darshan Tour",
@@ -1919,7 +2090,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Himachal Vaishno Devi Darshan Tour" },
     ],
 
@@ -2032,6 +2203,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 146,
+    seoMeta: {
+  slug: "scenic-himachal-tour-package-9-days",
+  metaTitle: "Scenic Himachal Tour Package | Shimla Manali Dharamshala Trip",
+  metaDescription:
+    "Discover Shimla, Manali and Dharamshala in this 9-day Scenic Himachal tour package with sightseeing, adventure and Himalayan landscapes.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/scenic-himachal-tour-package-9-days",
+  keywords: [
+    "Scenic Himachal tour",
+    "Shimla Manali Dharamshala package",
+    "Himachal 9 days trip",
+    "Rohtang Pass tour package",
+    "Himalayan road trip"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Scenic Himachal Tour Package",
@@ -2126,7 +2312,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Scenic Himachal Tour Package" },
     ],
 
@@ -2241,6 +2427,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 147,
+    seoMeta: {
+  slug: "incredible-himachal-tour-package-10-days",
+  metaTitle: "Incredible Himachal Tour Package | Shimla Manali Dalhousie Khajjiar",
+  metaDescription:
+    "10-day Incredible Himachal tour covering Shimla, Manali, Dalhousie and Khajjiar. Explore Himalayan valleys, snow points and scenic hill stations.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/incredible-himachal-tour-package-10-days",
+  keywords: [
+    "Himachal 10 days tour",
+    "Shimla Manali Dalhousie package",
+    "Khajjiar tour package",
+    "Himachal extended trip",
+    "Himalayan holiday package"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Incredible Himachal Tour Package",
@@ -2315,7 +2516,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Incredible Himachal Tour Package" },
     ],
 
@@ -2442,6 +2643,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 148,
+    seoMeta: {
+  slug: "himachal-honeymoon-tour-package-10-days",
+  metaTitle: "Himachal Honeymoon Tour Package | Romantic Shimla Manali Trip",
+  metaDescription:
+    "Romantic 10-day Himachal honeymoon package covering Shimla, Manali and Dharamshala with candlelight dinners, snow activities and scenic stays.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details-honeymoon-tour-package-10-days",
+  keywords: [
+    "Himachal honeymoon package",
+    "Shimla Manali honeymoon tour",
+    "romantic Himachal trip",
+    "honeymoon packages India",
+    "couple Himachal tour"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Himachal Honeymoon Tour Package",
@@ -2482,7 +2698,7 @@ export const indiaTours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/himachal.jpg",
+      src: ".jpg",
       alt: "Himachal Honeymoon Tour Package — Himachal Pradesh",
     },
 
@@ -2526,7 +2742,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Himachal Honeymoon Tour Package" },
     ],
 
@@ -2649,6 +2865,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 149,
+    seoMeta: {
+  slug: "fascinating-himachal-tour-package-11-days",
+  metaTitle: "Fascinating Himachal Tour Package | Shimla Manali Dalhousie Tour",
+  metaDescription:
+    "11-day Fascinating Himachal tour exploring Shimla, Manali, Dalhousie and Khajjiar with scenic drives, valleys and Himalayan beauty.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/fascinating-himachal-tour-package-11-days",
+  keywords: [
+    "Himachal 11 days tour",
+    "Shimla Manali Dalhousie package",
+    "Khajjiar tour Himachal",
+    "extended Himachal trip",
+    "Himalayan sightseeing tour"
+  ]
+},
     country: "India",
     place: "Himachal Pradesh",
     title: "Fascinating Himachal Tour Package",
@@ -2664,7 +2895,7 @@ export const indiaTours = [
     badge: "popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/himachal6.jpg",
+    src: "6.jpg",
     popular: false,
 
     tourFeatures: [
@@ -2689,7 +2920,7 @@ export const indiaTours = [
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/himachal2.jpg",
+      src: "2.jpg",
       alt: "Fascinating Himachal Tour Package — Himachal Pradesh",
     },
 
@@ -2733,7 +2964,7 @@ export const indiaTours = [
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Himachal Pradesh", href: "/india/himachal-pradesh" },
+      { label: "Himachal Pradesh", href: "/india-pradesh" },
       { label: "Fascinating Himachal Tour Package" },
     ],
 
@@ -2866,6 +3097,21 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 150,
+    seoMeta: {
+  slug: "goa-weekend-tour-package-4-days",
+  metaTitle: "Goa Weekend Tour Package | 4 Days North & South Goa Trip",
+  metaDescription:
+    "Enjoy a 4-day Goa weekend tour covering North Goa beaches, South Goa churches, Fort Aguada and Mandovi River cruise. Perfect short beach getaway.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/goa-weekend-tour-package-4-days",
+  keywords: [
+    "Goa weekend tour",
+    "Goa 4 days package",
+    "North Goa South Goa trip",
+    "Goa beach holiday",
+    "Goa travel package from Delhi"
+  ]
+},
     country: "India",
     place: "Goa",
     title: "Goa Weekend Tour Package",
@@ -3029,6 +3275,21 @@ export const indiaTours = [
   {
     id: 151,
     country: "India",
+    seoMeta: {
+  slug: "goa-honeymoon-special-tour-4-days",
+  metaTitle: "Goa Honeymoon Special Tour | Romantic Beachside Couple Package",
+  metaDescription:
+    "Romantic Goa honeymoon package with beachside stay, candlelight dinner, North & South Goa sightseeing and Mandovi River cruise.",
+  canonicalUrl:
+    "https://indrukatours.com/view-details/goa-honeymoon-special-tour-4-days",
+  keywords: [
+    "Goa honeymoon package",
+    "romantic Goa tour",
+    "couple Goa trip",
+    "beach honeymoon Goa",
+    "Goa honeymoon itinerary"
+  ]
+},
     place: "Goa",
     title: "Goa Honeymoon Special Tour",
     type: "Honeymoon packages",
@@ -3190,6 +3451,19 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 153,
+    seoMeta: {
+  title: "Most Wanted Goa Package | 4 Days Goa Tour from Delhi",
+  description:
+    "Book Most Wanted Goa Package with premium beach resorts, North & South Goa sightseeing, Mandovi River Cruise and meals included. Best Goa honeymoon tour from Delhi.",
+  keywords: [
+    "Goa tour package",
+    "Goa honeymoon package",
+    "Delhi to Goa trip",
+    "North Goa South Goa tour",
+    "Goa 4 days package",
+  ],
+  slug: "most-wanted-goa-package-4-days",
+},
     country: "India",
     place: "Goa",
     title: "Most Wanted Goa Package",
@@ -3348,6 +3622,18 @@ export const indiaTours = [
   // ─────────────────────────────────────────────
   {
     id: 154,
+    seoMeta: {
+  title: "Goa Tour Package with Flight | Delhi to Goa All Inclusive Trip",
+  description:
+    "Enjoy Goa tour package with flight included. Delhi to Goa return airfare, hotel, sightseeing, meals and beach activities included in 4-day premium itinerary.",
+  keywords: [
+    "Goa package with flight",
+    "Delhi to Goa tour",
+    "Goa holiday package airfare included",
+    "Goa honeymoon flight package",
+  ],
+  slug: "goa-tour-package-with-flight-delhi",
+},
     country: "India",
     place: "Goa",
     title: "Goa Tour Package with Flight",
@@ -3524,7 +3810,20 @@ export const indiaTours = [
     mode: "Road",
     src: "/goa-fiesta.jpg",
     popular: false,
-
+seoMeta: {
+    title: "Goa Honeymoon Tour Package | 5 Days Goa Fiesta Trip from Delhi",
+    description:
+      "Book 5 Days Goa Honeymoon Package from Delhi covering North & South Goa, beaches, water sports, Mandovi River Cruise, and luxury stay. Best Goa Fiesta tour at affordable price.",
+    keywords: [
+      "Goa tour package",
+      "Goa honeymoon package",
+      "5 days Goa trip",
+      "Goa holiday from Delhi",
+      "North Goa South Goa tour",
+      "Goa fiesta package"
+    ],
+    slug: "amazing-goa-fiesta-tour"
+  },
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
@@ -3691,7 +3990,19 @@ src: "/goa.jpg",
     mode: "Road",
     src: "/nainital.jpg",
     popular: false,
-
+seoMeta: {
+    title: "Nainital Tour Package from Delhi | 3 Days Hill Station Trip",
+    description:
+      "Book 3 Days Nainital tour package from Delhi covering Naini Lake, Snow View Point, Naina Devi Temple, and Mall Road. Best budget Uttarakhand hill station trip.",
+    keywords: [
+      "Nainital tour package",
+      "Nainital trip from Delhi",
+      "3 days Nainital package",
+      "Uttarakhand hill station tour",
+      "Naini Lake boating package"
+    ],
+    slug: "nainital-tour-package-from-delhi"
+  },
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
       {
@@ -3758,7 +4069,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Nainital Tour Package from Delhi" },
     ],
 
@@ -3838,14 +4149,28 @@ src: "/goa.jpg",
     src: "/nainital-corb-banner.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "nainital-corbett-weekend-tour-package-4-days",
+      metaTitle:
+        "Nainital Corbett Weekend Tour Package | 4 Days | Delhi · Nainital · Jim Corbett",
+      metaDescription:
+        "Explore Naini Lake, Snow View Point & Jim Corbett National Park jeep safari on this 4-day weekend package from Delhi. Spot tigers, elephants & Himalayan birds. ₹14,900 per person.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/nainital-corbett-weekend-tour-package-4-days",
+      keywords: [
+        "Nainital Corbett tour package",
+        "Jim Corbett jeep safari",
+        "Nainital weekend tour from Delhi",
+        "Corbett National Park tour",
+        "Naini Lake boating",
+        "Snow View Point Nainital",
+        "wildlife tour Uttarakhand",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -3860,7 +4185,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src:  "/nainital-corb-banner.jpg",
+      src: "/nainital-corb-banner.jpg",
       alt: "Nainital Corbett Weekend Tour Package",
     },
 
@@ -3884,27 +4209,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/nainital-corb-banner2.jpg",
-        alt: "src",
-      },
-      {
-        id: 2,
-        src: "/nainital7.jpg",
-        alt: "src",
-      },
-      {
-        id: 3,
-        src: "/nainital8.jpg",
-        alt: "src",
-      },
+      { id: 1, src: "/nainital-corb-banner2.jpg", alt: "src" },
+      { id: 2, src: "/nainital7.jpg", alt: "src" },
+      { id: 3, src: "/nainital8.jpg", alt: "src" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Nainital Corbett Weekend Tour Package" },
     ],
 
@@ -3930,53 +4243,42 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Delhi → Nainital",
-        details: [
-          "Depart Delhi by coach. Arrive Nainital; check-in. Evening at Naini Lake and Mall Road. Overnight."
-          ],
+        details: ["Depart Delhi by coach. Arrive Nainital; check-in. Evening at Naini Lake and Mall Road. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Nainital Sightseeing → Corbett",
-        details: [
-          "Morning: Naina Devi Temple and Snow View Point (cable car). Post-lunch drive to Jim Corbett National Park. Check-in to jungle resort. Overnight."
-          ],
+        details: ["Morning: Naina Devi Temple and Snow View Point (cable car). Post-lunch drive to Jim Corbett National Park. Check-in to jungle resort. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Jim Corbett Jeep Safari",
-        details: [
-          "Early morning jeep safari into Dhikala or Bijrani zone — spot tigers, elephants, leopards, and diverse birdlife. Afternoon visit Garjia Devi Temple and Corbett Museum. Overnight at resort."
-          ],
+        details: ["Early morning jeep safari into Dhikala or Bijrani zone — spot tigers, elephants, leopards, and diverse birdlife. Afternoon visit Garjia Devi Temple and Corbett Museum. Overnight at resort."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Corbett → Delhi",
-        details: [
-          "Optional early morning nature walk. Post-breakfast drive to Delhi. Tour concludes."
-          ],
+        details: ["Optional early morning nature walk. Post-breakfast drive to Delhi. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "4 Days / 3 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Nainital · Jim Corbett National Park",
-      },
+      { label: "Destinations", value: "Delhi · Nainital · Jim Corbett National Park" },
       { label: "Departure & Return", value: "Delhi" },
       { label: "Tour Code", value: "NNT-CORB-DEL-03" },
       { label: "Meals", value: "Breakfast & Dinner included" },
       { label: "Best Time", value: "November–June (Corbett Safari Season)" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
-
+  // ─────────────────────────────────────────────
+  // ID 182 — Uttarakhand Bird Watching Tour Package
+  // ─────────────────────────────────────────────
   {
     id: 182,
     country: "India",
@@ -3997,14 +4299,28 @@ src: "/goa.jpg",
     src: "/nainital-bird.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "uttarakhand-bird-watching-tour-package-5-days",
+      metaTitle:
+        "Uttarakhand Bird Watching Tour Package | 5 Days | Corbett · Sat Tal · Nainital · Pangot",
+      metaDescription:
+        "Expert-led birding tour across Jim Corbett, Sat Tal & Kilbury Bird Sanctuary. Spot 120+ species including Pallas's fish eagle & great hornbill. 5-day package from Delhi. ₹18,900.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/-bird-watching-tour-package-5-days",
+      keywords: [
+        "Uttarakhand bird watching tour",
+        "Corbett bird watching",
+        "Sat Tal birding tour",
+        "Pangot bird watching",
+        "Kilbury Bird Sanctuary tour",
+        "birdwatching package Nainital",
+        "migratory birds Sat Tal",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4043,27 +4359,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/nainital-bird2.jpg",
-        alt: "Bird Watching Uttarakhand",
-      },
-      {
-        id: 2,
-        src:  "/nainital-bird3.jpg",
-        alt: "Sat Tal Lake Birdwatching",
-      },
-      {
-        id: 3,
-        src:  "/nainital-bird4.jpg",
-        alt: "Corbett National Park Birds",
-      },
+      { id: 1, src: "/nainital-bird2.jpg", alt: "Bird Watching Uttarakhand" },
+      { id: 2, src: "/nainital-bird3.jpg", alt: "Sat Tal Lake Birdwatching" },
+      { id: 3, src: "/nainital-bird4.jpg", alt: "Corbett National Park Birds" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Uttarakhand Bird Watching Tour Package" },
     ],
 
@@ -4090,58 +4394,43 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Delhi → Jim Corbett",
-        details: [
-          "Depart Delhi by coach. Arrive Jim Corbett; check-in to birding resort. Afternoon nature walk with expert naturalist guide. Overnight."
-          ],
+        details: ["Depart Delhi by coach. Arrive Jim Corbett; check-in to birding resort. Afternoon nature walk with expert naturalist guide. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Corbett Birding — Full Day",
-        details: [
-          "Early morning bird walk along Ramganga riverine forest — spot Pallas's fish eagle, great hornbill, and hundreds of resident Himalayan species. Afternoon rest and evening riverside bird watch. Overnight."
-          ],
+        details: ["Early morning bird walk along Ramganga riverine forest — spot Pallas's fish eagle, great hornbill, and hundreds of resident Himalayan species. Afternoon rest and evening riverside bird watch. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Corbett → Sat Tal",
-        details: [
-          "Post-breakfast drive to Sat Tal (Seven Lakes). Afternoon birding around the seven interconnected lakes — a premier winter migratory bird destination. Spot Oriental turtle dove, common teal, and kingfishers. Overnight."
-          ],
+        details: ["Post-breakfast drive to Sat Tal (Seven Lakes). Afternoon birding around the seven interconnected lakes — a premier winter migratory bird destination. Spot Oriental turtle dove, common teal, and kingfishers. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Sat Tal → Nainital",
-        details: [
-          "Dawn bird walk at Sat Tal. Drive to Nainital. Afternoon birding at Kilbury Bird Sanctuary — one of Kumaon's top high-altitude birding spots. Overnight in Nainital."
-          ],
+        details: ["Dawn bird walk at Sat Tal. Drive to Nainital. Afternoon birding at Kilbury Bird Sanctuary — one of Kumaon's top high-altitude birding spots. Overnight in Nainital."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Nainital → Delhi",
-        details: [
-          "Morning birding at Pangot village (a top birding village near Nainital). Post-breakfast drive to Delhi. Tour concludes."
-          ],
+        details: ["Morning birding at Pangot village (a top birding village near Nainital). Post-breakfast drive to Delhi. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "5 Days / 4 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Jim Corbett · Sat Tal · Nainital · Pangot",
-      },
+      { label: "Destinations", value: "Delhi · Jim Corbett · Sat Tal · Nainital · Pangot" },
       { label: "Departure & Return", value: "Delhi" },
       { label: "Tour Code", value: "NNT-BIRD-DEL-04" },
       { label: "Meals", value: "All meals included" },
       { label: "Best Time", value: "October–March (Winter migratory season)" },
       { label: "Group Size", value: "Small group — 2 to 12 passengers" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -4167,14 +4456,28 @@ src: "/goa.jpg",
     src: "/kumaon.webp",
     popular: false,
 
+    seoMeta: {
+      slug: "hills-of-kumaon-tour-package-7-days",
+      metaTitle:
+        "Hills of Kumaon Tour Package | 7 Days | Nainital · Ranikhet · Almora",
+      metaDescription:
+        "Discover the unspoilt Kumaon Hills on this 7-day tour covering Nainital, Ranikhet Golf Course, Chaubatia Orchards & Almora's Kasar Devi Temple. Off-the-beaten-path Uttarakhand. ₹28,900.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/hills-of-kumaon-tour-package-7-days",
+      keywords: [
+        "Hills of Kumaon tour package",
+        "Kumaon tour from Delhi",
+        "Ranikhet tour package",
+        "Almora sightseeing tour",
+        "Nainital Ranikhet Almora",
+        "Kasar Devi Temple Almora",
+        "Chaubatia Orchards Ranikhet",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4213,27 +4516,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/KumaonTour.jpg",
-        alt: "Hills of Kumaon",
-      },
-      {
-        id: 2,
-        src: "/KumaonTour2.jpg",
-        alt: "Ranikhet Chaubatia Orchards",
-      },
-      {
-        id: 3,
-        src: "/nainital12.jpg",
-        alt: "Almora Bright End Corner",
-      },
+      { id: 1, src: "/KumaonTour.jpg", alt: "Hills of Kumaon" },
+      { id: 2, src: "/KumaonTour2.jpg", alt: "Ranikhet Chaubatia Orchards" },
+      { id: 3, src: "/nainital12.jpg", alt: "Almora Bright End Corner" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Hills of Kumaon Tour Package" },
     ],
 
@@ -4260,57 +4551,43 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Delhi → Nainital",
-        details: [
-          "Depart Delhi. Arrive Nainital; check-in. Evening at Naini Lake and Mall Road. Overnight."
-          ],
+        details: ["Depart Delhi. Arrive Nainital; check-in. Evening at Naini Lake and Mall Road. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Nainital Sightseeing",
-        details: [
-          "Visit Snow View Point (cable car), Naina Devi Temple, Eco Cave Gardens, Tiffin Top, and High Altitude Zoo. Overnight."
-          ],
+        details: ["Visit Snow View Point (cable car), Naina Devi Temple, Eco Cave Gardens, Tiffin Top, and High Altitude Zoo. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Nainital → Ranikhet",
-        details: [
-          "Drive to Ranikhet (approx. 2 hrs). Check-in. Explore Chaubatia Orchards (apple, apricot, peach), the Jhula Devi Temple, and the famous Ranikhet Golf Course (one of Asia's highest). Overnight."
-          ],
+        details: ["Drive to Ranikhet (approx. 2 hrs). Check-in. Explore Chaubatia Orchards (apple, apricot, peach), the Jhula Devi Temple, and the famous Ranikhet Golf Course (one of Asia's highest). Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Ranikhet Sightseeing",
-        details: [
-          "Visit Kalika Temple, Binsar Mahadev Temple, Upat & Kalika golf courses, and Majhkhali viewpoint. Panoramic Himalayan views including Nanda Devi. Overnight."
-          ],
+        details: ["Visit Kalika Temple, Binsar Mahadev Temple, Upat & Kalika golf courses, and Majhkhali viewpoint. Panoramic Himalayan views including Nanda Devi. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Ranikhet → Almora",
-        details: [
-          "Drive to Almora (approx. 2 hrs). Check-in. Explore Lala Bazaar for traditional Kumaoni sweets and brassware. Overnight."
-          ],
+        details: ["Drive to Almora (approx. 2 hrs). Check-in. Explore Lala Bazaar for traditional Kumaoni sweets and brassware. Overnight."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Almora Sightseeing",
-        details: [
-          "Visit Kasar Devi Temple (once home to Swami Vivekananda), Chitai Golu Devta Temple (famous for petition bells), Bright End Corner sunset, and Almora Deer Park. Overnight."
-          ],
+        details: ["Visit Kasar Devi Temple (once home to Swami Vivekananda), Chitai Golu Devta Temple (famous for petition bells), Bright End Corner sunset, and Almora Deer Park. Overnight."],
       },
       {
         day: 7,
         date: "Day 7",
         title: "Almora → Delhi",
-        details: [
-          "Post-breakfast drive to Delhi (approx. 9 hrs). Tour concludes."
-          ],
+        details: ["Post-breakfast drive to Delhi (approx. 9 hrs). Tour concludes."],
       },
     ],
 
@@ -4323,14 +4600,7 @@ src: "/goa.jpg",
       { label: "Best Time", value: "March–June & September–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
-
-  // ─────────────────────────────────────────────
-  // ID 184 — Wonders of Kumaon Tour Package
-  // ─────────────────────────────────────────────
-  
 
   // ─────────────────────────────────────────────
   // ID 185 — Uttarakhand Delights Tour Package
@@ -4355,14 +4625,28 @@ src: "/goa.jpg",
     src: "/UDelight.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "uttarakhand-delights-tour-package-8-days",
+      metaTitle:
+        "Uttarakhand Delights Tour Package | 8 Days | Nainital · Ranikhet · Corbett · Mussoorie",
+      metaDescription:
+        "Experience the best of Uttarakhand in 8 days — Nainital lakes, Ranikhet meadows, Corbett jeep safari & Mussoorie's Kempty Falls. All-inclusive package from Delhi. ₹32,900.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/uttarakhand-delights-tour-package-8-days",
+      keywords: [
+        "Uttarakhand tour package 8 days",
+        "Nainital Corbett Mussoorie tour",
+        "Uttarakhand delights package",
+        "Mussoorie Kempty Falls tour",
+        "Corbett safari Mussoorie package",
+        "Uttarakhand hill station tour from Delhi",
+        "Ranikhet Nainital Corbett Mussoorie",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4401,27 +4685,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/Udelight1.jpg",
-        alt: "Uttarakhand Delights",
-      },
-      {
-        id: 2,
-        src:  "/UDelight2.jpg",
-        alt: "Kempty Falls Mussoorie",
-      },
-      {
-        id: 3,
-        src:  "/UDelight3.jpg",
-        alt: "Mussoorie Mall Road",
-      },
+      { id: 1, src: "/Udelight1.jpg", alt: "Uttarakhand Delights" },
+      { id: 2, src: "/UDelight2.jpg", alt: "Kempty Falls Mussoorie" },
+      { id: 3, src: "/UDelight3.jpg", alt: "Mussoorie Mall Road" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Uttarakhand", href: "/india/uttarakhand" },
+      { label: "Uttarakhand", href: "/india" },
       { label: "Uttarakhand Delights Tour Package" },
     ],
 
@@ -4449,82 +4721,66 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Delhi → Nainital",
-        details: [
-          "Depart Delhi. Arrive Nainital. Check-in. Evening at Naini Lake. Overnight."
-          ],
+        details: ["Depart Delhi. Arrive Nainital. Check-in. Evening at Naini Lake. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Nainital Sightseeing",
-        details: [
-          "Snow View Point, Naina Devi Temple, Eco Cave Gardens, High Altitude Zoo. Overnight."
-          ],
+        details: ["Snow View Point, Naina Devi Temple, Eco Cave Gardens, High Altitude Zoo. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Nainital → Ranikhet",
-        details: [
-          "Drive to Ranikhet. Visit Chaubatia Orchards and Jhula Devi Temple. Overnight."
-          ],
+        details: ["Drive to Ranikhet. Visit Chaubatia Orchards and Jhula Devi Temple. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Ranikhet → Corbett",
-        details: [
-          "Drive to Corbett. Check-in to jungle resort. Evening nature walk. Overnight."
-          ],
+        details: ["Drive to Corbett. Check-in to jungle resort. Evening nature walk. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Corbett Jeep Safari",
-        details: [
-          "Morning and afternoon jeep safaris — spot tigers, elephants, and diverse birds. Overnight."
-          ],
+        details: ["Morning and afternoon jeep safaris — spot tigers, elephants, and diverse birds. Overnight."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Corbett → Mussoorie",
-        details: [
-          "Drive to Mussoorie (approx. 4 hrs). Check-in. Evening at Mall Road and Gun Hill Point (cable car). Overnight."
-          ],
+        details: ["Drive to Mussoorie (approx. 4 hrs). Check-in. Evening at Mall Road and Gun Hill Point (cable car). Overnight."],
       },
       {
         day: 7,
         date: "Day 7",
         title: "Mussoorie Sightseeing",
-        details: [
-          "Visit Kempty Falls, Lal Tibba (highest point in Mussoorie), Camel's Back Road, Landour Clock Tower, and Cloud's End. Overnight."
-          ],
+        details: ["Visit Kempty Falls, Lal Tibba (highest point in Mussoorie), Camel's Back Road, Landour Clock Tower, and Cloud's End. Overnight."],
       },
       {
         day: 8,
         date: "Day 8",
         title: "Mussoorie → Delhi",
-        details:[ "Post-breakfast drive to Delhi. Tour concludes."],
+        details: ["Post-breakfast drive to Delhi. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value: "Delhi · Nainital · Ranikhet · Corbett · Mussoorie",
-      },
+      { label: "Destinations", value: "Delhi · Nainital · Ranikhet · Corbett · Mussoorie" },
       { label: "Departure & Return", value: "Delhi" },
       { label: "Tour Code", value: "UK-DELIGHT-DEL-07" },
       { label: "Meals", value: "Breakfast & Dinner included" },
       { label: "Best Time", value: "March–June & September–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
+  // ─────────────────────────────────────────────
+  // ID 201 — Darjeeling Heritage Tour Package
+  // ─────────────────────────────────────────────
   {
     id: 201,
     country: "India",
@@ -4545,14 +4801,28 @@ src: "/goa.jpg",
     src: "/darjeeling-banner.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "darjeeling-heritage-tour-package-3-days",
+      metaTitle:
+        "Darjeeling Heritage Tour Package | 3 Days | Tiger Hill · Toy Train · Tea Estate",
+      metaDescription:
+        "Experience Darjeeling's iconic Tiger Hill sunrise over Kanchenjunga, the UNESCO Toy Train ride & Happy Valley Tea Estate on this 3-day budget package from Bagdogra. ₹9,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/darjeeling-heritage-tour-package-3-days",
+      keywords: [
+        "Darjeeling heritage tour package",
+        "Tiger Hill sunrise Darjeeling",
+        "Darjeeling toy train ride",
+        "Happy Valley Tea Estate tour",
+        "Darjeeling 3 day package",
+        "budget Darjeeling tour",
+        "Kanchenjunga view Darjeeling",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4591,21 +4861,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/darjeeling.jpg",
-        alt: "Darjeeling Heritage",
-      },
-      {
-        id: 2,
-        src: "/darjeeling1.jpg",
-        alt: "Darjeeling Toy Train",
-      },
-      {
-        id: 3,
-        src: "/darjeeling4.jpg",
-        alt: "Tiger Hill Sunrise",
-      },
+      { id: 1, src: "/darjeeling.jpg", alt: "Darjeeling Heritage" },
+      { id: 2, src: "/darjeeling1.jpg", alt: "Darjeeling Toy Train" },
+      { id: 3, src: "/darjeeling4.jpg", alt: "Tiger Hill Sunrise" },
     ],
 
     breadcrumbs: [
@@ -4636,25 +4894,19 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Darjeeling",
-        details: [
-          "Arrive Bagdogra airport. Transfer to Darjeeling (approx. 3 hrs via NH10). Check-in to hotel. Evening at Mall Road — enjoy hot Darjeeling tea. Overnight."
-          ],
+        details: ["Arrive Bagdogra airport. Transfer to Darjeeling (approx. 3 hrs via NH10). Check-in to hotel. Evening at Mall Road — enjoy hot Darjeeling tea. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Tiger Hill Sunrise & Darjeeling Sightseeing",
-        details: [
-          "Pre-dawn drive to Tiger Hill for the legendary sunrise view over Kanchenjunga and Mt. Everest. Return via Ghoom Monastery and Batasia Loop. Breakfast at hotel. Visit Himalayan Mountaineering Institute & Zoo, Happy Valley Tea Estate, Padmaja Naidu Zoological Park, Tibetan Refugee Self-Help Centre. Afternoon toy train ride (joy ride). Overnight."
-          ],
+        details: ["Pre-dawn drive to Tiger Hill for the legendary sunrise view over Kanchenjunga and Mt. Everest. Return via Ghoom Monastery and Batasia Loop. Breakfast at hotel. Visit Himalayan Mountaineering Institute & Zoo, Happy Valley Tea Estate, Padmaja Naidu Zoological Park, Tibetan Refugee Self-Help Centre. Afternoon toy train ride (joy ride). Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Darjeeling → Bagdogra — Departure",
-        details: [
-          "Morning at leisure — browse Chowrasta market for teas and handicrafts. Transfer to Bagdogra airport. Tour concludes."
-          ],
+        details: ["Morning at leisure — browse Chowrasta market for teas and handicrafts. Transfer to Bagdogra airport. Tour concludes."],
       },
     ],
 
@@ -4667,8 +4919,6 @@ src: "/goa.jpg",
       { label: "Best Time", value: "March–May & October–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -4694,14 +4944,28 @@ src: "/goa.jpg",
     src: "/dar-gangtok.jpg",
     popular: true,
 
+    seoMeta: {
+      slug: "darjeeling-with-gangtok-tour-package-5-days",
+      metaTitle:
+        "Darjeeling with Gangtok Tour Package | 5 Days | Nathula Pass · Rumtek · Tiger Hill",
+      metaDescription:
+        "Combine Darjeeling & Gangtok in one 5-day tour — visit Nathula Pass (India-China border), Rumtek Monastery, Tiger Hill sunrise & the Darjeeling Toy Train. From Bagdogra. ₹13,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/darjeeling-with-gangtok-tour-package-5-days",
+      keywords: [
+        "Darjeeling Gangtok tour package",
+        "Nathula Pass tour",
+        "Darjeeling Gangtok 5 days",
+        "Rumtek Monastery Gangtok",
+        "Tiger Hill Darjeeling",
+        "Sikkim Darjeeling combo package",
+        "Gangtok tour from Bagdogra",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4740,21 +5004,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/dar-gangtok1.jpg",
-        alt: "Darjeeling Gangtok Tour",
-      },
-      {
-        id: 2,
-        src:"/dar-gangtok2.jpg",
-        alt: "Nathula Pass",
-      },
-      {
-        id: 3,
-        src: "/dar-gangtok3.jpg",
-        alt: "Rumtek Monastery",
-      },
+      { id: 1, src: "/dar-gangtok1.jpg", alt: "Darjeeling Gangtok Tour" },
+      { id: 2, src: "/dar-gangtok2.jpg", alt: "Nathula Pass" },
+      { id: 3, src: "/dar-gangtok3.jpg", alt: "Rumtek Monastery" },
     ],
 
     breadcrumbs: [
@@ -4786,33 +5038,25 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Gangtok",
-        details: [
-          "Arrive Bagdogra. Drive to Gangtok (approx. 4 hrs). Check-in. Evening at MG Marg. Overnight."
-          ],
+        details: ["Arrive Bagdogra. Drive to Gangtok (approx. 4 hrs). Check-in. Evening at MG Marg. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Nathula Pass & Gangtok Sightseeing",
-        details: [
-          "Morning excursion to Nathula Pass (permit required). Return to Gangtok. Afternoon: Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, and Flower Show (seasonal). Overnight."
-          ],
+        details: ["Morning excursion to Nathula Pass (permit required). Return to Gangtok. Afternoon: Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, and Flower Show (seasonal). Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Gangtok → Darjeeling",
-        details: [
-          "Drive to Darjeeling (approx. 4 hrs). Check-in. Evening stroll at Mall Road and Chowrasta. Overnight."
-          ],
+        details: ["Drive to Darjeeling (approx. 4 hrs). Check-in. Evening stroll at Mall Road and Chowrasta. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Tiger Hill & Darjeeling Sightseeing",
-        details: [
-          "Pre-dawn Tiger Hill sunrise drive. Ghoom Monastery, Batasia Loop, Himalayan Zoo, Tea Estate, and toy train joy ride. Overnight."
-          ],
+        details: ["Pre-dawn Tiger Hill sunrise drive. Ghoom Monastery, Batasia Loop, Himalayan Zoo, Tea Estate, and toy train joy ride. Overnight."],
       },
       {
         day: 5,
@@ -4824,18 +5068,13 @@ src: "/goa.jpg",
 
     tourDetails: [
       { label: "Duration", value: "5 Days / 4 Nights" },
-      {
-        label: "Destinations",
-        value: "Bagdogra · Gangtok · Nathula Pass · Darjeeling",
-      },
+      { label: "Destinations", value: "Bagdogra · Gangtok · Nathula Pass · Darjeeling" },
       { label: "Departure & Return", value: "Bagdogra Airport" },
       { label: "Tour Code", value: "DRJ-GANGTOK-BGD-02" },
       { label: "Meals", value: "Breakfast & Dinner included" },
       { label: "Best Time", value: "March–May & October–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -4861,14 +5100,28 @@ src: "/goa.jpg",
     src: "/darjeeling4.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "darjeeling-honeymoon-package-6-days",
+      metaTitle:
+        "Darjeeling Honeymoon Package | 6 Days | Darjeeling · Gangtok · Tsomgo Lake",
+      metaDescription:
+        "Romantic 6-day Darjeeling honeymoon tour with Tiger Hill sunrise, toy train ride, Gangtok MG Marg & Tsomgo Lake excursion. Private couple package from Bagdogra. ₹16,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/darjeeling-honeymoon-package-6-days",
+      keywords: [
+        "Darjeeling honeymoon package",
+        "Darjeeling Gangtok honeymoon tour",
+        "Tsomgo Lake honeymoon",
+        "romantic Darjeeling tour",
+        "couple tour Darjeeling Sikkim",
+        "honeymoon package Bagdogra",
+        "Kanchenjunga sunrise honeymoon",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -4907,21 +5160,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/darjeeling5.jpg",
-        alt: "Darjeeling Honeymoon",
-      },
-      {
-        id: 2,
-        src: "/darjeeling6.jpg",
-        alt: "Tsomgo Lake Gangtok",
-      },
-      {
-        id: 3,
-        src: "/darjeeling6.jpg",
-        alt: "Darjeeling Tea Garden Couple",
-      },
+      { id: 1, src: "/darjeeling5.jpg", alt: "Darjeeling Honeymoon" },
+      { id: 2, src: "/darjeeling6.jpg", alt: "Tsomgo Lake Gangtok" },
+      { id: 3, src: "/darjeeling6.jpg", alt: "Darjeeling Tea Garden Couple" },
     ],
 
     breadcrumbs: [
@@ -4953,69 +5194,49 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Darjeeling",
-        details: [
-          "Arrive Bagdogra. Transfer to Darjeeling. Check-in to romantic hill-view hotel. Evening at Chowrasta with hot Darjeeling tea. Overnight."
-          ],
+        details: ["Arrive Bagdogra. Transfer to Darjeeling. Check-in to romantic hill-view hotel. Evening at Chowrasta with hot Darjeeling tea. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Tiger Hill Sunrise & Sightseeing",
-        details: [
-          "Pre-dawn Tiger Hill sunrise drive — Kanchenjunga and Mt. Everest views. Ghoom Monastery, Batasia Loop, Zoo, Tea Estate, toy train joy ride. Romantic dinner. Overnight."
-          ],
+        details: ["Pre-dawn Tiger Hill sunrise drive — Kanchenjunga and Mt. Everest views. Ghoom Monastery, Batasia Loop, Zoo, Tea Estate, toy train joy ride. Romantic dinner. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Darjeeling Leisure",
-        details: [
-          "Morning walk through tea gardens. Visit Rock Garden and Gorkha Rangit Valley Ropeway (cable car). Evening at leisure. Overnight."
-          ],
+        details: ["Morning walk through tea gardens. Visit Rock Garden and Gorkha Rangit Valley Ropeway (cable car). Evening at leisure. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Darjeeling → Gangtok",
-        details: [
-          "Drive to Gangtok (approx. 4 hrs). Check-in. Evening stroll at MG Marg. Overnight."
-          ],
+        details: ["Drive to Gangtok (approx. 4 hrs). Check-in. Evening stroll at MG Marg. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Tsomgo Lake & Gangtok Sightseeing",
-        details: [
-          "Morning excursion to Tsomgo Lake (12,400 ft glacial lake) and Baba Mandir. Return to Gangtok. Afternoon: Rumtek Monastery, Ganesh Tok, and Ropeway ride. Romantic dinner. Overnight."
-          ],
+        details: ["Morning excursion to Tsomgo Lake (12,400 ft glacial lake) and Baba Mandir. Return to Gangtok. Afternoon: Rumtek Monastery, Ganesh Tok, and Ropeway ride. Romantic dinner. Overnight."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Gangtok → Bagdogra",
-        details: [
-          "Morning at leisure. Transfer to Bagdogra airport. Tour concludes."
-          ],
+        details: ["Morning at leisure. Transfer to Bagdogra airport. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value: "Bagdogra · Darjeeling · Gangtok · Tsomgo Lake",
-      },
+      { label: "Destinations", value: "Bagdogra · Darjeeling · Gangtok · Tsomgo Lake" },
       { label: "Departure & Return", value: "Bagdogra Airport" },
       { label: "Tour Code", value: "DRJ-HONEY-BGD-03" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner included (Candle-light dinner on request)",
-      },
+      { label: "Meals", value: "Breakfast & Dinner included (Candle-light dinner on request)" },
       { label: "Best Time", value: "October–December & February–May" },
       { label: "Group Size", value: "Couples — Private Tour" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -5041,14 +5262,28 @@ src: "/goa.jpg",
     src: "/DGkalipong-banner.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "darjeeling-kalimpong-gangtok-tour-6-days",
+      metaTitle:
+        "Darjeeling Kalimpong Gangtok Tour | 6 Days | Three Himalayan Hill Towns",
+      metaDescription:
+        "Explore three distinct Himalayan hill towns — Kalimpong flower nurseries & Deolo Hill, Gangtok's Rumtek Monastery, and Darjeeling's Tiger Hill sunrise. 6-day package from Bagdogra. ₹15,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/darjeeling-kalimpong-gangtok-tour-6-days",
+      keywords: [
+        "Darjeeling Kalimpong Gangtok tour",
+        "Kalimpong tour package",
+        "Deolo Hill Kalimpong",
+        "3 hill stations Sikkim West Bengal",
+        "Kalimpong flower nurseries tour",
+        "Gangtok Darjeeling Kalimpong package",
+        "6 day Darjeeling tour",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -5087,21 +5322,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/DGkalipong1.jpg",
-        alt: "Darjeeling Kalimpong Gangtok",
-      },
-      {
-        id: 2,
-        src: "/DGkalipong2.jpg",
-        alt: "Kalimpong Deolo Hill",
-      },
-      {
-        id: 3,
-        src: "/DGkalipong3.jpg",
-        alt: "Kalimpong Flower Nurseries",
-      },
+      { id: 1, src: "/DGkalipong1.jpg", alt: "Darjeeling Kalimpong Gangtok" },
+      { id: 2, src: "/DGkalipong2.jpg", alt: "Kalimpong Deolo Hill" },
+      { id: 3, src: "/DGkalipong3.jpg", alt: "Kalimpong Flower Nurseries" },
     ],
 
     breadcrumbs: [
@@ -5134,66 +5357,49 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Kalimpong",
-        details: [
-          "Arrive Bagdogra. Drive to Kalimpong (approx. 3 hrs). Check-in. Explore Deolo Hill for panoramic views of Kanchenjunga. Overnight."
-          ],
+        details: ["Arrive Bagdogra. Drive to Kalimpong (approx. 3 hrs). Check-in. Explore Deolo Hill for panoramic views of Kanchenjunga. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Kalimpong → Gangtok",
-        details: [
-          "Morning visit Kalimpong's famous flower nurseries, Zang Dhok Palri Phodang Monastery, and Morgan House. Drive to Gangtok. Check-in. Evening at MG Marg. Overnight."
-          ],
+        details: ["Morning visit Kalimpong's famous flower nurseries, Zang Dhok Palri Phodang Monastery, and Morgan House. Drive to Gangtok. Check-in. Evening at MG Marg. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Gangtok Sightseeing",
-        details: [
-          "Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Sikkim State Museum, and Ropeway ride. Overnight."
-          ],
+        details: ["Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Sikkim State Museum, and Ropeway ride. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Gangtok → Darjeeling",
-        details: [
-          "Drive to Darjeeling (approx. 4 hrs). Check-in. Evening at Mall Road and Chowrasta. Overnight."
-          ],
+        details: ["Drive to Darjeeling (approx. 4 hrs). Check-in. Evening at Mall Road and Chowrasta. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Tiger Hill & Darjeeling Sightseeing",
-        details: [
-          "Pre-dawn Tiger Hill drive. Batasia Loop, Ghoom Monastery, Happy Valley Tea Estate, Himalayan Mountaineering Institute, Zoo, and toy train ride. Overnight."
-          ],
+        details: ["Pre-dawn Tiger Hill drive. Batasia Loop, Ghoom Monastery, Happy Valley Tea Estate, Himalayan Mountaineering Institute, Zoo, and toy train ride. Overnight."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Darjeeling → Bagdogra",
-        details: [
-          "Morning shopping at Chowrasta. Transfer to Bagdogra. Tour concludes."
-          ],
+        details: ["Morning shopping at Chowrasta. Transfer to Bagdogra. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value: "Bagdogra · Kalimpong · Gangtok · Darjeeling",
-      },
+      { label: "Destinations", value: "Bagdogra · Kalimpong · Gangtok · Darjeeling" },
       { label: "Departure & Return", value: "Bagdogra Airport" },
       { label: "Tour Code", value: "DRJ-KAL-GANGTOK-BGD-04" },
       { label: "Meals", value: "Breakfast & Dinner included" },
       { label: "Best Time", value: "March–May & October–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -5219,14 +5425,28 @@ src: "/goa.jpg",
     src: "/DGlachung2.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "darjeeling-gangtok-lachung-tour-8-days",
+      metaTitle:
+        "Darjeeling Gangtok Lachung Tour | 8 Days | Yumthang Valley · Gurudongmar Lake · North Sikkim",
+      metaDescription:
+        "Explore North Sikkim's remote Lachung, Yumthang Valley of Flowers & sacred Gurudongmar Lake (17,800 ft) combined with Gangtok & Darjeeling's Tiger Hill. 8-day package from Bagdogra. ₹27,000.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/darjeeling-gangtok-lachung-tour-8-days",
+      keywords: [
+        "Darjeeling Gangtok Lachung tour",
+        "Yumthang Valley tour package",
+        "Gurudongmar Lake tour",
+        "North Sikkim tour package",
+        "Lachung Lachen tour",
+        "North Sikkim permit tour",
+        "valley of flowers Sikkim",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -5265,21 +5485,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/DGlachung1.jpg",
-        alt: "Lachung Sikkim",
-      },
-      {
-        id: 2,
-        src: "/DGlachung4.jpg",
-        alt: "Yumthang Valley of Flowers",
-      },
-      {
-        id: 3,
-        src: "/DGlachung4.jpg",
-        alt: "Gurudongmar Lake",
-      },
+      { id: 1, src: "/DGlachung1.jpg", alt: "Lachung Sikkim" },
+      { id: 2, src: "/DGlachung4.jpg", alt: "Yumthang Valley of Flowers" },
+      { id: 3, src: "/DGlachung4.jpg", alt: "Gurudongmar Lake" },
     ],
 
     breadcrumbs: [
@@ -5313,83 +5521,61 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Gangtok",
-        details: [
-          "Arrive Bagdogra. Drive to Gangtok (4 hrs). Check-in. Evening MG Marg. Overnight."
-          ],
+        details: ["Arrive Bagdogra. Drive to Gangtok (4 hrs). Check-in. Evening MG Marg. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Gangtok Sightseeing",
-        details: [
-          "Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Ropeway ride. Overnight."
-          ],
+        details: ["Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Ropeway ride. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Gangtok → Lachung",
-        details: [
-          "Drive to Lachung (4–5 hrs) through North Sikkim — stunning gorge and waterfall scenery. Check-in to homestay. Overnight."
-          ],
+        details: ["Drive to Lachung (4–5 hrs) through North Sikkim — stunning gorge and waterfall scenery. Check-in to homestay. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Yumthang Valley Excursion",
-        details: [
-          "Morning excursion to Yumthang Valley (Valley of Flowers, 11,800 ft) — rhododendrons, hot springs, and glacial streams. Return to Lachung. Overnight."
-          ],
+        details: ["Morning excursion to Yumthang Valley (Valley of Flowers, 11,800 ft) — rhododendrons, hot springs, and glacial streams. Return to Lachung. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Lachung → Lachen",
-        details: [
-          "Drive to Lachen village. En-route visit Chungthang confluence. Overnight at Lachen."
-          ],
+        details: ["Drive to Lachen village. En-route visit Chungthang confluence. Overnight at Lachen."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Gurudongmar Lake → Gangtok",
-        details: [
-          "Pre-dawn drive to Gurudongmar Lake (17,800 ft) — one of the world's highest lakes, sacred to both Buddhists and Hindus. Return and drive to Gangtok. Overnight."
-          ],
+        details: ["Pre-dawn drive to Gurudongmar Lake (17,800 ft) — one of the world's highest lakes, sacred to both Buddhists and Hindus. Return and drive to Gangtok. Overnight."],
       },
       {
         day: 7,
         date: "Day 7",
         title: "Gangtok → Darjeeling",
-        details: [
-          "Drive to Darjeeling. Check-in. Evening at Mall Road. Overnight."
-          ],
+        details: ["Drive to Darjeeling. Check-in. Evening at Mall Road. Overnight."],
       },
       {
         day: 8,
         date: "Day 8",
         title: "Tiger Hill & Departure",
-        details: [
-          "Pre-dawn Tiger Hill sunrise. Batasia Loop, Ghoom Monastery. Transfer to Bagdogra airport. Tour concludes."
-          ],
+        details: ["Pre-dawn Tiger Hill sunrise. Batasia Loop, Ghoom Monastery. Transfer to Bagdogra airport. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "8 Days / 7 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Bagdogra · Gangtok · Lachung · Yumthang · Lachen · Gurudongmar · Darjeeling",
-      },
+      { label: "Destinations", value: "Bagdogra · Gangtok · Lachung · Yumthang · Lachen · Gurudongmar · Darjeeling" },
       { label: "Departure & Return", value: "Bagdogra Airport" },
       { label: "Tour Code", value: "DRJ-LACHUNG-BGD-05" },
       { label: "Meals", value: "All meals included" },
       { label: "Best Time", value: "March–May & October–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
   // ─────────────────────────────────────────────
@@ -5415,14 +5601,28 @@ src: "/goa.jpg",
     src: "/darjeeling10.jpg",
     popular: false,
 
+    seoMeta: {
+      slug: "eastern-himalayas-tour-package-9-days",
+      metaTitle:
+        "Eastern Himalayas Tour Package | 9 Days | Kalimpong · Gangtok · Nathula Pass · Darjeeling",
+      metaDescription:
+        "The most comprehensive Eastern Himalaya tour — 9 days covering Kalimpong, Gangtok, Nathula Pass (India-China border), Tsomgo Lake, Darjeeling & Mirik. From Bagdogra. ₹25,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/eastern-himalayas-tour-package-9-days",
+      keywords: [
+        "Eastern Himalayas tour package",
+        "9 day Darjeeling Gangtok Kalimpong tour",
+        "Nathula Pass Tsomgo Lake tour",
+        "comprehensive East India hill station tour",
+        "Mirik excursion Darjeeling",
+        "Kalimpong Gangtok Darjeeling 9 days",
+        "Eastern India holiday package",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -5461,21 +5661,9 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/darjeeling11",
-        alt: "Eastern Himalayas",
-      },
-      {
-        id: 2,
-        src: "/darjeeling12",
-        alt: "Tsomgo Lake",
-      },
-      {
-        id: 3,
-        src: "/darjeeling13",
-        alt: "Kanchenjunga Sunrise",
-      },
+      { id: 1, src: "/darjeeling11", alt: "Eastern Himalayas" },
+      { id: 2, src: "/darjeeling12", alt: "Tsomgo Lake" },
+      { id: 3, src: "/darjeeling13", alt: "Kanchenjunga Sunrise" },
     ],
 
     breadcrumbs: [
@@ -5508,94 +5696,72 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Bagdogra → Kalimpong",
-        details: [
-          "Arrive Bagdogra. Transfer to Kalimpong (3 hrs). Check-in. Evening Deolo Hill. Overnight."
-          ],
+        details: ["Arrive Bagdogra. Transfer to Kalimpong (3 hrs). Check-in. Evening Deolo Hill. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Kalimpong Sightseeing",
-        details: [
-          "Flower nurseries (Kalimpong is Asia's top orchid exporter), Zang Dhok Palri Monastery, Morgan House, and Durpin Dara Hill. Overnight."
-          ],
+        details: ["Flower nurseries (Kalimpong is Asia's top orchid exporter), Zang Dhok Palri Monastery, Morgan House, and Durpin Dara Hill. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Kalimpong → Gangtok",
-        details: [
-          "Drive to Gangtok via Teesta River gorge. Check-in. Evening MG Marg. Overnight."
-          ],
+        details: ["Drive to Gangtok via Teesta River gorge. Check-in. Evening MG Marg. Overnight."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Gangtok Sightseeing",
-        details: [
-          "Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Flower Show (seasonal), Ropeway ride. Overnight."
-          ],
+        details: ["Rumtek Monastery, Ganesh Tok, Hanuman Tok, Enchey Monastery, Flower Show (seasonal), Ropeway ride. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Nathula Pass & Tsomgo Lake",
-        details: [
-          "Morning excursion to Nathula Pass (14,140 ft) — India-China border. Afternoon at Tsomgo (Changu) Lake (12,400 ft). Overnight Gangtok."
-          ],
+        details: ["Morning excursion to Nathula Pass (14,140 ft) — India-China border. Afternoon at Tsomgo (Changu) Lake (12,400 ft). Overnight Gangtok."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Gangtok → Darjeeling",
-        details: [
-          "Drive to Darjeeling (4 hrs). Check-in. Evening stroll at Mall Road. Overnight."
-          ],
+        details: ["Drive to Darjeeling (4 hrs). Check-in. Evening stroll at Mall Road. Overnight."],
       },
       {
         day: 7,
         date: "Day 7",
         title: "Tiger Hill & Darjeeling Sightseeing",
-        details: [
-          "Pre-dawn Tiger Hill sunrise drive. Ghoom Monastery, Batasia Loop, Tea Estate, Himalayan Zoo, and toy train joy ride. Overnight."
-          ],
+        details: ["Pre-dawn Tiger Hill sunrise drive. Ghoom Monastery, Batasia Loop, Tea Estate, Himalayan Zoo, and toy train joy ride. Overnight."],
       },
       {
         day: 8,
         date: "Day 8",
         title: "Darjeeling Day Excursion",
-        details: [
-          "Excursion to Mirik — serene lake and tea gardens on the Nepal border. Return to Darjeeling. Overnight."
-          ],
+        details: ["Excursion to Mirik — serene lake and tea gardens on the Nepal border. Return to Darjeeling. Overnight."],
       },
       {
         day: 9,
         date: "Day 9",
         title: "Darjeeling → Bagdogra",
-        details: [
-          "Morning shopping at Chowrasta. Transfer to Bagdogra. Tour concludes."
-          ],
+        details: ["Morning shopping at Chowrasta. Transfer to Bagdogra. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "9 Days / 8 Nights" },
-      {
-        label: "Destinations",
-        value:
-          "Bagdogra · Kalimpong · Gangtok · Nathula Pass · Tsomgo Lake · Darjeeling · Mirik",
-      },
+      { label: "Destinations", value: "Bagdogra · Kalimpong · Gangtok · Nathula Pass · Tsomgo Lake · Darjeeling · Mirik" },
       { label: "Departure & Return", value: "Bagdogra Airport" },
       { label: "Tour Code", value: "EHIM-FULL-BGD-06" },
       { label: "Meals", value: "Breakfast & Dinner included" },
       { label: "Best Time", value: "March–May & October–November" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
-
+  // ─────────────────────────────────────────────
+  // ID 207 — Munnar Thekkady Alleppey Tour Package
+  // ─────────────────────────────────────────────
   {
     id: 207,
     country: "India",
@@ -5616,14 +5782,28 @@ src: "/goa.jpg",
     src: "/Munnar.jpg",
     popular: true,
 
+    seoMeta: {
+      slug: "munnar-thekkady-alleppey-tour-package-6-days",
+      metaTitle:
+        "Munnar Thekkady Alleppey Tour Package | 6 Days | Kerala Houseboat · Tea Estates · Wildlife",
+      metaDescription:
+        "Experience the best of Kerala in 6 days — Munnar tea plantations, Thekkady Periyar Wildlife boat ride & an overnight Alleppey backwater houseboat stay. From Cochin. ₹18,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details/munnar-thekkady-alleppey-tour-package-6-days",
+      keywords: [
+        "Munnar Thekkady Alleppey tour package",
+        "Kerala houseboat tour",
+        "Alleppey backwaters package",
+        "Periyar Wildlife Sanctuary boat ride",
+        "Munnar tea estate tour",
+        "Kerala 6 day tour from Cochin",
+        "Eravikulam National Park Munnar",
+      ],
+    },
+
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -5638,7 +5818,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src:  "/Munnar.jpg",
+      src: "/Munnar.jpg",
       alt: "Munnar Thekkady Alleppey Tour Package",
     },
 
@@ -5662,27 +5842,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src:  "/Munnar1.jpg",
-        alt: "Munnar Tea Plantation",
-      },
-      {
-        id: 2,
-        src:  "/Munnar2.jpg",
-        alt: "Alleppey Houseboat",
-      },
-      {
-        id: 3,
-        src:  "/Munnar3.jpg",
-        alt: "Thekkady Periyar Boat Ride",
-      },
+      { id: 1, src: "/Munnar1.jpg", alt: "Munnar Tea Plantation" },
+      { id: 2, src: "/Munnar2.jpg", alt: "Alleppey Houseboat" },
+      { id: 3, src: "/Munnar3.jpg", alt: "Thekkady Periyar Boat Ride" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
+      { label: "Kerala", href: "/india" },
       { label: "Munnar Thekkady Alleppey Tour Package" },
     ],
 
@@ -5709,71 +5877,54 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Arrive Cochin",
-        details: [
-          "Arrive Cochin airport. Cochin city tour — Fort Kochi, Chinese Fishing Nets, St. Francis Church, Mattancherry Palace, and Jewish Synagogue. Evening Kathakali dance performance. Overnight."
-          ],
+        details: ["Arrive Cochin airport. Cochin city tour — Fort Kochi, Chinese Fishing Nets, St. Francis Church, Mattancherry Palace, and Jewish Synagogue. Evening Kathakali dance performance. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Cochin → Munnar",
-        details: [
-          "Drive to Munnar (approx. 4 hrs) through spice plantations. Check-in. Visit Attukal Waterfalls and Echo Point. Overnight."
-          ],
+        details: ["Drive to Munnar (approx. 4 hrs) through spice plantations. Check-in. Visit Attukal Waterfalls and Echo Point. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Munnar Sightseeing",
-        details: [
-          "Visit Eravikulam National Park (home of Nilgiri tahr), Tea Museum, Mattupetty Dam, Kundala Lake, and Rajamala. Overnight Munnar."
-          ],
+        details: ["Visit Eravikulam National Park (home of Nilgiri tahr), Tea Museum, Mattupetty Dam, Kundala Lake, and Rajamala. Overnight Munnar."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Munnar → Thekkady",
-        details: [
-          "Drive to Thekkady (approx. 3 hrs). Spice Plantation visit. Afternoon Periyar Wildlife Sanctuary boat ride — spot elephants, deer, and birds. Overnight."
-          ],
+        details: ["Drive to Thekkady (approx. 3 hrs). Spice Plantation visit. Afternoon Periyar Wildlife Sanctuary boat ride — spot elephants, deer, and birds. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Thekkady → Alleppey Houseboat",
-        details: [
-          "Drive to Alleppey (approx. 4 hrs). Board a traditional Kerala houseboat for an overnight stay on the backwaters — complete with onboard meals and sunset views."
-          ],
+        details: ["Drive to Alleppey (approx. 4 hrs). Board a traditional Kerala houseboat for an overnight stay on the backwaters — complete with onboard meals and sunset views."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Alleppey → Cochin — Departure",
-        details: [
-          "Disembark houseboat morning. Drive to Cochin airport. Tour concludes."
-          ],
+        details: ["Disembark houseboat morning. Drive to Cochin airport. Tour concludes."],
       },
     ],
 
     tourDetails: [
       { label: "Duration", value: "6 Days / 5 Nights" },
-      {
-        label: "Destinations",
-        value: "Cochin · Munnar · Thekkady · Alleppey Backwaters",
-      },
+      { label: "Destinations", value: "Cochin · Munnar · Thekkady · Alleppey Backwaters" },
       { label: "Departure & Return", value: "Cochin (Kochi) Airport" },
       { label: "Tour Code", value: "KER-MUN-THEK-COC-01" },
-      {
-        label: "Meals",
-        value: "Breakfast & Dinner included (All meals on houseboat)",
-      },
+      { label: "Meals", value: "Breakfast & Dinner included (All meals on houseboat)" },
       { label: "Best Time", value: "October–March" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
+  // ─────────────────────────────────────────────
+  // ID 208 — Kerala Hill Stations Tour – Munnar & Wayanad
+  // ─────────────────────────────────────────────
   {
     id: 208,
     country: "India",
@@ -5791,17 +5942,31 @@ src: "/goa.jpg",
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/Kerala-Munnar.jpg",
+    src: "-Munnar.jpg",
     popular: false,
+
+    seoMeta: {
+      slug: "kerala-hill-stations-tour-munnar-wayanad-7-days",
+      metaTitle:
+        "Kerala Hill Stations Tour – Munnar & Wayanad | 7 Days | Edakkal Caves · Wildlife Safari · Calicut",
+      metaDescription:
+        "Explore Kerala's two finest hill stations — Munnar tea estates & Eravikulam Park, then Wayanad's Edakkal Caves, Soochipara Falls & wildlife safari. 7-day tour from Cochin. ₹22,999.",
+      canonicalUrl:
+        "https://indrukatours.com/view-details-hill-stations-tour-munnar-wayanad-7-days",
+      keywords: [
+        "Kerala hill stations tour Munnar Wayanad",
+        "Wayanad tour package",
+        "Edakkal Caves tour",
+        "Soochipara Falls Wayanad",
+        "Muthanga Wildlife Sanctuary jeep safari",
+        "Munnar Wayanad Calicut package",
+        "Kerala 7 day tour from Kochi",
+      ],
+    },
 
     tourFeatures: [
       { icon: "Building2", label: "Hotel", color: "#6C72E8", bg: "#EEF0FD" },
-      {
-        icon: "UtensilsCrossed",
-        label: "Meals",
-        color: "#F4884A",
-        bg: "#FEF0E8",
-      },
+      { icon: "UtensilsCrossed", label: "Meals", color: "#F4884A", bg: "#FEF0E8" },
       { icon: "Bus", label: "Transfers", color: "#5CAE22", bg: "#EDF6E8" },
       { icon: "Camera", label: "Sightseeing", color: "#E8508A", bg: "#FFF0F4" },
     ],
@@ -5816,7 +5981,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/Kerala-Munnar.jpg",
+      src: "-Munnar.jpg",
       alt: "Kerala Hill Stations Tour – Munnar & Wayanad",
     },
 
@@ -5840,27 +6005,15 @@ src: "/goa.jpg",
     ],
 
     thumbnails: [
-      {
-        id: 1,
-        src: "/Kerala-Munnar1.jpg",
-        alt: "Wayanad Soochipara Falls",
-      },
-      {
-        id: 2,
-        src: "/Kerala-Munnar2.jpg",
-        alt: "Edakkal Caves Wayanad",
-      },
-      {
-        id: 3,
-        src: "/Kerala-Munnar3.jpg",
-        alt: "Calicut Beach",
-      },
+      { id: 1, src: "-Munnar1.jpg", alt: "Wayanad Soochipara Falls" },
+      { id: 2, src: "-Munnar2.jpg", alt: "Edakkal Caves Wayanad" },
+      { id: 3, src: "-Munnar3.jpg", alt: "Calicut Beach" },
     ],
 
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
+      { label: "Kerala", href: "/india" },
       { label: "Kerala Hill Stations Tour – Munnar & Wayanad" },
     ],
 
@@ -5887,57 +6040,43 @@ src: "/goa.jpg",
         day: 1,
         date: "Day 1",
         title: "Arrive Cochin",
-        details: [
-          "Arrive Cochin. Fort Kochi sightseeing — Chinese Fishing Nets, St. Francis Church, Mattancherry Palace. Overnight."
-          ],
+        details: ["Arrive Cochin. Fort Kochi sightseeing — Chinese Fishing Nets, St. Francis Church, Mattancherry Palace. Overnight."],
       },
       {
         day: 2,
         date: "Day 2",
         title: "Cochin → Munnar",
-        details: [
-          "Drive to Munnar (4 hrs). Check-in. Attukal Waterfalls and Echo Point. Overnight."
-          ],
+        details: ["Drive to Munnar (4 hrs). Check-in. Attukal Waterfalls and Echo Point. Overnight."],
       },
       {
         day: 3,
         date: "Day 3",
         title: "Munnar Sightseeing",
-        details: [
-          "Eravikulam National Park, Tea Museum, Mattupetty Dam, Kundala Lake. Overnight Munnar."
-          ],
+        details: ["Eravikulam National Park, Tea Museum, Mattupetty Dam, Kundala Lake. Overnight Munnar."],
       },
       {
         day: 4,
         date: "Day 4",
         title: "Munnar → Wayanad",
-        details: [
-          "Scenic drive to Wayanad (approx. 5 hrs) through winding forested roads. Check-in to jungle resort. Afternoon at leisure. Overnight."
-          ],
+        details: ["Scenic drive to Wayanad (approx. 5 hrs) through winding forested roads. Check-in to jungle resort. Afternoon at leisure. Overnight."],
       },
       {
         day: 5,
         date: "Day 5",
         title: "Wayanad Sightseeing",
-        details: [
-          "Visit Edakkal Caves (prehistoric rock engravings), Soochipara/Sentinel Rock Waterfalls, Chembra Peak viewpoint, and Muthanga Wildlife Sanctuary jeep safari. Overnight."
-          ],
+        details: ["Visit Edakkal Caves (prehistoric rock engravings), Soochipara/Sentinel Rock Waterfalls, Chembra Peak viewpoint, and Muthanga Wildlife Sanctuary jeep safari. Overnight."],
       },
       {
         day: 6,
         date: "Day 6",
         title: "Wayanad → Calicut",
-        details: [
-          "Drive to Calicut (Kozhikode) — approx. 3 hrs. Check-in. Visit Kappad Beach (where Vasco da Gama landed in 1498), Pazhassiraja Museum, and local food street. Overnight."
-          ],
+        details: ["Drive to Calicut (Kozhikode) — approx. 3 hrs. Check-in. Visit Kappad Beach (where Vasco da Gama landed in 1498), Pazhassiraja Museum, and local food street. Overnight."],
       },
       {
         day: 7,
         date: "Day 7",
         title: "Calicut → Cochin — Departure",
-        details: [
-          "Morning drive to Cochin airport (approx. 4 hrs). Tour concludes."
-          ],
+        details: ["Morning drive to Cochin airport (approx. 4 hrs). Tour concludes."],
       },
     ],
 
@@ -5950,8 +6089,6 @@ src: "/goa.jpg",
       { label: "Best Time", value: "October–March" },
       { label: "Group Size", value: "Customised — 2 to 20+ passengers" },
     ],
-
-    
   },
 
   // ════════════════════════════════════════════════════════════
@@ -5961,6 +6098,23 @@ src: "/goa.jpg",
   {
     id: 209,
     country: "India",
+     seoMeta: {
+    slug: "ooty-kodaikanal-hill-tour-package-6-days",
+    metaTitle: "Ooty Kodaikanal Hill Tour Package | 6 Days | Chennai · Ooty · Kodaikanal · Coimbatore",
+    metaDescription:
+      "Explore Ooty & Kodaikanal on this 6-day hill station tour from Chennai. Ride the UNESCO Nilgiri Toy Train, visit Ooty Botanical Gardens, Doddabetta Peak & Kodaikanal Lake. All-inclusive package.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/ooty-kodaikanal-hill-tour-package-6-days",
+    keywords: [
+      "Ooty Kodaikanal tour package",
+      "Nilgiri Mountain Railway toy train",
+      "Ooty hill station tour",
+      "Kodaikanal holiday package",
+      "Tamil Nadu hill station tour",
+      "Doddabetta Peak Ooty",
+      "Chennai to Ooty tour",
+    ],
+  },
     place: "Ooty",
     title: "Ooty Kodaikanal Hill Tour Package",
     type: "Hill Stations & Nature Destinations",
@@ -6137,6 +6291,23 @@ src: "/goa.jpg",
   {
     id: 211,
     country: "India",
+    seoMeta: {
+    slug: "andaman-beach-tour-package-4-days",
+    metaTitle: "Andaman Beach Tour Package | 4 Days | Port Blair · Havelock · Neil Island",
+    metaDescription:
+      "Book the Andaman Beach Tour Package — 4 days covering Port Blair, Havelock Island & Neil Island. Visit Radhanagar Beach, snorkel at Elephant Beach & explore the Cellular Jail. All-inclusive.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/andaman-beach-tour-package-4-days",
+    keywords: [
+      "Andaman beach tour package",
+      "Radhanagar Beach Havelock",
+      "Andaman Nicobar holiday",
+      "Elephant Beach snorkeling",
+      "Cellular Jail Port Blair",
+      "Neil Island tour",
+      "Andaman Islands package",
+    ],
+  },
     place: "Andaman and Nicobar Islands",
     title: "Andaman Beach Tour Package",
     type: "Beach Holidays",
@@ -6220,7 +6391,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Andaman & Nicobar", href: "/india/andaman-nicobar" },
+      { label: "Andaman & Nicobar", href: "/india" },
       { label: "Andaman Beach Tour Package" },
     ],
 
@@ -6297,6 +6468,23 @@ src: "/goa.jpg",
 
   {
     id: 212,
+    seoMeta: {
+    slug: "andaman-short-tour-package-4-days",
+    metaTitle: "Andaman Short Tour Package | 4 Days | Port Blair · Ross Island · Havelock",
+    metaDescription:
+      "Quick 4-day Andaman getaway covering Port Blair, Ross Island & Havelock Island. Cellular Jail light show, Radhanagar Beach sunset & Corbyn's Cove water sports. Perfect short break.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/andaman-short-tour-package-4-days",
+    keywords: [
+      "Andaman short tour package",
+      "Port Blair tour",
+      "Ross Island Andaman",
+      "Havelock Island holiday",
+      "Andaman 4 days itinerary",
+      "Cellular Jail tour",
+      "Corbyn's Cove beach",
+    ],
+  },
     country: "India",
     place: "Andaman and Nicobar Islands",
     title: "Andaman Short Tour Package",
@@ -6381,7 +6569,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Andaman & Nicobar", href: "/india/andaman-nicobar" },
+      { label: "Andaman & Nicobar", href: "/india" },
       { label: "Andaman Short Tour Package" },
     ],
 
@@ -6450,6 +6638,23 @@ src: "/goa.jpg",
 
   {
     id: 213,
+    seoMeta: {
+    slug: "andaman-scuba-diving-tour-package-4-days",
+    metaTitle: "Andaman Scuba Diving Tour Package | 4 Days | Havelock · Long Island · Port Blair",
+    metaDescription:
+      "Dive the Andaman's pristine coral reefs on this 4-day scuba diving tour. PADI-certified dives at Elephant Beach, Nemo Reef & Long Island's Merk Bay. Beginners welcome.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/andaman-scuba-diving-tour-package-4-days",
+    keywords: [
+      "Andaman scuba diving tour",
+      "Havelock Island scuba diving",
+      "PADI diving Andaman",
+      "Elephant Beach diving",
+      "Long Island Andaman tour",
+      "Merk Bay snorkeling",
+      "Andaman adventure package",
+    ],
+  },
     country: "India",
     place: "Andaman and Nicobar Islands",
     title: "Andaman Scuba Diving Tour Package",
@@ -6534,7 +6739,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Andaman & Nicobar", href: "/india/andaman-nicobar" },
+      { label: "Andaman & Nicobar", href: "/india" },
       { label: "Andaman Scuba Diving Tour Package" },
     ],
 
@@ -6608,6 +6813,23 @@ src: "/goa.jpg",
   {
     id: 214,
     country: "India",
+    seoMeta: {
+    slug: "andaman-honeymoon-tour-package-6-days",
+    metaTitle: "Andaman Honeymoon Tour Package | 6 Days | Port Blair · Havelock · Neil Island",
+    metaDescription:
+      "Romance in paradise on this 6-day Andaman honeymoon package. Private beach dinners, couple snorkeling at Elephant Beach, Radhanagar Beach sunset & Neil Island escape. Exclusively for couples.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/andaman-honeymoon-tour-package-6-days",
+    keywords: [
+      "Andaman honeymoon package",
+      "romantic Andaman tour",
+      "Havelock Island honeymoon",
+      "Radhanagar Beach couple",
+      "private beach dinner Andaman",
+      "Neil Island honeymoon",
+      "Andaman Islands couples tour",
+    ],
+  },
     place: "Andaman and Nicobar Islands",
     title: "Andaman Honeymoon Tour Package",
     type: "Honeymoon packages",
@@ -6691,7 +6913,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Andaman & Nicobar", href: "/india/andaman-nicobar" },
+      { label: "Andaman & Nicobar", href: "/india" },
       { label: "Andaman Honeymoon Tour Package" },
     ],
 
@@ -6779,6 +7001,23 @@ src: "/goa.jpg",
 
   {
     id: 215,
+     seoMeta: {
+    slug: "port-blair-complete-andaman-experience-8-days",
+    metaTitle: "Port Blair Complete Andaman Experience | 8 Days | Jolly Buoy · Havelock · Neil · Baratang",
+    metaDescription:
+      "The ultimate 8-day Andaman tour covering Port Blair, Ross Island, Jolly Buoy, Havelock, Neil Island & Baratang. Scuba diving, marine park snorkeling, limestone caves & more.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/port-blair-complete-andaman-experience-8-days",
+    keywords: [
+      "complete Andaman tour package",
+      "Jolly Buoy Island snorkeling",
+      "Andaman 8 days itinerary",
+      "Baratang limestone caves",
+      "Mahatma Gandhi Marine National Park",
+      "Port Blair sightseeing",
+      "Andaman luxury tour",
+    ],
+  },
     country: "India",
     place: "Andaman and Nicobar Islands",
     title: "Port Blair Complete Andaman Experience",
@@ -6871,7 +7110,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Andaman & Nicobar", href: "/india/andaman-nicobar" },
+      { label: "Andaman & Nicobar", href: "/india" },
       { label: "Port Blair Complete Andaman Experience" },
     ],
 
@@ -6972,6 +7211,23 @@ src: "/goa.jpg",
 
   {
     id: 216,
+     seoMeta: {
+    slug: "tamil-nadu-temple-tour-from-chennai-8-days",
+    metaTitle: "Tamil Nadu Temple Tour from Chennai | 8 Days | Pondicherry · Rameswaram · Kanyakumari · Madurai",
+    metaDescription:
+      "Discover Tamil Nadu's sacred temple circuit on this 8-day tour from Chennai. VIP darshan at Ramanathaswamy Temple, Meenakshi Amman night ceremony, Kanyakumari sunrise & French Quarter Pondicherry.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/tamil-nadu-temple-tour-from-chennai-8-days",
+    keywords: [
+      "Tamil Nadu temple tour",
+      "Rameswaram tour package",
+      "Meenakshi Amman Temple Madurai",
+      "Kanyakumari tour",
+      "Pondicherry temple circuit",
+      "Chennai to Kanyakumari tour",
+      "South India pilgrimage tour",
+    ],
+  },
     country: "India",
     place: "Pondicherry",
     title: "Tamil Nadu Temple Tour from Chennai",
@@ -7173,6 +7429,23 @@ src: "/goa.jpg",
 
   {
     id: 217,
+    seoMeta: {
+    slug: "pondicherry-short-getaway-package-4-days",
+    metaTitle: "Pondicherry Short Getaway Package | 4 Days | Chennai · Pondicherry · Auroville",
+    metaDescription:
+      "Escape to Pondicherry on this 4-day short break from Chennai. French Quarter heritage walk, Sri Aurobindo Ashram, Auroville Matri Mandir & Promenade Beach sunrise. Perfect weekend getaway.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/pondicherry-short-getaway-package-4-days",
+    keywords: [
+      "Pondicherry tour package",
+      "Auroville tour",
+      "French Quarter Pondicherry",
+      "Chennai to Pondicherry trip",
+      "Sri Aurobindo Ashram tour",
+      "Pondicherry 4 days itinerary",
+      "Pondicherry weekend getaway",
+    ],
+  },
     country: "India",
     place: "Pondicherry",
     title: "Pondicherry Short Getaway Package",
@@ -7329,6 +7602,23 @@ src: "/goa.jpg",
 
   {
     id: 220,
+     seoMeta: {
+    slug: "kovalam-varkala-beach-holiday-package-5-days",
+    metaTitle: "Kovalam Varkala Beach Holiday Package | 5 Days | Trivandrum · Kovalam · Varkala · Poovar",
+    metaDescription:
+      "Sun, sand & Kerala backwaters on this 5-day Kovalam Varkala beach holiday. Lighthouse Beach sunset, Varkala cliff walk, Poovar backwater cruise & Ayurvedic spa. Departs from Trivandrum.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/kovalam-varkala-beach-holiday-package-5-days",
+    keywords: [
+      "Kovalam beach holiday",
+      "Varkala cliff beach Kerala",
+      "Kovalam Varkala tour package",
+      "Poovar backwaters tour",
+      "Kerala beach holiday",
+      "Trivandrum tour package",
+      "Kerala Ayurvedic tour",
+    ],
+  },
     country: "India",
     place: "Kovalam",
     title: "Kovalam Varkala Beach Holiday Package",
@@ -7412,7 +7702,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
+      { label: "Kerala", href: "/india" },
       { label: "Kovalam Varkala Beach Holiday Package" },
     ],
 
@@ -7490,6 +7780,23 @@ src: "/goa.jpg",
 
   {
     id: 221,
+    seoMeta: {
+    slug: "kerala-beaches-backwaters-tour-7-days",
+    metaTitle: "Kerala Beaches & Backwaters Tour | 7 Days | Cochin · Alleppey · Varkala · Kovalam · Trivandrum",
+    metaDescription:
+      "Experience the best of Kerala on this 7-day beaches and backwaters tour. Alleppey houseboat cruise, Chinese fishing nets of Fort Kochi, Varkala cliff sunset & Kovalam Lighthouse Beach.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/Kerala-beaches-backwaters-tour-7-days",
+    keywords: [
+      "Kerala beaches and backwaters tour",
+      "Alleppey houseboat package",
+      "Kerala 7 day tour",
+      "Fort Kochi sightseeing",
+      "Varkala beach tour",
+      "Kovalam holiday package",
+      "God's Own Country tour Kerala",
+    ],
+  },
     country: "India",
     place: "Kovalam",
     title: "Kerala Beaches & Backwaters Tour",
@@ -7505,7 +7812,7 @@ src: "/goa.jpg",
     badge: "Popular",
     badgeColor: "bg-blue-600",
     mode: "Road",
-    src: "/kerala-black5.jpg",
+    src: "-black5.jpg",
     popular: true,
 
     tourFeatures: [
@@ -7530,7 +7837,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/kerala-black6.jpg",
+      src: "-black6.jpg",
       alt: "Kerala Beaches and Backwaters Tour",
     },
 
@@ -7556,17 +7863,17 @@ src: "/goa.jpg",
     thumbnails: [
       {
         id: 1,
-        src: "/kerala-black7.jpg",
+        src: "-black7.jpg",
         alt: "Kerala Backwaters Houseboat",
       },
       {
         id: 2,
-        src: "/kerala-black8.jpg",
+        src: "-black8.jpg",
         alt: "Alleppey Backwaters Kerala",
       },
       {
         id: 3,
-        src: "/kerala-black9.jpg",
+        src: "-black9.jpg",
         alt: "Kovalam Beach Kerala",
       },
     ],
@@ -7574,7 +7881,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kerala", href: "/india/kerala" },
+      { label: "Kerala", href: "/india" },
       { label: "Kerala Beaches & Backwaters Tour" },
     ],
 
@@ -7681,6 +7988,23 @@ src: "/goa.jpg",
 
   {
     id: 401,
+    seoMeta: {
+    slug: "majestic-royal-rajasthan-tour-udaipur-10-days",
+    metaTitle: "Majestic Royal Rajasthan Tour | 10 Days | Delhi · Jaipur · Jodhpur · Udaipur",
+    metaDescription:
+      "Explore Royal Rajasthan on this 10-day luxury tour from Delhi to Udaipur. Amber Fort elephant ride, Mehrangarh Fort, Lake Palace boat ride & camel safari at Sam Sand Dunes. Palace hotel stays.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/majestic-royal-rajasthan-tour-udaipur-10-days",
+    keywords: [
+      "Royal Rajasthan tour package",
+      "Udaipur tour package",
+      "Jaipur Jodhpur Udaipur tour",
+      "Amber Fort elephant ride",
+      "Mehrangarh Fort Jodhpur",
+      "Lake Palace Udaipur",
+      "Rajasthan luxury tour",
+    ],
+  },
     country: "India",
     place: "Udaipur",
     title: "Majestic Royal Rajasthan Tour — Udaipur",
@@ -7898,6 +8222,23 @@ src: "/goa.jpg",
 
   {
     id: 402,
+    seoMeta: {
+    slug: "rajasthan-honeymoon-tour-jaipur-pushkar-udaipur-6-days",
+    metaTitle: "Rajasthan Honeymoon Tour | 6 Days | Jaipur · Pushkar · Udaipur",
+    metaDescription:
+      "Romance across Royal Rajasthan on this 6-day honeymoon tour. Sunset boat ride on Lake Pichola, elephant ride at Amber Fort, Pushkar Lake at dusk & candlelight palace dinners.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/rajasthan/rajasthan-honeymoon-tour-jaipur-pushkar-udaipur-6-days",
+    keywords: [
+      "Rajasthan honeymoon tour",
+      "Udaipur romantic tour",
+      "Jaipur honeymoon package",
+      "Pushkar Lake tour",
+      "Lake Pichola boat ride",
+      "Rajasthan couples tour",
+      "romantic Rajasthan itinerary",
+    ],
+  },
     country: "India",
     place: "Udaipur",
     title: "Rajasthan Honeymoon Tour — Jaipur Pushkar Udaipur",
@@ -8081,6 +8422,23 @@ src: "/goa.jpg",
   {
     id: 406,
     country: "India",
+    seoMeta: {
+    slug: "indian-splendour-luxury-train-tour-rajasthan-7-days",
+    metaTitle: "Indian Splendour Luxury Train Tour Rajasthan | 7 Days | Delhi · Agra · Jaisalmer · Udaipur",
+    metaDescription:
+      "Travel Rajasthan in unparalleled luxury aboard the Indian Splendour train. Taj Mahal, tiger safari in Ranthambore, Jaisalmer sand dunes sundowners & royal dinners across 8 iconic destinations.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/indian-splendour-luxury-train-tour-rajasthan-7-days",
+    keywords: [
+      "Indian Splendour luxury train",
+      "Rajasthan luxury train tour",
+      "Ranthambore tiger safari train",
+      "Jaisalmer sand dunes tour",
+      "Taj Mahal tour package",
+      "palace on wheels India",
+      "luxury train Rajasthan India",
+    ],
+  },
     place: "Jaisalmer",
     title: "Indian Splendour Luxury Train Tour — Rajasthan",
     type: "Luxury stays",
@@ -8295,6 +8653,25 @@ src: "/goa.jpg",
   {
     id: 501,
     country: "India",
+    seoMeta: {
+          slug: "Leh-Ladakh-Adventure-Tour-Package",
+
+  title: "Leh Ladakh Adventure Tour Package | 10 Days Road Trip India",
+  description:
+    "Book Leh Ladakh Adventure Tour Package covering Srinagar, Leh, Pangong Tso, Nubra Valley & Manali. 10 Days road trip with hotels, meals & sightseeing included.",
+  keywords: [
+    "Leh Ladakh tour package",
+    "Ladakh adventure trip",
+    "Srinagar to Manali tour",
+    "Pangong Tso tour",
+    "Nubra Valley package",
+    "Ladakh travel India",
+  ],
+  canonical: "https://indrukatours.com/view-details/Leh-Ladakh-Adventure-Tour-Package",
+  ogImage: "/ladak.jpg",
+  ogType: "website",
+  twitterCard: "summary_large_image",
+},
     place: "Leh",
     title: "Leh Ladakh Adventure Tour Package",
     type: "Adventure",
@@ -8524,6 +8901,23 @@ src: "/goa.jpg",
 
   {
     id: 502,
+    seoMeta: {
+    slug: "leh-ladakh-bike-tour-manali-to-leh-12-days",
+    metaTitle: "Leh Ladakh Bike Tour | 12 Days | Manali to Leh Highway",
+    metaDescription:
+      "Ride the legendary Manali–Leh Highway on this 12-day Ladakh bike tour. Cross Rohtang Pass, Baralacha La & Khardung La on two wheels. Camp at Pangong Tso. Royal Enfield rental included.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/leh-ladakh-bike-tour-manali-to-leh-12-days",
+    keywords: [
+      "Leh Ladakh bike tour",
+      "Manali to Leh motorcycle tour",
+      "Royal Enfield Ladakh trip",
+      "Khardung La bike ride",
+      "Pangong Tso camping",
+      "Ladakh adventure bike trip",
+      "Rohtang Pass motorbike",
+    ],
+  },
     country: "India",
     place: "Leh",
     title: "Leh Ladakh Bike Tour — Manali to Leh Highway",
@@ -8771,6 +9165,23 @@ src: "/goa.jpg",
   {
     id: 503,
     country: "India",
+     seoMeta: {
+    slug: "ladakh-honeymoon-tour-pangong-lake-nubra-valley-8-days",
+    metaTitle: "Ladakh Honeymoon Tour | 8 Days | Pangong Lake · Nubra Valley · Khardung La",
+    metaDescription:
+      "Discover the world's most breathtaking honeymoon destination on this 8-day Ladakh tour. Pangong Tso sunrise camp, Nubra Valley camel safari, Khardung La couple drive & Shanti Stupa sunset.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/ladakh-honeymoon-tour-pangong-lake-nubra-valley-8-days",
+    keywords: [
+      "Ladakh honeymoon package",
+      "Pangong Lake honeymoon",
+      "Nubra Valley tour",
+      "Khardung La drive",
+      "romantic Ladakh tour",
+      "Leh honeymoon itinerary",
+      "Ladakh couples tour",
+    ],
+  },
     place: "Leh",
     title: "Ladakh Honeymoon Tour — Pangong Lake & Nubra Valley",
     type: "Honeymoon packages",
@@ -8985,6 +9396,23 @@ src: "/goa.jpg",
     id: 511,
     country: "India",
     place: "Leh",
+     seoMeta: {
+    slug: "kashmir-to-ladakh-grand-tour-14-days",
+    metaTitle: "Kashmir to Ladakh Grand Tour | 14 Days | Srinagar · Kargil · Leh · Pangong · Manali",
+    metaDescription:
+      "The ultimate Kashmir to Ladakh road journey in 14 days. Dal Lake houseboat, Gulmarg Gondola, Kargil War Memorial, Khardung La, Nubra Valley, Pangong Tso & the Leh–Manali Highway.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/kashmir-to-ladakh-grand-tour-14-days",
+    keywords: [
+      "Kashmir to Ladakh grand tour",
+      "Srinagar to Manali road trip",
+      "Kargil War Memorial tour",
+      "Ladakh 14 days itinerary",
+      "Nubra Valley Pangong package",
+      "Leh Manali highway tour",
+      "Kashmir Ladakh premium tour",
+    ],
+  },
     title: "Kashmir to Ladakh Grand Tour",
     type: "Adventure",
     duration: "14 Days / 13 Nights",
@@ -9249,6 +9677,23 @@ src: "/goa.jpg",
 
   {
     id: 509,
+    seoMeta: {
+    slug: "kashmir-tour-package-srinagar-gulmarg-pahalgam-7-days",
+    metaTitle: "Kashmir Tour Package | 7 Days | Srinagar · Dal Lake · Gulmarg · Pahalgam · Sonamarg",
+    metaDescription:
+      "Experience heaven on earth on this 7-day Kashmir tour. Dal Lake houseboat stay, Shikara ride, Gulmarg Gondola snow adventure, Betaab Valley Pahalgam & Sonamarg glacier. All-inclusive package.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/kashmir-tour-package-srinagar-gulmarg-pahalgam-7-days",
+    keywords: [
+      "Kashmir tour package",
+      "Srinagar Gulmarg Pahalgam tour",
+      "Dal Lake houseboat stay",
+      "Gulmarg Gondola Kashmir",
+      "Pahalgam Betaab Valley",
+      "Sonamarg glacier tour",
+      "Kashmir 7 days itinerary",
+    ],
+  },
     country: "India",
     place: "Srinagar",
     title: "Kashmir Tour Package — Srinagar Gulmarg Pahalgam",
@@ -9264,7 +9709,7 @@ src: "/goa.jpg",
     badge: "Bestseller",
     badgeColor: "bg-orange-600",
     mode: "Road",
-    src: "/kashmir-scene4.jpg",
+    src: "-scene4.jpg",
     popular: true,
 
     tourFeatures: [
@@ -9308,7 +9753,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src: "/kashmir-scene.jpg",
+      src: "-scene.jpg",
       alt: "Kashmir Tour Package — Srinagar Dal Lake Gulmarg Pahalgam",
     },
 
@@ -9334,17 +9779,17 @@ src: "/goa.jpg",
     thumbnails: [
       {
         id: 1,
-        src: "/kashmir-scene2.jpg",
+        src: "-scene2.jpg",
         alt: "Dal Lake Srinagar Kashmir Houseboat",
       },
       {
         id: 2,
-        src: "/kashmir-scene3.jpg",
+        src: "-scene3.jpg",
         alt: "Gulmarg Gondola Snow Kashmir",
       },
       {
         id: 3,
-        src: "/kashmir-scene5.jpg",
+        src: "-scene5.jpg",
         alt: "Pahalgam Betaab Valley Kashmir",
       },
     ],
@@ -9352,7 +9797,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kashmir", href: "/india/kashmir" },
+      { label: "Kashmir", href: "/india" },
       { label: "Kashmir Tour Package — Srinagar Gulmarg Pahalgam" },
     ],
 
@@ -9450,6 +9895,23 @@ src: "/goa.jpg",
 
   {
     id: 510,
+    seoMeta: {
+    slug: "kashmir-honeymoon-package-dal-lake-shikara-stay-7-days",
+    metaTitle: "Kashmir Honeymoon Package | 7 Days | Dal Lake Shikara Stay · Gulmarg · Pahalgam",
+    metaDescription:
+      "Float into romance on this 7-day Kashmir honeymoon package. Luxury Dal Lake houseboat, private sunset Shikara ride, Gulmarg Gondola, Betaab Valley Pahalgam & candlelight Wazwan dinners.",
+    canonicalUrl:
+      "https://indrukatours.com/view-details/kashmir-honeymoon-package-dal-lake-shikara-stay-7-days",
+    keywords: [
+      "Kashmir honeymoon package",
+      "Dal Lake houseboat honeymoon",
+      "Shikara ride Kashmir",
+      "Gulmarg honeymoon tour",
+      "Pahalgam romantic trip",
+      "Kashmir couples package",
+      "Srinagar honeymoon itinerary",
+    ],
+  },
     country: "India",
     place: "Srinagar",
     title: "Kashmir Honeymoon Package — Dal Lake Shikara Stay",
@@ -9471,7 +9933,7 @@ src: "/goa.jpg",
     badge: "Romantic",
     badgeColor: "bg-pink-600",
     mode: "Road",
-    src: "/kashmir-honey.jpg",
+    src: "-honey.jpg",
     popular: true,
 
     tourFeatures: [
@@ -9518,7 +9980,7 @@ src: "/goa.jpg",
     tourManagerCompany: "Indruka Trips and Trip",
 
     heroImage: {
-      src:  "/kashmir-honey.jpg",
+      src:  "-honey.jpg",
       alt: "Kashmir Honeymoon Package — Dal Lake Shikara Houseboat Stay",
     },
 
@@ -9544,17 +10006,17 @@ src: "/goa.jpg",
     thumbnails: [
       {
         id: 1,
-        src:  "/kashmir-honey2.jpg",
+        src:  "-honey2.jpg",
         alt: "Dal Lake Houseboat Honeymoon Kashmir",
       },
       {
         id: 2,
-        src: "/kashmir-honey3.png",
+        src: "-honey3.png",
         alt: "Shikara Ride Sunset Dal Lake",
       },
       {
         id: 3,
-        src:  "/kashmir-honey5.jpg",
+        src:  "-honey5.jpg",
         alt: "Betaab Valley Pahalgam Honeymoon",
       },
     ],
@@ -9562,7 +10024,7 @@ src: "/goa.jpg",
     breadcrumbs: [
       { label: "Home", href: "/" },
       { label: "India", href: "/india" },
-      { label: "Kashmir", href: "/india/kashmir" },
+      { label: "Kashmir", href: "/india" },
       { label: "Kashmir Honeymoon Package — Dal Lake Shikara Stay" },
     ],
 
