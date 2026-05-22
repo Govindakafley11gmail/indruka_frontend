@@ -308,7 +308,7 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* ── BOTTOM BAR ── */}
+        {/* ── BOTTOM BAR ──
         <div className="relative border-t border-blue-900/40">
           <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-xs text-blue-400/60 md:flex-row">
             <p>© 2026 Indruka tours & travels. All rights reserved.</p>
@@ -328,7 +328,7 @@ export default function Footer() {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
       </footer>
 
       {/* ── FLOATING WHATSAPP ── */}
