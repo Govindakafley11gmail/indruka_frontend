@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-html-link-for-pages */
 // app/tours/[country]/[speciality]/[slug]/page.tsx
 import { notFound } from "next/navigation";
+import Image from "next/image";
 
 import type { Metadata } from "next";
 import { BhutanItem, Indiaitem } from "@/custom-components/body/data/bhutan/data";
@@ -77,7 +78,7 @@ export default function TourDetailPage({
       {tour.images?.length > 0 && (
         <div className="grid grid-cols-3 gap-2 mb-8 rounded-xl overflow-hidden">
           {tour.images.slice(0, 3).map((src, i) => (
-            <img
+            <Image
               key={i}
               src={src}
               alt={`${tour.title} photo ${i + 1}`}
