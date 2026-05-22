@@ -25,6 +25,7 @@ import {
   MessageSquareQuote,
   X,
 } from "lucide-react";
+import Image from "next/image";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 
@@ -154,7 +155,9 @@ function GuestPhotosModal({
           {selected ? (
             /* ── Full-size single photo view ── */
             <div className="flex flex-col items-center gap-4">
-              <img
+              <Image
+                 width={600}
+              height={400}
                 src={selected.src}
                 alt={selected.alt}
                 className="w-full max-h-[60vh] object-contain rounded-xl"
@@ -278,9 +281,11 @@ export default function TourGalleryPage({
           <div className="flex flex-col md:flex-row flex-1 max-w-7xl gap-4">
             {/* Hero image — updates when a thumbnail is clicked */}
             <div className="flex-1 relative rounded-xl overflow-hidden h-64 sm:h-80 lg:h-80">
-              <img
+              <Image
                 src={activeHero.src}
                 alt={activeHero.alt}
+                width={600}
+                height={200}
                 className="w-full h-full object-cover transition-all duration-300"
               />
 

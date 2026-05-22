@@ -52,9 +52,8 @@ export default function TourCard({
   const [currentImage, setCurrentImage] = useState(0);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
 
-
   const { createBooking } = useBookingMutations({
-    onSuccess: (data:any) => {
+    onSuccess: (data: any) => {
       showToast.success(data.message, {
         duration: 5000,
         position: "top-right",
@@ -64,7 +63,7 @@ export default function TourCard({
       });
       setIsDialogOpen(false);
     },
-    onError: (error:any) => {
+    onError: (error: any) => {
       showToast.error(error?.data?.message, {
         duration: 5000,
         position: "top-right",
@@ -76,8 +75,7 @@ export default function TourCard({
   });
   const prevImage = () =>
     setCurrentImage((prev) => (prev - 1 + images.length) % images.length);
-  const nextImage = () =>
-    setCurrentImage((prev) => (prev + 1) % images.length);
+  const nextImage = () => setCurrentImage((prev) => (prev + 1) % images.length);
 
   let href: string;
   if (country === "Bhutan") {
@@ -92,9 +90,11 @@ export default function TourCard({
       ? val.toLocaleString("en-US")
       : `₹ ${val.toLocaleString("en-US")}`;
   };
-const numericPrice = typeof price === "string"
-  ? parseFloat(price.replace(/[^0-9.]/g, ""))
-  : price ?? 0;  return (
+  const numericPrice =
+    typeof price === "string"
+      ? parseFloat(price.replace(/[^0-9.]/g, ""))
+      : (price ?? 0);
+  return (
     <>
       <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-[350px] g-2">
         {/* Image */}
@@ -102,7 +102,7 @@ const numericPrice = typeof price === "string"
           <Image
             src={images[currentImage]}
             alt={title}
-            width={400}
+            width={600}
             height={200}
             className="object-cover w-full h-full p-2 rounded-2xl"
             unoptimized
@@ -213,8 +213,8 @@ const numericPrice = typeof price === "string"
         pricePerPerson={numericPrice ?? 0}
         guestsFieldId="number_of_travellers"
         tourName={title}
-        price={numericPrice ?? 0}
-        config={bhutanTripConfig(numericPrice ?? 0, title, country, createBooking)}
+        price={price ?? 0}
+        config={bhutanTripConfig(price ?? 0, title, country, createBooking)}
         open={isDialogOpen}
         onClose={() => setIsDialogOpen(false)}
       />

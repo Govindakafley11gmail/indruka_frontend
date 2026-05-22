@@ -106,7 +106,8 @@ export default function SocialCardSlider() {
                   <Image
                     src={profile.image}
                     alt={profile.name}
-                    fill
+                       width={600}
+              height={400}
                     className="object-cover group-hover:scale-105 transition-transform duration-700"
                     unoptimized
                   />

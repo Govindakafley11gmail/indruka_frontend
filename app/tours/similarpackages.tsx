@@ -27,7 +27,8 @@ export default function SimilarPackages({ images }: Props) {
             <Image
               src={image.src}
               alt={image.alt}
-              fill
+              width={600}
+              height={400}
               className="object-cover transition-transform duration-500 group-hover:scale-105"
               sizes="(max-width: 768px) 100vw, 50vw"
             />

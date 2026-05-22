@@ -16,11 +16,7 @@ import {
 } from "./other-important-data";
 
 export default function TourPageClient({ tour }: { tour: any }) {
-  const handleViewItinerary = () => {
-    document
-      .getElementById("itinerary")
-      ?.scrollIntoView({ behavior: "smooth", block: "start" });
-  };
+
 
   return (
     <div className="min-h-screen bg-slate-50 overflow-x-hidden w-full">

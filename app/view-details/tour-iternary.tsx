@@ -387,32 +387,7 @@ function CancellationSection({ cancellationRows }: Pick<TourPageProps, "cancella
   );
 }
 
-function UpgradesSection({ upgrades }: Pick<TourPageProps, "upgrades">) {
-  return (
-    <>
-      <h2 className="text-xl font-bold text-gray-900 mb-4">Upgrades</h2>
-      {upgrades?.length ? (
-        <div className="grid sm:grid-cols-2 gap-4">
-          {upgrades.map((u) => (
-            <div key={u.name} className="border border-gray-200 rounded-lg p-4 bg-white hover:shadow-sm transition-shadow">
-              <div className="flex items-start justify-between mb-1.5">
-                <span className="text-base font-semibold text-gray-900">{u.name}</span>
-                <span className="text-base font-bold text-blue-900 ml-2 flex-shrink-0">{u.price}</span>
-              </div>
-              <p className="text-xs text-gray-500 leading-relaxed">{u.description}</p>
-            </div>
-          ))}
-        </div>
-      ) : (
-        <p className="text-base text-gray-400">No upgrades available.</p>
-      )}
-    </>
-  );
-}
 
-// ─────────────────────────────────────────────
-// Section router  (tab value → component)
-// ─────────────────────────────────────────────
 
 function SectionContent({ tab, props }: { tab: MainTab; props: TourPageProps }) {
   switch (tab.value) {

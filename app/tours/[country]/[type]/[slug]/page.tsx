@@ -82,6 +82,8 @@ export default function TourDetailPage({
               key={i}
               src={src}
               alt={`${tour.title} photo ${i + 1}`}
+              width={600}
+              height={400}
               className="w-full aspect-video object-cover"
             />
           ))}
