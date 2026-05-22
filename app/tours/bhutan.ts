@@ -1075,6 +1075,11 @@ export const bhutanTours: Tour[] = [
       src: "/paro6.jpg",
       alt: "Paro Taktsang Tiger's Nest Monastery Bhutan – Sacred Monastery Perched on Granite Cliff at 3,120m",
     },
+     {
+      id: 3,
+      src: "/paro6.jpg",
+      alt: "Paro Taktsang Tiger's Nest Monastery Bhutan – Sacred Monastery Perched on Granite Cliff at 3,120m",
+    },
   ],
 
   breadcrumbs: [
