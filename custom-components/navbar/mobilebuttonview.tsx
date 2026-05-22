@@ -10,7 +10,7 @@ export function MobileBottomNav() {
 
         <NavItem icon={Home} label="Home" />
         <NavItem icon={Map} label="Trips" />
-        <NavItem icon={Phone} label="Support" />
+        <NavItem icon={Phone} label="Contact" />
         <NavItem icon={User} label="Account" />
 
       </div>

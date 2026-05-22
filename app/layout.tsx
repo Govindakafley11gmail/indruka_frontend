@@ -19,7 +19,7 @@ export const metadata: Metadata = {
 
   title: {
     template: "%s | Indruka Tours and Travels",
-    default: "Bhutan Tour Packages & Travel Agency | Indruka Tours and Travels",
+    default: "Bhutan Tours & Travels Agency | Indruka Tours and Travels",
   },
 
   description:
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
   ],
 
   openGraph: {
-    title: "Bhutan Tour Packages & Travel Agency | Indruka Tours and Travels",
+    title: "Bhutan Tours & Travels Agency | Indruka Tours and Travels",
     description:
       "Discover Bhutan with Indruka Tours and Travels. Book cultural tours, trekking packages, and Himalayan adventures.",
     url: "https://indrukatours.com",

@@ -61,7 +61,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
         </div>
 
         {/* View All Tours → /tours/bhutan or /tours/india */}
-        <div className="w-full flex justify-end mt-6">
+        <div className="w-full flex sm:justify-end justify-center mt-6">
           <button
             onClick={() => router.push(viewAllHref)}
             className="group relative inline-flex items-center gap-3 px-6 py-3 rounded-full border border-blue-200 bg-white shadow-sm hover:shadow-md hover:border-blue-400 transition-all duration-300 overflow-hidden"

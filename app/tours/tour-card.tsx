@@ -65,12 +65,7 @@ export type Tour = {
 type TourCardsProps = {
   tours: Tour[];
 };
-const zones = [
-  { name: "North" },
-  { name: "South" },
-  { name: "West & Central" },
-  { name: "East & North East" },
-];
+
 
 function Stars({ count }: { count: number }) {
   return (

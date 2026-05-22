@@ -52,7 +52,7 @@ export function Header() {
                 <Phone className="w-4 h-4" />
                  
                 <Link href={"/support"}>
-                Support
+                Contact
                 </Link>
               </Button>
             </nav>

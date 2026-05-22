@@ -143,7 +143,7 @@ export const CORPORATE_MENU_Bhutan_ITEMS: CorporateMenuItem[] = [
 
 export const NAV_ITEMS: NavItem[] = [
   { label: "For Travel Agents", icon: HeadphonesIcon },
-  { label: "Support", icon: Phone, hasDropdown: true },
+  { label: "Contact", icon: Phone, hasDropdown: true },
 ];
 
 

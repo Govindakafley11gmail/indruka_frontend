@@ -167,7 +167,7 @@ export function MobileMenuContent({ onClose }: Props) {
             <div className="w-8 h-8 rounded-lg bg-blue-50 group-hover:bg-blue-100 flex items-center justify-center transition-colors">
               <Phone className="w-4 h-4 text-blue-500" />
             </div>
-            Support
+            Contact
           </button>
         </div>
       </div>

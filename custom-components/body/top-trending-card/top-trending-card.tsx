@@ -130,7 +130,7 @@ export default function TopTrendingPlaces() {
     <div className="w-full overflow-hidden">
       <div className="relative w-full max-w-6xl mx-auto px-4">
         {/* Header */}
-        <div className="relative z-10 text-center max-w-2xl mx-auto py-10">
+        <div className="relative z-10 text-center max-w-2xl mx-auto ">
           <p className="text-blue-600 font-semibold tracking-widest uppercase text-sm mb-2">
             Explore More
           </p>

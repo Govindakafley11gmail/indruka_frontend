@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 "use client";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -6,25 +7,16 @@ import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import type { Tour } from "./tourtype";
-// export interface Tour {
-//   id: number;
-//   title: string;
-//   type: string;
-//   badge: "Bestseller" | "Trek" | "Helicopter" | "Popular" | string;
-//   src?: string;
-//   duration: string;
-//   rating: number;
-//   reviews: number;
-//   destinations: string[];
-//   amenities: string[];
-//   price: number;
-//   popular?: boolean;
-// }
+import { BookingModal } from "@/custom-components/custom-form";
+import { useState } from "react";
+import { bhutanTripConfig } from "./input-data";
+import { useBookingMutations } from "../view-details/booking-backend/tanstack-function";
+import { showToast } from "nextjs-toast-notify";
 
 interface CardDetailsPageProps {
   tours: Tour[];
-wishlist: Set<number>;          // ← was Set<string>
-  onWishlistToggle: (id: number) => void;  // ← was string
+  wishlist: Set<number>; // ← was Set<string>
+  onWishlistToggle: (id: number) => void; // ← was string
   formatPrice?: (price: number | string, country: string) => string;
 }
 
@@ -48,7 +40,31 @@ export default function CardDetailsPage({
   onWishlistToggle,
   formatPrice = defaultFormat,
 }: CardDetailsPageProps) {
-  const router = useRouter()
+  const [selectedTour, setSelectedTour] = useState<Tour | null>(null);
+  const [isDialogOpen, setIsDialogOpen] = useState(false);
+
+  const router = useRouter();
+const { createBooking } = useBookingMutations({
+    onSuccess: (data:any) => {
+      showToast.success(data.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+      setIsDialogOpen(false);
+    },
+    onError: (error:any) => {
+      showToast.error(error?.data?.message, {
+        duration: 5000,
+        position: "top-right",
+        transition: "topBounce",
+        icon: "",
+        sound: true,
+      });
+    },
+  });
   return (
     <div className="flex flex-col gap-[1.1rem]">
       {tours.length === 0 && (
@@ -63,9 +79,14 @@ export default function CardDetailsPage({
         <Card
           key={tour.id}
           className={`p-0 m-0 rounded-2xl overflow-hidden cursor-pointer shadow-[0_2px_12px_rgba(29,78,216,0.06)] transition-all duration-200 hover:-translate-y-[3px] hover:shadow-[0_16px_48px_rgba(29,78,216,0.13)] grid grid-cols-1 md:grid-cols-[200px_1fr] lg:grid-cols-[260px_1fr] ${
-            tour.popular ? "border-[1.5px] border-blue-200" : "border border-slate-200"
+            tour.popular
+              ? "border-[1.5px] border-blue-200"
+              : "border border-slate-200"
           }`}
-          style={{ animation: `fadeUp 0.35s ease both`, animationDelay: `${i * 60}ms` }}
+          style={{
+            animation: `fadeUp 0.35s ease both`,
+            animationDelay: `${i * 60}ms`,
+          }}
         >
           {/* IMAGE */}
           <div className="relative overflow-hidden h-[200px] md:h-full md:min-h-[200px] group">
@@ -107,7 +128,9 @@ export default function CardDetailsPage({
                 {tour.type}
               </span>
               <span className="w-[3px] h-[3px] rounded-full bg-slate-300" />
-              <span className="text-xs text-amber-400 font-semibold">★ {tour.rating}</span>
+              <span className="text-xs text-amber-400 font-semibold">
+                ★ {tour.rating}
+              </span>
               <span className="text-xs text-slate-400">({tour.reviews})</span>
             </div>
 
@@ -148,24 +171,54 @@ export default function CardDetailsPage({
                 <p className="text-xl font-black text-[#1A4BB5] leading-none">
                   {formatPrice(tour.price, tour.title)}
                 </p>
-                <p className="text-[11px] text-slate-400 mt-0.5">per person · twin sharing</p>
+                <p className="text-[11px] text-slate-400 mt-0.5">
+                  per person · twin sharing
+                </p>
               </div>
               <div className="flex gap-2 flex-wrap">
                 <Button
-                onClick={()=>router.push('/support')}
+                   onClick={() => {
+                            setSelectedTour(tour); // ← capture the specific tour
+                            setIsDialogOpen(true);
+                          }}
                   variant="outline"
                   className="rounded-[9px] text-[13px] font-semibold border-[1.5px] border-blue-200 text-blue-700 bg-white px-3.5 py-2 h-auto"
                 >
-                 Send Query
+                  Book Now
                 </Button>
-                  <Button onClick={()=>router.push(`/view-details/${tour.seoMeta?.slug}`)} className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto">
-                    View Details →
-                  </Button>
+                <Button
+                  onClick={() =>
+                    router.push(`/view-details/${tour.seoMeta?.slug}`)
+                  }
+                  className="rounded-[9px] text-[13px] font-semibold bg-gradient-to-br from-[#1A5BB8] to-[#2477D9] text-white border-none px-4 py-2 h-auto"
+                >
+                  View Details →
+                </Button>
               </div>
             </div>
           </CardContent>
         </Card>
       ))}
+
+      {selectedTour && (
+        <BookingModal
+          pricePerPerson={selectedTour?.price ?? 0}
+          guestsFieldId="number_of_travellers"
+          tourName={selectedTour?.title ?? ""}
+    price={String(selectedTour?.price ?? 0)}   // ← convert to string
+          config={bhutanTripConfig(
+            selectedTour?.price ?? 0,
+            selectedTour.title,
+            selectedTour.country,
+            createBooking, // ← pass it here
+          )}
+          open={isDialogOpen}
+          onClose={() => {
+            setIsDialogOpen(false);
+            setSelectedTour(null);
+          }}
+        />
+      )}
     </div>
   );
 }
