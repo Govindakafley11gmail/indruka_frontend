@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import type { Tour } from "./tourtype";
 
 type Props = {
@@ -103,7 +104,7 @@ export default function TourCollage({ tours }: Props) {
 function TourCard({ data, className }: { data: Tour; className?: string }) {
   return (
     <div className={`relative h-full w-full overflow-hidden rounded-xl group ${className ?? ""}`}>
-      <img
+      <Image
         src={data.src}
         alt={data.title}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

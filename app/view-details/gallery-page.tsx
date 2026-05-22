@@ -179,7 +179,7 @@ function GuestPhotosModal({
                   className="rounded-xl overflow-hidden cursor-pointer group relative aspect-[4/3]"
                   onClick={() => setSelected(photo)}
                 >
-                  <img
+                  <Image
                     src={photo.src}
                     alt={photo.alt}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
@@ -360,7 +360,7 @@ export default function TourGalleryPage({
                     }`}
                     style={{ height: "110px" }}
                   >
-                    <img
+                    <Image
                       src={thumb.src}
                       alt={thumb.alt}
                       className="w-full h-full object-cover"
@@ -378,19 +378,19 @@ export default function TourGalleryPage({
                     {/* Collage: show up to 2 preview images from overflow/guest photos */}
                     {allGuestPhotos.length >= 2 ? (
                       <div className="w-full h-full grid grid-cols-2 gap-0.5">
-                        <img
+                        <Image
                           src={allGuestPhotos[0].src}
                           alt={allGuestPhotos[0].alt}
                           className="w-full h-full object-cover"
                         />
-                        <img
+                        <Image
                           src={allGuestPhotos[1].src}
                           alt={allGuestPhotos[1].alt}
                           className="w-full h-full object-cover"
                         />
                       </div>
                     ) : allGuestPhotos.length === 1 ? (
-                      <img
+                      <Image
                         src={allGuestPhotos[0].src}
                         alt={allGuestPhotos[0].alt}
                         className="w-full h-full object-cover"

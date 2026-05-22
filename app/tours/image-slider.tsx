@@ -9,6 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Image from "next/image";
 
 type tourDataType = {
   id: number;
@@ -116,7 +117,7 @@ function TourCard({ card }: { card: tourDataType }) {
   return (
     <Card className="relative h-[260px] w-full overflow-hidden rounded-xl group border-0 shadow-md">
       {/* Image */}
-      <img
+      <Image
         src={card.image}
         alt={card.name}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"

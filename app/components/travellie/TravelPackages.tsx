@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ChevronDown } from "lucide-react";
+import Image from "next/image";
 
 const packages = [
   {
@@ -60,7 +61,7 @@ export function TravelPackages() {
               className="relative rounded-xl overflow-hidden aspect-[4/3] group cursor-pointer"
             >
               {/* Background image */}
-              <img
+              <Image
                 src={pkg.image}
                 alt={pkg.title}
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"

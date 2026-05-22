@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import Image from "next/image";
 
 const highlights = [
   "Licensed by the Tourism Council of Bhutan",
@@ -17,7 +18,7 @@ export default function WhoWeAre() {
           {/* Images */}
           <div className="relative">
             <div className="rounded-2xl overflow-hidden shadow-2xl aspect-[4/3]">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80"
                 alt="Bhutan landscape"
                 className="w-full h-full object-cover"
@@ -30,7 +31,7 @@ export default function WhoWeAre() {
             </div>
             {/* Small accent image */}
             <div className="absolute -top-4 -left-4 w-24 h-24 rounded-xl overflow-hidden shadow-lg border-4 border-white hidden md:block">
-              <img
+              <Image
                 src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=200&q=80"
                 alt="Tiger's Nest Monastery"
                 className="w-full h-full object-cover"

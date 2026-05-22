@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Calendar, Users, Plus } from "lucide-react";
+import Image from "next/image";
 
 const trips = [
   {
@@ -54,7 +55,7 @@ export function UpcomingTrips() {
             >
               {/* Image */}
               <div className="w-14 h-12 rounded-lg overflow-hidden shrink-0">
-                <img
+                <Image
                   src={trip.image}
                   alt={trip.title}
                   className="w-full h-full object-cover"

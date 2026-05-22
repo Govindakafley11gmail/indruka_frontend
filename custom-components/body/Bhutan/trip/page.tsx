@@ -11,7 +11,7 @@ import Navbar from "@/custom-components/navbar/navbar";
 import TourPackageCard from "@/custom-components/body/tour-package-header";
 import Footer from "@/custom-components/footer/footer";
 import Link from "next/link";
-
+import Image from "next/image";
 const tours = [
   {
     id: 1,
@@ -478,7 +478,7 @@ export default function SacredYatra() {
               >
                 {/* IMAGE */}
                 <div className="relative overflow-hidden h-[200px] md:h-full md:min-h-[200px] group">
-                  <img
+                  <Image
                     src={tour.img}
                     alt={tour.title}
                     className="w-full h-full object-cover block transition-transform duration-[400ms] group-hover:scale-[1.06]"

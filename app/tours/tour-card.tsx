@@ -38,7 +38,7 @@ import { bhutanTripConfig } from "./input-data";
 import { BookingModal } from "@/custom-components/custom-form";
 import { useBookingMutations } from "../view-details/booking-backend/tanstack-function";
 import { showToast } from "nextjs-toast-notify";
-
+import Image from "next/image";
 export type Tour = {
   id: number;
   title: string;
@@ -253,8 +253,8 @@ export default function TourCards({ tours }: TourCardsProps) {
                     {/* TOP */}
                     <div className="flex p-2 gap-2">
                       <div className="relative w-28 h-28 flex-shrink-0">
-                        <img
-  src={tour.src }   // ← add fallback
+                        <Image
+  src={tour.src ?? "Image3" }   // ← add fallback
                           alt={tour.title}
                           className="w-full h-full object-cover rounded"
                         />

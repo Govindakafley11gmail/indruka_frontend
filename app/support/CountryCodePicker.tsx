@@ -5,7 +5,7 @@ import { Popover, PopoverContent, PopoverTrigger } from "@/components/ui/popover
 import { Button } from "@/components/ui/button";
 import { ChevronsUpDown, Search } from "lucide-react";
 import type { Country } from "./hooks/useCallingCodes";
-
+import Image from "next/image";
 interface Props {
   countries: Country[];
   selected: Country | null;
@@ -39,7 +39,7 @@ export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }:
         >
           {selected ? (
             <>
-              <img src={selected.flag} alt={selected.name} className="h-4 w-5 rounded-sm object-cover" />
+              <Image src={selected.flag} alt={selected.name} className="h-4 w-5 rounded-sm object-cover" />
               <span className="font-medium">{selected.callingCode}</span>
             </>
           ) : (
@@ -77,7 +77,7 @@ export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }:
                     : "text-slate-700"
                 }`}
               >
-                <img src={c.flag} alt={c.name} className="h-4 w-5 shrink-0 rounded-sm object-cover" />
+                <Image src={c.flag} alt={c.name} className="h-4 w-5 shrink-0 rounded-sm object-cover" />
                 <span className="flex-1 truncate">{c.name}</span>
                 <span className="shrink-0 text-slate-400">{c.callingCode}</span>
               </li>

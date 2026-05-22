@@ -12,6 +12,7 @@ import { useState } from "react";
 import { bhutanTripConfig } from "./input-data";
 import { useBookingMutations } from "../view-details/booking-backend/tanstack-function";
 import { showToast } from "nextjs-toast-notify";
+import Image from "next/image";
 
 interface CardDetailsPageProps {
   tours: Tour[];
@@ -90,7 +91,7 @@ const { createBooking } = useBookingMutations({
         >
           {/* IMAGE */}
           <div className="relative overflow-hidden h-[200px] md:h-full md:min-h-[200px] group">
-            <img
+            <Image
               src={tour.src}
               alt={tour.title}
               className="w-full h-full object-cover block transition-transform duration-[400ms] group-hover:scale-[1.06]"

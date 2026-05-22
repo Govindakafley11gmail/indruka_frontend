@@ -13,6 +13,7 @@ import { Button } from "@/components/ui/button";
 import jsPDF from "jspdf";
 import html2canvas from "html2canvas";
 import { PremiumCollectionData } from "../interface";
+import Image from "next/image";
 
 interface Props {
   open: boolean;
@@ -112,7 +113,7 @@ const CollectionReceiptDialog: React.FC<Props> = ({
             >
               {/* Header */}
               <div className="flex justify-center mb-[5mm]">
-                <img
+                <Image
                   src="/images/assets/headers.jpg"
                   alt="Header"
                   className="w-[250px] h-[50px]"
@@ -149,7 +150,7 @@ const CollectionReceiptDialog: React.FC<Props> = ({
 
               {/* Footer */}
               <div className="flex justify-center items-center">
-                <img
+                <Image
                   src="/images/assets/footer.jpg"
                   alt="Footer"
                   className="w-[250px] h-[50px]"

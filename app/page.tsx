@@ -7,8 +7,7 @@ import TopTrendingCard from "@/custom-components/body/top-trending-card/top-tren
 import Footer from "@/custom-components/footer/footer";
 import TourCategories from "@/custom-components/home-tabs/tour_packages_tabs";
 import Navbar from "@/custom-components/navbar/navbar";
-import ScrollReveal from "@/custom-components/scroll";
-
+import Image from "next/image";
 export default function Home() {
   return (
     <div className="w-full h-full overflow-x-hidden">
@@ -39,18 +38,21 @@ export default function Home() {
           {/* Background shapes */}
           <div className="absolute inset-0 z-0">
             <div className="absolute left-0 top-[40px] w-[280px] h-[360px] opacity-[0.25]">
-              <img
+              <Image
                 src="/shape-8.png"
                 className="w-full h-full object-contain"
-                alt=""
+                fill
+                                alt="shape-8.png"
+
               />
             </div>
 
             <div className="absolute right-0 top-[100px] w-[240px] h-[320px] opacity-[0.25]">
-              <img
+              <Image
                 src="/shape-3.png"
                 className="w-full h-full object-contain"
                 alt=""
+                fill
               />
             </div>
           </div>

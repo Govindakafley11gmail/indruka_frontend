@@ -133,7 +133,7 @@ const InvoiceUI: React.FC<{ data: InvoiceData[] }> = ({ data }) => {
   return (
     <div style={{ padding: "1rem", backgroundColor: "#f9f9f9", borderRadius: "0.5rem" }}>
       <div style={{ display: "flex", justifyContent: "center", marginBottom: "0.5rem" }}>
-        <img src="/images/assets/headers.jpg" alt="Company Logo" style={{ maxWidth: "250px", height: "auto" }} />
+        <Image src="/images/assets/headers.jpg"  style={{ maxWidth: "250px", height: "auto" }} />
       </div>
       <h2 style={{ textAlign: "center", marginBottom: "0.5rem", fontSize: "1.2rem" }}>Tax Invoice</h2>
 
@@ -193,9 +193,8 @@ const InvoiceUI: React.FC<{ data: InvoiceData[] }> = ({ data }) => {
       </div>
 
       <div className="flex justify-center">
-        <img
+        <Image
           src="/images/assets/footer.jpg"
-          alt="Footer"
           style={{ maxWidth: "250px", height: "auto", marginTop: "1rem" }}
         />
       </div>
