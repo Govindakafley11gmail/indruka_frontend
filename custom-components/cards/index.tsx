@@ -102,7 +102,7 @@ const numericPrice = typeof price === "string"
           <Image
             src={images[currentImage]}
             alt={title}
-            width={600}
+            width={400}
             height={200}
             className="object-cover w-full h-full p-2 rounded-2xl"
             unoptimized
