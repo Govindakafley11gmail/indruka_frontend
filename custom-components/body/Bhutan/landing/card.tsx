@@ -38,7 +38,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
       <div className="w-full flex flex-col gap-4 px-4 py-7">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-30 gap-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-x-50 gap-y-4">
           {Array.from({ length: TOTAL_SLOTS }).map((_, i) => {
             if (i === DEFAULT_CARD_INDEX) {
               return (
