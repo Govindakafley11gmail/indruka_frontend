@@ -58,6 +58,8 @@ export function UpcomingTrips() {
                 <Image
                   src={trip.image}
                   alt={trip.title}
+                    width={600}
+                height={400}
                   className="w-full h-full object-cover"
                 />
               </div>

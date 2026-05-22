@@ -107,6 +107,8 @@ function TourCard({ data, className }: { data: Tour; className?: string }) {
       <Image
         src={data.src}
         alt={data.title}
+         width={128}
+  height={110}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
         onError={(e) => {
           (e.target as HTMLImageElement).src = "/bhutan-lux3.jpg";

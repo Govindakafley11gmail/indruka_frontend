@@ -156,8 +156,8 @@ function GuestPhotosModal({
             /* ── Full-size single photo view ── */
             <div className="flex flex-col items-center gap-4">
               <Image
-                 width={600}
-              height={400}
+                width={600}
+                height={400}
                 src={selected.src}
                 alt={selected.alt}
                 className="w-full max-h-[60vh] object-contain rounded-xl"
@@ -182,6 +182,8 @@ function GuestPhotosModal({
                   <Image
                     src={photo.src}
                     alt={photo.alt}
+                    width={600}
+                    height={400}
                     className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/20 transition-colors duration-200 rounded-xl" />
@@ -199,11 +201,11 @@ function GuestPhotosModal({
 
 export default function TourGalleryPage({
   heroImage,
-  testimonials = [],  // ← add default here
+  testimonials = [], // ← add default here
   thumbnails,
   guestPhotos = [],
   breadcrumbs,
-  badges=[],
+  badges = [],
   title,
   durationDays,
   countryCount,
@@ -217,7 +219,9 @@ export default function TourGalleryPage({
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
 
   // Track which image is shown as the hero
-  const [activeHero, setActiveHero] = useState<{ src: string; alt: string }>(heroImage);
+  const [activeHero, setActiveHero] = useState<{ src: string; alt: string }>(
+    heroImage,
+  );
 
   // Lightbox modal state
   const [showGuestPhotos, setShowGuestPhotos] = useState(false);
@@ -226,15 +230,17 @@ export default function TourGalleryPage({
   // Thumbnails beyond index 1 are merged with guestPhotos and shown in the lightbox.
   const VISIBLE_THUMB_COUNT = 2;
   const visibleThumbs = thumbnails.slice(0, VISIBLE_THUMB_COUNT);
-  const overflowThumbs: GuestPhoto[] = thumbnails.slice(VISIBLE_THUMB_COUNT).map((t) => ({
-    id: t.id,
-    src: t.src,
-    alt: t.alt,
-  }));
+  const overflowThumbs: GuestPhoto[] = thumbnails
+    .slice(VISIBLE_THUMB_COUNT)
+    .map((t) => ({
+      id: t.id,
+      src: t.src,
+      alt: t.alt,
+    }));
   // Combine overflow thumbnails + explicit guestPhotos for the modal
   const allGuestPhotos: GuestPhoto[] = [...overflowThumbs, ...guestPhotos];
   // Total count shown on the tile = overflow thumbs + explicit extra photo count
-  const totalExtraCount = overflowThumbs.length ;
+  const totalExtraCount = overflowThumbs.length;
 
   const prevTestimonial = () =>
     setCurrentTestimonial((p) => (p === 0 ? testimonials?.length - 1 : p - 1));
@@ -294,7 +300,10 @@ export default function TourGalleryPage({
                 <Card className="hidden md:block absolute top-6 right-4 left-4 sm:left-auto sm:w-72 bg-white/95 backdrop-blur-sm shadow-lg border border-gray-100">
                   <CardContent className="">
                     <div className="flex justify-between border-b-2 border-b-amber-50 items-center mb-2">
-                      <MessageSquareQuote size={16} className="text-amber-500" />
+                      <MessageSquareQuote
+                        size={16}
+                        className="text-amber-500"
+                      />
                       <div className="flex gap-1">
                         <Button
                           variant="ghost"
@@ -352,7 +361,9 @@ export default function TourGalleryPage({
                 {visibleThumbs.map((thumb) => (
                   <div
                     key={thumb.id}
-                    onClick={() => setActiveHero({ src: thumb.src, alt: thumb.alt })}
+                    onClick={() =>
+                      setActiveHero({ src: thumb.src, alt: thumb.alt })
+                    }
                     className={`rounded overflow-hidden cursor-pointer transition-all w-full md:w-32 ring-2 ${
                       activeHero.src === thumb.src
                         ? "ring-blue-500 opacity-100"
@@ -363,6 +374,8 @@ export default function TourGalleryPage({
                     <Image
                       src={thumb.src}
                       alt={thumb.alt}
+                      width={128}
+                      height={110}
                       className="w-full h-full object-cover"
                     />
                   </div>
@@ -381,11 +394,15 @@ export default function TourGalleryPage({
                         <Image
                           src={allGuestPhotos[0].src}
                           alt={allGuestPhotos[0].alt}
+                           width={128}
+  height={110}
                           className="w-full h-full object-cover"
                         />
                         <Image
                           src={allGuestPhotos[1].src}
                           alt={allGuestPhotos[1].alt}
+                           width={128}
+  height={110}
                           className="w-full h-full object-cover"
                         />
                       </div>
@@ -393,6 +410,8 @@ export default function TourGalleryPage({
                       <Image
                         src={allGuestPhotos[0].src}
                         alt={allGuestPhotos[0].alt}
+                         width={128}
+  height={110}
                         className="w-full h-full object-cover"
                       />
                     ) : (
@@ -478,12 +497,10 @@ export default function TourGalleryPage({
             {/* View itinerary link */}
             <button
               onClick={(e) => {
-              
-                  e.preventDefault();
-                  document
-                    .getElementById(itinerarySectionId)
-                    ?.scrollIntoView({ behavior: "smooth", block: "start" });
-             
+                e.preventDefault();
+                document
+                  .getElementById(itinerarySectionId)
+                  ?.scrollIntoView({ behavior: "smooth", block: "start" });
               }}
               className="hidden md:flex items-center gap-1 text-sm font-semibold text-black cursor-pointer transition-colors underline underline-offset-2"
             >

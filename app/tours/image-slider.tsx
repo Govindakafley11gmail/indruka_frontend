@@ -120,6 +120,8 @@ function TourCard({ card }: { card: tourDataType }) {
       <Image
         src={card.image}
         alt={card.name}
+          width={600}
+                height={400}
         className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
       />
 

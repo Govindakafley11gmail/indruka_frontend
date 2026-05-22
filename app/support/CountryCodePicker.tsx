@@ -39,7 +39,8 @@ export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }:
         >
           {selected ? (
             <>
-              <Image src={selected.flag} alt={selected.name} className="h-4 w-5 rounded-sm object-cover" />
+              <Image src={selected.flag} alt={selected.name}   width={600}
+                height={400} className="h-4 w-5 rounded-sm object-cover" />
               <span className="font-medium">{selected.callingCode}</span>
             </>
           ) : (

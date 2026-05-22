@@ -64,6 +64,8 @@ export function TravelPackages() {
               <Image
                 src={pkg.image}
                 alt={pkg.title}
+                width={600}
+                height={400}
                 className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-105"
               />
               {/* Overlay */}

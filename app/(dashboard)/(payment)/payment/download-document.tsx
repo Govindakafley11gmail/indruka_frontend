@@ -116,6 +116,7 @@ const CollectionReceiptDialog: React.FC<Props> = ({
                 <Image
                   src="/images/assets/headers.jpg"
                   alt="Header"
+                  fill
                   className="w-[250px] h-[50px]"
                 />
               </div>

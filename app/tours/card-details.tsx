@@ -94,6 +94,8 @@ const { createBooking } = useBookingMutations({
             <Image
               src={tour.src}
               alt={tour.title}
+              width={800}
+              height={400}
               className="w-full h-full object-cover block transition-transform duration-[400ms] group-hover:scale-[1.06]"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[rgba(10,37,64,0.65)] to-transparent" />

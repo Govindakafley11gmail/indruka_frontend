@@ -21,6 +21,7 @@ export default function WhoWeAre() {
               <Image
                 src="https://images.unsplash.com/photo-1544735716-392fe2489ffa?w=800&q=80"
                 alt="Bhutan landscape"
+                fill
                 className="w-full h-full object-cover"
               />
             </div>
@@ -32,6 +33,7 @@ export default function WhoWeAre() {
             {/* Small accent image */}
             <div className="absolute -top-4 -left-4 w-24 h-24 rounded-xl overflow-hidden shadow-lg border-4 border-white hidden md:block">
               <Image
+              fill
                 src="https://images.unsplash.com/photo-1559592413-7cec4d0cae2b?w=200&q=80"
                 alt="Tiger's Nest Monastery"
                 className="w-full h-full object-cover"
