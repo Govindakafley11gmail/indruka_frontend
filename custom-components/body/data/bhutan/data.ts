@@ -1,31 +1,15 @@
 import {
-  Bird,
   Building2,
   Bus,
   Camera,
   Car,
   Crown,
-  Drama,
-  Flame,
-  FlameKindling,
-  Footprints,
-  Heart,
   HeartHandshake,
-  Home,
-  Landmark,
-  MapPin,
-  Mountain,
-  Music2,
+
   Plane,
-  ScrollText,
-  Ship,
-  Sparkles,
-  Star,
+
   Tent,
-  Train,
-  TreePine,
-  UserCheck,
-  Users,
+  
   UtensilsCrossed,
 } from "lucide-react";
 import type { TourCardProps } from "../../Bhutan/landing/card";
@@ -74,7 +58,7 @@ export const BhutanItem: TourCardProps[] = [
     type: ["Trekking"],
     tags: ["11N/12D", "Trekking", "Himalayan Adventure", "Max 16 Guests"],
     images: [
-      "/Jomolhari.jpg",
+      "/Jomolhari.webp",
       "/jomolhari2.png", // To be filled
     ],
     inclusions: [

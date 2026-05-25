@@ -26,7 +26,7 @@ export const bhutanTours: Tour[] = [
     badge: "Cultural",
     badgeColor: "bg-orange-600",
     mode: "Road",
-    src: "/photo13.jpg",
+    src: "/photo13.webp",
     popular: true,
 
     seoMeta: {
@@ -2660,12 +2660,12 @@ export const bhutanTours: Tour[] = [
     },
     {
       id: 2,
-      src: "/paro1.jpg",
+      src: "/paro1.webp",
       alt: "Paro Valley Bhutan – Rinpung Dzong and Paro Chhu River Viewed from the Trek Starting Point",
     },
     {
       id: 3,
-      src: "/paro2.jpg",
+      src: "/paro2.webp",
       alt: "Tiger's Nest Monastery Paro Taktsang – Cliffside Buddhist Temple at 3,120m Above Paro Valley",
     },
   ],
