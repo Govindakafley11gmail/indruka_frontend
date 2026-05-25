@@ -96,7 +96,7 @@ export default function TourCard({
       : (price ?? 0);
   return (
     <>
-      <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-[350px] gap-2">
+      <Card className="overflow-hidden h-full rounded-2xl  shadow-xl border p-0 w-82.5 ">
         {/* Image */}
         <div className="relative h-[200px] overflow-hidden">
           <Image

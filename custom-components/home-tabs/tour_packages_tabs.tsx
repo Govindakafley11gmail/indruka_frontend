@@ -29,7 +29,7 @@ export default function TourCategories() {
 </div>
 
       {/* TABS */}
-      <div className="max-w-7xl  ">
+      <div className="w-full md:[80%] flex justify-center items-center pl-4 ">
         <Tabs defaultValue="bhutan" className="w-full">
           {/* COUNTRY SWITCH */}
           <div className="flex justify-center">

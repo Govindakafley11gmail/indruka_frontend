@@ -26,43 +26,45 @@ export interface TourProperties {
   mainContainer?: string;
 }
 
-const TOTAL_SLOTS = 50;
 const DEFAULT_CARD_INDEX = 7;
 
 export default function Card({ item, title, mainContainer }: TourProperties) {
   const router = useRouter();
   const country = item[0]?.country ?? "";
-  const remainingCount = Math.max(0, item.length - (TOTAL_SLOTS - 1));
   const viewAllHref = `/tours/${country.toLowerCase()}`;
+
+  // Build the display list by inserting DefaultTourCard at index 7
+  const displayItems: ("default" | TourCardProps)[] = [];
+
+  item.forEach((tour, i) => {
+    if (i === DEFAULT_CARD_INDEX) {
+      displayItems.push("default");
+    }
+    displayItems.push(tour);
+  });
+
+  // If item has fewer than DEFAULT_CARD_INDEX items, still push the default card
+  if (item.length <= DEFAULT_CARD_INDEX) {
+    displayItems.push("default");
+  }
+
+  const remainingCount = Math.max(0, item.length - DEFAULT_CARD_INDEX);
 
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
-      <div className="w-full flex flex-col gap-4 px-4 py-7">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-2 gap-y-4">
-          {Array.from({ length: TOTAL_SLOTS }).map((_, i) => {
-            if (i === DEFAULT_CARD_INDEX) {
-              return (
-                <div key="default" className="">
-      <DefaultTourCard remainingCount={remainingCount} />
-    </div>
-              );
+      <div className="w-full flex flex-col gap-4 py-7">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 xl:grid-cols-4 md:gap-x-2 md:gap-y-3 ">
+          {displayItems.map((cardItem, i) => {
+            if (cardItem === "default") {
+              return <DefaultTourCard key="default" remainingCount={remainingCount} />;
             }
 
-            const tourIndex = i < DEFAULT_CARD_INDEX ? i : i - 1;
+            if (!cardItem.slug) return null;
 
-            if (tourIndex < item.length) {
-              const tour = item[tourIndex];
-
-              if (!tour.slug) return null;
-
-              return <TourCard key={i} {...tour} />;
-            }
-
-            return null;
+            return <TourCard key={cardItem.slug} {...cardItem} />;
           })}
         </div>
 
-        {/* View All Tours → /tours/bhutan or /tours/india */}
         <div className="w-full flex sm:justify-end justify-center mt-6">
           <button
             onClick={() => router.push(viewAllHref)}
@@ -80,11 +82,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
                 strokeWidth={2.5}
                 viewBox="0 0 24 24"
               >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M17 8l4 4m0 0l-4 4m4-4H3"
-                />
+                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
               </svg>
             </span>
           </button>
