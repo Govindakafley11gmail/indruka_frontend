@@ -53,7 +53,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
       <div className="w-full flex flex-col gap-4 py-7">
-        <div className="grid grid-cols-1 sm:grid-cols-2  gap-4 md:grid-cols-4 md:gap-x-2 md:gap-y-3 ">
+        <div className="grid grid-cols-1 sm:grid-cols-2  gap-4 md:grid-cols-4 md:gap-x-20 md:gap-y-3 ">
           {displayItems.map((cardItem, i) => {
             if (cardItem === "default") {
               return <DefaultTourCard key="default" remainingCount={remainingCount} />;
