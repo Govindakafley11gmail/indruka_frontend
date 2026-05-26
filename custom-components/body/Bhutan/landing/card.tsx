@@ -53,7 +53,7 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
       <div className="w-full flex flex-col  py-7">
-<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 justify-items-center items-start">
+<div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 px-4 justify-items-center items-stretch">
           {" "}
           {displayItems.map((cardItem, i) => {
             if (cardItem === "default") {

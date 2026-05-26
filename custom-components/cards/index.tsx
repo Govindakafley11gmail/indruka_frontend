@@ -96,7 +96,7 @@ export default function TourCard({
       : (price ?? 0);
   return (
     <>
-<Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full ">
+<Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full h-full flex flex-col">
         {" "}
         {/* Image */}
         <div className="relative h-48 overflow-hidden">
@@ -170,7 +170,7 @@ export default function TourCard({
           <div className="border-t border-dashed" />
 
           {/* Pricing */}
-          <div className="flex justify-between items-end">
+          <div className="flex justify-between items-end  mt-auto">
             <div>
               {oldPrice && (
                 <div className="flex items-center gap-2">

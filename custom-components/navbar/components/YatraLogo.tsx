@@ -7,18 +7,18 @@ export function YatraLogo() {
   return (
     <div className="flex items-center gap-3 cursor-pointer group">
       <Link href="/" className="flex items-center gap-3 cursor-pointer group">
-  <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border border-white/20">
-    <Image
-      src="/indrukalogo.jpeg"
-      alt="Yatra Logo"
-      fill       
-      className="object-cover group-hover:scale-110 transition-transform duration-300"
-      priority
-    />
-  </div>
-</Link>
+        <div className="relative w-20 h-20 rounded-full overflow-hidden shadow-md group-hover:shadow-xl transition-all duration-300 border border-white/20">
+          <Image
+            src="/indrukalogo.jpeg"
+            alt="Yatra Logo"
+            height={160}
+            width={160}
+            className="object-cover w-full h-full group-hover:scale-110 transition-transform duration-300"
+            priority
+          />
+        </div>
+      </Link>
 
-   
       <Link href={"/"}>
         <span className="relative inline-flex text-3xl sm:text-3xl  text-black font-mono">
           Indruka
