@@ -42,7 +42,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Building2, label: "Hotels" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
   {
@@ -66,7 +66,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Tent, label: "Camp Stay" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
 
@@ -90,7 +90,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Building2, label: "Hotels" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
   {
@@ -113,7 +113,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Building2, label: "Hotels" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
   {
@@ -143,7 +143,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Building2, label: "Hotels" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
 
@@ -174,7 +174,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Building2, label: "Hotels" },
       { icon: Camera, label: "Sightseeing" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Transfers" },
+      // { icon: Car, label: "Transfers" },
     ],
   },
   {
@@ -202,7 +202,7 @@ export const BhutanItem: TourCardProps[] = [
       { icon: Plane, label: "Flights", optional: true },
       { icon: Building2, label: "Luxury Hotels" },
       { icon: UtensilsCrossed, label: "Fine Dining" },
-      { icon: Car, label: "Luxury Transfers" },
+      // { icon: Car, label: "Luxury Transfers" },
     ],
   },
 
@@ -231,7 +231,7 @@ export const BhutanItem: TourCardProps[] = [
     inclusions: [
       { icon: Building2, label: "Hotels" },
       { icon: UtensilsCrossed, label: "Meals" },
-      { icon: Car, label: "Non-AC Cab Transfers" },
+      { icon: Car, label: "Cab" },
       { icon: Camera, label: "Sightseeing" },
     ],
   },

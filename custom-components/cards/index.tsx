@@ -143,7 +143,7 @@ export default function TourCard({
           <p className="text-sm text-gray-500">{itinerary}</p>
 
           {/* Inclusions */}
-          <div className="flex flex-wrap items-center gap-4">
+          <div className="flex flex-nowrap items-center gap-4">
             {inclusions.map(({ icon: Icon, label, optional }) => (
               <div key={label} className="flex flex-col items-center relative">
                 {optional && (
