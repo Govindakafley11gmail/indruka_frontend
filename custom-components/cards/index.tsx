@@ -96,9 +96,10 @@ export default function TourCard({
       : (price ?? 0);
   return (
     <>
-      <Card className="overflow-hidden h-full rounded-2xl  shadow-xl border p-0  ">
+      <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-[320px]">
+        {" "}
         {/* Image */}
-        <div className="relative h-50 overflow-hidden">
+        <div className="relative h-48 overflow-hidden">
           <Image
             src={images[currentImage]}
             alt={title}
@@ -122,7 +123,6 @@ export default function TourCard({
             <ChevronRight className="w-4 h-4" />
           </button>
         </div>
-
         <CardContent className="p-4 space-y-3">
           {/* Tags */}
           <div className="flex flex-wrap gap-2">

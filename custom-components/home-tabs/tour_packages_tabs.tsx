@@ -7,29 +7,27 @@ import Image from "next/image";
 
 export default function TourCategories() {
   return (
-    <section className="relative min-h-screen ">
+    <section className="w-full relative min-h-screen ">
       <div className="text-center mb-10 sm:mb-12 md:mb-14 max-w-2xl mx-auto px-4 sm:px-6">
-  
-  <span className="inline-block text-[10px] sm:text-xs font-semibold tracking-widest uppercase mb-3 sm:mb-4 px-3 sm:px-4 py-1 sm:py-1.5 bg-blue-100 rounded-full shadow-sm text-black">
-    Travel For You
-  </span>
+        <span className="inline-block text-[10px] sm:text-xs font-semibold tracking-widest uppercase mb-3 sm:mb-4 px-3 sm:px-4 py-1 sm:py-1.5 bg-blue-100 rounded-full shadow-sm text-black">
+          Travel For You
+        </span>
 
-  <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-gray-900 leading-snug sm:leading-tight mb-3 sm:mb-4">
-    Explore Your{" "}
-    <span className="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent">
-      Dream Destinations
-    </span>
-  </h2>
+        <h2 className="text-2xl sm:text-3xl md:text-5xl font-extrabold text-gray-900 leading-snug sm:leading-tight mb-3 sm:mb-4">
+          Explore Your{" "}
+          <span className="bg-gradient-to-r from-blue-500 to-blue-400 bg-clip-text text-transparent">
+            Dream Destinations
+          </span>
+        </h2>
 
-  <p className="text-sm sm:text-base md:text-lg  text-gray-500 leading-relaxed px-1 sm:px-2">
-    Craft a personalized getaway tailored to your preferences <br/>and desires.  
-    Every journey begins with a single step.
-  </p>
-
-</div>
+        <p className="text-sm sm:text-base md:text-lg  text-gray-500 leading-relaxed px-1 sm:px-2">
+          Craft a personalized getaway tailored to your preferences <br />
+          and desires. Every journey begins with a single step.
+        </p>
+      </div>
 
       {/* TABS */}
-      <div className="max-w-7xl flex justify-center items-center pl-4 ">
+      <div className=" px-4 max-w-350 mx-auto ">
         <Tabs defaultValue="bhutan" className="w-full">
           {/* COUNTRY SWITCH */}
           <div className="flex justify-center">

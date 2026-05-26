@@ -52,11 +52,17 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
 
   return (
     <div className={`w-full h-full ${mainContainer || ""}`}>
-      <div className="w-full flex flex-col gap-4 py-7">
-        <div className="grid grid-cols-1 sm:grid-cols-2  gap-4 md:grid-cols-4 md:gap-x-20 md:gap-y-3 ">
+      <div className="w-full flex flex-col  py-7">
+<div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4 justify-items-center items-start">
+          {" "}
           {displayItems.map((cardItem, i) => {
             if (cardItem === "default") {
-              return <DefaultTourCard key="default" remainingCount={remainingCount} />;
+              return (
+                <DefaultTourCard
+                  key="default"
+                  remainingCount={remainingCount}
+                />
+              );
             }
 
             if (!cardItem.slug) return null;
@@ -82,7 +88,11 @@ export default function Card({ item, title, mainContainer }: TourProperties) {
                 strokeWidth={2.5}
                 viewBox="0 0 24 24"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M17 8l4 4m0 0l-4 4m4-4H3"
+                />
               </svg>
             </span>
           </button>
