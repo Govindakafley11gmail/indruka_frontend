@@ -30,8 +30,6 @@ export const BhutanItem: TourCardProps[] = [
       "10N/11D",
       "Cultural Tour",
       "Valley Explorer",
-      "Haa Valley",
-      "Max 16 Guests",
     ],
     images: [
       "/paro1.jpg", // To be filled
@@ -56,7 +54,7 @@ export const BhutanItem: TourCardProps[] = [
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Trekking"],
-    tags: ["11N/12D", "Trekking", "Himalayan Adventure", "Max 16 Guests"],
+    tags: ["11N/12D", "Trekking", "Himalayan Adventure"],
     images: [
       "/Jomolhari.webp",
       "/jomolhari2.png", // To be filled
@@ -80,7 +78,7 @@ export const BhutanItem: TourCardProps[] = [
     oldPrice: "",
     discount: "",
     type: ["Family", "Cultural"],
-    tags: ["3N/4D", "Cultural Tour", "Tiger's Nest", "Max 16 Guests"],
+    tags: ["3N/4D", "Cultural Tour", "Tiger's Nest"],
     images: [
       "/pondicherry.jpg", // To be filled
       "kashmir-scene3.jpg", // To be filled
@@ -103,7 +101,7 @@ export const BhutanItem: TourCardProps[] = [
     oldPrice: "", //To be filled
     discount: "", // To be filled
     type: [ "Festivals"],
-    tags: ["7N/8D", "Festival Tour", "Paro Tsechu", "Max 16 Guests"],
+    tags: ["7N/8D", "Festival Tour", "Paro Tsechu"],
     images: [
       "/thimphu-festival1.jpg", // To be filled
       "/paro-festival2.jpg", // To be filled
@@ -132,7 +130,7 @@ export const BhutanItem: TourCardProps[] = [
       "Cultural Tour",
       "Tiger's Nest",
       "Black-Necked Cranes",
-      "Max 16 Guests",
+
     ],
     images: [
       "/bhutan-thimphu-city.jpg", // To be filled
@@ -163,7 +161,7 @@ export const BhutanItem: TourCardProps[] = [
       "Cultural Tour",
       "Tiger's Nest",
       "Central Bhutan",
-      "Max 16 Guests",
+  
     ],
     images: [
       "/paro2.jpg", // To be filled
