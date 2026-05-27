@@ -1,5 +1,6 @@
 "use client";
 
+import { Button } from "@/components/ui/button";
 import { Mail, Phone, ArrowUpRight, ChevronRight } from "lucide-react";
 import Link from "next/link";
 import { useState } from "react";
@@ -307,6 +308,27 @@ export default function Footer() {
             </div>
           </div>
         </div>
+        <footer className="border-t border-gray-200">
+          <div className="flex flex-col items-center gap-3 px-6 py-4 text-center sm:flex-row sm:justify-between sm:px-10 sm:text-left">
+            <p className="text-xs text-gray-500">
+              © 2026 Indruka Tours &amp; Travels. All rights reserved.
+            </p>
+            <div className="flex gap-4 sm:gap-6">
+              <Link
+                href="/privacy"
+                className="text-xs text-gray-500 transition-colors hover:text-blue-600"
+              >
+                Privacy Policy
+              </Link>
+              <Link
+                href="/terms"
+                className="text-xs text-gray-500 transition-colors hover:text-blue-600"
+              >
+                Terms &amp; Conditions
+              </Link>
+            </div>
+          </div>
+        </footer>
 
         {/* ── BOTTOM BAR ──
         <div className="relative border-t border-blue-900/40">
