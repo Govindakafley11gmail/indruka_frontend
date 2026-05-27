@@ -1,6 +1,6 @@
 const stats = [
-  { value: "15+", label: "Years of Experience" },
-  { value: "5,000+", label: "Happy Travelers" },
+  { value: "3+", label: "Years of Experience" },
+  { value: "300+", label: "Happy Travelers" },
   { value: "50+", label: "Tour Packages" },
   { value: "20+", label: "Countries Represented" },
 ];

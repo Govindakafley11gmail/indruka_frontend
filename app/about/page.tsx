@@ -5,6 +5,7 @@ import HeroBanner from "./herobanner";
 import StatsSection from "./statsSection";
 import WhoWeAre from "./whoarewe";
 import WhyChooseUs from "./whyChooseus";
+import MissionPartners from "./missionpartners";
 
 
 export const metadata = {
@@ -21,6 +22,8 @@ export default function AboutPage() {
       <WhoWeAre />
       {/* <StatsSection /> */}
       <WhyChooseUs />
+            <MissionPartners />       {/* ← inserted here */}
+
               <SocialCardSlider />
       
       <Footer />

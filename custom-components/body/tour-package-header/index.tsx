@@ -8,7 +8,7 @@ const stats = [
   { value: "4.8 / 5", label: "Google Rating" },
   { value: "10,000+", label: "Pilgrims Served" },
   { value: "Ministry", label: "Tourism Approved" },
-  { value: "15+ Years", label: "Experience" },
+  { value: "3+ Years", label: "Experience" },
   { value: "ISO Certified", label: "Operator" },
 ];
 
