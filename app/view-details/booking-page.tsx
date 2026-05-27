@@ -152,14 +152,21 @@ export default function BookingPage({
         : "";
 
       const numberOfTravellers = Number(data.number_of_travellers) || 1; // ← was data.travelers
+  const parseAmount = (value: string | number): number => {
+    if (typeof value === "number") return value;
+    return Number(value.replace(/[^0-9.]/g, ""));
+  };
 
-      const parties = Array.from({ length: numberOfTravellers }, () => ({
-        user_name: `${data.firstName} ${data.lastName}`,
-        mobile_number: data.phone ?? "", // ← full number as typed e.g. "+9751234567"
-        email: data.email,
-        amount: price ?? 0,
-        adults: 1,
-      }));
+  const pricePerPersonParsed = parseAmount(price ?? 0);
+      const parties = [
+    {
+      user_name: `${data.firstName} ${data.lastName}`.trim(),
+      mobile_number: data.phone ?? "",
+      email: data.email,
+      amount: pricePerPersonParsed * numberOfTravellers, // ✅ total amount
+      adults: numberOfTravellers,                         // ✅ total travellers
+    },
+  ];
 
       const payload: BookingPayload = {
         number_of_travellers: numberOfTravellers,

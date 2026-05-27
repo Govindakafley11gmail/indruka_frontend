@@ -17,21 +17,21 @@ interface MutationOptions {
 // CreateBooking
 const createBookings = async (data: BookingPayload) => {
   const response = await apiClient.post(TRAVELAGENTSAPI.bookingUser, data);
-
   if (response.data?.success === false) {
+
     throw { data: response.data };
   }
   return response.data;
 };
 
-const createCallBack = async (data: CallBackPayloadInterface) => {
-  const response = await apiClient.post(TRAVELAGENTSAPI.callBack, data);
+// const createCallBack = async (data: CallBackPayloadInterface) => {
+//   const response = await apiClient.post(TRAVELAGENTSAPI.callBack, data);
 
-  if (response.data?.success === false) {
-    throw { data: response.data };
-  }
-  return response.data;
-};
+//   if (response.data?.success === false) {
+//     throw { data: response.data };
+//   }
+//   return response.data;
+// };
 
 
 

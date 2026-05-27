@@ -97,19 +97,22 @@ export const bhutanTripConfig = (
 
   const numberOfTravellers = Number(data.number_of_travellers) || 1;
 const parseAmount = (value: string | number): number => {
-  if (typeof value === "number") return value;
-  return Number(value.replace(/[^0-9.]/g, ""));
-};
+    if (typeof value === "number") return value;
+    return Number(value.replace(/[^0-9.]/g, ""));
+  };
+
+  const pricePerPersonParsed = parseAmount(pricePerPerson ?? 0);
+
   // ✅ Read per-traveller fields
-  const parties = Array.from({ length: numberOfTravellers }, (_, i) => ({
-    user_name: i === 0
-      ? `${data.firstName} ${data.lastName}`
-      : `${data[`firstName_${i}`] ?? ""} ${data[`lastName_${i}`] ?? ""}`.trim(),
-    mobile_number: data.phone ?? "",
-    email: i === 0 ? data.email : (data[`email_${i}`] ?? data.email),
-    amount:  parseAmount(pricePerPerson ?? 0),
-    adults: 1,
-  }));
+   const parties = [
+    {
+      user_name: `${data.firstName} ${data.lastName}`.trim(),
+      mobile_number: data.phone ?? "",
+      email: data.email,
+      amount: pricePerPersonParsed * numberOfTravellers, // ✅ total amount
+      adults: numberOfTravellers,                         // ✅ total travellers
+    },
+  ];
 
 
   const payload: BookingPayload = {
@@ -120,7 +123,7 @@ const parseAmount = (value: string | number): number => {
     end_date: endDate,
     parties,
   };
-  console.log("Booking Payload:", payload);
+
   createBooking(payload);
 },
 });
