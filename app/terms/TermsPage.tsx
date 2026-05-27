@@ -14,7 +14,7 @@ export function TermsPage() {
     <div className="min-h-screen bg-gray-50">
       {/* Hero */}
       <TermsHero />
-
+  
       {/* Main content */}
       <div className="mx-auto max-w-7xl px-4 py-10 sm:px-6 lg:px-8 lg:py-16">
         <div className="lg:grid lg:grid-cols-[280px_1fr] lg:gap-12 xl:grid-cols-[300px_1fr]">

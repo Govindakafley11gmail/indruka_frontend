@@ -330,27 +330,7 @@ export default function Footer() {
           </div>
         </footer>
 
-        {/* ── BOTTOM BAR ──
-        <div className="relative border-t border-blue-900/40">
-          <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-5 text-xs text-blue-400/60 md:flex-row">
-            <p>© 2026 Indruka tours & travels. All rights reserved.</p>
-            <div className="flex gap-6">
-              {[
-                { label: "Privacy Policy", href: "#" },
-                { label: "Terms", href: "#" },
-                { label: "Legal", href: "#" },
-              ].map(({ label, href }) => (
-                <Link
-                  key={label}
-                  href={href}
-                  className="transition-colors hover:text-blue-300"
-                >
-                  {label}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div> */}
+
       </footer>
 
       {/* ── FLOATING WHATSAPP ── */}
