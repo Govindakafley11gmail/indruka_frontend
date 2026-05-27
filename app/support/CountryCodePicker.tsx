@@ -6,14 +6,15 @@ import { Button } from "@/components/ui/button";
 import { ChevronsUpDown, Search } from "lucide-react";
 import type { Country } from "./hooks/useCallingCodes";
 import Image from "next/image";
+
 interface Props {
   countries: Country[];
   selected: Country | null;
   onSelect: (country: Country) => void;
-  buttonStyle:string
+  buttonStyle: string;
 }
 
-export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }: Props) {
+export function CountryCodePicker({ countries, selected, onSelect, buttonStyle }: Props) {
   const [open, setOpen] = useState(false);
   const [search, setSearch] = useState("");
   const searchRef = useRef<HTMLInputElement>(null);
@@ -39,8 +40,14 @@ export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }:
         >
           {selected ? (
             <>
-              <Image src={selected.flag} alt={selected.name}   width={600}
-                height={400} className="h-4 w-5 rounded-sm object-cover" />
+              {/* ✅ width/height already present here */}
+              <Image
+                src={selected.flag}
+                alt={selected.name}
+                width={20}
+                height={15}
+                className="h-4 w-5 rounded-sm object-cover"
+              />
               <span className="font-medium">{selected.callingCode}</span>
             </>
           ) : (
@@ -78,7 +85,14 @@ export function CountryCodePicker({ countries, selected, onSelect,buttonStyle }:
                     : "text-slate-700"
                 }`}
               >
-                <Image src={c.flag} alt={c.name} className="h-4 w-5 shrink-0 rounded-sm object-cover" />
+                {/* ✅ Fixed — added width and height */}
+                <Image
+                  src={c.flag}
+                  alt={c.name}
+                  width={20}
+                  height={15}
+                  className="h-4 w-5 shrink-0 rounded-sm object-cover"
+                />
                 <span className="flex-1 truncate">{c.name}</span>
                 <span className="shrink-0 text-slate-400">{c.callingCode}</span>
               </li>

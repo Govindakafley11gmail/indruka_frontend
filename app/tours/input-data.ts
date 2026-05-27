@@ -96,7 +96,10 @@ export const bhutanTripConfig = (
     : "";
 
   const numberOfTravellers = Number(data.number_of_travellers) || 1;
-
+const parseAmount = (value: string | number): number => {
+  if (typeof value === "number") return value;
+  return Number(value.replace(/[^0-9.]/g, ""));
+};
   // ✅ Read per-traveller fields
   const parties = Array.from({ length: numberOfTravellers }, (_, i) => ({
     user_name: i === 0
@@ -104,9 +107,10 @@ export const bhutanTripConfig = (
       : `${data[`firstName_${i}`] ?? ""} ${data[`lastName_${i}`] ?? ""}`.trim(),
     mobile_number: data.phone ?? "",
     email: i === 0 ? data.email : (data[`email_${i}`] ?? data.email),
-    amount: pricePerPerson ?? 0,
+    amount:  parseAmount(pricePerPerson ?? 0),
     adults: 1,
   }));
+
 
   const payload: BookingPayload = {
     number_of_travellers: numberOfTravellers,
@@ -116,6 +120,7 @@ export const bhutanTripConfig = (
     end_date: endDate,
     parties,
   };
+  console.log("Booking Payload:", payload);
   createBooking(payload);
 },
 });

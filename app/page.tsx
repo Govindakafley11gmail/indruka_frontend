@@ -42,7 +42,7 @@ export default function Home() {
                 src="/shape-8.png"
                 className="w-full h-full object-contain"
                 fill
-                                alt="shape-8.png"
+                alt="shape-8.png"
 
               />
             </div>

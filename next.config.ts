@@ -5,6 +5,12 @@ const nextConfig: NextConfig = {
   compiler: {
     removeConsole: process.env.NODE_ENV === "production",
   },
+  images: {
+  remotePatterns: [
+    { protocol: "https", hostname: "flagcdn.com" },
+    { protocol: "https", hostname: "upload.wikimedia.org" }, // some countries still use this
+  ],
+},
 };
 
 export default nextConfig;
