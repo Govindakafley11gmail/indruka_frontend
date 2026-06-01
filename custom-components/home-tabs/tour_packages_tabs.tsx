@@ -28,9 +28,9 @@ export default function TourCategories() {
 
       {/* TABS */}
 <div className="px-4 py-4 w-full  mx-auto overflow-hidden">
-        <Tabs defaultValue="bhutan" className="w-full">
+        {/* <Tabs defaultValue="bhutan" className="w-full"> */}
           {/* COUNTRY SWITCH */}
-          <div className="flex justify-center">
+          {/* <div className="flex justify-center">
             <TabsList className="flex gap-3 bg-transparent p-0 h-auto">
               <TabsTrigger
                 value="bhutan"
@@ -85,25 +85,25 @@ export default function TourCategories() {
         relative overflow-hidden shadow-none h-auto"
               >
                 {/* Saffron top bar */}
-                <span
+                {/* <span
                   className="absolute top-0 left-0 right-0 h-[3px] rounded-t-xl opacity-0
         group-data-[state=active]:opacity-100 transition-opacity duration-200"
                   style={{
                     background:
                       "linear-gradient(to right, #FF9933 33%, #ffffff 33%, #ffffff 66%, #138808 66%)",
                   }}
-                />
+                /> */}
 
                 {/* <span className="text-2xl"> */}
-                <Image
+                {/* <Image
                   src="/india.png"
                   alt="India Flag"
                   width={32}
                   height={32}
-                />
+                /> */}
                 {/* </span> */}
 
-                <div className="flex flex-col items-start gap-0.5">
+                {/* <div className="flex flex-col items-start gap-0.5">
                   <span
                     className="text-sm font-medium text-gray-700 transition-colors"
                     style={{}}
@@ -126,8 +126,8 @@ export default function TourCategories() {
                   <span className="text-[11px] text-gray-400 group-data-[state=active]:text-[#138808] transition-colors">
                     Incredible tours
                   </span>
-                </div>
-              </TabsTrigger>
+                </div> */}
+              {/* </TabsTrigger>
             </TabsList>
           </div>
           <TabsContent value="bhutan" className="mt-0 pt-0">
@@ -136,7 +136,9 @@ export default function TourCategories() {
           <TabsContent value="india" className="mt-0 pt-0">
             <Card title="India Tours" item={Indiaitem} />
           </TabsContent>
-        </Tabs>
+        // </Tabs> */} 
+                    <Card title="Bhutan Tours" item={BhutanItem} />
+
       </div>
     </section>
   );
