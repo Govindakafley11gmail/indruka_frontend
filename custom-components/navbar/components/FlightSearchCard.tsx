@@ -305,7 +305,7 @@ export function FlightSearchCard({
                     <span className="text-base">🌏</span> All countries
                   </button>
                   <div className="my-1 border-t border-blue-50" />
-                  {(["India", "Bhutan"] as const).map((c) => (
+                  {(["Bhutan"] as const).map((c) => (
                     <button
                       key={c}
                       onClick={() => handleCountry(c)}
@@ -395,7 +395,7 @@ export function FlightSearchCard({
                 value={keyword}
                 onChange={(e) => setKeyword(e.target.value)}
                 onKeyDown={(e) => e.key === "Enter" && handleSearch()}
-                placeholder="e.g. Kedarnath, beach, luxury…"
+                placeholder="please enter your place"
                 className={cn(
                   "w-full bg-transparent text-sm font-medium",
                   "text-slate-800 placeholder:text-slate-400 placeholder:font-normal",

@@ -34,11 +34,11 @@ export function Header() {
                 variant="titles-only" // ← only change needed
               />
 
-              <CorporatesDropdown
+              {/* <CorporatesDropdown
                 title="India"
                 items={CORPORATE_MENU_ITEMS}
                 icon="/india.png"
-              />
+              /> */}
 
             
               <Button variant="outline" className="flex items-center gap-1.5">

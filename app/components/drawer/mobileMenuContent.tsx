@@ -120,7 +120,7 @@ export function MobileMenuContent({ onClose }: Props) {
 
       {/* SCROLLABLE CONTENT */}
       <div className="flex-1 overflow-y-auto px-4 pb-4 -mt-1">
-        {/* INDIA SECTION */}
+        {/* INDIA SECTION
         <div className="mb-5">
           <div className="flex items-center gap-2 mb-3">
             <span className="text-base leading-none">🇮🇳</span>
@@ -130,12 +130,12 @@ export function MobileMenuContent({ onClose }: Props) {
             <div className="flex-1 h-px bg-blue-100" />
           </div>
           {/* ✅ type="india" → uses handlePlaceClick */}
-          <AccordionMenu
+          {/* <AccordionMenu
             data={CORPORATE_MENU_ITEMS}
             onClose={onClose}
             type="india"
           />
-        </div>
+        </div>  */}
 
         {/* BHUTAN SECTION */}
         <div className="mb-5">

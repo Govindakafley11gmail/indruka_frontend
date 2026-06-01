@@ -29,10 +29,7 @@ export default function SacredYatra() {
   const [activePage, setActivePage] = useState(1);
   const allTours = useMemo(() => {
     return [
-      // ...indiaTours.map((t) => ({
-      //   ...t,
-      //   country: "India",
-      // })),
+      
       ...bhutanTours.map((t) => ({
         ...t,
         country: "Bhutan",

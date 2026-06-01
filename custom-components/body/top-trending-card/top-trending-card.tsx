@@ -51,79 +51,26 @@ const places: Place[] = [
     image: "/thimphudzong.jpg",
     country: "Bhutan",
   },
-  {
-    id: 3,
-    name: "Darjeeling",
-    region: "India",
-    type: "Hill Stations & Nature Destinations",
-    rating: 4.7,
-    reviews: 1102,
-    tag: "Scenic",
-    image: "/darjeeling.jpg",
-    country: "India",
-  },
-  {
-    id: 4,
-    name: "Himachal Valley",
-    region: "India",
-    type: "Hill Stations & Nature Destinations",
-    rating: 4.8,
-    reviews: 942,
-    tag: "Nature",
-    image: "/himachal.jpg",
-    country: "India",
-  },
-  {
-    id: 5,
-    name: "Goa Beach",
-    region: "India",
-    type: "Beach Holidays",
-    rating: 4.6,
-    reviews: 631,
-    tag: "Hidden Gem",
-    image: "/GOA.jpg",
-    country: "India",
-  },
-  {
-    id: 6,
-    name: "Badrinath Temple",
-    region: "India",
-    type: "Holy",
-    rating: 4.7,
-    reviews: 788,
-    country: "India",
-    tag: "Religious yatras",
-    image: "/Badrinath.jpg",
-  },
+  
+ 
 ];
 
-const tabs = [
-    { label: "Bhutan", flag: "🇧🇹", value: "Bhutan" },
-
-  { label: "India", flag: "🇮🇳", value: "India" },
-];
 
 export default function TopTrendingPlaces() {
   const router = useRouter();
-  const [activeTab, setActiveTab] = useState("Bhutan");
+  // const [activeTab, setActiveTab] = useState("Bhutan");
 
-  const filteredPlaces =
-     places.filter((p) => p.country === activeTab);
+  // const filteredPlaces =
+  //    places.filter((p) => p.country === activeTab);
 
   const handleCardClick = (place: Place) => {
-    if (place.country === "India") {
-      const params = new URLSearchParams({
-        country: place.country,
-        id: place.name,
-      });
-      router.push(`/tours?${params.toString()}`);
-    } else {
+  
       const params = new URLSearchParams({
         country: place.country,
         spec: place.type,
       });
       router.push(`/tours?${params.toString()}`);
-    }
+    
   };
 
   return (
@@ -144,7 +91,7 @@ export default function TopTrendingPlaces() {
         </div>
 
         {/* Country Tabs */}
-        <div className="relative z-10 flex justify-center mb-8">
+        {/* <div className="relative z-10 flex justify-center mb-8">
           <div className="inline-flex items-center gap-2 bg-gray-100 rounded-2xl p-1.5 shadow-inner">
             {tabs.map((tab) => {
               const isActive = activeTab === tab.value;
@@ -185,11 +132,11 @@ export default function TopTrendingPlaces() {
               );
             })}
           </div>
-        </div>
+        </div> */}
 
         {/* Cards Grid */}
-        <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-10">
-          {filteredPlaces.map((place, i) => (
+        <div className="relative z-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 pb-10 mt-10">
+          {places.map((place, i) => (
             <div
               key={place.id}
               className="animate-fadeInUp"
