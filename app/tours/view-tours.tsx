@@ -17,7 +17,7 @@ import { useTours } from "./hooks/use-tours";
 import { useWishlist } from "./hooks/use-wishlist";
 import { useDrawer } from "./hooks/use-drawer";
 import { Pagination } from "./components/pagenationProps";
-import {  indiaTours, SPECIALITIES_BY_COUNTRY } from "./data";
+import {   SPECIALITIES_BY_COUNTRY } from "./data";
 import { bhutanTours } from "./bhutan";
 
 const ITEMS_PER_PAGE = 10;
@@ -29,7 +29,10 @@ export default function SacredYatra() {
   const [activePage, setActivePage] = useState(1);
   const allTours = useMemo(() => {
     return [
-      
+      // ...indiaTours.map((t) => ({
+      //   ...t,
+      //   country: "India",
+      // })),
       ...bhutanTours.map((t) => ({
         ...t,
         country: "Bhutan",

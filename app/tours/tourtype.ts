@@ -52,6 +52,8 @@ export interface HeroImage {
 export interface SeoMeta {
   id?:number
   metaTitle?: string;
+    originSlugs?: Record<string, string>; // country -> slug mapping
+
   metaDescription?: string;
   slug?: string;
   canonicalUrl?: string;
