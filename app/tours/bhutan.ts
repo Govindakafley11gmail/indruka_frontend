@@ -4093,7 +4093,7 @@ export const bhutanTours: Tour[] = [
         day: 9,
         date: "Day 9",
         title:
-          "Domestic Flight Bumthang to Paro – Ta Dzong, Rinpung Dzong & Check-in to Zhiwaling Heritage (optional/Excluded from itinerary)",
+          "Domestic Flight Bumthang to Paro – Ta Dzong, Rinpung Dzong & Check-in to Zhiwaling Heritage (optional/Excluded from Package)",
         details: [
           "Board the short 30-minute domestic flight from Bumthang to Paro – one of the most spectacular intra-country flights in Asia, offering aerial views of Gangkar Puensum, the Bumthang river valleys, and the entire central Himalayan chain – a final bird's-eye perspective of the landscapes traversed over the past week.",
           "Arrive in Paro and visit Ta Dzong – the National Museum of Bhutan – housing one of the finest collections of Bhutanese sacred art, royal artefacts, natural history specimens, and historical treasures in the kingdom, spanning fourteen centuries of cultural continuity.",
