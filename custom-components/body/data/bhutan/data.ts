@@ -22,7 +22,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary:
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
-    price: "From $3,270", // To be filled
+    price: "From $2,670", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Cultural", "Family"],
@@ -120,7 +120,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,299", // To be filled
+    price: "$ 2,199", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: [ "Family"],
@@ -151,7 +151,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-cultural-journey-explore-heart-of-bhutan",
     itinerary: "Thimphu • Phobjikha • Tang Valley • Jakar • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,499", // To be filled
+    price: "$ 2,299", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
         type: [ "Cultural"],
@@ -181,7 +181,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-luxury-tour-private-guide-fine-dining-heritage-hotels",
     itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
-    price: "$ 2,699", // To be filled
+    price: "$ 2,399", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Family", "Luxury"],
