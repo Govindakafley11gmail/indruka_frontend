@@ -13,62 +13,89 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-// ✅ GLOBAL SEO (Root Layout - brand only)
 export const metadata: Metadata = {
-  metadataBase: new URL("https://indrukatours.com"),
+  metadataBase: new URL("https://www.indrukatours.com"),
 
   title: {
     template: "%s | Indruka Tours and Travels",
-    default: "Bhutan Tours & Travels Agency | Indruka Tours and Travels",
+    default:
+      "Bhutan Travel Agency, Tour Operator & Holiday Packages | Indruka Tours and Travels",
   },
 
   description:
-    "Discover Bhutan with Indruka Tours and Travels. We offer customized Bhutan cultural tours, trekking packages, and authentic Himalayan travel experiences.",
+    "Indruka Tours and Travels is a trusted Bhutan travel agency and tour operator offering Bhutan tour packages, cultural tours, trekking adventures, luxury holidays, festival tours, and customized trips to Paro, Thimphu, Punakha, Bumthang, and Tiger's Nest Monastery.",
 
-  // ✅ FIXED canonical (correct Next.js way)
+  keywords: [
+    "Bhutan Travel Agency",
+    "Bhutan Tour Operator",
+    "Bhutan Tour Packages",
+    "Bhutan Holiday Packages",
+    "Bhutan Cultural Tours",
+    "Bhutan Trekking Tours",
+    "Bhutan Luxury Tours",
+    "Bhutan Festival Tours",
+    "Tiger Nest Bhutan Tour",
+    "Paro Bhutan Tour",
+    "Thimphu Bhutan Tour",
+    "Punakha Bhutan Tour",
+    "Bumthang Tour",
+    "Bhutan Vacation Packages",
+    "Best Bhutan Travel Agency",
+    "Bhutan Tourism",
+    "Travel Bhutan",
+  ],
+
   alternates: {
-    canonical: "/",
-  },
-
-  icons: {
-    icon: "/favicon.ico",
+    canonical: "https://www.indrukatours.com",
   },
 
   robots: {
     index: true,
     follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+      "max-video-preview": -1,
+    },
   },
 
-  // ⚠️ keywords (optional, Google mostly ignores)
-  keywords: [
-    "Bhutan travel agency",
-    "Bhutan tour packages",
-    "Bhutan trekking tours",
-    "Paro Bhutan tours",
-    "Thimphu Bhutan travel",
-    "Bhutan cultural tours",
-    "Himalayan travel Bhutan",
-  ],
+  icons: {
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
+  },
 
   openGraph: {
-    title: "Bhutan Tours & Travels Agency | Indruka Tours and Travels",
+    title:
+      "Bhutan Travel Agency, Tour Operator & Holiday Packages | Indruka Tours and Travels",
     description:
-      "Discover Bhutan with Indruka Tours and Travels. Book cultural tours, trekking packages, and Himalayan adventures.",
-    url: "https://indrukatours.com",
+      "Discover Bhutan through cultural tours, trekking adventures, festival tours, and customized Bhutan holiday packages.",
+    url: "https://www.indrukatours.com",
     siteName: "Indruka Tours and Travels",
     locale: "en_US",
     type: "website",
-
-    // ✅ FIXED (must be absolute URL)
     images: [
       {
-        url: "https://indrukatours.com/punakhadzong.jpg",
+        url: "https://www.indrukatours.com/punakhadzong.jpg",
         width: 1200,
         height: 630,
-        alt: "Bhutan Tours by Indruka Tours and Travels",
+        alt: "Bhutan Travel Agency - Indruka Tours and Travels",
       },
     ],
   },
+
+  twitter: {
+    card: "summary_large_image",
+    title:
+      "Bhutan Travel Agency, Tour Operator & Holiday Packages | Indruka Tours and Travels",
+    description:
+      "Explore Bhutan with customized cultural tours, trekking adventures, and holiday packages.",
+    images: ["https://www.indrukatours.com/punakhadzong.jpg"],
+  },
+
+  category: "Travel",
 };
 
 export default function RootLayout({
@@ -76,35 +103,77 @@ export default function RootLayout({
 }: {
   children: React.ReactNode;
 }) {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "TravelAgency",
+
+    name: "Indruka Tours and Travels",
+
+    url: "https://www.indrukatours.com",
+
+    logo: "https://www.indrukatours.com/indrukalogo.png",
+
+    image: "https://www.indrukatours.com/punakhadzong.jpg",
+
+    description:
+      "Trusted Bhutan travel agency offering Bhutan tour packages, trekking tours, cultural tours, festival tours, and luxury travel experiences.",
+
+    telephone: "+97577367954",
+
+    email: "indruka2026@gmail.com",
+
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Thimphu",
+      addressRegion: "Thimphu",
+      addressCountry: "BT",
+    },
+    contactPoint: {
+      "@type": "ContactPoint",
+      telephone: "+97577367954",
+      contactType: "customer service",
+      areaServed: "BT",
+      availableLanguage: ["English"],
+    },
+    areaServed: {
+      "@type": "Country",
+      name: "Bhutan",
+    },
+
+    sameAs: [
+      "https://www.facebook.com/indrukatours",
+      "https://www.instagram.com/indrukatours",
+      "https://www.linkedin.com/indrukatours",
+      "https://www.youtube.com/channel/UC9X5q8v4V4V4V4V4V4V4V4",
+    ],
+
+    knowsAbout: [
+      "Bhutan Tour Packages",
+      "Bhutan Travel Agency",
+      "Bhutan Tour Operator",
+      "Bhutan Cultural Tours",
+      "Bhutan Trekking Tours",
+      "Bhutan Festival Tours",
+      "Tiger's Nest Monastery",
+      "Paro Travel",
+      "Thimphu Travel",
+      "Punakha Tours",
+      "Bumthang Tours",
+      "Luxury Bhutan Holidays",
+      "Bhutan Tourism",
+    ],
+  };
+
   return (
     <html
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col">
-        {/* ✅ GLOBAL JSON-LD STRUCTURED DATA (SEO BOOST) */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
-            __html: JSON.stringify({
-              "@context": "https://schema.org",
-              "@type": "TravelAgency",
-              name: "Indruka Tours and Travels",
-              url: "https://indrukatours.com",
-              description:
-                "Bhutan travel agency offering cultural tours, trekking packages, and customized Himalayan experiences.",
-              areaServed: {
-                "@type": "Country",
-                name: "Bhutan",
-              },
-              knowsAbout: [
-                "Bhutan Tours",
-                "Trekking in Bhutan",
-                "Cultural Travel",
-                "Himalayan Tourism",
-                "Tour Packages",
-              ],
-            }),
+            __html: JSON.stringify(structuredData),
           }}
         />
 
