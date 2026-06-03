@@ -22,7 +22,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary:
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
-    price: "From $3,370", // To be filled
+    price: "From $3,270", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Cultural", "Family"],
@@ -50,7 +50,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary:
       "Paro • Shingkharap • Soi Thangkha • Jangothang • Lingzhi • Shodu • Thimphu • Punakha ",
     country: "Bhutan",
-    price: "$ 2,999", // To be filled
+    price: "$ 3,799", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Trekking"],
@@ -97,7 +97,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,799", // To be filled
+    price: "$ 1,899", // To be filled
     oldPrice: "", //To be filled
     discount: "", // To be filled
     type: [ "Festivals"],
@@ -120,7 +120,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,299", // To be filled
+    price: "$ 2,299", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: [ "Family"],
@@ -151,7 +151,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-cultural-journey-explore-heart-of-bhutan",
     itinerary: "Thimphu • Phobjikha • Tang Valley • Jakar • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,899", // To be filled
+    price: "$ 2,499", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
         type: [ "Cultural"],
@@ -181,7 +181,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-luxury-tour-private-guide-fine-dining-heritage-hotels",
     itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
-    price: "$ 1,999", // To be filled
+    price: "$ 2,699", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Family", "Luxury"],
@@ -210,7 +210,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan-budget-tour-phuentsholing-thimphu-paro-package",
     itinerary: "Phuentsholing • Thimphu • Paro",
     country: "Bhutan",
-    price: "$ 1,850",
+    price: "$ 1,550",
     oldPrice: "$ 1,660",
     discount: "10% OFF",
     type: ["Cultural"],
