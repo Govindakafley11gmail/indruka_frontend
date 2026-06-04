@@ -187,34 +187,92 @@ const updateRegBooking = async ({
 };
 
 
-export const useUpdateBooking = () => {
+// export const useUpdateBooking = () => {
+//   const queryClient = useQueryClient();
+
+//   return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+//     mutationFn: updateBooking,
+
+//     onSuccess: () => {
+//       queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+//     },
+
+//     onError: (error) => {
+//     },
+//   });
+// };
+
+
+export const useUpdateBooking = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
-  return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+  const createMutation = useMutation<
+    BookingPartyAttributes,
+    errorResponse,
+    UpdateBookingPayload
+  >({
     mutationFn: updateBooking,
-
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+    onSuccess: (data:any) => {
+      queryClient.invalidateQueries({ queryKey: ["Booking-list"] });
+      options?.onSuccess?.(data);
     },
-
     onError: (error) => {
+      options?.onError?.(error);
     },
   });
+
+
+
+  return {
+    updateBooking: createMutation.mutate,
+    isPending: createMutation.isPending,
+   
+    isLoading:createMutation.isPending 
+
+  };
 };
 
-export const useCreateParty = () => {
+// export const useCreateParty = () => {
+//   const queryClient = useQueryClient();
+
+//   return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+//     mutationFn: createParty,
+
+//     onSuccess: () => {
+//       queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+//     },
+
+//     onError: (error) => {
+//     },
+//   });
+// };
+export const useCreateParty = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
-  return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+  const createMutation = useMutation<
+    BookingPartyAttributes,
+    errorResponse,
+    UpdateBookingPayload
+  >({
     mutationFn: createParty,
-
-    onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+    onSuccess: (data:any) => {
+      queryClient.invalidateQueries({ queryKey: ["Booking-list"] });
+      options?.onSuccess?.(data);
     },
-
     onError: (error) => {
+      options?.onError?.(error);
     },
   });
+
+
+
+  return {
+    createParty: createMutation.mutate,
+    isPending: createMutation.isPending,
+   
+    isLoading:createMutation.isPending 
+
+  };
 };
 const createParty = async (payload: UpdateBookingPayload) => {
   const response = await apiClient.post(
