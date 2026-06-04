@@ -67,8 +67,7 @@ export default function BookingPage({
       });
     },
   });
-  const tripTypeOptions: string[] =
-    SPECIALITIES_BY_COUNTRY[country ?? ""] ?? [];
+
   const bookingConfig: BookingModalConfig = {
     title: `Book ${tourName}`,
     subtitle: "Complete your details to request a booking",

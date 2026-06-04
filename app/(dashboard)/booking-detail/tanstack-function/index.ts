@@ -8,6 +8,7 @@ import { errorResponse } from "@/app/connect-backend/error-interface";
 import { useMutation, useQueryClient } from "@tanstack/react-query";
 import { BookingPartyAttributes } from "../../party/interface";
 import ACL_API_URL from "@/app/connect-backend/api/acl-route";
+import type { CreateResponseAttributes } from "@/app/view-details/booking-backend/interface";
 
 /* ---------------------------------- */
 /* TYPES */
@@ -28,6 +29,11 @@ export interface UpdateBookingPayload {
     adults?: number;
     amount?: number;
   };
+}
+
+interface MutationOptions {
+  onSuccess?: (data: CreateResponseAttributes) => void;
+  onError?: (error: errorResponse) => void;
 }
 /* ---------------------------------- */
 /* GET BOOKINGS */
@@ -120,20 +126,50 @@ export const useGetDocuments = (partyId: string) => {
   });
 };
 
-export const useUpdateRegBooking = () => {
+// export const useUpdateRegBooking = () => {
+//   const queryClient = useQueryClient();
+
+//   return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+//     mutationFn: updateRegBooking,
+
+//     onSuccess: () => {
+//       queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+//     },
+
+//     onError: (error) => {
+//     },
+//   });
+// };
+
+export const useUpdateRegBooking = (options?: MutationOptions) => {
   const queryClient = useQueryClient();
 
-  return useMutation<BookingPartyAttributes, errorResponse, UpdateBookingPayload>({
+  const createMutation = useMutation<
+    BookingPartyAttributes,
+    errorResponse,
+    UpdateBookingPayload
+  >({
     mutationFn: updateRegBooking,
-
-    onSuccess: () => {
+    onSuccess: (data:any) => {
       queryClient.invalidateQueries({ queryKey: ["booking-list"] });
+      options?.onSuccess?.(data);
     },
-
     onError: (error) => {
+      options?.onError?.(error);
     },
   });
+
+
+
+  return {
+    updateRegBooking: createMutation.mutate,
+    isCreating: createMutation.isPending,
+   
+    isPending:createMutation.isPending 
+
+  };
 };
+
 const updateRegBooking = async ({
   booking_id,
   data,

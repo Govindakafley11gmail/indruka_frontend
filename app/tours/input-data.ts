@@ -114,7 +114,6 @@ const parseAmount = (value: string | number): number => {
     end_date: endDate,
     parties,
   };
-   console.log("Booking Payload:", payload);
   createBooking(payload);
 },
 });
