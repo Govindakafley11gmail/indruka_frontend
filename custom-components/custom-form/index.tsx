@@ -1,3 +1,4 @@
+/* eslint-disable react-hooks/static-components */
 /* eslint-disable react-hooks/set-state-in-effect */
 "use client";
 
@@ -175,12 +176,113 @@ function DateRangeField({
   onChange: (r: DateRange | undefined) => void;
 }) {
   const [open, setOpen] = useState(false);
+  // Track which two months are shown (left and right columns)
+  const today = new Date();
+  const [leftMonth, setLeftMonth] = useState(today.getMonth());
+  const [leftYear, setLeftYear] = useState(today.getFullYear());
+
+  const rightMonth = leftMonth === 11 ? 0 : leftMonth + 1;
+  const rightYear = leftMonth === 11 ? leftYear + 1 : leftYear;
+
+  const MONTHS = [
+    "January","February","March","April","May","June",
+    "July","August","September","October","November","December",
+  ];
+  const yearOptions = Array.from({ length: 10 }, (_, i) => today.getFullYear() + i);
+
+  function handleMonthChange(side: "left" | "right", month: number) {
+    if (side === "left") {
+      setLeftMonth(month);
+    } else {
+      // right month change: back-calculate left
+      const newLeft = month === 0 ? 11 : month - 1;
+      const newLeftYear = month === 0 ? rightYear - 1 : leftYear;
+      setLeftMonth(newLeft);
+      setLeftYear(newLeftYear);
+    }
+  }
+
+  function handleYearChange(side: "left" | "right", year: number) {
+    if (side === "left") {
+      setLeftYear(year);
+    } else {
+      setLeftYear(leftMonth === 11 ? year - 1 : year);
+    }
+  }
 
   const display = value?.from
     ? value.to
       ? `${format(value.from, "d MMM")} – ${format(value.to, "d MMM yyyy")}`
       : format(value.from, "d MMM yyyy")
     : undefined;
+
+  // A small header component rendered above each calendar month
+  const MonthYearHeader = ({
+    month,
+    year,
+    side,
+  }: {
+    month: number;
+    year: number;
+    side: "left" | "right";
+  }) => (
+    <div className="flex items-center justify-between gap-1 px-1 pb-2">
+      {side === "left" ? (
+        <button
+          type="button"
+          onClick={() => {
+            const prev = leftMonth === 0 ? 11 : leftMonth - 1;
+            const prevYear = leftMonth === 0 ? leftYear - 1 : leftYear;
+            setLeftMonth(prev);
+            setLeftYear(prevYear);
+          }}
+          className="p-1 rounded hover:bg-gray-100"
+        >
+          ‹
+        </button>
+      ) : (
+        <div className="w-6" />
+      )}
+
+      <div className="flex gap-1 flex-1 justify-center">
+        <select
+          value={month}
+          onChange={(e) => handleMonthChange(side, Number(e.target.value))}
+          className="text-sm font-medium border border-gray-200 rounded-lg px-2 py-1 bg-white focus:outline-none focus:border-blue-400"
+        >
+          {MONTHS.map((m, i) => (
+            <option key={m} value={i}>{m}</option>
+          ))}
+        </select>
+        <select
+          value={year}
+          onChange={(e) => handleYearChange(side, Number(e.target.value))}
+          className="text-sm font-medium border border-gray-200 rounded-lg px-2 py-1 bg-white focus:outline-none focus:border-blue-400"
+        >
+          {yearOptions.map((y) => (
+            <option key={y} value={y}>{y}</option>
+          ))}
+        </select>
+      </div>
+
+      {side === "right" ? (
+        <button
+          type="button"
+          onClick={() => {
+            const next = leftMonth === 11 ? 0 : leftMonth + 1;
+            const nextYear = leftMonth === 11 ? leftYear + 1 : leftYear;
+            setLeftMonth(next);
+            setLeftYear(nextYear);
+          }}
+          className="p-1 rounded hover:bg-gray-100"
+        >
+          ›
+        </button>
+      ) : (
+        <div className="w-6" />
+      )}
+    </div>
+  );
 
   return (
     <Popover open={open} onOpenChange={setOpen}>
@@ -199,19 +301,36 @@ function DateRangeField({
         className="w-auto p-0 rounded-2xl shadow-xl"
         align="start"
       >
+        {/* Left month header */}
+        <div className="flex gap-4 p-3 pb-0">
+          <div className="flex-1">
+            <MonthYearHeader month={leftMonth} year={leftYear} side="left" />
+          </div>
+          <div className="flex-1">
+            <MonthYearHeader month={rightMonth} year={rightYear} side="right" />
+          </div>
+        </div>
+
         <Calendar
           mode="range"
           selected={value}
           onSelect={onChange}
           numberOfMonths={2}
+          month={new Date(leftYear, leftMonth)}
+          onMonthChange={(m) => {
+            setLeftMonth(m.getMonth());
+            setLeftYear(m.getFullYear());
+          }}
           disabled={{ before: new Date() }}
+          classNames={{
+            caption: "hidden", // hide the default caption — our selects replace it
+          }}
           className="rounded-2xl"
         />
       </PopoverContent>
     </Popover>
   );
 }
-
 // ---------------------------------------------------------------------------
 // PhoneField
 // ---------------------------------------------------------------------------

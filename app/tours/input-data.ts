@@ -47,15 +47,6 @@ export const bhutanTripConfig = (
       colSpan: 2,
     },
     {
-      id: "trip_name",
-      type: "select",
-      label: "Select the Trip Type",
-      placeholder: "Select a trip type",
-      required: true,
-      colSpan: 2,
-      options: SPECIALITIES_BY_COUNTRY[country] ?? [],
-    },
-    {
       id: "phone",
       type: "phone",
       label: "Phone",
@@ -117,13 +108,13 @@ const parseAmount = (value: string | number): number => {
 
   const payload: BookingPayload = {
     number_of_travellers: numberOfTravellers,
-    trip_name: data.trip_name,
+    trip_name: tourName,
     country: data.phoneCountry as string,
     start_date: startDate,
     end_date: endDate,
     parties,
   };
-
+   console.log("Booking Payload:", payload);
   createBooking(payload);
 },
 });

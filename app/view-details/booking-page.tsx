@@ -101,15 +101,7 @@ export default function BookingPage({
         required: true,
         colSpan: 2,
       },
-      {
-        id: "trip_name",
-        type: "select",
-        label: "Select the Trip Type",
-        placeholder: "Select a trip type",
-        required: true,
-        colSpan: 2,
-        options: tripTypeOptions, // ← dynamically set from country
-      },
+     
       {
         id: "phone",
         type: "phone",
@@ -170,13 +162,13 @@ export default function BookingPage({
 
       const payload: BookingPayload = {
         number_of_travellers: numberOfTravellers,
-        trip_name: data.trip_name,
+        trip_name: tourName,
         country: data.phoneCountry  || "", // ← detected from phone, fallback to prop
         start_date: startDate,
         end_date: endDate,
         parties,
       };
-
+        console.log("Booking Payload:", payload);
       createBooking(payload);
     },
   };
