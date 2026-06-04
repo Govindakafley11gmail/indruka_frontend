@@ -120,7 +120,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,499", // To be filled
+    price: "$ 2,399", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: [ "Family"],
