@@ -22,14 +22,14 @@ export const BhutanItem: TourCardProps[] = [
     itinerary:
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
-    price: "From $3,370", // To be filled
+    price: "From $2,670", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Cultural", "Family"],
     tags: [
       "10N/11D",
-      "Cultural Tour",
-      "Valley Explorer",
+      "Cultural",
+      "Valley",
     ],
     images: [
       "/paro1.jpg", // To be filled
@@ -44,17 +44,75 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
   {
+  title: "Glimpse of Bhutan Tour – 6 Days Paro, Thimphu & Punakha Cultural Package",
+  slug: "bhutan/family/glimpse-of-bhutan-tour-6-days-paro-thimphu-punakha",
+  place: "Paro",
+  itinerary: "Paro • Thimphu • Dochula Pass • Punakha",
+  country: "Bhutan",
+  price: "From $1,499",
+  oldPrice: "",
+  discount: "",
+  type: ["Family", "Cultural"],
+  tags: [
+    "5N/6D",
+    "Cultural",
+    "Family",
+  ],
+  images: [
+    "/punakhadzong.jpg",
+    "/vaishno-Hima2.jpg",
+    "/thimphu5.jpg",
+    "/paro6.jpg",
+  ],
+  inclusions: [
+    { icon: Plane, label: "Flights", optional: true },
+    { icon: Building2, label: "Hotels" },
+    { icon: Camera, label: "Sightseeing" },
+    { icon: UtensilsCrossed, label: "Meals" },
+  ],
+},
+
+{
+  title: "Bhutan Short Trip – 4 Days Paro & Thimphu Cultural Tour Package",
+  slug: "bhutan/cultural/bhutan-short-trip-4-days-paro-thimphu",
+  place: "Paro",
+  itinerary: "Paro • Thimphu",
+  country: "Bhutan",
+  price: "From $1,050",
+  oldPrice: "",
+  discount: "",
+  type: ["Cultural"],
+  tags: [
+    "3N/4D",
+    "Cultural Tour",
+    "Short Trip",
+  ],
+  images: [
+    "/thimphu.jpg",
+    "/thimphu2.jpg",
+    "/thimphu3.jpg",
+    "/thimphu4.jpg",
+  ],
+  inclusions: [
+    { icon: Plane, label: "Flights", optional: true },
+    { icon: Building2, label: "Hotels" },
+    { icon: Camera, label: "Sightseeing" },
+    { icon: UtensilsCrossed, label: "Meals" },
+  ],
+},
+
+  {
     title: "Jomolhari Trek Bhutan | Himalayan Base Camp Trekking Adventure",
     slug: "bhutan/cultural/jomolhari-trek-bhutan-himalayan-adventure",
     place: "Pharo",
     itinerary:
       "Paro • Shingkharap • Soi Thangkha • Jangothang • Lingzhi • Shodu • Thimphu • Punakha ",
     country: "Bhutan",
-    price: "$ 2,999", // To be filled
+    price: "$ 3,799", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Trekking"],
-    tags: ["11N/12D", "Trekking", "Himalayan Adventure"],
+    tags: ["11N/12D", "Trekking", " Adventure"],
     images: [
       "/Jomolhari.webp",
       "/jomolhari2.png", // To be filled
@@ -68,36 +126,14 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
 
-  {
-    title: "Bhutan Short Trip | 3 Nights Tiger's Nest & Thimphu Getaway",
-    slug: "bhutan/cultural/bhutan-short-trip-tigers-nest-thimphu",
-    place: "Paro",
-    itinerary: "Thimphu •  Paro",
-    country: "Bhutan",
-    price: "$ 1,065", // To be filled
-    oldPrice: "",
-    discount: "",
-    type: ["Family", "Cultural"],
-    tags: ["3N/4D", "Cultural Tour", "Tiger's Nest"],
-    images: [
-      "/pondicherry.jpg", // To be filled
-      "kashmir-scene3.jpg", // To be filled
-    ],
-    inclusions: [
-      { icon: Plane, label: "Flights", optional: true },
-      { icon: Building2, label: "Hotels" },
-      { icon: Camera, label: "Sightseeing" },
-      { icon: UtensilsCrossed, label: "Meals" },
-      // { icon: Car, label: "Transfers" },
-    ],
-  },
+
   {
     title: "Paro Tsechu Festival Tour | Bhutan Cultural Festival Package",
     slug: "bhutan/cultural/paro-tsechu-festival-tour-bhutan",
     place: "Paro",
     itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,799", // To be filled
+    price: "$ 2,350", // To be filled
     oldPrice: "", //To be filled
     discount: "", // To be filled
     type: [ "Festivals"],
@@ -120,7 +156,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,299", // To be filled
+    price: "$ 2,350", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: [ "Family"],
@@ -129,7 +165,6 @@ export const BhutanItem: TourCardProps[] = [
       "8N/9D",
       "Cultural Tour",
       "Tiger's Nest",
-      "Black-Necked Cranes",
 
     ],
     images: [
@@ -144,6 +179,34 @@ export const BhutanItem: TourCardProps[] = [
       // { icon: Car, label: "Transfers" },
     ],
   },
+  {
+  title: "Best of Bhutan Tour – 9 Days Paro, Thimphu, Phobjikha Valley & Punakha",
+  slug: "bhutan/family/best-of-bhutan-tour-9-days-paro-thimphu-phobjikha-punakha",
+  place: "Paro",
+  itinerary: "Paro • Thimphu • Dochula Pass • Phobjikha Valley • Punakha",
+  country: "Bhutan",
+  price: "From $2,499",
+  oldPrice: "",
+  discount: "",
+  type: ["Family", "Cultural"],
+  tags: [
+    "8N/9D",
+    "Cultural",
+    "Nature & Wildlife",
+  ],
+  images: [
+    "/pobjikha-bird.jpg",
+    "/Phobjikha2.jpg",
+    "/thimphu.jpg",
+    "/paro.jpg",
+  ],
+  inclusions: [
+    { icon: Plane, label: "Flights", optional: true },
+    { icon: Building2, label: "Hotels" },
+    { icon: Camera, label: "Sightseeing" },
+    { icon: UtensilsCrossed, label: "Meals" },
+  ],
+},
 
   {
     title: "Bhutan Cultural Journey | Explore the Heart of Bhutan",
@@ -151,16 +214,16 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-cultural-journey-explore-heart-of-bhutan",
     itinerary: "Thimphu • Phobjikha • Tang Valley • Jakar • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 1,899", // To be filled
+    price: "$ 2,799", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
-        type: [ "Cultural"],
+    type: [ "Cultural"],
 
     tags: [
       "9N/10D",
       "Cultural Tour",
       "Tiger's Nest",
-      "Central Bhutan",
+      "himalayan culture",
   
     ],
     images: [
@@ -181,7 +244,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-luxury-tour-private-guide-fine-dining-heritage-hotels",
     itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
-    price: "$ 1,999", // To be filled
+    price: "$ 5,699", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Family", "Luxury"],
@@ -189,8 +252,7 @@ export const BhutanItem: TourCardProps[] = [
       "10N/11D",
       "Luxury",
       "Tiger's Nest",
-      "Zhiwaling Heritage",
-      "Indruka Tours and Travels",
+      "Heritage Hotels",
     ],
     images: [
       "bhutan-lux.jpg", // To be filled
@@ -210,17 +272,16 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan-budget-tour-phuentsholing-thimphu-paro-package",
     itinerary: "Phuentsholing • Thimphu • Paro",
     country: "Bhutan",
-    price: "$ 1,850",
+    price: "$ 1,550",
     oldPrice: "$ 1,660",
     discount: "10% OFF",
     type: ["Cultural"],
     // currency: "INR",
     tags: [
       "5N/6D",
-      "Cultural Tour",
+      "Cultural",
       "Budget Friendly",
       "From Phuentsholing",
-      "Indruka Tours and Travel",
     ],
     images: [
       "/buddha.png", // To be filled
@@ -347,7 +408,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -368,7 +428,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -388,7 +447,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -408,7 +466,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -428,7 +485,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -448,8 +504,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
-    { icon: HeartHandshake, label: "Yoga Classes" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -469,7 +523,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Crown, label: "Palace Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -490,7 +543,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Crown, label: "Heritage Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -550,7 +602,6 @@ export const Indiaitem: TourCardProps[] = [
   inclusions: [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Crown, label: "Resort Stay" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
     { icon: Camera, label: "Sightseeing" },
   ],
@@ -572,7 +623,6 @@ export const Indiaitem: TourCardProps[] = [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
     { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Bus, label: "Transfers" },
   ],
 },
@@ -595,7 +645,6 @@ export const Indiaitem: TourCardProps[] = [
   inclusions: [
     { icon: Plane, label: "Flights", optional: true },
     { icon: Building2, label: "Hotels" },
-    { icon: UtensilsCrossed, label: "Meals" },
     { icon: Camera, label: "Sightseeing" },
     { icon: Bus, label: "Transfers" },
   ],

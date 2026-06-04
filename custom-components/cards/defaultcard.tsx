@@ -13,7 +13,7 @@ interface DefaultTourCardProps {
 export default function DefaultTourCard({
 }: DefaultTourCardProps) {
   return (
-    <Card className="overflow-hidden rounded-2xl w-[320px] shadow-xl border-0 p-0 relative cursor-pointer group h-full ">
+    <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full h-full flex flex-col">
       {/* This wrapper must be relative + sized for fill to work */}
       <div className="relative w-full h-full min-h-100">
         <Image
