@@ -96,7 +96,7 @@ export default function TourCard({
       : (price ?? 0);
   return (
     <>
-<Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full h-full flex flex-col">
+      <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full h-full flex flex-col">
         {" "}
         {/* Image */}
         <div className="relative h-48 overflow-hidden">
@@ -129,7 +129,7 @@ export default function TourCard({
             {tags.map((tag) => (
               <span
                 key={tag}
-                className="text-xs text-blue-700 border border-blue-300 bg-blue-50 rounded-full px-3 py-1"
+                className="text-xs text-blue-700 border border-blue-300 bg-blue-50 rounded-full px-3 py-1 whitespace-nowrap"
               >
                 {tag}
               </span>
@@ -137,7 +137,7 @@ export default function TourCard({
           </div>
 
           {/* Title */}
-          <h2 className="text-lg font-bold">{title}</h2>
+          <h2 className="text-base font-bold">{title}</h2>
 
           {/* Itinerary */}
           <p className="text-sm text-gray-500">{itinerary}</p>
@@ -152,14 +152,12 @@ export default function TourCard({
                   </span>
                 )}
                 <div
-                  className={`w-10 h-10 flex items-center justify-center p-2 rounded-lg ${
-                    optional ? "bg-orange-50" : "bg-blue-50"
-                  }`}
+                  className={`w-10 h-10 flex items-center justify-center p-2 rounded-lg ${optional ? "bg-orange-50" : "bg-blue-50"
+                    }`}
                 >
                   <Icon
-                    className={`w-5 h-5 ${
-                      optional ? "text-orange-500" : "text-blue-500"
-                    }`}
+                    className={`w-5 h-5 ${optional ? "text-orange-500" : "text-blue-500"
+                      }`}
                   />
                 </div>
                 <span className="text-[11px] text-gray-500">{label}</span>
