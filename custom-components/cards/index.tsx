@@ -190,18 +190,20 @@ export default function TourCard({
             </div>
 
             {/* ✅ Fixed: onClick now opens the dialog */}
-            <Button
-              onClick={() => setIsDialogOpen(true)}
-              className="rounded-full bg-blue-700 hover:bg-blue-800"
-            >
-              Book Tour
-            </Button>
-
-            <Link href={href}>
-              <Button className="rounded-full bg-blue-700 hover:bg-blue-800">
-                View Details
+            <div className="flex gap-2">
+              <Button
+                onClick={() => setIsDialogOpen(true)}
+                className="rounded-full bg-blue-700 hover:bg-blue-800 flex-1"
+              >
+                Book Tour
               </Button>
-            </Link>
+
+              <Link href={href} className="flex-1">
+                <Button className="rounded-full bg-blue-700 hover:bg-blue-800 w-full">
+                  View Details
+                </Button>
+              </Link>
+            </div>
           </div>
         </CardContent>
       </Card>
