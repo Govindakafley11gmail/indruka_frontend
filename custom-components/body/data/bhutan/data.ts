@@ -49,7 +49,7 @@ export const BhutanItem: TourCardProps[] = [
   place: "Paro",
   itinerary: "Paro • Thimphu • Dochula Pass • Punakha",
   country: "Bhutan",
-  price: "From $1,799",
+  price: "From $1,499",
   oldPrice: "",
   discount: "",
   type: ["Family", "Cultural"],
@@ -78,7 +78,7 @@ export const BhutanItem: TourCardProps[] = [
   place: "Paro",
   itinerary: "Paro • Thimphu",
   country: "Bhutan",
-  price: "From $1,199",
+  price: "From $1,050",
   oldPrice: "",
   discount: "",
   type: ["Cultural"],
@@ -126,36 +126,14 @@ export const BhutanItem: TourCardProps[] = [
     ],
   },
 
-  {
-    title: "Bhutan Short Trip | 3 Nights Tiger's Nest & Thimphu Getaway",
-    slug: "bhutan/cultural/bhutan-short-trip-tigers-nest-thimphu",
-    place: "Paro",
-    itinerary: "Thimphu •  Paro",
-    country: "Bhutan",
-    price: "$ 1,365", // To be filled
-    oldPrice: "",
-    discount: "",
-    type: ["Family", "Cultural"],
-    tags: ["3N/4D", "Cultural Tour", "Tiger's Nest"],
-    images: [
-      "/pondicherry.jpg", // To be filled
-      "kashmir-scene3.jpg", // To be filled
-    ],
-    inclusions: [
-      { icon: Plane, label: "Flights", optional: true },
-      { icon: Building2, label: "Hotels" },
-      { icon: Camera, label: "Sightseeing" },
-      { icon: UtensilsCrossed, label: "Meals" },
-      // { icon: Car, label: "Transfers" },
-    ],
-  },
+
   {
     title: "Paro Tsechu Festival Tour | Bhutan Cultural Festival Package",
     slug: "bhutan/cultural/paro-tsechu-festival-tour-bhutan",
     place: "Paro",
     itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,399", // To be filled
+    price: "$ 2,350", // To be filled
     oldPrice: "", //To be filled
     discount: "", // To be filled
     type: [ "Festivals"],
@@ -178,7 +156,7 @@ export const BhutanItem: TourCardProps[] = [
     place: "Paro",
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
-    price: "$ 2,399", // To be filled
+    price: "$ 2,350", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: [ "Family"],
