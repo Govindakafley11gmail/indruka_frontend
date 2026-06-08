@@ -179,34 +179,7 @@ export const BhutanItem: TourCardProps[] = [
       // { icon: Car, label: "Transfers" },
     ],
   },
-  {
-  title: "Best of Bhutan Tour – 9 Days Paro, Thimphu, Phobjikha Valley & Punakha",
-  slug: "bhutan/family/best-of-bhutan-tour-9-days-paro-thimphu-phobjikha-punakha",
-  place: "Paro",
-  itinerary: "Paro • Thimphu • Dochula Pass • Phobjikha Valley • Punakha",
-  country: "Bhutan",
-  price: "From $2,499",
-  oldPrice: "",
-  discount: "",
-  type: ["Family", "Cultural"],
-  tags: [
-    "8N/9D",
-    "Cultural",
-    "Nature & Wildlife",
-  ],
-  images: [
-    "/pobjikha-bird.jpg",
-    "/Phobjikha2.jpg",
-    "/thimphu.jpg",
-    "/paro.jpg",
-  ],
-  inclusions: [
-    { icon: Plane, label: "Flights", optional: true },
-    { icon: Building2, label: "Hotels" },
-    { icon: Camera, label: "Sightseeing" },
-    { icon: UtensilsCrossed, label: "Meals" },
-  ],
-},
+
 
   {
     title: "Bhutan Cultural Journey | Explore the Heart of Bhutan",
@@ -244,7 +217,7 @@ export const BhutanItem: TourCardProps[] = [
     slug: "bhutan/cultural/bhutan-luxury-tour-private-guide-fine-dining-heritage-hotels",
     itinerary: "Thimphu • Punakha • Gangtey • Bumthang • Paro",
     country: "Bhutan",
-    price: "$ 5,699", // To be filled
+    price: "$ 3,799", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Family", "Luxury"],
