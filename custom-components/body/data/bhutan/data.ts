@@ -22,7 +22,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary:
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
-    price: "From $2,670", // To be filled
+    price: "From $2,999", // To be filled
     oldPrice: "", // To be filled
     discount: "", // To be filled
     type: ["Cultural", "Family"],
@@ -226,7 +226,7 @@ export const BhutanItem: TourCardProps[] = [
       "Luxury",
       "Tiger's Nest",
       "Heritage Hotels",
-      
+
     ],
     images: [
       "bhutan-lux.jpg", // To be filled

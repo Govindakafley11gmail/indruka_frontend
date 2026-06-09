@@ -20,7 +20,7 @@ export const bhutanTours: Tour[] = [
       "Haa Valley",
     ],
     amenities: ["Hotel & Homestay", "Meals", "Transfers", "Sightseeing"],
-    price: 2670,
+    price: 2999,
     rating: 4.9,
     reviews: 59,
     badge: "Cultural",
