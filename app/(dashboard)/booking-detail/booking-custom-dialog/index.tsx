@@ -7,7 +7,6 @@ import PartyCustomDialog from "./party-registration";
 import BookingCustomComponent from "./booking";
 
 const BookingCustomDialog = ({ selectedRow }: any) => {
-    const { mutate: updateBooking } = useUpdateBooking();
     const [partyOpen, setPartyOpen] = useState(false);
 
     return (
