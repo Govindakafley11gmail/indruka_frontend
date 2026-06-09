@@ -226,6 +226,7 @@ export const BhutanItem: TourCardProps[] = [
       "Luxury",
       "Tiger's Nest",
       "Heritage Hotels",
+      
     ],
     images: [
       "bhutan-lux.jpg", // To be filled
