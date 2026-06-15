@@ -18,11 +18,11 @@ export const metadata: Metadata = {
 
   title: {
     template: "%s | Indruka Tours",
-    default: "Bhutan Tour Packages & Cultural Holidays | Indruka Tours",
+    default: "Book Bhutan Tours – Licensed Local Guide | Indruka Tours",
   },
 
   description:
-    "Discover Bhutan with a licensed local expert. Cultural tours, treks, festival packages & luxury stays — customized for you. Land entry from Phuentsholing. Get a free quote today!",
+    "Plan your Bhutan trip with a licensed local expert. Cultural tours, Tiger's Nest treks, festival packages & luxury stays. Land entry via Phuentsholing. Trusted by travelers from the USA, India & Canada. Get a free custom quote today!",
 
   keywords: [
     "Bhutan Tour Packages",
@@ -46,6 +46,11 @@ export const metadata: Metadata = {
     "best Bhutan tour operator",
     "licensed Bhutan tour operator",
     "Bhutan land entry Phuentsholing",
+    "book Bhutan tour online",
+    "Bhutan tour package price",
+    "Bhutan guided tour",
+    "Bhutan travel 2025",
+    "Bhutan travel 2026",
   ],
 
   alternates: {
@@ -71,9 +76,9 @@ export const metadata: Metadata = {
   },
 
   openGraph: {
-    title: "Bhutan Tour Packages & Cultural Holidays | Indruka Tours",
+    title: "Book Bhutan Tours – Licensed Local Guide | Indruka Tours",
     description:
-      "Discover Bhutan with a licensed local expert. Cultural tours, treks, festival packages & luxury stays — customized for you. Get a free quote today!",
+      "Trusted Bhutan travel agency for travelers from the USA, India & Canada. Tiger's Nest treks, cultural tours & festival packages — fully customized. Get your free quote today!",
     url: "https://www.indrukatours.com",
     siteName: "Indruka Tours and Travels",
     locale: "en_US",
@@ -83,16 +88,16 @@ export const metadata: Metadata = {
         url: "https://www.indrukatours.com/punakhadzong.jpg",
         width: 1200,
         height: 630,
-        alt: "Bhutan Tour Packages - Indruka Tours and Travels",
+        alt: "Punakha Dzong Bhutan – Indruka Tours and Travels",
       },
     ],
   },
 
   twitter: {
     card: "summary_large_image",
-    title: "Bhutan Tour Packages & Cultural Holidays | Indruka Tours",
+    title: "Book Bhutan Tours – Licensed Local Guide | Indruka Tours",
     description:
-      "Discover Bhutan with a licensed local expert. Cultural tours, treks, festival packages & luxury stays — customized for you. Get a free quote today!",
+      "Trusted Bhutan travel agency for travelers from the USA, India & Canada. Tiger's Nest treks, cultural tours & festival packages — fully customized. Get your free quote today!",
     images: ["https://www.indrukatours.com/punakhadzong.jpg"],
   },
 
@@ -112,7 +117,7 @@ export default function RootLayout({
     logo: "https://www.indrukatours.com/indrukalogo.png",
     image: "https://www.indrukatours.com/punakhadzong.jpg",
     description:
-      "Licensed Bhutan travel agency offering cultural tours, trekking, festival tours, and luxury travel experiences. Land entry via Phuentsholing.",
+      "Licensed Bhutan travel agency offering cultural tours, trekking, festival tours, and luxury travel experiences. Land entry via Phuentsholing. Serving travelers from the USA, India, Canada, and beyond.",
     telephone: "+97577367954",
     email: "indruka2026@gmail.com",
     address: {
@@ -122,24 +127,35 @@ export default function RootLayout({
       addressRegion: "Chukha",
       addressCountry: "BT",
     },
-    contactPoint: {
-      "@type": "ContactPoint",
-      telephone: "+97577367954",
-      contactType: "customer service",
-      areaServed: ["US", "IN", "CA", "GB", "AU", "DE"],
-      availableLanguage: ["English"],
-    },
+    contactPoint: [
+      {
+        "@type": "ContactPoint",
+        telephone: "+97577367954",
+        contactType: "customer service",
+        areaServed: ["US", "IN", "CA", "GB", "AU", "DE"],
+        availableLanguage: ["English"],
+      },
+      {
+        "@type": "ContactPoint",
+        telephone: "+97577367954",
+        contactType: "reservations",
+        areaServed: ["US", "IN", "CA", "GB", "AU", "DE"],
+        availableLanguage: ["English"],
+      },
+    ],
     areaServed: [
       { "@type": "Country", name: "Bhutan" },
       { "@type": "Country", name: "United States" },
       { "@type": "Country", name: "India" },
       { "@type": "Country", name: "Canada" },
+      { "@type": "Country", name: "Germany" },
+      { "@type": "Country", name: "Australia" },
+      { "@type": "Country", name: "United Kingdom" },
     ],
+    // Only real social links — fake YouTube removed
     sameAs: [
       "https://www.facebook.com/indrukatours",
       "https://www.instagram.com/indrukatours",
-      "https://www.linkedin.com/indrukatours",
-      "https://www.youtube.com/channel/UC9X5q8v4V4V4V4V4V4V4V4",
     ],
     knowsAbout: [
       "Bhutan Tour Packages",
@@ -156,6 +172,42 @@ export default function RootLayout({
       "Luxury Bhutan Holidays",
       "Bhutan Tourism",
       "Land Entry Phuentsholing",
+    ],
+    // NEW: Booking/offer schema to signal booking intent to Google
+    makesOffer: [
+      {
+        "@type": "Offer",
+        name: "Bhutan Cultural Tour Package",
+        description:
+          "Guided cultural tour of Bhutan including Thimphu, Paro, and Tiger's Nest Monastery. Customized itineraries for individuals and groups.",
+        url: "https://www.indrukatours.com",
+        seller: {
+          "@type": "TravelAgency",
+          name: "Indruka Tours and Travels",
+        },
+      },
+      {
+        "@type": "Offer",
+        name: "Bhutan Trekking Tour Package",
+        description:
+          "Guided trekking tours in Bhutan including Tiger's Nest and Druk Path Trek. Suitable for all fitness levels.",
+        url: "https://www.indrukatours.com",
+        seller: {
+          "@type": "TravelAgency",
+          name: "Indruka Tours and Travels",
+        },
+      },
+      {
+        "@type": "Offer",
+        name: "Bhutan Festival Tour Package",
+        description:
+          "Experience Bhutan's famous Tshechu festivals including Paro Tshechu and Thimphu Tshechu with a licensed local guide.",
+        url: "https://www.indrukatours.com",
+        seller: {
+          "@type": "TravelAgency",
+          name: "Indruka Tours and Travels",
+        },
+      },
     ],
   };
 
