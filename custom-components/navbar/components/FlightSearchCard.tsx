@@ -59,8 +59,8 @@ const SPECIALITY_TO_TYPES: Record<string, string[]> = {
 };
 
 const COUNTRY_FLAG: Record<string, string> = {
-  India: "🇮🇳",
-  Bhutan: "🇧🇹",
+  India: "https://flagcdn.com/w80/in.png",
+  Bhutan: "https://flagcdn.com/w80/bt.png",
 };
 
 const ALL_SPECIALITIES = [
@@ -72,15 +72,15 @@ const ALL_SPECIALITIES = [
 // ─── "Traveling from?" country links ────────────────────────────────────────
 
 const TRAVELER_COUNTRIES = [
-  { slug: "usa", flag: "🇺🇸", name: "USA" },
-  { slug: "india", flag: "🇮🇳", name: "India" },
-  { slug: "canada", flag: "🇨🇦", name: "Canada" },
-  { slug: "germany", flag: "🇩🇪", name: "Germany" },
-  { slug: "australia", flag: "🇦🇺", name: "Australia" },
-  { slug: "uk", flag: "🇬🇧", name: "UK" },
-  { slug: "philippines", flag: "🇵🇭", name: "Philippines" },
-  { slug: "japan", flag: "🇯🇵", name: "Japan" },
-  { slug: "indonesia", flag: "🇮🇩", name: "Indonesia" },
+  { slug: "usa", flag: "https://flagcdn.com/w80/us.png", name: "USA" },
+  { slug: "india", flag: "https://flagcdn.com/w80/in.png", name: "India" },
+  { slug: "canada", flag: "https://flagcdn.com/w80/ca.png", name: "Canada" },
+  { slug: "germany", flag: "https://flagcdn.com/w80/de.png", name: "Germany" },
+  { slug: "australia", flag: "https://flagcdn.com/w80/au.png", name: "Australia" },
+  { slug: "uk", flag: "https://flagcdn.com/w80/gb.png", name: "UK" },
+  { slug: "philippines", flag: "https://flagcdn.com/w80/ph.png", name: "Philippines" },
+  { slug: "japan", flag: "https://flagcdn.com/w80/jp.png", name: "Japan" },
+  { slug: "indonesia", flag: "https://flagcdn.com/w80/id.png", name: "Indonesia" },
 ];
 
 // ─── Sub-components ──────────────────────────────────────────────────────────
@@ -300,7 +300,13 @@ export function FlightSearchCard({
                   : "text-black border-blue-200 hover:border-blue-300" // inactive
               )}
             >
-              <span>{c.flag}</span>
+              <img
+                src={c.flag}
+                alt={`${c.name} flag`}
+                width={20}
+                height={20}
+                className="mx-auto rounded shadow-sm"
+              />
               {c.name}
             </Link>
           ))}

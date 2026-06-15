@@ -123,6 +123,8 @@
   }
   body {
     @apply bg-background text-foreground;
+      font-family: var(--font-geist-sans), "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif;
+
   }
   html {
     @apply font-sans;

@@ -37,7 +37,13 @@ export default async function CountryPage({
 
             {/* Hero */}
             <section className="bg-white px-6 py-16 text-center">
-                <span className="mb-4 inline-block text-5xl">{country.flag}</span>
+                <img
+                    src={country.flag}
+                    alt={`${country.name} flag`}
+                    width={80}
+                    height={53}
+                    className="mx-auto mb-4 rounded shadow-sm"
+                />
                 <h1 className="mb-3 text-4xl font-bold tracking-tight text-gray-900">
                     {country.heroHeading}
                 </h1>

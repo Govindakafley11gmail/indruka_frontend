@@ -19,7 +19,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "usa",
     name: "United States",
-    flag: "🇺🇸",
+    flag: "https://flagcdn.com/w80/us.png",
     entryNote:
       "Most US travelers fly into Paro via Bangkok, Delhi, or Kathmandu. Connecting flights available on Druk Air and Bhutan Airlines.",
     flightNote:
@@ -68,7 +68,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "india",
     name: "India",
-    flag: "🇮🇳",
+    flag: "https://flagcdn.com/w80/in.png",
     entryNote:
       "Indian travelers can enter Bhutan by land via Phuentsholing (our base) or fly into Paro from Delhi, Kolkata, or Mumbai.",
     flightNote:
@@ -117,7 +117,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "canada",
     name: "Canada",
-    flag: "🇨🇦",
+    flag: "https://flagcdn.com/w80/ca.png",
     entryNote:
       "Canadian travelers typically fly into Paro via Bangkok or Delhi. Our team handles your Bhutan e-Visa and full itinerary.",
     flightNote:
@@ -166,7 +166,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "germany",
     name: "Germany",
-    flag: "🇩🇪",
+    flag: "https://flagcdn.com/w80/de.png",
     entryNote:
       "German travelers fly into Paro via Bangkok, Delhi, or Kathmandu. Druk Air and Bhutan Airlines operate connecting flights.",
     flightNote:
@@ -215,7 +215,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "australia",
     name: "Australia",
-    flag: "🇦🇺",
+    flag: "https://flagcdn.com/w80/au.png",
     entryNote:
       "Australian travelers fly into Paro via Bangkok or Delhi. Short connecting flights available on Druk Air.",
     flightNote:
@@ -264,7 +264,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "uk",
     name: "United Kingdom",
-    flag: "🇬🇧",
+    flag: "https://flagcdn.com/w80/gb.png",
     entryNote:
       "UK travelers fly into Paro via Bangkok, Delhi, or Kathmandu on Druk Air or Bhutan Airlines.",
     flightNote:
@@ -313,7 +313,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "philippines",
     name: "Philippines",
-    flag: "🇵🇭",
+    flag: "https://flagcdn.com/w80/ph.png",
     entryNote:
       "Filipino travelers fly into Paro via Bangkok or Singapore. Druk Air and Bhutan Airlines operate connecting flights from both hubs.",
     flightNote:
@@ -362,7 +362,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "japan",
     name: "Japan",
-    flag: "🇯🇵",
+    flag: "https://flagcdn.com/w80/jp.png",
     entryNote:
       "Japanese travelers fly into Paro via Bangkok or Delhi. Both Druk Air and Bhutan Airlines operate connecting flights from these hubs.",
     flightNote:
@@ -411,7 +411,7 @@ export const countriesData: CountryData[] = [
   {
     slug: "indonesia",
     name: "Indonesia",
-    flag: "🇮🇩",
+    flag: "https://flagcdn.com/w80/in.png",
     entryNote:
       "Indonesian travelers fly into Paro via Bangkok or Singapore, with short connecting flights on Druk Air or Bhutan Airlines.",
     flightNote:
