@@ -2,12 +2,13 @@
 "use client";
 
 import { useRef, useState, useEffect, useCallback } from "react";
-import { Search, Globe, Tag, MapPin, X, ChevronDown } from "lucide-react";
+import { Search, Globe, Tag, MapPin, X, ChevronDown, Icon } from "lucide-react";
 import { Separator } from "@/components/ui/separator";
 import { SearchTabs } from "./SearchTabs";
 import { useFlightSearch } from "../hooks/useFlightSearch";
 import type { TripType } from "../types";
 import { cn } from "@/lib/utils";
+import Link from "next/link";
 
 // ─── Tour search constants ───────────────────────────────────────────────────
 
@@ -68,6 +69,20 @@ const ALL_SPECIALITIES = [
   ]),
 ];
 
+// ─── "Traveling from?" country links ────────────────────────────────────────
+
+const TRAVELER_COUNTRIES = [
+  { slug: "usa", flag: "🇺🇸", name: "USA" },
+  { slug: "india", flag: "🇮🇳", name: "India" },
+  { slug: "canada", flag: "🇨🇦", name: "Canada" },
+  { slug: "germany", flag: "🇩🇪", name: "Germany" },
+  { slug: "australia", flag: "🇦🇺", name: "Australia" },
+  { slug: "uk", flag: "🇬🇧", name: "UK" },
+  { slug: "philippines", flag: "🇵🇭", name: "Philippines" },
+  { slug: "japan", flag: "🇯🇵", name: "Japan" },
+  { slug: "indonesia", flag: "🇮🇩", name: "Indonesia" },
+];
+
 // ─── Sub-components ──────────────────────────────────────────────────────────
 
 interface SearchFieldProps {
@@ -109,7 +124,6 @@ function SearchField({
         className
       )}
     >
-      {/* Label */}
       <div className="flex items-center gap-1.5">
         <Icon
           size={11}
@@ -128,7 +142,6 @@ function SearchField({
         </span>
       </div>
 
-      {/* Value or slot */}
       {children ?? (
         <div className="flex items-center justify-between gap-1 pr-1">
           <span
@@ -182,7 +195,6 @@ function DropdownMenu({ open, className, children }: DropdownMenuProps) {
 interface FlightSearchCardProps {
   activeTab: TripType;
   onTabChange: (tab: TripType) => void;
-  /** Called when the user submits the tour search */
   onTourSearch?: (params: {
     country: string;
     spec: string;
@@ -198,7 +210,6 @@ export function FlightSearchCard({
 }: FlightSearchCardProps) {
   const { state, setTripType } = useFlightSearch();
 
-  // Tour search state
   const [country, setCountry] = useState("");
   const [speciality, setSpeciality] = useState("");
   const [keyword, setKeyword] = useState("");
@@ -207,7 +218,6 @@ export function FlightSearchCard({
   const cardRef = useRef<HTMLDivElement>(null);
   const kwRef = useRef<HTMLInputElement>(null);
 
-  // Close dropdown on outside click
   useEffect(() => {
     function handler(e: MouseEvent) {
       if (cardRef.current && !cardRef.current.contains(e.target as Node)) {
@@ -267,10 +277,34 @@ export function FlightSearchCard({
 
   return (
     <div className="hidden md:block" ref={cardRef}>
-      <div className="bg-white rounded-2xl shadow-xl shadow-blue-900/10 border border-blue-100 relative" style={{ overflow: "visible" }}>
-
+      <div
+        className="bg-white rounded-2xl shadow-xl shadow-blue-900/10 border border-blue-100 relative"
+        style={{ overflow: "visible" }}
+      >
         {/* ── Trip-type tabs ── */}
-        <SearchTabs activeTab={state.tripType} onTabChange={setTripType} />
+        {/* <SearchTabs activeTab={state.tripType} onTabChange={setTripType} /> */}
+        <div className="mt-3 flex items-center gap-2 flex-wrap px-1 py-3 px-4 sm:px-5">
+          <span className="text-xl text-blue-700 font-medium whitespace-nowrap">
+            Traveling from:
+          </span>
+          {TRAVELER_COUNTRIES.map((c) => (
+            <Link
+              key={c.slug}
+              href={`/bhutan-tours-from/${c.slug}`}
+              className={cn(
+                "inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full",
+                "text-xs font-medium",
+                "border transition-all duration-150",
+                country === c.name  // ← active check
+                  ? "bg-blue-700 text-white border-blue-700 "          // active
+                  : "text-black border-blue-200 hover:border-blue-300" // inactive
+              )}
+            >
+              <span>{c.flag}</span>
+              {c.name}
+            </Link>
+          ))}
+        </div>
         <Separator className="border-blue-50" />
 
         {/* ── Search fields ── */}
@@ -465,6 +499,9 @@ export function FlightSearchCard({
           )}
         </div>
       </div>
+
+      {/* ── Traveling from? country strip ── */}
+
     </div>
   );
 }

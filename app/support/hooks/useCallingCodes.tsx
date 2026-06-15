@@ -29,6 +29,8 @@ export function useCallingCodes() {
           .sort((a: Country, b: Country) => a.name.localeCompare(b.name));
         setCountries(formatted);
       })
+          .catch(() => setLoading(false))
+
       .finally(() => setLoading(false));
   }, []);
 

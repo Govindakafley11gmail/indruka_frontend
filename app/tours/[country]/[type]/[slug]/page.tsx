@@ -4,9 +4,9 @@ import { notFound } from "next/navigation";
 import Image from "next/image";
 
 import type { Metadata } from "next";
-import { BhutanItem, Indiaitem } from "@/custom-components/body/data/bhutan/data";
+import { BhutanItem } from "@/custom-components/body/data/bhutan/data";
 
-const allTours = [...BhutanItem, ...Indiaitem];
+const allTours = [...BhutanItem];
 
 // ── helpers ──────────────────────────────────────────────────────
 function getTour(country: string, slug: string) {
