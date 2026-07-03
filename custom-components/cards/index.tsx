@@ -213,7 +213,7 @@ export default function TourCard({
                     Loading price...
                   </span>
                 ) : (
-                  <span className="text-base">{formatPrice(effectivePrice)}</span>
+                  <span className="text-base text-nowrap">{formatPrice(effectivePrice)}</span>
                 )}
               </div>
               <p className="text-xs text-gray-400">Starting price per adult</p>
