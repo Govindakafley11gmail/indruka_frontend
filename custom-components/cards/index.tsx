@@ -11,6 +11,7 @@ import { BookingModal } from "../custom-form";
 import { useBookingMutations } from "@/app/view-details/booking-backend/tanstack-function";
 import { showToast } from "nextjs-toast-notify";
 import { bhutanTripConfig } from "@/app/tours/input-data";
+import { useVisitorRegion } from "../navbar/hooks/useVisitorRegion";
 
 /* eslint-disable @typescript-eslint/no-explicit-any */
 
@@ -28,6 +29,8 @@ type TourCardProps = {
   place: string;
   itinerary: string;
   price: any;
+  priceRegional?: number; // 👈 India/Bangladesh fixed price
+  priceLoading?: boolean; // 👈 passed down from Card
   oldPrice?: string | number;
   discount?: string;
   tags: string[];
@@ -41,6 +44,8 @@ export default function TourCard({
   title,
   itinerary,
   price,
+  priceRegional,
+  priceLoading = false,
   oldPrice,
   discount,
   tags,
@@ -51,7 +56,7 @@ export default function TourCard({
 }: TourCardProps) {
   const [currentImage, setCurrentImage] = useState(0);
   const [isDialogOpen, setIsDialogOpen] = useState(false);
-
+  const { isRegional,loading  } = useVisitorRegion();
   const { createBooking } = useBookingMutations({
     onSuccess: (data: any) => {
       showToast.success(data.message, {
@@ -84,16 +89,35 @@ export default function TourCard({
     href = `/tours/india/${(place ?? "").toLowerCase().replace(/\s+/g, "-")}`;
   }
 
+  // Decide which price to actually use: regional (INR) for India/Bangladesh
+  // visitors when available, otherwise fall back to the original price.
+  console.log("TourCard Props:", {
+    title,
+    price,
+    priceRegional,
+    isRegional,
+  });
+ const effectivePrice = isRegional && priceRegional ? priceRegional : price;
+
+
   const formatPrice = (val: any) => {
     if (typeof val === "string") return val;
+
+    // Regional visitors always see ₹, regardless of country field on the tour
+    if (isRegional && priceRegional) {
+      return `₹ ${val.toLocaleString("en-IN")}`;
+    }
+
     return country === "Bhutan"
       ? val.toLocaleString("en-US")
       : `₹ ${val.toLocaleString("en-US")}`;
   };
+
   const numericPrice =
-    typeof price === "string"
-      ? parseFloat(price.replace(/[^0-9.]/g, ""))
-      : (price ?? 0);
+    typeof effectivePrice === "string"
+      ? parseFloat(effectivePrice.replace(/[^0-9.]/g, ""))
+      : (effectivePrice ?? 0);
+
   return (
     <>
       <Card className="overflow-hidden rounded-2xl shadow-xl border p-0 w-full h-full flex flex-col">
@@ -184,7 +208,13 @@ export default function TourCard({
               )}
 
               <div className="text-xl font-bold">
-                <span className="text-base">{formatPrice(price)}</span>
+                {priceLoading ? (
+                  <span className="text-gray-400 animate-pulse text-sm">
+                    Loading price...
+                  </span>
+                ) : (
+                  <span className="text-base">{formatPrice(effectivePrice)}</span>
+                )}
               </div>
               <p className="text-xs text-gray-400">Starting price per adult</p>
             </div>
@@ -194,6 +224,7 @@ export default function TourCard({
               <Button
                 onClick={() => setIsDialogOpen(true)}
                 className="rounded-full bg-blue-700 hover:bg-blue-800 flex-1"
+                disabled={priceLoading}
               >
                 Book Tour
               </Button>
@@ -213,8 +244,8 @@ export default function TourCard({
         pricePerPerson={numericPrice ?? 0}
         guestsFieldId="number_of_travellers"
         tourName={title}
-        price={price ?? 0}
-        config={bhutanTripConfig(price ?? 0, title, country, createBooking)}
+        price={effectivePrice ?? 0}
+        config={bhutanTripConfig(effectivePrice ?? 0, title, country, createBooking)}
         open={isDialogOpen}
         onClose={() => setIsDialogOpen(false)}
       />

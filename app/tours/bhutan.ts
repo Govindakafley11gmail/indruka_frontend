@@ -21,6 +21,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Homestay", "Meals", "Transfers", "Sightseeing"],
     price: 2999,
+      priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 59,
     badge: "Cultural",
@@ -342,6 +344,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
     price: 3799,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.8,
     reviews: 43,
     badge: "Adventure",
@@ -730,6 +734,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
     price: 3200,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.7,
     reviews: 31,
     badge: "Adventure",
@@ -1042,6 +1048,8 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 1499,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.8,
     reviews: 74,
     badge: "Family",
@@ -1293,6 +1301,8 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 1065,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.7,
     reviews: 52,
     badge: "Cultural",
@@ -1534,6 +1544,8 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 88,
     badge: "Festivals",
@@ -1847,6 +1859,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2499,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 96,
     badge: "Cultural",
@@ -2151,6 +2165,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
+    priceRegional: 85000,
     rating: 4.8,
     reviews: 42,
     badge: "Cultural",
@@ -2438,6 +2453,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.8,
     reviews: 36,
     badge: "Cultural",
@@ -2945,6 +2962,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing", "Trekking"],
     price: 3499,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 28,
     badge: "Trekking",
@@ -3300,6 +3319,8 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2799,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.8,
     reviews: 44,
     badge: "Cultural",
@@ -3640,6 +3661,8 @@ export const bhutanTours: Tour[] = [
       "Private Guide",
     ],
     price: 3799,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 19,
     badge: "Luxury",
@@ -4225,6 +4248,8 @@ export const bhutanTours: Tour[] = [
       "Sightseeing",
     ],
     price: 5599,
+          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+
     rating: 4.9,
     reviews: 22,
     badge: "Trekking",
@@ -4831,6 +4856,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Phuentsholing", "Thimphu", "Paro"],
     amenities: ["Hotels", "Meals", "Cab Transfer", "Sightseeing"],
     price: 1599,
+    priceRegional: 85000,
     oldPrice: 1833,
     discount: "10% OFF",
     currency: "INR",

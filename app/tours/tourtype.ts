@@ -61,6 +61,7 @@ export interface SeoMeta {
 }
 
 export interface Tour {
+  priceRegional: number; // 👈 your India/Bangladesh price in INR
   id: number;
   country: string;
   place: string;
