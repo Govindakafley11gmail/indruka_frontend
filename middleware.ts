@@ -1,12 +1,10 @@
 import { NextResponse } from "next/server";
 import type { NextRequest } from "next/server";
 
-const REGIONAL_COUNTRIES = ["IN", "BD"];
+const REGIONAL_COUNTRIES = ["IN", "BD", "BT"]; // India, Bangladesh, Bhutan
 
 export function middleware(request: NextRequest) {
-  const country = process.env.NODE_ENV === "development"
-    ? "BT" // remove this line before deploying — for local testing only
-    : request.headers.get("x-vercel-ip-country") ?? "";
+  const country = request.headers.get("x-vercel-ip-country") ?? "";
 
   const isRegional = REGIONAL_COUNTRIES.includes(country);
 
