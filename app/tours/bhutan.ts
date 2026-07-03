@@ -21,7 +21,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Homestay", "Meals", "Transfers", "Sightseeing"],
     price: 2999,
-      priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+    priceRegional: 85000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 59,

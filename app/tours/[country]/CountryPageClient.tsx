@@ -285,8 +285,8 @@ export default function CountryPageClient({ country, initialTours }: Props) {
             onWishlistToggle={onWishlistToggle}
             formatPrice={(price: number | string, country: string) =>
               country.toLowerCase() === "bhutan"
-                ? `$. ${Number(price).toLocaleString()}`
-                : `$ ${Number(price).toLocaleString()}`
+                ? ` ${Number(price).toLocaleString()}`
+                : `${Number(price).toLocaleString()}`
             }
           />
 
