@@ -1040,7 +1040,7 @@ export const bhutanTours: Tour[] = [
     country: "Bhutan",
     place: "Paro",
     title:
-      "Glimpse of Bhutan Tour – 6 Days Paro, Thimphu & Punakha Cultural Package",
+      "Glimpse of Bhutan Tour (Group)– 6 Days Paro, Thimphu & Punakha Cultural Package",
     type: "family",
     duration: "6 Days / 5 Nights",
     durationTag: "6 Days",
@@ -1293,7 +1293,7 @@ export const bhutanTours: Tour[] = [
     id: 516,
     country: "Bhutan",
     place: "Paro",
-    title: "Bhutan Short Trip – 4 Days Paro & Thimphu Cultural Tour Package",
+    title: "Bhutan Short Trip (Group) – 4 Days Paro & Thimphu Cultural Tour Package",
     type: "cultural",
     duration: "4 Days / 3 Nights",
     durationTag: "4 Days",
@@ -4847,7 +4847,7 @@ export const bhutanTours: Tour[] = [
     country: "Bhutan",
     place: "Phuentsholing",
     title:
-      "From Historical to Modern Day Bhutan – 6 Days Phuentsholing · Thimphu · Paro Cultural Tour",
+      "From Historical to Modern Day Bhutan (Group) – 6 Days Phuentsholing · Thimphu · Paro Cultural Tour",
     type: "family",
     duration: "6 Days / 5 Nights",
     durationTag: "6 Days",
