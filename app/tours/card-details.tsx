@@ -96,7 +96,7 @@ export default function CardDetailsPage({
 
       {tours.map((tour, i) => {
         const effectivePrice =
-          isRegional && tour.priceRegional ? tour.priceRegional : `${tour.price}`;
+          isRegional && tour.priceRegional ? `${tour.priceRegional}` : `${tour.price}`;
 
         return (
           <Card
@@ -196,7 +196,7 @@ export default function CardDetailsPage({
                   <p className="text-xl font-black text-[#1A4BB5] leading-none">
                     {regionLoading
                       ? "Loading..."
-                      : formatPrice(effectivePrice, tour.title, isRegional)}
+                      : isRegional? '₹'+formatPrice(effectivePrice, tour.title, isRegional) : `$${tour.price}`}
                   </p>
                   <p className="text-[11px] text-slate-400 mt-0.5">
                     per person · twin sharing

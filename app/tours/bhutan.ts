@@ -21,7 +21,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Homestay", "Meals", "Transfers", "Sightseeing"],
     price: 2599,
-    priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+    priceRegional: 92000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 59,
@@ -344,7 +344,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
     price: 3799,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 180000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.8,
     reviews: 43,
@@ -734,7 +734,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotel & Camp", "Meals", "Transfers", "Sightseeing"],
     price: 3200,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 1450000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.7,
     reviews: 31,
@@ -1048,7 +1048,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 1499,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 56000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.8,
     reviews: 74,
@@ -1301,7 +1301,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 1065,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 30000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.7,
     reviews: 52,
@@ -1544,7 +1544,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 62000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 88,
@@ -1859,7 +1859,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2499,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 70000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 96,
@@ -2165,7 +2165,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Paro", "Thimphu", "Dochula Pass", "Punakha"],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
-    priceRegional: 85000,
+    priceRegional: 63000,
     rating: 4.8,
     reviews: 42,
     badge: "Cultural",
@@ -2453,7 +2453,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2399,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 63000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.8,
     reviews: 36,
@@ -2962,7 +2962,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing", "Trekking"],
     price: 3499,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 135000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 28,
@@ -3296,7 +3296,6 @@ export const bhutanTours: Tour[] = [
       { label: "Trekking Grade", value: "Moderate to Strenuous" },
     ],
   },
-
   {
     id: 522,
     country: "Bhutan",
@@ -3319,7 +3318,7 @@ export const bhutanTours: Tour[] = [
     ],
     amenities: ["Hotels", "Meals", "Transfers", "Sightseeing"],
     price: 2799,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 92000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.8,
     reviews: 44,
@@ -3661,7 +3660,7 @@ export const bhutanTours: Tour[] = [
       "Private Guide",
     ],
     price: 3799,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 105000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 19,
@@ -4248,7 +4247,7 @@ export const bhutanTours: Tour[] = [
       "Sightseeing",
     ],
     price: 5599,
-          priceRegional: 85000, // 👈 your India/Bangladesh price in INR
+          priceRegional: 195000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
     reviews: 22,
@@ -4856,7 +4855,7 @@ export const bhutanTours: Tour[] = [
     destinations: ["Phuentsholing", "Thimphu", "Paro"],
     amenities: ["Hotels", "Meals", "Cab Transfer", "Sightseeing"],
     price: 1599,
-    priceRegional: 85000,
+    priceRegional: 40000,
     oldPrice: 1833,
     discount: "10% OFF",
     currency: "INR",
@@ -5315,5 +5314,4 @@ export const bhutanTours: Tour[] = [
       },
     ],
   },
-  
 ];
