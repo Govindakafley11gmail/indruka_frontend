@@ -23,7 +23,7 @@ export const BhutanItem: TourCardProps[] = [
       "Paro • Thimphu • Punakha • Phobjikha • Tang Valley • Bumthang • Haa ",
     country: "Bhutan",
     price: "From $2,999", // To be filled
-    priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+    priceRegional: 92000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
     oldPrice: "", // To be filled
     discount: "", // To be filled
@@ -52,7 +52,7 @@ export const BhutanItem: TourCardProps[] = [
   itinerary: "Paro • Thimphu • Dochula Pass • Punakha",
   country: "Bhutan",
   price: "From $1,499",
-      priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+      priceRegional: 56000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
   oldPrice: "",
   discount: "",
@@ -83,7 +83,7 @@ export const BhutanItem: TourCardProps[] = [
   itinerary: "Paro • Thimphu",
   country: "Bhutan",
   price: "From $1,050",
-      priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+      priceRegional: 30000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
   oldPrice: "",
   discount: "",
@@ -115,7 +115,7 @@ export const BhutanItem: TourCardProps[] = [
       "Paro • Shingkharap • Soi Thangkha • Jangothang • Lingzhi • Shodu • Thimphu • Punakha ",
     country: "Bhutan",
     price: "$ 3,799", // To be filled
-        priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+        priceRegional: 180000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
     oldPrice: "", // To be filled
     discount: "", // To be filled
@@ -142,7 +142,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary: "Thimphu • Punakha • Paro",
     country: "Bhutan",
     price: "$ 2,350", // To be filled
-        priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+        priceRegional: 62000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
     oldPrice: "", //To be filled
     discount: "", // To be filled
@@ -167,7 +167,7 @@ export const BhutanItem: TourCardProps[] = [
     itinerary: "Thimphu • Phobjikha • Punakha • Paro",
     country: "Bhutan",
     price: "$ 2,350", // To be filled
-        priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+        priceRegional: 70000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
     oldPrice: "", // To be filled
     discount: "", // To be filled
@@ -264,7 +264,7 @@ export const BhutanItem: TourCardProps[] = [
     country: "Bhutan",
     price: "$ 1,550",
     oldPrice: "$ 1,660",
-        priceRegional: 85000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
+        priceRegional: 40000, // 👈 add this — India/Bangladesh/Bhutan price in ₹
 
     discount: "10% OFF",
     type: ["Cultural"],

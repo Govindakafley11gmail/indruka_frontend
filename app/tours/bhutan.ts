@@ -20,7 +20,7 @@ export const bhutanTours: Tour[] = [
       "Haa Valley",
     ],
     amenities: ["Hotel & Homestay", "Meals", "Transfers", "Sightseeing"],
-    price: 2999,
+    price: 2599,
     priceRegional: 85000, // 👈 your India/Bangladesh price in INR
 
     rating: 4.9,
@@ -5315,4 +5315,5 @@ export const bhutanTours: Tour[] = [
       },
     ],
   },
+  
 ];
