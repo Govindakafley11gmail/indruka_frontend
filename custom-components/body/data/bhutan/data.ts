@@ -91,7 +91,7 @@ export const BhutanItem: TourCardProps[] = [
   tags: [
     "3N/4D",
     "Cultural Tour",
-    "Short Trip",
+    "Group Trip",
   ],
   images: [
     "/thimphu.jpg",
@@ -272,7 +272,7 @@ export const BhutanItem: TourCardProps[] = [
     tags: [
       "5N/6D",
       "Cultural",
-      "Budget Friendly",
+      "Group Trip",
       "From Phuentsholing",
     ],
     images: [
