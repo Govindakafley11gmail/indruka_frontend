@@ -1034,7 +1034,6 @@ export const bhutanTours: Tour[] = [
       },
     ],
   },
-
   {
     id: 515,
     country: "Bhutan",
