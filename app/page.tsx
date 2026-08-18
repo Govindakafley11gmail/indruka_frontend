@@ -3,6 +3,7 @@
 
 import CustomerReviews from "@/custom-components/body/customer-review/customer-review";
 import SocialCardSlider from "@/custom-components/body/employee-card/employee-card";
+import TshechuEvents from "@/custom-components/body/events";
 import TopTrendingCard from "@/custom-components/body/top-trending-card/top-trending-card";
 import Footer from "@/custom-components/footer/footer";
 import TourCategories from "@/custom-components/home-tabs/tour_packages_tabs";
@@ -28,6 +29,7 @@ export default function Home() {
     justify-center
   "
         >
+          <TshechuEvents />
           <TourCategories />
         </div>
       {/* </ScrollReveal> */}
