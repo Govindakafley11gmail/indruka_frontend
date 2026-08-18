@@ -2,7 +2,7 @@ import axios from "axios";
 
 const apiClient = axios.create({
   // baseURL: 'https://indrukabackend-production.up.railway.app',
-  baseURL:'https://indruka-backend.onrender.com',
+  baseURL: 'https://indruka-backend.onrender.com',
   withCredentials: true,
   headers: {
     "Content-Type": "application/json",
