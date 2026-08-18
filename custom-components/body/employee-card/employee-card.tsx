@@ -33,12 +33,19 @@ const profiles: Profile[] = [
     role: "Director Operation & IT",
     image: "/ratnay.jpeg",
   },
-    {
+   {
     id: 3,
+    name: "Tek bhadur Ghalley",
+    role: "Tour Coordinator",
+    image: "tekbhadur.jpeg",
+  },
+    {
+    id: 4,
     name: "Jina Sharma",
     role: "Operation Manager",
-    image: "/govinda.jpeg",
+    image: "/govinda.jpeg ",
   }, 
+   
 ];
 
 export default function SocialCardSlider() {
