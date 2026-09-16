@@ -50,7 +50,7 @@ export const specialOffers: SpecialOffer[] = [
   {
     id: "paro-tshechu-festival",
     title: "Paro Tshechu Festival Special",
-    durationDays: 4,
+    durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
@@ -95,7 +95,7 @@ export const specialOffers: SpecialOffer[] = [
   {
     id: "bhutan-golden-circle",
     title: "Bhutan Golden Circle",
-    durationDays: 4,
+  durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
@@ -140,7 +140,7 @@ export const specialOffers: SpecialOffer[] = [
   {
     id: "eastern-bhutan-adventure",
     title: "Eastern Bhutan Adventure",
-    durationDays: 4,
+     durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
@@ -188,7 +188,7 @@ export const specialOffers: SpecialOffer[] = [
     // TODO: rename id/title/slug once you tell me which package this offer is for
     id: "group-special-offer",
     title: "Group Special Offer",
-    durationDays: 4,
+     durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
