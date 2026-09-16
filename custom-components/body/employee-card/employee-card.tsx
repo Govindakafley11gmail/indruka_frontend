@@ -43,7 +43,7 @@ const profiles: Profile[] = [
     id: 4,
     name: "Jina Sharma",
     role: "Operation Manager",
-    image: "/govinda.jpeg ",
+    image: "/govinda.jpeg",
   }, 
    
 ];

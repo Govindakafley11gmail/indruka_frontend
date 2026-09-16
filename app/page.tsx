@@ -4,6 +4,7 @@
 import CustomerReviews from "@/custom-components/body/customer-review/customer-review";
 import SocialCardSlider from "@/custom-components/body/employee-card/employee-card";
 import TshechuEvents from "@/custom-components/body/events";
+import SpecialOffers from "@/custom-components/body/events/special_offer_component";
 import TopTrendingCard from "@/custom-components/body/top-trending-card/top-trending-card";
 import Footer from "@/custom-components/footer/footer";
 import TourCategories from "@/custom-components/home-tabs/tour_packages_tabs";
@@ -29,7 +30,10 @@ export default function Home() {
     justify-center
   "
         >
-          <TshechuEvents />
+          {/* <TshechuEvents /> */}
+
+          {/* special offer */}
+          < SpecialOffers />
           <TourCategories />
         </div>
       {/* </ScrollReveal> */}
