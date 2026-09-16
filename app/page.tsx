@@ -33,7 +33,7 @@ export default function Home() {
           {/* <TshechuEvents /> */}
 
           {/* special offer */}
-          < SpecialOffers />
+          < SpecialOffers region={"US"} />
           <TourCategories />
         </div>
       {/* </ScrollReveal> */}
