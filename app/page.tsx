@@ -8,9 +8,14 @@ import SpecialOffers from "@/custom-components/body/events/special_offer_compone
 import TopTrendingCard from "@/custom-components/body/top-trending-card/top-trending-card";
 import Footer from "@/custom-components/footer/footer";
 import TourCategories from "@/custom-components/home-tabs/tour_packages_tabs";
+import { useVisitorRegion } from "@/custom-components/navbar/hooks/useVisitorRegion";
 import Navbar from "@/custom-components/navbar/navbar";
 import Image from "next/image";
+
+
 export default function Home() {
+    const { isRegional,loading  } = useVisitorRegion();
+  
   return (
     <div className="w-full h-full overflow-x-hidden">
       <Navbar />
@@ -33,7 +38,7 @@ export default function Home() {
           {/* <TshechuEvents /> */}
 
           {/* special offer */}
-          < SpecialOffers region={"US"} />
+          < SpecialOffers region={'US'} />
           <TourCategories />
         </div>
       {/* </ScrollReveal> */}

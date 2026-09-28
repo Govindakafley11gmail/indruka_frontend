@@ -57,7 +57,7 @@ export const specialOffers: SpecialOffer[] = [
       "Front-row access to Paro Tshechu mask dances",
       "Tiger's Nest (Taktsang) monastery hike",
       "Paro & Thimphu sightseeing with private guide",
-      "4-star hotel accommodation, all transfers included",
+      "3-star hotel accommodation, all transfers included",
     ],
     images: [
       "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?auto=format&fit=crop&w=1200&q=80",
