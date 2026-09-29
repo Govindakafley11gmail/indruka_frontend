@@ -252,7 +252,7 @@ export const specialOffers: SpecialOffer[] = [
     minGroupSize: 2,
     highlights: [
       "Paro, Thimphu and Punakha with a private luxury vehicle and driver",
-      "Stay in 3-star hotels and boutique lodges throughout",
+      "Stay in 4-star hotels and boutique lodges throughout",
       "Private guided Tiger's Nest (Taktsang) hike with a picnic lunch",
       "Punakha Dzong, Dochula Pass and a private farmhouse dinner",
       "All meals included",
@@ -300,7 +300,7 @@ export const specialOffers: SpecialOffer[] = [
     minGroupSize: 2,
     highlights: [
       "Paro, Thimphu, Punakha and Bumthang in a slow, private-guided journey",
-      "Stay in 3-star resorts with spa access",
+      "Stay in 4-star resorts with spa access",
       "Traditional hot stone bath and guided meditation sessions",
       "Private cultural experiences with monks and local artisans",
       "All meals included",
