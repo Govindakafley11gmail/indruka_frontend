@@ -196,8 +196,13 @@ export const specialOffers: SpecialOffer[] = [
      durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
-    highlights: [
-      // TODO: add real highlights for this package
+       highlights: [
+      "Paro, Thimphu and Punakha, Bhutan's western valleys in one trip",
+      "Tiger's Nest (Taktsang) monastery hike",
+      "Punakha Dzong and Dochula Pass",
+      "Thimphu sightseeing with a private guide",
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+      "Not included: lunch and dinner, Air fare, travel insurance, personal expenses, tips, monument fees",
     ],
     images: [
       "https://images.unsplash.com/photo-1729176989417-10cab5aa9076?auto=format&fit=crop&w=1200&q=80",
