@@ -68,12 +68,12 @@ export const specialOffers: SpecialOffer[] = [
       IN: {
         currency: "INR",
         tiers: [
-          { guests: 16, originalPerPerson: 27000, offerPerPerson: 27000 },
-          { guests: 12, originalPerPerson: 28500, offerPerPerson: 28500 },
-          { guests: 8, originalPerPerson: 30500, offerPerPerson: 30500 },
-          { guests: 6, originalPerPerson: 32000, offerPerPerson: 32000 },
-          { guests: 4, originalPerPerson: 34000, offerPerPerson: 34000 },
-          { guests: 2, originalPerPerson: 36000, offerPerPerson: 36000 },
+          { guests: 16, originalPerPerson: 32000, offerPerPerson: 30000 },
+          { guests: 12, originalPerPerson: 36000, offerPerPerson: 32000 },
+          { guests: 8, originalPerPerson: 42500, offerPerPerson: 37500 },
+          { guests: 6, originalPerPerson: 48000, offerPerPerson: 42000 },
+          { guests: 4, originalPerPerson: 56000, offerPerPerson: 51000 },
+          { guests: 2, originalPerPerson: 66000, offerPerPerson: 61999 },
         ],
       },
       US: {
@@ -123,12 +123,12 @@ export const specialOffers: SpecialOffer[] = [
       IN: {
         currency: "INR",
         tiers: [
-          { guests: 16, originalPerPerson: 39500, offerPerPerson: 39500 },
-          { guests: 12, originalPerPerson: 41500, offerPerPerson: 41500 },
-          { guests: 8, originalPerPerson: 44500, offerPerPerson: 44500 },
-          { guests: 6, originalPerPerson: 46500, offerPerPerson: 46500 },
-          { guests: 4, originalPerPerson: 49000, offerPerPerson: 49000 },
-          { guests: 2, originalPerPerson: 52000, offerPerPerson: 52000 },
+          { guests: 16, originalPerPerson: 32000, offerPerPerson: 30000 },
+          { guests: 12, originalPerPerson: 36000, offerPerPerson: 32000 },
+          { guests: 8, originalPerPerson: 42500, offerPerPerson: 37500 },
+          { guests: 6, originalPerPerson: 48000, offerPerPerson: 42000 },
+          { guests: 4, originalPerPerson: 56000, offerPerPerson: 51000 },
+          { guests: 2, originalPerPerson: 66000, offerPerPerson: 61999 },
         ],
       },
       US: {
@@ -178,12 +178,12 @@ export const specialOffers: SpecialOffer[] = [
       IN: {
         currency: "INR",
         tiers: [
-          { guests: 16, originalPerPerson: 52000, offerPerPerson: 52000 },
-          { guests: 12, originalPerPerson: 54500, offerPerPerson: 54500 },
-          { guests: 8, originalPerPerson: 58500, offerPerPerson: 58500 },
-          { guests: 6, originalPerPerson: 61500, offerPerPerson: 61500 },
-          { guests: 4, originalPerPerson: 65000, offerPerPerson: 65000 },
-          { guests: 2, originalPerPerson: 69000, offerPerPerson: 69000 },
+          { guests: 16, originalPerPerson: 32000, offerPerPerson: 30000 },
+          { guests: 12, originalPerPerson: 36000, offerPerPerson: 32000 },
+          { guests: 8, originalPerPerson: 42500, offerPerPerson: 37500 },
+          { guests: 6, originalPerPerson: 48000, offerPerPerson: 42000 },
+          { guests: 4, originalPerPerson: 56000, offerPerPerson: 51000 },
+          { guests: 2, originalPerPerson: 66000, offerPerPerson: 61999 },
         ],
       },
       US: {
@@ -237,12 +237,12 @@ export const specialOffers: SpecialOffer[] = [
         currency: "INR",
         // TODO: placeholder INR prices, replace with your real ones
         tiers: [
-          { guests: 16, originalPerPerson: 28500, offerPerPerson: 28500 },
-          { guests: 12, originalPerPerson: 30000, offerPerPerson: 30000 },
-          { guests: 8, originalPerPerson: 31500, offerPerPerson: 31500 },
-          { guests: 6, originalPerPerson: 34500, offerPerPerson: 34500 },
-          { guests: 4, originalPerPerson: 37500, offerPerPerson: 37500 },
-          { guests: 2, originalPerPerson: 46000, offerPerPerson: 46000 },
+          { guests: 16, originalPerPerson: 32000, offerPerPerson: 30000 },
+          { guests: 12, originalPerPerson: 36000, offerPerPerson: 32000 },
+          { guests: 8, originalPerPerson: 42500, offerPerPerson: 37500 },
+          { guests: 6, originalPerPerson: 48000, offerPerPerson: 42000 },
+          { guests: 4, originalPerPerson: 56000, offerPerPerson: 51000 },
+          { guests: 2, originalPerPerson: 66000, offerPerPerson: 61999 },
         ],
       },
       US: {
