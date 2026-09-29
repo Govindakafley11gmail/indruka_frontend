@@ -58,7 +58,7 @@ export const specialOffers: SpecialOffer[] = [
       "Tiger's Nest (Taktsang) monastery hike",
       "Paro & Thimphu sightseeing with private guide",
       "3-star hotel accommodation with breakfast, all transfers included",
-      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
     ],
     images: [
       "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?auto=format&fit=crop&w=1200&q=80",
@@ -96,7 +96,7 @@ export const specialOffers: SpecialOffer[] = [
   {
     id: "bhutan-golden-circle",
     title: "Bhutan Golden Circle",
-  durationDays: 6,
+    durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
@@ -104,8 +104,7 @@ export const specialOffers: SpecialOffer[] = [
       "Punakha Dzong & Dochula Pass",
       "Local farmhouse lunch experience",
       "Dedicated English-speaking guide throughout",
-            "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
-
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
     ],
     images: [
       "https://images.unsplash.com/photo-1602058033339-b9325bb3a6c3?auto=format&fit=crop&w=1200&q=80",
@@ -143,7 +142,7 @@ export const specialOffers: SpecialOffer[] = [
   {
     id: "eastern-bhutan-adventure",
     title: "Eastern Bhutan Adventure",
-     durationDays: 6,
+    durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
     highlights: [
@@ -151,8 +150,7 @@ export const specialOffers: SpecialOffer[] = [
       "Trashigang, Mongar, Bumthang cultural stops",
       "Textile weaving village visit",
       "Small-group departures only",
-       "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
-
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
     ],
     images: [
       "https://images.unsplash.com/photo-1585904194096-15ef66ccd234?auto=format&fit=crop&w=1200&q=80",
@@ -187,22 +185,21 @@ export const specialOffers: SpecialOffer[] = [
     validUntil: "2027-05-31",
     slug: "eastern-bhutan-adventure",
   },
- 
-   
+
   {
     // TODO: rename id/title/slug once you tell me which package this offer is for
     id: "group-special-offer",
     title: "Group Special Offer",
-     durationDays: 6,
+    durationDays: 6,
     durationNights: 5,
     minGroupSize: 2,
-       highlights: [
+    highlights: [
       "Paro, Thimphu and Punakha, Bhutan's western valleys in one trip",
       "Tiger's Nest (Taktsang) monastery hike",
       "Punakha Dzong and Dochula Pass",
       "Thimphu sightseeing with a private guide",
       "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
-      "Not included: lunch and dinner, Air fare, travel insurance, personal expenses, tips, monument fees",
+      "Not included: lunch and dinner, airfare, travel insurance, personal expenses, tips, monument fees",
     ],
     images: [
       "https://images.unsplash.com/photo-1729176989417-10cab5aa9076?auto=format&fit=crop&w=1200&q=80",
@@ -240,6 +237,108 @@ export const specialOffers: SpecialOffer[] = [
     },
     validUntil: "2027-12-31", // TODO: set the real offer expiry date
     slug: "group-special-offer",
+  },
+
+  // ---------------------------------------------------------------------
+  // LUXURY TRAVEL
+  // TODO: all luxury prices, highlights, images and dates below are
+  // placeholders. Replace them with your real package details.
+  // ---------------------------------------------------------------------
+  {
+    id: "luxury-bhutan-heritage-journey",
+    title: "Luxury Bhutan Heritage Journey",
+    durationDays: 7,
+    durationNights: 6,
+    minGroupSize: 2,
+    highlights: [
+      "Paro, Thimphu and Punakha with a private luxury vehicle and driver",
+      "Stay in 3-star hotels and boutique lodges throughout",
+      "Private guided Tiger's Nest (Taktsang) hike with a picnic lunch",
+      "Punakha Dzong, Dochula Pass and a private farmhouse dinner",
+      "All meals included",
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+      "Not included: airfare, travel insurance, personal expenses, tips",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1602058033339-b9325bb3a6c3?auto=format&fit=crop&w=1200&q=80",
+    ],
+    pricing: {
+      IN: {
+        currency: "INR",
+        tiers: [
+          { guests: 2, originalPerPerson: 240000, offerPerPerson: 210000 },
+          { guests: 4, originalPerPerson: 225000, offerPerPerson: 195000 },
+          { guests: 6, originalPerPerson: 210000, offerPerPerson: 185000 },
+        ],
+      },
+      US: {
+        currency: "USD",
+        tiers: [
+          { guests: 2, originalPerPerson: 4490, offerPerPerson: 3990 },
+          { guests: 4, originalPerPerson: 4190, offerPerPerson: 3690 },
+          { guests: 6, originalPerPerson: 3890, offerPerPerson: 3490 },
+        ],
+      },
+      DEFAULT: {
+        currency: "USD",
+        tiers: [
+          { guests: 2, originalPerPerson: 4490, offerPerPerson: 3990 },
+          { guests: 4, originalPerPerson: 4190, offerPerPerson: 3690 },
+          { guests: 6, originalPerPerson: 3890, offerPerPerson: 3490 },
+        ],
+      },
+    },
+    validUntil: "2027-12-31", // TODO: set the real offer expiry date
+    slug: "luxury-bhutan-heritage-journey",
+  },
+  {
+    id: "luxury-himalayan-retreat",
+    title: "Luxury Himalayan Wellness Retreat",
+    durationDays: 8,
+    durationNights: 7,
+    minGroupSize: 2,
+    highlights: [
+      "Paro, Thimphu, Punakha and Bumthang in a slow, private-guided journey",
+      "Stay in 3-star resorts with spa access",
+      "Traditional hot stone bath and guided meditation sessions",
+      "Private cultural experiences with monks and local artisans",
+      "All meals included",
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+      "Not included: airfare, travel insurance, personal expenses, tips",
+    ],
+    images: [
+      "https://images.unsplash.com/photo-1650747858910-5d48a4116296?auto=format&fit=crop&w=800&h=600&q=75",
+      "https://images.unsplash.com/photo-1585904194096-15ef66ccd234?auto=format&fit=crop&w=800&h=600&q=75",
+    ],
+    pricing: {
+      IN: {
+        currency: "INR",
+        tiers: [
+          { guests: 2, originalPerPerson: 335000, offerPerPerson: 295000 },
+          { guests: 4, originalPerPerson: 310000, offerPerPerson: 275000 },
+          { guests: 6, originalPerPerson: 295000, offerPerPerson: 260000 },
+        ],
+      },
+      US: {
+        currency: "USD",
+        tiers: [
+          { guests: 2, originalPerPerson: 5990, offerPerPerson: 5490 },
+          { guests: 4, originalPerPerson: 5490, offerPerPerson: 4990 },
+          { guests: 6, originalPerPerson: 5190, offerPerPerson: 4690 },
+        ],
+      },
+      DEFAULT: {
+        currency: "USD",
+        tiers: [
+          { guests: 2, originalPerPerson: 5990, offerPerPerson: 5490 },
+          { guests: 4, originalPerPerson: 5490, offerPerPerson: 4990 },
+          { guests: 6, originalPerPerson: 5190, offerPerPerson: 4690 },
+        ],
+      },
+    },
+    validUntil: "2027-12-31", // TODO: set the real offer expiry date
+    slug: "luxury-himalayan-retreat",
   },
 ];
 
