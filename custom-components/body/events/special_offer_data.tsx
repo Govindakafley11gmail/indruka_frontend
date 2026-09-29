@@ -57,7 +57,8 @@ export const specialOffers: SpecialOffer[] = [
       "Front-row access to Paro Tshechu mask dances",
       "Tiger's Nest (Taktsang) monastery hike",
       "Paro & Thimphu sightseeing with private guide",
-      "3-star hotel accommodation, all transfers included",
+      "3-star hotel accommodation with breakfast, all transfers included",
+      "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
     ],
     images: [
       "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?auto=format&fit=crop&w=1200&q=80",
@@ -89,7 +90,7 @@ export const specialOffers: SpecialOffer[] = [
         ],
       },
     },
-    validUntil: "2027-03-15",
+    validUntil: "2027-09-15",
     slug: "paro-tshechu-festival-special",
   },
   {
@@ -103,6 +104,8 @@ export const specialOffers: SpecialOffer[] = [
       "Punakha Dzong & Dochula Pass",
       "Local farmhouse lunch experience",
       "Dedicated English-speaking guide throughout",
+            "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
+
     ],
     images: [
       "https://images.unsplash.com/photo-1602058033339-b9325bb3a6c3?auto=format&fit=crop&w=1200&q=80",
@@ -134,7 +137,7 @@ export const specialOffers: SpecialOffer[] = [
         ],
       },
     },
-    validUntil: "2027-04-30",
+    validUntil: "2026-12-30",
     slug: "bhutan-golden-circle",
   },
   {
@@ -148,6 +151,8 @@ export const specialOffers: SpecialOffer[] = [
       "Trashigang, Mongar, Bumthang cultural stops",
       "Textile weaving village visit",
       "Small-group departures only",
+       "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing "
+
     ],
     images: [
       "https://images.unsplash.com/photo-1585904194096-15ef66ccd234?auto=format&fit=crop&w=1200&q=80",
