@@ -59,17 +59,16 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
           <p className="text-muted-foreground">{getRegionLabel(region)}</p>
         </div>
 
-        <div className="inline-flex flex-wrap rounded-lg border p-1">
+        <div className="inline-flex flex-wrap rounded-lg border border-blue-500 p-1 shadow-[0_0_12px_rgba(59,130,246,0.6)]">
           {GROUP_SIZE_OPTIONS.map((opt) => (
             <button
               key={opt.guests}
               type="button"
               onClick={() => setGroupSize(opt.guests)}
-              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
-                groupSize === opt.guests
+              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${groupSize === opt.guests
                   ? "bg-blue-600 text-white"
                   : "text-muted-foreground hover:bg-blue-50"
-              }`}
+                }`}
             >
               {opt.label}
             </button>
@@ -77,14 +76,14 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
         {specialOffers.map((offer) => {
           const regionPricing = offer.pricing[region] ?? offer.pricing.DEFAULT;
           const price = getTierForGroupSize(regionPricing, groupSize);
           const discountPct = Math.round(
             ((price.originalPerPerson - price.offerPerPerson) /
               price.originalPerPerson) *
-              100
+            100
           );
           // Total amount is per-person rate × the traveler count the user
           // actually selected (groupSize), not the tier's own guest count —
