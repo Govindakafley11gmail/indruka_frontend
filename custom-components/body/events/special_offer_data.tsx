@@ -399,7 +399,7 @@ export const specialOffers: SpecialOffer[] = [
   durationNights: 6,
   minGroupSize: 2,
   highlights: [
-    " Thimphu with rounds of golf and sightseeing on alternate days",
+    "paro->Thimphu->punakha sightseeing with private guide and vehicle",
     "Play at the Royal Thimphu Golf Course, with scenic mountain views",
     "Tiger's Nest hike, Punakha Dzong and Dochula Pass for non-golfing days",
     "Caddie, green fees and club rental included (confirm with your ground operator)",
