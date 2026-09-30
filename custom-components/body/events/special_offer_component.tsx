@@ -44,12 +44,26 @@ function getRegionLabel(region: Region) {
   return "Special offer";
 }
 
+// An offer stays visible through the whole of its validUntil day (UTC).
+function isOfferActive(validUntil: string, now: Date = new Date()) {
+  const expiry = new Date(`${validUntil}T23:59:59.999Z`);
+  return expiry.getTime() >= now.getTime();
+}
+
 interface SpecialOffersProps {
   region: Region;
 }
 
 export default function SpecialOffers({ region }: SpecialOffersProps) {
   const [groupSize, setGroupSize] = useState(2);
+
+  // Hide offers whose validUntil date has passed
+  const activeOffers = specialOffers.filter((offer) =>
+    isOfferActive(offer.validUntil)
+  );
+
+  // Hide the whole section if every offer has expired
+  if (activeOffers.length === 0) return null;
 
   return (
     <section className="mx-auto max-w-6xl px-4 py-12">
@@ -59,16 +73,17 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
           <p className="text-muted-foreground">{getRegionLabel(region)}</p>
         </div>
 
-        <div className="inline-flex flex-wrap rounded-lg border border-blue-500 p-1 shadow-[0_0_12px_rgba(59,130,246,0.6)]">
+        <div className="inline-flex flex-wrap rounded-lg border border-blue-500 p-1 shadow-[0_0_12px_rgba(239,68,68,0.6)]">
           {GROUP_SIZE_OPTIONS.map((opt) => (
             <button
               key={opt.guests}
               type="button"
               onClick={() => setGroupSize(opt.guests)}
-              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${groupSize === opt.guests
+              className={`rounded-md px-3 py-1.5 text-sm font-medium transition ${
+                groupSize === opt.guests
                   ? "bg-blue-600 text-white"
                   : "text-muted-foreground hover:bg-blue-50"
-                }`}
+              }`}
             >
               {opt.label}
             </button>
@@ -76,14 +91,14 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 ">
-        {specialOffers.map((offer) => {
+      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {activeOffers.map((offer) => {
           const regionPricing = offer.pricing[region] ?? offer.pricing.DEFAULT;
           const price = getTierForGroupSize(regionPricing, groupSize);
           const discountPct = Math.round(
             ((price.originalPerPerson - price.offerPerPerson) /
               price.originalPerPerson) *
-            100
+              100
           );
           // Total amount is per-person rate × the traveler count the user
           // actually selected (groupSize), not the tier's own guest count —
@@ -148,7 +163,8 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
                     {formatPrice(totalOffer, regionPricing.currency)}
                   </span>
                   <span className="ml-1 text-xs text-muted-foreground">
-                    total for {groupSize} {groupSize === 1 ? "traveler" : "travelers"}
+                    total for {groupSize}{" "}
+                    {groupSize === 1 ? "traveler" : "travelers"}
                   </span>
                 </div>
 
@@ -162,13 +178,12 @@ export default function SpecialOffers({ region }: SpecialOffersProps) {
                     year: "numeric",
                     month: "long",
                     day: "numeric",
+                    timeZone: "UTC",
                   })}
                 </p>
 
-                <a
-                  href={`/support`}
-                  className="mt-auto inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700"
-                >
+                
+                 <a href={`/support`} className="mt-auto inline-flex items-center justify-center rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white hover:bg-blue-700">
                   Book Offer
                 </a>
               </div>

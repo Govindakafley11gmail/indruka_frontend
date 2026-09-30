@@ -99,7 +99,7 @@ export const specialOffers: SpecialOffer[] = [
         ],
       },
     },
-    validUntil: "2026-10-15",
+    validUntil: "2027-01-31",
     slug: "paro-tshechu-festival-special",
   },
   {
