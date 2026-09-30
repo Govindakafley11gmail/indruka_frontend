@@ -392,7 +392,7 @@ export const specialOffers: SpecialOffer[] = [
     validUntil: "2027-12-31", // TODO: set the real offer expiry date
     slug: "luxury-himalayan-retreat",
   },
-  {
+{
   id: "bhutan-golf-and-culture",
   title: "Bhutan Golf & Culture Journey",
   durationDays: 7,
@@ -408,41 +408,41 @@ export const specialOffers: SpecialOffer[] = [
     "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
     "Not included: airfare, travel insurance, personal expenses, tips",
   ],
-images: [
-  "/gulf.jpg",
-],
+  images: [
+    "/gulf.jpg",
+  ],
   pricing: {
     IN: {
       currency: "INR",
       tiers: [
-        { guests: 16, originalPerPerson: 165000, offerPerPerson: 165000 },
-        { guests: 12, originalPerPerson: 175000, offerPerPerson: 175000 },
-        { guests: 8, originalPerPerson: 190000, offerPerPerson: 190000 },
-        { guests: 6, originalPerPerson: 200000, offerPerPerson: 200000 },
-        { guests: 4, originalPerPerson: 215000, offerPerPerson: 215000 },
-        { guests: 2, originalPerPerson: 235000, offerPerPerson: 235000 },
+        { guests: 16, originalPerPerson: 109000, offerPerPerson: 109000 },
+        { guests: 12, originalPerPerson: 114000, offerPerPerson: 114000 },
+        { guests: 8, originalPerPerson: 119000, offerPerPerson: 119000 },
+        { guests: 6, originalPerPerson: 124000, offerPerPerson: 124000 },
+        { guests: 4, originalPerPerson: 135000, offerPerPerson: 135000 },
+        { guests: 2, originalPerPerson: 150000, offerPerPerson: 150000 },
       ],
     },
     US: {
       currency: "USD",
       tiers: [
-        { guests: 16, originalPerPerson: 3090, offerPerPerson: 2990 },
-        { guests: 12, originalPerPerson: 3290, offerPerPerson: 3190 },
-        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
-        { guests: 6, originalPerPerson: 3690, offerPerPerson: 3590 },
-        { guests: 4, originalPerPerson: 3990, offerPerPerson: 3890 },
-        { guests: 2, originalPerPerson: 4390, offerPerPerson: 4290 },
+        { guests: 16, originalPerPerson: 2090, offerPerPerson: 1990 },
+        { guests: 12, originalPerPerson: 2190, offerPerPerson: 2090 },
+        { guests: 8, originalPerPerson: 2290, offerPerPerson: 2190 },
+        { guests: 6, originalPerPerson: 2390, offerPerPerson: 2290 },
+        { guests: 4, originalPerPerson: 2590, offerPerPerson: 2490 },
+        { guests: 2, originalPerPerson: 2890, offerPerPerson: 2790 },
       ],
     },
     DEFAULT: {
       currency: "USD",
       tiers: [
-        { guests: 16, originalPerPerson: 3090, offerPerPerson: 2990 },
-        { guests: 12, originalPerPerson: 3290, offerPerPerson: 3190 },
-        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
-        { guests: 6, originalPerPerson: 3690, offerPerPerson: 3590 },
-        { guests: 4, originalPerPerson: 3990, offerPerPerson: 3890 },
-        { guests: 2, originalPerPerson: 4390, offerPerPerson: 4290 },
+        { guests: 16, originalPerPerson: 2090, offerPerPerson: 1990 },
+        { guests: 12, originalPerPerson: 2190, offerPerPerson: 2090 },
+        { guests: 8, originalPerPerson: 2290, offerPerPerson: 2190 },
+        { guests: 6, originalPerPerson: 2390, offerPerPerson: 2290 },
+        { guests: 4, originalPerPerson: 2590, offerPerPerson: 2490 },
+        { guests: 2, originalPerPerson: 2890, offerPerPerson: 2790 },
       ],
     },
   },
