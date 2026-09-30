@@ -291,6 +291,7 @@ export const specialOffers: SpecialOffer[] = [
       "All meals included",
       "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
       "Not included: airfare, travel insurance, personal expenses, tips",
+
     ],
     images: [
       "https://images.unsplash.com/photo-1578556881786-851d4b79cb73?auto=format&fit=crop&w=1200&q=80",
@@ -391,6 +392,63 @@ export const specialOffers: SpecialOffer[] = [
     validUntil: "2027-12-31", // TODO: set the real offer expiry date
     slug: "luxury-himalayan-retreat",
   },
+  {
+  id: "bhutan-golf-and-culture",
+  title: "Bhutan Golf & Culture Journey",
+  durationDays: 7,
+  durationNights: 6,
+  minGroupSize: 2,
+  highlights: [
+    "Paro, Thimphu and Punakha with rounds of golf and sightseeing on alternate days",
+    "Play at the Royal Thimphu Golf Course, with scenic mountain views",
+    "Tiger's Nest hike, Punakha Dzong and Dochula Pass for non-golfing days",
+    "Caddie, green fees and club rental included (confirm with your ground operator)",
+    "Non-golfing partners can join the cultural program instead of the round",
+    "Stay in 3-4 star hotels with all meals included",
+    "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+    "Not included: airfare, travel insurance, personal expenses, tips",
+  ],
+images: [
+  "/gulf.jpg",
+],
+  pricing: {
+    IN: {
+      currency: "INR",
+      tiers: [
+        { guests: 16, originalPerPerson: 165000, offerPerPerson: 165000 },
+        { guests: 12, originalPerPerson: 175000, offerPerPerson: 175000 },
+        { guests: 8, originalPerPerson: 190000, offerPerPerson: 190000 },
+        { guests: 6, originalPerPerson: 200000, offerPerPerson: 200000 },
+        { guests: 4, originalPerPerson: 215000, offerPerPerson: 215000 },
+        { guests: 2, originalPerPerson: 235000, offerPerPerson: 235000 },
+      ],
+    },
+    US: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 3090, offerPerPerson: 2990 },
+        { guests: 12, originalPerPerson: 3290, offerPerPerson: 3190 },
+        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
+        { guests: 6, originalPerPerson: 3690, offerPerPerson: 3590 },
+        { guests: 4, originalPerPerson: 3990, offerPerPerson: 3890 },
+        { guests: 2, originalPerPerson: 4390, offerPerPerson: 4290 },
+      ],
+    },
+    DEFAULT: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 3090, offerPerPerson: 2990 },
+        { guests: 12, originalPerPerson: 3290, offerPerPerson: 3190 },
+        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
+        { guests: 6, originalPerPerson: 3690, offerPerPerson: 3590 },
+        { guests: 4, originalPerPerson: 3990, offerPerPerson: 3890 },
+        { guests: 2, originalPerPerson: 4390, offerPerPerson: 4290 },
+      ],
+    },
+  },
+  validUntil: "2027-12-31", // TODO: set the real offer expiry date
+  slug: "bhutan-golf-and-culture",
+},
 ];
 
 /**
