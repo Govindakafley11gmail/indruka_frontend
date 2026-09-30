@@ -449,6 +449,120 @@ export const specialOffers: SpecialOffer[] = [
   validUntil: "2027-12-31", // TODO: set the real offer expiry date
   slug: "bhutan-golf-and-culture",
 },
+{
+  id: "bhutan-birding-expedition",
+  title: "Bhutan Birding Expedition",
+  durationDays: 9,
+  durationNights: 8,
+  minGroupSize: 2,
+  highlights: [
+    "Paro, Thimphu, Punakha, Phobjikha and Bumthang with early-morning birding walks",
+    "Phobjikha Valley, winter home of the black-necked crane (best from November to February)",
+    "Expert birding guide, plus spotting scope and binocular support (confirm with your ground operator)",
+    "Forest and river birding around Punakha and Dochula Pass",
+    "Cultural stops at Punakha Dzong, Tiger's Nest viewpoint and local villages between birding sessions",
+    "Stay in 3-4 star hotels and farmhouses with all meals included",
+    "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+    "Not included: airfare, travel insurance, personal expenses, tips",
+  ],
+  images: [
+    "/bird9.jpg",
+  ],
+  pricing: {
+    IN: {
+      currency: "INR",
+      tiers: [
+        { guests: 16, originalPerPerson: 108000, offerPerPerson: 108000 },
+        { guests: 12, originalPerPerson: 114000, offerPerPerson: 114000 },
+        { guests: 8, originalPerPerson: 120000, offerPerPerson: 120000 },
+        { guests: 6, originalPerPerson: 126000, offerPerPerson: 126000 },
+        { guests: 4, originalPerPerson: 138000, offerPerPerson: 138000 },
+        { guests: 2, originalPerPerson: 154000, offerPerPerson: 154000 },
+      ],
+    },
+    US: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 2090, offerPerPerson: 1990 },
+        { guests: 12, originalPerPerson: 2190, offerPerPerson: 2090 },
+        { guests: 8, originalPerPerson: 2290, offerPerPerson: 2190 },
+        { guests: 6, originalPerPerson: 2440, offerPerPerson: 2340 },
+        { guests: 4, originalPerPerson: 2640, offerPerPerson: 2540 },
+        { guests: 2, originalPerPerson: 2940, offerPerPerson: 2840 },
+      ],
+    },
+    DEFAULT: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 2090, offerPerPerson: 1990 },
+        { guests: 12, originalPerPerson: 2190, offerPerPerson: 2090 },
+        { guests: 8, originalPerPerson: 2290, offerPerPerson: 2190 },
+        { guests: 6, originalPerPerson: 2440, offerPerPerson: 2340 },
+        { guests: 4, originalPerPerson: 2640, offerPerPerson: 2540 },
+        { guests: 2, originalPerPerson: 2940, offerPerPerson: 2840 },
+      ],
+    },
+  },
+  validUntil: "2027-12-31", // TODO: set the real offer expiry date
+  slug: "bhutan-birding-expedition",
+},
+{
+  id: "bhutan-trekking-adventure",
+  title: "Bhutan Druk Path Trekking Adventure",
+  durationDays: 8,
+  durationNights: 7,
+  minGroupSize: 2,
+  highlights: [
+    "Multi-day Druk Path trek between Paro and Thimphu through alpine lakes and ridgelines",
+    "Guide, cook, pack animals and camping gear included (confirm with your ground operator)",
+    "Hotel nights in Paro and Thimphu, camping on the trail, all meals included",
+    "Tiger's Nest hike as an acclimatization day before the trek",
+    "Time in Thimphu for sightseeing after the trek",
+    "Moderate fitness required; the trail reaches high altitude",
+    "Note: Bhutan's Sustainable Development Fee (SDF) is included in the pricing",
+    "Not included: airfare, travel insurance, personal expenses, tips",
+  ],
+  images: [
+    "/tigers-nest-path.jpg",
+  ],
+  pricing: {
+    IN: {
+      currency: "INR",
+      tiers: [
+        { guests: 16, originalPerPerson: 167000, offerPerPerson: 167000 },
+        { guests: 12, originalPerPerson: 175000, offerPerPerson: 175000 },
+        { guests: 8, originalPerPerson: 183000, offerPerPerson: 183000 },
+        { guests: 6, originalPerPerson: 191000, offerPerPerson: 191000 },
+        { guests: 4, originalPerPerson: 207000, offerPerPerson: 207000 },
+        { guests: 2, originalPerPerson: 226000, offerPerPerson: 226000 },
+      ],
+    },
+    US: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 3190, offerPerPerson: 3090 },
+        { guests: 12, originalPerPerson: 3340, offerPerPerson: 3240 },
+        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
+        { guests: 6, originalPerPerson: 3640, offerPerPerson: 3540 },
+        { guests: 4, originalPerPerson: 3940, offerPerPerson: 3840 },
+        { guests: 2, originalPerPerson: 4290, offerPerPerson: 4190 },
+      ],
+    },
+    DEFAULT: {
+      currency: "USD",
+      tiers: [
+        { guests: 16, originalPerPerson: 3190, offerPerPerson: 3090 },
+        { guests: 12, originalPerPerson: 3340, offerPerPerson: 3240 },
+        { guests: 8, originalPerPerson: 3490, offerPerPerson: 3390 },
+        { guests: 6, originalPerPerson: 3640, offerPerPerson: 3540 },
+        { guests: 4, originalPerPerson: 3940, offerPerPerson: 3840 },
+        { guests: 2, originalPerPerson: 4290, offerPerPerson: 4190 },
+      ],
+    },
+  },
+  validUntil: "2027-12-31", // TODO: set the real offer expiry date
+  slug: "bhutan-trekking-adventure",
+},
 ];
 
 /**
